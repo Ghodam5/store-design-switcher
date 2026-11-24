@@ -1,0 +1,228 @@
+{
+  "active": true,
+  "product": {
+    "id": "1889",
+    "code": "WB-M903_M906",
+    "title": "ツインミラーボード",
+    "price": 17600,
+    "image": "images/wb-m903_m906.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/wb-m903_m906.html",
+    "description": "思い出を飾るフォトフレーム付き。ミラータイプのボードにはお二人の名前が入ります。 ウェルカムボード・ペアレンツボード・サンクスボードとしてご利用頂けます。。 ▼お急ぎ対応商品です▼",
+    "size": "約285×468mm 写真は2L判・L判・カードサイズを入れる事が出来ます。 光触媒ベースフラワー付き ※(花のアレンジ・色等は予告なく変更させて頂く事がございます) 文字カラーはホログラム・ゴールド&シルバーのシートをお好みで交換してください。",
+    "material": "ガラス等",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "きもの、感謝はDays等彫刻する英字をお選び頂けません",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "WB-M903_M906",
+        "t": "【ウェルカムボード】【ギフト ブライダル】ツインミラーボード♪",
+        "price": 17600
+      }
+    ],
+    "spec": {
+      "code": "WB-M903_M906",
+      "pid": "1889",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "フレーム",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "WF-36",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "WF-38",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "WF-39",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "WF-41",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "彫刻する英文",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "Precious Days（WD-65）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Welcome（WD-66）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Thank you（WD-67）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎の誕生日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "さくら（M903）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "クローバー（M904）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "きもの（M905）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "感謝（M906）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦の誕生日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/wb-m903_m906.jpg",
+        "alt": "ツインミラーボード 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/1889/imgWB-M903_M906.jpg",
+        "alt": "ツインミラーボード 商品写真2",
+        "width": 700,
+        "height": 1150
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "wb-m903_m906": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

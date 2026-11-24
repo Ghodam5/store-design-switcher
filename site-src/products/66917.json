@@ -1,0 +1,75 @@
+{
+  "active": true,
+  "product": {
+    "id": "66917",
+    "code": "1828",
+    "title": "はないちこづつ(ハートせんべい)1個",
+    "price": 250,
+    "image": "images/1828.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1828.html",
+    "description": "喜びを重ねるという意味があり、お慶びの席に欠かせない日本古来のしつらえといえば2段、3段に重ねられたお重です。 そんなお重をモチーフに和のプチギフトをご用意しました。",
+    "size": "プチギフトサイズ:50×53×45mm",
+    "material": "",
+    "contents": "商品内容:ハートせんべい5枚",
+    "expiry": "",
+    "allergens": "アレルゲン:小麦",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "wafu"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1828",
+        "t": "はないちこづつ(ハートせんべい)1個 1828",
+        "price": 250
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/1828.jpg",
+        "alt": "はないちこづつ(ハートせんべい)1個 商品写真1",
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1828": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

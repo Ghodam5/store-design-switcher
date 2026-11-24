@@ -1,0 +1,161 @@
+{
+  "active": true,
+  "product": {
+    "id": "47481",
+    "code": "FLAMSR",
+    "title": "1個で送料込み ベストレート FLAVOR メープルシフォンケー…",
+    "price": 3000,
+    "image": "images/flamsr.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-190-001.html",
+    "description": "有名百貨店でも取り扱いのあった口当たりふわふわのやわらかシフォンケーキ。 メープルシフォンケーキはフレイバーのラインナップの中でも最も愛されている人気者。 創業以来、ひとつひとつ愛情込めて丁寧に焼き上げてきました。 メープル独自のコクのある深い味わい、 さらに風味豊かな香りなど、食べた人を夢中にさせてしまう永遠の魅惑的存在なのです。 ◆◆ギフト配送も承ります◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます)",
+    "size": "直径約16cm 高さ16cm",
+    "material": "",
+    "contents": "メープルシフォンケーキミドルサイズ 1個",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "chiffon"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "FLAMSR",
+        "t": "送料無料 FLAVOR メープルシフォンケーキ ミドル(箱入り ※北海道沖縄宛て配送注文は価格修正します",
+        "price": 3000
+      }
+    ],
+    "spec": {
+      "code": "FLAMSR",
+      "pid": "47481",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "ご注文確認後の配送先・配送日変更は手数料がかかります",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "配送日指定にご協力ください※6日以内での配送は「お急ぎ料金」が発生",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "通常出荷※約7営業日後発送",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "配送日指定(10日後より有効",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "お急ぎ発送（3～6日発送）※お急ぎ料金(1000～2000円、日数により変動）追加に同意し注文※",
+              "fee": {
+                "amt": 2000,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は別途送料加算※同意がない場合キャンセルします",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "のし・包装(ラッピング)・紙袋は有料サービスです。（専用ページより購入時のみ対応）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/flamsr.jpg",
+        "alt": "1個で送料込み ベストレート FLAVOR メープルシフォンケー… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/47481/flavor-img.jpg",
+        "alt": "1個で送料込み ベストレート FLAVOR メープルシフォンケー… 商品写真2",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/47481/fla-hako202410.jpg",
+        "alt": "1個で送料込み ベストレート FLAVOR メープルシフォンケー… 商品写真3",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "flamsr": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

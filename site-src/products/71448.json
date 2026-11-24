@@ -1,0 +1,156 @@
+{
+  "active": true,
+  "product": {
+    "id": "71448",
+    "code": "fla013fyoumaple",
+    "title": "FLAVOR For your heart ラッピング メープルシフォンケーキ ミドルサイズ(箱入り)フレイバー",
+    "price": 3450,
+    "image": "images/features/71448.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-for-your-heart-ラッピング-メープルシフォンケーキ-ミドル.html",
+    "description": "FLAVORのシフォンケーキ人気NO.1のメープルシフォンを 真っ赤なリボン×ゴールドハートでおめかし。 大切な方へのギフトに。 ★立体感のあるリボンはほどける心配のないプリントなので持ち運びもラクラク。 離れて暮らす先様にはギフト配送も可能です。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます)",
+    "size": "直径約16cm 高さ16cm",
+    "material": "",
+    "contents": "メープルシフォン1個",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi",
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla013fyoumaple",
+        "t": "FLAVOR For your heart ラッピング メープルシフォンケーキ ミドル",
+        "price": 3450
+      }
+    ],
+    "spec": {
+      "code": "fla013fyoumaple",
+      "pid": "71448",
+      "fields": [
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "配送日指定にご協力ください※お急ぎ発送不可商品",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "通常出荷※約7営業日後発送",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "配送日指定(10日後より有効",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は別途送料加算※同意がない場合キャンセルします",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/71448.jpg",
+        "alt": "FLAVOR For your heart ラッピング メープルシフォンケーキ ミドルサイズ(箱入り)フレイバー 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71448/fla013-01.jpg",
+        "alt": "FLAVOR For your heart ラッピング メープルシフォンケーキ ミドルサイズ(箱入り)フレイバー 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71448/flavor-img.jpg",
+        "alt": "FLAVOR For your heart ラッピング メープルシフォンケーキ ミドルサイズ(箱入り)フレイバー 商品写真3",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/71448/fla-hako202410.jpg",
+        "alt": "FLAVOR For your heart ラッピング メープルシフォンケーキ ミドルサイズ(箱入り)フレイバー 商品写真4",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "feature": {
+    "id": "71448",
+    "name": "FLAVOR For your heart ラッピング メープルシフォンケーキ ミドルサイズ(箱入り)フレイバー ギフト おもたせ 手土産 誕生日 バレンタイン",
+    "title": "FLAVOR For your heart ラッピング メープルシフォンケーキ ミドルサイズ(箱入り)フレイバー",
+    "url": "https://www.luna-luce.jp/item/flavor-for-your-heart-ラッピング-メープルシフォンケーキ-ミドル.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/71448.jpg",
+    "description": "FLAVORのシフォンケーキ人気NO.1のメープルシフォンを 真っ赤なリボン×ゴールドハートでおめかし。 大切な方へのギフトに。 ★立体感のあるリボンはほどける心配のないプリントなので持ち運びもラクラク。 離れて暮らす先様にはギフト配送も可能です。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます)",
+    "size": "直径約16cm 高さ16cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-08-17"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla013fyoumaple": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

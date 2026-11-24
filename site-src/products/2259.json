@@ -1,0 +1,218 @@
+{
+  "active": true,
+  "product": {
+    "id": "2259",
+    "code": "WB-P971_P975",
+    "title": "和風色紙ボード",
+    "price": 9108,
+    "image": "images/wb-p971_p975.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/wb-p971_p975.html",
+    "description": "お好きなフレームに絵と文字がお選び頂けます。お名前のご印字はひらがなのみとなります。 スタンド・壁掛け用紐付き 。 ▼お急ぎ対応商品です▼",
+    "size": "オリーブ・白/約384×355mm",
+    "material": "和紙",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "WB-P971_P975",
+        "t": "和風色紙ボード",
+        "price": 9108
+      }
+    ],
+    "spec": {
+      "code": "WB-P971_P975",
+      "pid": "2259",
+      "fields": [
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "フレーム",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ホワイト(WF-25)",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "オリーブ(WF-26)",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "絵柄デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "招き猫（P971）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "たい（P972）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "いぬ（P973）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "福助（P974）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "だるま（P975）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "文字デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ありがとう（WD-P21）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "感謝（WD-P22）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "めでたい（WD-P23）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "吉祥（WD-P24）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "福寿（WD-P25）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ようこそ（WD-P26）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/wb-p971_p975.jpg",
+        "alt": "和風色紙ボード 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/2259/imgWB-P971_P975.jpg",
+        "alt": "和風色紙ボード 商品写真2",
+        "width": 700,
+        "height": 890
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "wb-p971_p975": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

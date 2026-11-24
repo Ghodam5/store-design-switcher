@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "72063",
+    "code": "1891",
+    "title": "祝かるた(ハートせんべい)",
+    "price": 259,
+    "image": "images/1891.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1891.html",
+    "description": "古くから人々に愛された花札柄のギフトは趣のある和婚にぴったりな存在。 鶴や猪、蝶など縁起の良いものたちがおふたりの門出を後押ししてくれる。",
+    "size": "プチギフトサイズ:100×60×18mm",
+    "material": "",
+    "contents": "商品内容:ハートせんべい5枚入(しょうゆ味)",
+    "expiry": "",
+    "allergens": "アレルゲン:小麦",
+    "storage": "保存方法:常温保存",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "wafu"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1891",
+        "t": "祝かるた(ハートせんべい) 1891",
+        "price": 259
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 1,
+      "max": 2,
+      "made": false,
+      "source": "db",
+      "label": "1～2日後"
+    },
+    "photos": [
+      {
+        "src": "images/1891.jpg",
+        "alt": "祝かるた(ハートせんべい) 商品写真1",
+        "width": 520,
+        "height": 390
+      },
+      {
+        "src": "images/product-details/72063/1891_1.jpg",
+        "alt": "祝かるた(ハートせんべい) 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1891": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

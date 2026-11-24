@@ -1,0 +1,95 @@
+{
+  "active": true,
+  "product": {
+    "id": "47412",
+    "code": "sp-accessory",
+    "title": "訳あり アクセサリー福袋 -プチギフト付き",
+    "price": 1834,
+    "image": "images/features/sp-accessory.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/sp-accessory.html",
+    "description": "結婚式やパーティーで輝く大人用アクセサリーのお試し福袋。 ティアラ、カチューシャ、ネックレス、ピアスなど、パーティーなどでお使いいただけるウェディングジュエリーアクセサリー1点とプチギフト2~3点をお届けいたします。 2セットご注文いただきますと、ヘッドアクセ・ネックレス・ピアスの3点をお届けいたしますので、とってもお得に♪",
+    "size": "",
+    "material": "",
+    "contents": "ティアラ・カチューシャ・ネックレス・ピアスなどのアクセサリーのいずれかをお任せでお届け、おまけのプチギフト(2~3点)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "sp-accessory",
+        "t": "【送料無料】訳あり アクセサリー福袋 -プチギフト付き-【2セット購入でアクセサリ3点保証】",
+        "price": 1834
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 2,
+      "max": 3,
+      "made": false,
+      "source": "db",
+      "label": "2～3日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/sp-accessory.jpg",
+        "alt": "訳あり アクセサリー福袋 -プチギフト付き 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47412/sp-accessoryimg.jpg",
+        "alt": "訳あり アクセサリー福袋 -プチギフト付き 商品写真2",
+        "width": 650,
+        "height": 850
+      }
+    ]
+  },
+  "feature": {
+    "id": "47412",
+    "name": "【送料無料】訳あり アクセサリー福袋 -プチギフト付き-【2セット購入でアクセサリ3点保証】",
+    "title": "訳あり アクセサリー福袋 -プチギフト付き",
+    "url": "https://www.luna-luce.jp/item/sp-accessory.html",
+    "groups": [
+      "sale"
+    ],
+    "image": "images/features/sp-accessory.jpg",
+    "description": "結婚式やパーティーで輝く大人用アクセサリーのお試し福袋。 ティアラ、カチューシャ、ネックレス、ピアスなど、パーティーなどでお使いいただけるウェディングジュエリーアクセサリー1点とプチギフト2~3点をお届けいたします。 2セットご注文いただきますと、ヘッドアクセ・ネックレス・ピアスの3点をお届けいたしますので、とってもお得に♪",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2022-08-08"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "sp-accessory": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

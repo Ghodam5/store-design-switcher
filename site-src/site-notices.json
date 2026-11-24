@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "timeZone": "Asia/Tokyo",
+  "notices": [
+    {
+      "id": "name-preview",
+      "active": true,
+      "text": "名入れの見え方は、お試しページでご確認いただけます。",
+      "href": "name-preview.html"
+    },
+    {
+      "id": "consultation",
+      "active": true,
+      "text": "ご使用日や数量のご相談は、お問い合わせからお気軽にどうぞ。",
+      "href": "contact.html"
+    },
+    {
+      "id": "days-long-mwr8czb4",
+      "active": true,
+      "text": "お正月休み：12/29（火）〜01/04（月）は発送をお休みします",
+      "href": "news.html",
+      "startsAt": "2026-10-29T00:00:00+09:00",
+      "endsAt": "2027-01-05T00:00:00+09:00"
+    }
+  ]
+}

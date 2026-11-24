@@ -1,0 +1,82 @@
+{
+  "active": true,
+  "product": {
+    "id": "71141",
+    "code": "a673",
+    "title": "【引菓子】Speciality Coffee＆バームセットC",
+    "price": 3240,
+    "image": "images/products/71141.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/【引菓子】speciality-coffee-＆バームセットb　a672【スイーツ・.html",
+    "description": "世界各国の厳選された、希少価値あるスペシャルティコーヒーとバームクーヘンのセット。 ほっとする憩いの時間をお楽しみください。",
+    "size": "商品サイズ:383×315×75mm",
+    "material": "",
+    "contents": "商品内容:ドリップ珈琲(ミャンマー スターマウンテン、 ブラジル ショコラ、コスタリカ ハニー、 エチオピア イルガチェフェ)4種×各1、 はちみつバーム×5、ベルギーチョコバーム×5、 パスポート付(スペシャルティコーヒー説明書)",
+    "expiry": "賞味期限:4ヶ月",
+    "allergens": "アレルゲン:小麦・卵・乳成分",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a673",
+        "t": "Speciality Coffee &バームセットC A673",
+        "price": 3240
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71141.jpg",
+        "alt": "【引菓子】Speciality Coffee＆バームセットC 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71141/a673_1.jpg",
+        "alt": "【引菓子】Speciality Coffee＆バームセットC 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a673": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

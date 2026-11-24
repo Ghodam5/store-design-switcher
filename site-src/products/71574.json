@@ -1,0 +1,198 @@
+{
+  "active": true,
+  "product": {
+    "id": "71574",
+    "code": "fla512koichoice",
+    "title": "メープル ダブルレモン チョコ いちご 4種から選べる FLAVOR こいのぼり シフォンケーキペアセット 端午の節句 子どもの日 フレイバー",
+    "price": 5200,
+    "image": "images/features/71574.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-母の日ラッピングシフォン-ペアセット（メープ-2.html",
+    "description": "大人気FLAVORのシフォンケーキは 子どもの日のお祝いにもピッタリ★ ご家族みんなでワイワイ食べたらもっとおいしくなるはず! こいぼのりのお色とお味の組み合わせ、2個セットのセット内容の変更がお受けできません。 ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。 内容:メープルシフォンケーキ、ストロベリーシフォンケーキ、チョコシフォンケーキ、ダブルレモンシフォンケーキの4種より お選びいただいた1セット(2個) サイズ:直径16cm 高さ16cm 賞味期限:出荷日より約10日",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi",
+      "chiffon"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla512koichoice-pair",
+        "t": "FLAVOR こいのぼり シフォンケーキ 選べる2個セット ※北海道沖縄離島配送の場合は価格修正します",
+        "price": 5200
+      },
+      {
+        "code": "fla512koichoice-pair-rito",
+        "t": "北海道沖縄配送はコチラ FLAVOR こいのぼり シフォンケーキ 選べる2個セット ※配送日数分消費期限が短くなります",
+        "price": 6500
+      }
+    ],
+    "spec": {
+      "code": "fla512koichoice",
+      "pid": "71574",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "着日指定商品です。お届け日をお選びください。",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "賞味期限が短い商品の為「代金引換」発送不可商品です。代金引換でご注文はキャンセルします",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "了解した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "お味をお選びください",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "メープル(青鯉)×メープル(青鯉)",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "メープル(青鯉)×チョコ(茶鯉）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "メープル(青鯉)×ダブルレモン(緑鯉)",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "メープル(青鯉)×いちご(桃鯉）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "t": "FLAVOR こいのぼり シフォンケーキ   選べる2個セット ※北海道沖縄離島配送の場合は価格修正します",
+          "price": 5200
+        },
+        {
+          "t": "北海道沖縄配送はコチラ FLAVOR こいのぼり シフォンケーキ   選べる2個セット ※配送日数分消費期限が短くなります",
+          "price": 6500
+        }
+      ],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/71574.jpg",
+        "alt": "メープル ダブルレモン チョコ いちご 4種から選べる FLAVOR こいのぼり シフォンケーキペアセット 端午の節句 子どもの日 フレイバー 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71574/fla506koi-01.jpg",
+        "alt": "メープル ダブルレモン チョコ いちご 4種から選べる FLAVOR こいのぼり シフォンケーキペアセット 端午の節句 子どもの日 フレイバー 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71574/fla506koi-02.jpg",
+        "alt": "メープル ダブルレモン チョコ いちご 4種から選べる FLAVOR こいのぼり シフォンケーキペアセット 端午の節句 子どもの日 フレイバー 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71574/flavor-img.jpg",
+        "alt": "メープル ダブルレモン チョコ いちご 4種から選べる FLAVOR こいのぼり シフォンケーキペアセット 端午の節句 子どもの日 フレイバー 商品写真4",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/71574/fla-hako202410.jpg",
+        "alt": "メープル ダブルレモン チョコ いちご 4種から選べる FLAVOR こいのぼり シフォンケーキペアセット 端午の節句 子どもの日 フレイバー 商品写真5",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "feature": {
+    "id": "71574",
+    "name": "メープル ダブルレモン チョコ いちご 4種から選べる FLAVOR こいのぼり シフォンケーキペアセット 端午の節句 子どもの日 人気 定番 おもたせ 手土産 誕生日 記念日 フレイバー",
+    "title": "メープル ダブルレモン チョコ いちご 4種から選べる FLAVOR こいのぼり シフォンケーキペアセット 端午の節句 子どもの日 フレイバー",
+    "url": "https://www.luna-luce.jp/item/flavor-母の日ラッピングシフォン-ペアセット（メープ-2.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/71574.jpg",
+    "description": "大人気FLAVORのシフォンケーキは 子どもの日のお祝いにもピッタリ★ ご家族みんなでワイワイ食べたらもっとおいしくなるはず! こいぼのりのお色とお味の組み合わせ、2個セットのセット内容の変更がお受けできません。 ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。 内容:メープルシフォンケーキ、ストロベリーシフォンケーキ、チョコシフォンケーキ、ダブルレモンシフォンケーキの4種より お選びいただいた1セット(2個) サイズ:直径16cm 高さ16cm 賞味期限:出荷日より約10日",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-07-27"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla512koichoice-pair": {
+        "code": "2",
+        "quantity": null
+      },
+      "fla512koichoice-pair-rito": {
+        "code": "2",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

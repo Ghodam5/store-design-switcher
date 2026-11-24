@@ -1,0 +1,74 @@
+{
+  "active": true,
+  "product": {
+    "id": "55385",
+    "code": "hz-xcgc02",
+    "title": "クリスマスグルメCC",
+    "price": 232,
+    "image": "images/hz-xcgc02.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hz-xcgc02.html",
+    "description": "可愛いクリスマスのプチギフト!! 赤と緑のクリスマスカラーや冬をモチーフを使った可愛いパッケージにハートクッキーを詰めました。 スノーブライダルや、クリスマスのイベントでたくさん配りたい時にとってもオススメ☆ キュートな五つの小箱はサンタクロースからの贈り物。 ※こちらのメーカーの商品のみをご注文の場合は代引きはご利用頂けません。 ※11月10日以降のお届け商品となります",
+    "size": "5×5×5cm",
+    "material": "",
+    "contents": "ハートクッキー(バニラ1枚・ココア1枚)、ハートパイ1枚、きらきらチョコ5個",
+    "expiry": "約6ヶ月",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "other"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hz-xcgc02",
+        "t": "クリスマスグルメCC",
+        "price": 232
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/hz-xcgc02.jpg",
+        "alt": "クリスマスグルメCC 商品写真1",
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "hz-xcgc02": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

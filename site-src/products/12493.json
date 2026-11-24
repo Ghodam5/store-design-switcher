@@ -1,0 +1,97 @@
+{
+  "active": true,
+  "product": {
+    "id": "12493",
+    "code": "00000W3001",
+    "title": "ディズニー席札 \"ハーティ\"",
+    "price": 262,
+    "image": "images/products/12493.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/00000w3001.html",
+    "description": "席札ゲスト4名様分の1シートに、テスト印刷用の位置合わせシートが1枚入ったお得なセット。 ホログラムでミッキーマウスと美しくデザインされたハートがエレガントに輝きます。 お二人の結婚式にふさわしい「大人のディズニー」な席札です。 席札のテンプレートはサイトからダウンロードして頂けます。 ご自由にアレンジなさって、ご家庭のプリンターで印刷してご使用ください。 席札シートはインクジェット印刷に対応しており にじみの少ない厚みが充分ある専用の上質紙を使用しております。 またミシン目で簡単に切り取ることが出来、ガイドに沿って二つ折りして、 席札だけできちんとテーブルに立たせることが出来ます。 ディズニーの正規ライセンス商品です。",
+    "size": "",
+    "material": "",
+    "contents": "・席札(1シート ゲスト4名様用)1シート/210×297mm 1枚 (二つ折りガイド筋・切り取り用ミシン目付き) ・位置あわせシート A4サイズ1枚 試し刷り用 テンプレートダウンロードパスポート",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "ペーパーアイテムご購入の前に必ずお読みください。",
+    "category": "ペーパーアイテム",
+    "categories": [
+      "paper"
+    ],
+    "subs": [
+      "seat"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "00000W3001",
+        "t": "ディズニー席札 ”ハーティ” ミッキーマウス ペーパーアイテム",
+        "price": 262
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/12493.jpg",
+        "alt": "ディズニー席札 \"ハーティ\" 商品写真1",
+        "width": 800,
+        "height": 670
+      },
+      {
+        "src": "images/product-details/12493/W3001-2.jpg",
+        "alt": "ディズニー席札 \"ハーティ\" 商品写真2",
+        "width": 1200,
+        "height": 1102
+      },
+      {
+        "src": "images/product-details/12493/W1001-32.jpg",
+        "alt": "ディズニー席札 \"ハーティ\" 商品写真3",
+        "width": 1199,
+        "height": 1024
+      },
+      {
+        "src": "images/product-details/12493/57eb1c867ec759a17b10bce2bee6b31f.jpg",
+        "alt": "ディズニー席札 \"ハーティ\" 商品写真4",
+        "width": 200,
+        "height": 70
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "paper-read"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "00000w3001": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

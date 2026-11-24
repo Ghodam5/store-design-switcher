@@ -1,0 +1,103 @@
+{
+  "active": true,
+  "product": {
+    "id": "57694",
+    "code": "pb-nyankyou",
+    "title": "にゃんきゅ~ふぉ~ゆ~-PB(ハートクッキー5枚)",
+    "price": 222,
+    "image": "images/features/pb-nyankyou.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-nyankyou.html",
+    "description": "可愛い猫の肉球をモチーフにしたプチギフト。 ネコ好きに、ネコイベントに、ネコの日に。全ての愛猫家へ贈るプチギフト。 パッケージの中にはハートの形をしたサクサク食感のクッキー5枚入り♪",
+    "size": "商品サイズ:6.5×7.5×2cm",
+    "material": "",
+    "contents": "ハートクッキー5枚×1個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※こちらの商品は受注生産品のため、お届けまでに1週間ほどお時間をいただきます。予めご了承ください。 ※クッキーの種類は写真と異なる場合があります。 ※パッケージの種類は選べません、バランスよくお届けします。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "cookie"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-nyankyou",
+        "t": "にゃんきゅ~ふぉ~ゆ~-PB(ハートクッキー5枚)",
+        "price": 222
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/pb-nyankyou.jpg",
+        "alt": "にゃんきゅ~ふぉ~ゆ~-PB(ハートクッキー5枚) 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/57694/pb-nyankyouimg.jpg",
+        "alt": "にゃんきゅ~ふぉ~ゆ~-PB(ハートクッキー5枚) 商品写真2",
+        "width": 700,
+        "height": 620
+      }
+    ]
+  },
+  "feature": {
+    "id": "57694",
+    "name": "【プチギフト】にゃんきゅ~ふぉ~ゆ~-PB(ハートクッキー5枚)【ネコ・猫の日・ねこ・肉球】",
+    "title": "にゃんきゅ~ふぉ~ゆ~-PB(ハートクッキー5枚)",
+    "url": "https://www.luna-luce.jp/item/pb-nyankyou.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/pb-nyankyou.jpg",
+    "description": "可愛い猫の肉球をモチーフにしたプチギフト。 ネコ好きに、ネコイベントに、ネコの日に。全ての愛猫家へ贈るプチギフト。 パッケージの中にはハートの形をしたサクサク食感のクッキー5枚入り♪",
+    "size": "商品サイズ:6.5×7.5×2cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-03-16"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-nyankyou": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

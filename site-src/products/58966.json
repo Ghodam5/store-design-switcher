@@ -1,0 +1,153 @@
+{
+  "active": true,
+  "product": {
+    "id": "58966",
+    "code": "pb-awairocube",
+    "title": "あわいろCUBE PB (こんぺいとう) 10個セット 結婚式・販促・小分け・個包装・オフ会・参加賞・お茶会・淡色・韓国っぽ・ダスティカラー",
+    "price": 2280,
+    "image": "images/features/58966.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-awairocube.html",
+    "description": "ルナルーチェのダントツ人気の小箱を あわいろラッピングでおめかし♪ こちらは「お名入れ」対応プチギフトです。 お品物に印字する「おなまえ」「記念日」をお知らせください。",
+    "size": "サイズ:5×5×5cm",
+    "material": "",
+    "contents": "こんぺいとう10g入り小箱×10個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※こんぺいとうの包装、メーカーは変更になる場合がございます。 ※1セット10個での販売となります。端数の対応はできません。 ※こちらの商品は受注生産品のため、お届けまでに1週間ほどお時間をいただきます。 ※受注生産品のため、大量注文の場合はプラス納期となる場合がございます。 お急ぎの場合はお早めにご注文ください。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-awairocube",
+        "t": "あわいろCUBE PB (こんぺいとう)×10個セット",
+        "price": 2280
+      }
+    ],
+    "spec": {
+      "code": "pb-awairocube",
+      "pid": "58966",
+      "fields": [
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "印字するお名前",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "記念日(数字)",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "無料サービス(シール・小袋）対象外商品です",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認しました！",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/58966.jpg",
+        "alt": "あわいろCUBE PB (こんぺいとう) 10個セット 結婚式・販促・小分け・個包装・オフ会・参加賞・お茶会・淡色・韓国っぽ・ダスティカラー 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58966/awairocube-01.jpg",
+        "alt": "あわいろCUBE PB (こんぺいとう) 10個セット 結婚式・販促・小分け・個包装・オフ会・参加賞・お茶会・淡色・韓国っぽ・ダスティカラー 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58966/awairocube-02.jpg",
+        "alt": "あわいろCUBE PB (こんぺいとう) 10個セット 結婚式・販促・小分け・個包装・オフ会・参加賞・お茶会・淡色・韓国っぽ・ダスティカラー 商品写真3",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "58966",
+    "name": "名入れ対応 ★ あわいろCUBE PB (こんぺいとう)×10個セット★結婚式・販促・小分け・個包装・オフ会・参加賞・お茶会・淡色・韓国っぽ・ダスティカラー",
+    "title": "あわいろCUBE PB (こんぺいとう) 10個セット 結婚式・販促・小分け・個包装・オフ会・参加賞・お茶会・淡色・韓国っぽ・ダスティカラー",
+    "url": "https://www.luna-luce.jp/item/pb-awairocube.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/58966.jpg",
+    "description": "ルナルーチェのダントツ人気の小箱を あわいろラッピングでおめかし♪ こちらは「お名入れ」対応プチギフトです。 お品物に印字する「おなまえ」「記念日」をお知らせください。",
+    "size": "サイズ:5×5×5cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2022-08-29"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-awairocube": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

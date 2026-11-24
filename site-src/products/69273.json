@@ -1,0 +1,74 @@
+{
+  "active": true,
+  "product": {
+    "id": "69273",
+    "code": "1843",
+    "title": "【演出用品】ゲストブック シャイニー ホワイト",
+    "price": 3256,
+    "image": "images/products/69273.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1843.html",
+    "description": "シックなデザインのカード式ゲストブック。 人数の調整が簡単にできるのはもちろん、招待状と一緒に送って、 自宅でメッセージを書いてから当日は受付に渡すだけ、なんてゲストへの気遣いも出来るんです。 その際は当日忘れてしまったゲストの為に、予備のカードを用意しておく事をお勧め致します。 追加用は、追加用 シャイニーゲストカード(10枚)をお買い求めください。",
+    "size": "商品サイズ:133×148×40mm",
+    "material": "素材:合皮、スワロフスキー",
+    "contents": "商品内容:ゲストカード 60枚入(60名様分) 用紙取り外し可",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "guest"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1843",
+        "t": "ゲストブック シャイニー ホワイト 1843",
+        "price": 3256
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "photos": [
+      {
+        "src": "images/products/69273.jpg",
+        "alt": "【演出用品】ゲストブック シャイニー ホワイト 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69273/1843_1.jpg",
+        "alt": "【演出用品】ゲストブック シャイニー ホワイト 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1843": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "active": true,
+  "product": {
+    "id": "43388",
+    "code": "hf60904",
+    "title": "スノー・ジュエル(ドラジェ) 1個",
+    "price": 273,
+    "image": "images/hf60904.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf60904.html",
+    "description": "",
+    "size": "サイズ:4.5×8×10cm",
+    "material": "",
+    "contents": "ドラジェ5個、サンクスカード1枚",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "candy",
+      "welcome"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf60904",
+        "t": "スノー・ジュエル(ドラジェ) 1個",
+        "price": 273
+      }
+    ],
+    "spec": {
+      "code": "hf60904",
+      "pid": "43388",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "20個以上でご注文ください。※19個迄は自動キャンセル（セット商品との同時購入時はのぞく）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 20,
+      "notes": []
+    },
+    "minq": 20,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/hf60904.jpg",
+        "alt": "スノー・ジュエル(ドラジェ) 1個 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/43388/21item.jpg",
+        "alt": "スノー・ジュエル(ドラジェ) 1個 商品写真2",
+        "width": 700,
+        "height": 100
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf60904": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

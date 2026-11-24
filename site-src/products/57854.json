@@ -1,0 +1,89 @@
+{
+  "active": true,
+  "product": {
+    "id": "57854",
+    "code": "pb173treasurebox",
+    "title": "トレジャーハントBOX-PB(こんぺいとう)",
+    "price": 298,
+    "image": "images/pb173treasurebox.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-treasure.html",
+    "description": "お宝み〜つけた! 大冒険で見つけた宝箱にはなにがはいっているかな? 宝箱を開けるワクワクを楽しめるプチギフト キラキラ宝石をイメージしたこんぺいとう入り ※宝箱は紙製です 内容:コンペイトウ1袋 サイズ:約6×12×13cm 賞味期限:出荷より約6か月保証",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※一部商品は最低購入数のお願いがございます。ご確認の上ご購入ください。 ※商品仕様は販売時期により変更になる場合がございます ※受注生産品の為お届けまでに14日ほどお時間をいただきます 「お届け目安」より早くお届けをご希望の場合は「特急料金(¥1000~)」が発生します。 ※ご注文確認時ご使用日までにお届けが不可能と判断した場合、キャンセルさせていただきます。ご連絡は原則メールで行います。ご注文成立の可否をお客様にてかならずご確認ください。 ※食品の為、天候・交通状況などでお届けが遅れた場合でも返品はお受けできません。 ※ご注文後の数量、配送日等の各種変更は手数料が発生します。 ※100個以上ご注文の場合はお問合せください。通常納期でのお届けができない場合がございます ※のし・包装対象外商品/化粧箱のご用意はございません。 ※送料無料配送は当店指定配送の為、日時指定不可の場合がございます",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb173treasurebox",
+        "t": "【プチギフト】トレジャーハントBOX-PB(こんぺいとう)",
+        "price": 298
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "bulk-100",
+      "no-noshi",
+      "free-ship-no-date",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb173treasurebox.jpg",
+        "alt": "トレジャーハントBOX-PB(こんぺいとう) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/57854/pb173treasurebox-01.jpg",
+        "alt": "トレジャーハントBOX-PB(こんぺいとう) 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb173treasurebox": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

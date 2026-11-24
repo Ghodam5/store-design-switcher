@@ -1,0 +1,129 @@
+{
+  "active": true,
+  "product": {
+    "id": "43338",
+    "code": "hf60405",
+    "title": "フェリシアローズ 48個セット",
+    "price": 13860,
+    "image": "images/hf60405.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf60405.html",
+    "description": "",
+    "size": "本体サイズ:53×42.5×6cm",
+    "material": "",
+    "contents": "ドラジェ2個×48個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "※カード付き:挙式日、お名前が英字で入ります。但し、記号(-、^)を入れる事はできません。 ※この商品は納品日の14日前までにお申し込み下さい。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "candy",
+      "set"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "hf60405",
+        "t": "フェリシアローズ 48個セット",
+        "price": 13860
+      }
+    ],
+    "spec": {
+      "code": "hf60405",
+      "pid": "43338",
+      "fields": [
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/hf60405.jpg",
+        "alt": "フェリシアローズ 48個セット 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/43338/HF60405-1.jpg",
+        "alt": "フェリシアローズ 48個セット 商品写真2",
+        "width": 650,
+        "height": 650
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "card-english"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf60405": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "policy": "既存の型を呼び出し、内容だけを変更する。依頼ごとに新しい書式やCSSを作らない。",
+  "components": {
+    "product": {
+      "resources": [
+        "site-src/pages/item.html",
+        "site-src/products",
+        "item-page.js",
+        "product-detail.js",
+        "site-src/styles/components/product-detail.css",
+        "site-src/styles/components/pilot-inputs.css"
+      ],
+      "edit": "商品1件はsite-src/products/ID.json。tools/products.cjs find/show/add/archive/restore。HTMLを商品ごとに複製しない。 商品専用CSSの編集元はsite-src/styles/components/product-detail.css。"
+    },
+    "category": {
+      "resources": [
+        "site-src/pages/category.html",
+        "cat2.js",
+        "catalog.js",
+        "site-src/styles/manifest.json"
+      ],
+      "edit": "g/m/sの既存分類を使う。商品側のcategories/subsを設定。カテゴリ本文の独自デザインを作らない。"
+    },
+    "guide": {
+      "resources": [
+        "site-src/templates/guide-page.html",
+        "site-src/sections/pages",
+        "site-src/styles/components/support.css",
+        "tools/pages.cjs"
+      ],
+      "edit": "tools/pages.cjs create-guide スラッグ タイトルで共通型を生成。本文の部品だけを編集。 新しい独自の外枠・styleタグは禁止。"
+    },
+    "promo": {
+      "resources": [
+        "site-src/home-promos",
+        "home-promos.js",
+        "site-src/styles/components/home-promos.css",
+        "tools/promos.cjs",
+        "tools/templates/promo.json"
+      ],
+      "edit": "1カード1JSON。manifestで順番、activeで停止、期間で予約。"
+    },
+    "home-intro": {
+      "resources": [
+        "site-src/home-promos/intro.json",
+        "tools/home-message.cjs"
+      ],
+      "edit": "最初の写真・バッジ・見出し・説明・2CTA。kind: message のカード（OMSのサイトビルダーで編集）。見出しは改行そのまま、accentの言葉を強調色に。"
+    },
+    "home-rows": {
+      "resources": [
+        "site-src/sections/top",
+        "site-src/sections/top/manifest.json"
+      ],
+      "edit": "manifestで該当章のファイルを確認。{{@ top/ID}}で同じ型を呼ぶ。"
+    },
+    "arrows": {
+      "resources": [
+        "site-src/styles/components/rail-controls.css",
+        "rail-controls.js"
+      ],
+      "edit": "48×60pxの角丸四角。SVG中央、淡い緑のぼかし、左右中央へ重ねる。商品編集では触らない。 共通の操作後減光：動作中は明瞭、静止1.2秒で18%（端10%）。ホバーで静止しても薄く、再操作で復帰。キーボードfocus-visibleは明瞭。 連続タップ拡大をtouch-action:manipulationで抑制。"
+    },
+    "header": {
+      "resources": [
+        "site-src/shared/header.html",
+        "header-scroll.js",
+        "site-src/styles/manifest.json",
+        "site-src/styles/10-shell-and-controls.css",
+        "site-src/styles/90-shell-current.css"
+      ],
+      "edit": "林さんの明示指示時だけ変更。スマホ検索とログイン、収納・吸着の共通部品。"
+    },
+    "footer": {
+      "resources": [
+        "site-src/shared/footer.html",
+        "site-src/shared/bottom.html"
+      ],
+      "edit": "林さんの明示指示時だけ変更。"
+    },
+    "schedule": {
+      "resources": [
+        "placement-visibility.js",
+        "site-src/home-layout.json"
+      ],
+      "edit": "日本時間、開始を含み終了を含まない。元商品を削除しない。"
+    },
+    "social-share": {
+      "resources": [
+        "site-src/shared/share-head.html",
+        "site-src/shared/share-script.html",
+        "page-share.js",
+        "site-src/styles/components/page-share.css"
+      ],
+      "edit": "全ページ必須。本文から遠ざけず同じ部品を使う。"
+    },
+    "form": {
+      "resources": [
+        "site-src/pages/contact.html",
+        "site-src/pages/survey.html",
+        "site-src/pages/tailor-input.html",
+        "site-services-ui.js",
+        "site-src/styles/components/site-services.css"
+      ],
+      "edit": "data-safe-formの既存型を使用。送信先未設定・送信停止を保ち、独自の送信処理を作らない。"
+    },
+    "printable-guide": {
+      "resources": [
+        "site-src/pages/fax-order.html",
+        "site-src/pages/telephone-order.html",
+        "site-src/pages/wedding-guide.html",
+        "support-ui.js",
+        "site-src/styles/components/support.css",
+        "notes-resize.js",
+        "site-src/styles/components/notes-resize.css"
+      ],
+      "edit": "記入例は赤字・印刷しない。実入力は保持、右下の拡大つまみを使う。同じ型を再利用。"
+    },
+    "touch": {
+      "resources": [
+        "site-src/styles/manifest.json",
+        "site-src/styles/components/rail-controls.css",
+        "touch-guard.js"
+      ],
+      "edit": "共通のタッチ操作。htmlと標準操作部品はmanipulationでダブルタップ拡大を抑え、縦横スクロール・ピンチを保持。user-scalable=noや全touchendキャンセルは使わない。商品写真ビューアと数量ホイールは個別の操作を保持。 旧iOS対策の単指連続タップガード。静止短タップのみ二度目のブラウザ既定処理を抑え、ボタンの二度目のclickは1回再現。ピンチ・長押し・スクロール・商品写真ビューアは妨げない。"
+    },
+    "name-preview": {
+      "resources": [
+        "site-src/shared/name-preview.html",
+        "site-src/pages/name-preview.html",
+        "site-src/sections/pages/name-preview.html",
+        "site-src/styles/components/name-preview.css",
+        "name-preview.js",
+        "images/name-preview",
+        "site-src/seal-preview-choices.json",
+        "site-src/paper-preview-evidence.json",
+        "images/seal-originals"
+      ],
+      "edit": "サンクスカードは提供終了のため見本から除外。ミニシールはカートと同じ59図柄。元画像の印字と入力内容の別枠を区別、元解像度以上の細部を保証しない。席札／席次表はバックアップの手作りテンプレート方式を根拠にした無地の配置見本。"
+    },
+    "saved-products": {
+      "resources": [
+        "saved-products-rail.js",
+        "site-src/styles/components/saved-products-rail.css",
+        "site-services-core.js"
+      ],
+      "edit": "トップと商品ページの共通タブ。ブラウザのlocalStorage内のIDだけ保持し会員登録不要。スマホ3列、共通矢印と横操作。"
+    },
+    "announcements": {
+      "resources": [
+        "site-src/site-notices.json",
+        "site-announcements.js",
+        "site-src/styles/components/site-announcements.css",
+        "site-src/shared/shipping.html",
+        "images/malls",
+        "walking-cat.js",
+        "site-src/styles/components/walking-cat.css"
+      ],
+      "edit": "上部告知はID・文言・内部リンク・日本時間の掲載期間をJSONで編集しbuild。猫とスクロールは停止可能、動きを減らす設定で静止。OMSからの公開接続は未実装。"
+    },
+    "walking-cat": {
+      "resources": [
+        "walking-cat.js",
+        "site-src/styles/components/walking-cat.css"
+      ],
+      "edit": "v54：猫専用96×44pxの枠を文字の間に置き、文字と同じannouncement-trackで左向き・同速移動。重ね配置と独立した横移動を撤回。提供SVGの形と局所動作、停止・減動作は保持。"
+    },
+    "quantity-picker": {
+      "resources": [
+        "pilot-inputs.js",
+        "site-src/styles/components/pilot-inputs.css",
+        "feature-page.js",
+        "cart-page.js",
+        "site-src/shared/services-head.html"
+      ],
+      "edit": "全ページ共通のスマホ数量ホイール。data-quantity-pickerを数量だけに付ける。headで先に読み、描画直後のpointer/touchを捕捉し数値欄へfocusさせない。直接キーボード入力は明示的に開く。出生体重・郵便番号・金額・年は対象外。"
+    },
+    "standards": {
+      "resources": [
+        "site-src/styles",
+        "site-src/page-contract.json",
+        "tools/styles.cjs",
+        "tools/page-contract.cjs",
+        "tools/build-site.cjs"
+      ],
+      "edit": "最初に共通仕様一覧.mdを参照。CSSはsite-src/styles/manifest.jsonで編集元と順序を固定。公開CSSは生成物。必須部品と読込順を生成時検査。商品データ編集ではCSS・共通部品を触らない。"
+    }
+  }
+}

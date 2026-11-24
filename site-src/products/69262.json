@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "69262",
+    "code": "1869",
+    "title": "ありがタイまんじゅう",
+    "price": 216,
+    "image": "images/1869.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1869.html",
+    "description": "一口タイプの愛らしいタイのまんじゅうをラッピング。 おめで鯛シーンにぴったりです! 帯にはありがタイ、と感謝のコメントと可愛いイラストつき。 ブライダル以外にも、ご来場や参加の御礼など幅広く感謝を伝えるのにもピッタリ! おめで鯛、ありが鯛、祝い鯛...など、めでたい事なら昔から日本では鯛のお頭つきで決まりです!!",
+    "size": "プチギフトサイズ:95×95×25mm",
+    "material": "",
+    "contents": "商品内容:鯛のおまんじゅう1個入",
+    "expiry": "",
+    "allergens": "アレルゲン:小麦・卵・乳成分",
+    "storage": "",
+    "notice": "※賞味期限が約1か月程度と短い商品の為、ご使用日にあわせた配送指定を必ずお願いいたします。 ご指定のない場合は最短でのお届けになります。 ※単品でのご購入は5個単位のご注文でお願い致します。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "wafu"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1869",
+        "t": "ありがタイまんじゅう 1869",
+        "price": 216
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/1869.jpg",
+        "alt": "ありがタイまんじゅう 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/69262/1869_1.jpg",
+        "alt": "ありがタイまんじゅう 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1869": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

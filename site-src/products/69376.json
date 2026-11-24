@@ -1,0 +1,179 @@
+{
+  "active": true,
+  "product": {
+    "id": "69376",
+    "code": "fla403sakuraneko",
+    "title": "FLAVOR さくらねこシフォンケーキ ミドルサイズ(箱入り) フレイバー",
+    "price": 3122,
+    "image": "images/features/fla403sakuraneko.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/母の日ギフト-シフォン　flavor-さくらねこシフォンケ.html",
+    "description": "猫推しに贈る、さくらねこパッケージの絶品シフォン! FLAVORの「メープルシフォン」は ご自宅用にも、ギフト用にも「NO.1」の人気のお味!!! 常温で運べて、クリームがないからくずれる心配もありません。 離れて暮らす先様にはギフト配送も可能です。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます)",
+    "size": "直径約16cm 高さ16cm",
+    "material": "",
+    "contents": "メープルシフォンもしく初恋ストロベリーシフォン いずれか1個",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi",
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla403sakuraneko",
+        "t": "送料無料 FLAVOR さくらねこシフォンケーキ ミドルサイズ(箱入り)",
+        "price": 3122
+      }
+    ],
+    "spec": {
+      "code": "fla403sakuraneko",
+      "pid": "69376",
+      "fields": [
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "配送日指定にご協力ください※お急ぎ配送不可商品",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "通常出荷※約7営業日後発送",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "配送日指定(10日後より有効",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "お味をお選びください",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "メープル",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "初恋ストロベリー",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は別途送料加算※同意がない場合キャンセルします",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/fla403sakuraneko.jpg",
+        "alt": "FLAVOR さくらねこシフォンケーキ ミドルサイズ(箱入り) フレイバー 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69376/fla403sakuraneko-01.jpg",
+        "alt": "FLAVOR さくらねこシフォンケーキ ミドルサイズ(箱入り) フレイバー 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69376/flavor-img.jpg",
+        "alt": "FLAVOR さくらねこシフォンケーキ ミドルサイズ(箱入り) フレイバー 商品写真3",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/69376/fla-hako202410.jpg",
+        "alt": "FLAVOR さくらねこシフォンケーキ ミドルサイズ(箱入り) フレイバー 商品写真4",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "feature": {
+    "id": "69376",
+    "name": "FLAVOR さくらねこシフォンケーキ ミドルサイズ(箱入り) フレイバー【ふわふわシフォン 人気 定番】母の日 ギフト 送料無料(北海道:沖縄:離島除く)",
+    "title": "FLAVOR さくらねこシフォンケーキ ミドルサイズ(箱入り) フレイバー",
+    "url": "https://www.luna-luce.jp/item/母の日ギフト-シフォン　flavor-さくらねこシフォンケ.html",
+    "groups": [
+      "neko",
+      "new"
+    ],
+    "image": "images/features/fla403sakuraneko.jpg",
+    "description": "猫推しに贈る、さくらねこパッケージの絶品シフォン! FLAVORの「メープルシフォン」は ご自宅用にも、ギフト用にも「NO.1」の人気のお味!!! 常温で運べて、クリームがないからくずれる心配もありません。 離れて暮らす先様にはギフト配送も可能です。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます)",
+    "size": "直径約16cm 高さ16cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-08-17"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla403sakuraneko": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

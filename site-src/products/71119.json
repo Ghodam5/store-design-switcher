@@ -1,0 +1,82 @@
+{
+  "active": true,
+  "product": {
+    "id": "71119",
+    "code": "a695",
+    "title": "【引き出物】フリーズドライスープ最中セットA",
+    "price": 1296,
+    "image": "images/products/71119.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a695.html",
+    "description": "具沢山のフリーズドライスープを最中と共に。 最中の変わりゆく食感を楽しめる一品です。",
+    "size": "商品サイズ:230×78×46mm",
+    "material": "",
+    "contents": "商品内容:たまごとわかめのスープ最中×1、 濃厚たまねぎのスープ最中×1、 きのこと生姜のスープ最中×1",
+    "expiry": "賞味期限:6ヶ月",
+    "allergens": "アレルゲン:小麦・乳成分・卵",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "gourmet"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a695",
+        "t": "フリーズドライスープ最中セットA A695",
+        "price": 1296
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71119.jpg",
+        "alt": "【引き出物】フリーズドライスープ最中セットA 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71119/a695_1.jpg",
+        "alt": "【引き出物】フリーズドライスープ最中セットA 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a695": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

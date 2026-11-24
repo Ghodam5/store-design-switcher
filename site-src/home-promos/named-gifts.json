@@ -1,0 +1,16 @@
+{
+  "id": "named-gifts",
+  "active": true,
+  "title": "名前を添える、小さな贈り物",
+  "text": "発表会にも、結婚式にも。ありがとうが伝わる4品。",
+  "image": "images/features/pb-goen.jpg",
+  "href": "category.html?g=all&n=1",
+  "cta": "名入れギフトをすべて見る",
+  "ids": [
+    "58190",
+    "48734",
+    "69417",
+    "38808"
+  ],
+  "theme": "rose"
+}

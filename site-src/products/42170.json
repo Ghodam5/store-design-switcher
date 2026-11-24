@@ -1,0 +1,90 @@
+{
+  "active": true,
+  "product": {
+    "id": "42170",
+    "code": "gift-op-boxset",
+    "title": "ギフトBOXセット",
+    "price": 1738,
+    "image": "images/gift-op-boxset.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/gift-op-boxset.html",
+    "description": "出産祝いやお誕生日、内祝いにオススメのギフトセット。 ぬいぐるみだけで贈るのは少し味気ないかな?とお考えの方に、実用的な洗剤やタオルのギフトセットをウェイトドールに 同梱させていただきます。 ぬいぐるみをしっかり見せられる、ぬいぐるみ背面位置にギフトを配置。 ※体重の調整はギフトでの調整となります。 細かい体重の調整で、ぬいぐるみの背面ポケットにも石鹸やタオルなどを入れさせていただく場合がございます。",
+    "size": "",
+    "material": "",
+    "contents": "出生時の体重によって異なります",
+    "expiry": "",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "※ウェイトドール専用のギフトオプションは、ウェイトドールをご注文のお客様のみ注文可能です。 ※重さを調整するギフトは調整する体重により異なります。 ※ギフトセットの内容のご指定はご遠慮ください。 ※ウェイト調整なしの場合でもご注文いただけます。 ※包装・熨斗掛け対応可能",
+    "category": "両親贈呈",
+    "categories": [
+      "doll",
+      "parents"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "gift-op-boxset",
+        "t": "【ウェイトドールギフトオプション】ギフトBOXセット",
+        "price": 1738
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/gift-op-boxset.jpg",
+        "alt": "ギフトBOXセット 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/42170/gift-op-boxset.jpg",
+        "alt": "ギフトBOXセット 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/42170/gift-op-boxset01.jpg",
+        "alt": "ギフトBOXセット 商品写真3",
+        "width": 650,
+        "height": 850
+      },
+      {
+        "src": "images/product-details/42170/gift-op-boxset02.jpg",
+        "alt": "ギフトBOXセット 商品写真4",
+        "width": 650,
+        "height": 190
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "gift-op-boxset": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

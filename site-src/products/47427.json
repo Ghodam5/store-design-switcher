@@ -1,0 +1,160 @@
+{
+  "active": true,
+  "product": {
+    "id": "47427",
+    "code": "coaster-wedding",
+    "title": "オリジナル名入れコースター 挙式用10枚セット",
+    "price": 3200,
+    "image": "images/products/47427.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/coaster-wedding.html",
+    "description": "ゲストが座る席が一目でわかる、席札としてお使いいただけるコルク製の名入れコースターです。 コースターにお好きなお名前で製作いたします。 結婚式や各種パーティー、イベントやお店の名前を入れたり、入れるお名前によって様々な用途でお使いいただけます。 ※ノベルティグッズ・名入れ販促グッズ・企業PRににもお使いいただけます。 (結婚式・席札粗品・景品・プレゼント用品・開店記念品・周年記念品・卒業記念品 創立記念品・大会記念品・イベント景品等)",
+    "size": "",
+    "material": "",
+    "contents": "挙式用:名入れコースター10枚(φ9.00×0.4cm)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※英字最長20字まで。カタカナひらがな最長10文字まで可能ですが「黄金比率」でのご注文をおすすめします。(いずれも「、」「。」「空白」なども文字数に含みます。) ※漢字での名入れは推奨しておりません。 ※「焼入れ印字」での製作の為、「。(まる)」「``(濁点)」、 「文字の細かな部分(画数が多い文字)」は「文字つぶれ」が発生する場合がございます。 ※フォント(文字デザイン)のご指定はいただけません。 ※販売時期によりコルクコースターの品質(お色・外見・厚みなど)が異なる場合がございます。 ※当店が製作不可能と判断したご依頼は内容変更をお願いする場合がございます。 ※文字数の大幅な超過など、ページ内にご案内のない特別なご要望での製作は特注料金が別途発生致します。 あらかじめご了承ください",
+    "category": "プチギフト",
+    "categories": [
+      "paper"
+    ],
+    "subs": [
+      "coaster"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb005coster10",
+        "t": "【名入れ】オリジナル名入れコースター 挙式用10枚セット【1セット目ネコポス送料無料】【2セット以上で宅配便無料】",
+        "price": 3200
+      }
+    ],
+    "spec": {
+      "code": "coaster-wedding",
+      "pid": "47427",
+      "fields": [
+        {
+          "k": "名入れ：お名前",
+          "part": "area",
+          "role": "n",
+          "label": "印字するお名前",
+          "req": true,
+          "form": "テキスト複数行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "01.スタンダード",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "03.ローズ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "06.ムーン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "07.ティアラ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "09.バタフライ",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 2,
+      "notes": []
+    },
+    "minq": 2,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/47427.jpg",
+        "alt": "オリジナル名入れコースター 挙式用10枚セット 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47427/coaster-wedding.jpg",
+        "alt": "オリジナル名入れコースター 挙式用10枚セット 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47427/costerbasic01.jpg",
+        "alt": "オリジナル名入れコースター 挙式用10枚セット 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/47427/costerbasic02.jpg",
+        "alt": "オリジナル名入れコースター 挙式用10枚セット 商品写真4",
+        "width": 700,
+        "height": 508
+      },
+      {
+        "src": "images/product-details/47427/costerbasic03.jpg",
+        "alt": "オリジナル名入れコースター 挙式用10枚セット 商品写真5",
+        "width": 700,
+        "height": 819
+      },
+      {
+        "src": "images/product-details/47427/coaster50.jpg",
+        "alt": "オリジナル名入れコースター 挙式用10枚セット 商品写真6",
+        "width": 650,
+        "height": 280
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb005coster10": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

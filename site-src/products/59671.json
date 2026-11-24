@@ -1,0 +1,131 @@
+{
+  "active": true,
+  "product": {
+    "id": "59671",
+    "code": "pb-teapetit",
+    "title": "afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶) あったかギフト ストレートティー 出産",
+    "price": 1980,
+    "image": "images/features/59671.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/59671.html",
+    "description": "12種類の華やかなラッピングに紅茶を添えて・・・ この柄はあの人に、これはあの人に、 誰にどの絵柄を贈るのか思案するのも楽しみになりそうな 絵柄がぜ~んぶ違う12袋セット♪ 心もカラダも温まるからウインターシーズンのプチギフトにオススメ。 ・ラッピングデザインの絵柄はお選びいただけません。",
+    "size": "約15×7×1.5cm",
+    "material": "",
+    "contents": "12個(各柄1個) ※アソートでの販売となります。色指定はできません。",
+    "expiry": "賞味期限:出荷より約3ヶ月保証",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-teapetit",
+        "t": "afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶)",
+        "price": 1980
+      }
+    ],
+    "spec": {
+      "code": "pb-teapetit",
+      "pid": "59671",
+      "fields": [
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "無料サービス(シール・小袋）対象外商品です",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/59671.jpg",
+        "alt": "afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶) あったかギフト ストレートティー 出産 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/59671/teaputit-01.jpg",
+        "alt": "afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶) あったかギフト ストレートティー 出産 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/59671/teaputit-02.jpg",
+        "alt": "afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶) あったかギフト ストレートティー 出産 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/59671/teaputit-03.jpg",
+        "alt": "afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶) あったかギフト ストレートティー 出産 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/59671/teaputit-long.jpg",
+        "alt": "afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶) あったかギフト ストレートティー 出産 商品写真5",
+        "width": 700,
+        "height": 1400
+      }
+    ]
+  },
+  "feature": {
+    "id": "59671",
+    "name": "ネコポス送料無料!! afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶) あったかギフト ストレートティー プチギフト 挨拶 育休 出産 販促",
+    "title": "afternoon tea putit PB ぜ~んぶちがう12袋セット (紅茶) あったかギフト ストレートティー 出産",
+    "url": "https://www.luna-luce.jp/item/59671.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/59671.jpg",
+    "description": "12種類の華やかなラッピングに紅茶を添えて・・・ この柄はあの人に、これはあの人に、 誰にどの絵柄を贈るのか思案するのも楽しみになりそうな 絵柄がぜ~んぶ違う12袋セット♪ 心もカラダも温まるからウインターシーズンのプチギフトにオススメ。 ・ラッピングデザインの絵柄はお選びいただけません。",
+    "size": "約15×7×1.5cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2025-04-28"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-teapetit": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

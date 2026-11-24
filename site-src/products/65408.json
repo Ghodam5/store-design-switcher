@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "65408",
+    "code": "gm485",
+    "title": "パティシエ ドルチェ 練乳バームクーヘン木箱入 包装・熨斗対応",
+    "price": 864,
+    "image": "images/gm485.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/gm485.html",
+    "description": "愛情たっぷりのしっとりとしたバームクーヘンに喜ぶ顔を思い浮かべて、まっすぐに伝えるありがとうの贈り物。",
+    "size": "サイズ:170×170×53mm",
+    "material": "",
+    "contents": "セット内容:練乳バームクーヘン×1",
+    "expiry": "賞味期限:30日",
+    "allergens": "アレルゲン:乳成分・小麦・卵",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "gm485",
+        "t": "パティシエ ドルチェ 練乳バームクーヘン木箱入 GM485",
+        "price": 864
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/gm485.jpg",
+        "alt": "パティシエ ドルチェ 練乳バームクーヘン木箱入 包装・熨斗対応 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/65408/gm485_1.jpg",
+        "alt": "パティシエ ドルチェ 練乳バームクーヘン木箱入 包装・熨斗対応 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "LUX・AUS"
+    ],
+    "speed": false,
+    "skus": {
+      "gm485": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

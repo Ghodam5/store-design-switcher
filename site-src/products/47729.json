@@ -1,0 +1,206 @@
+{
+  "active": true,
+  "product": {
+    "id": "47729",
+    "code": "pb176namesheet",
+    "title": "名入れリフレッシュシートPB（販促・夏フェス・スポーツ大会・参加賞）",
+    "price": 260,
+    "image": "images/pb176namesheet.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-namesheet.html",
+    "description": "リフレッシュシートのプチギフトで身も心も爽やかに♪ パッケージを開ければ、中にはリフレッシュシートが入っています。 夏のにおいケアに最適です! ※リフレッシュシートは種類が変更になる場合がございます。 お名入れにつきまして 日本語・英字対応。 お名前 合計20文字まで。 ※文字数のカウントには「、」「○」「数字」「空白」「記号」なども含みます。文字数超過は有料対応となります。 ※名入れはご注文数すべて同一データ10個以上でのみ承ります。 ※10個以上ご注文時に「印字(名入れ)」のご入力がなかった場合、「印字(名入れ)なし」にて製作いたします。 ※名入れ内容をこちらのページ内通信欄にてお知らせください。 即制作に入りますので、後日連絡は変更料金が発生します。 ※間違いの原因となりますため、備考欄、ご注文後のメール返信・お問い合わせでの印字内容のご連絡はお控えください。ページ内通信欄以外での印字内容連絡を起因とした印字漏れは免責とさせていただきます。",
+    "size": "",
+    "material": "",
+    "contents": "リフレッシュシート1個入り",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb176namesheet",
+        "t": "名入れリフレッシュシートPB",
+        "price": 260
+      }
+    ],
+    "spec": {
+      "code": "pb176namesheet",
+      "pid": "47729",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "B．デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "かき氷",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "アロハ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "グッドデイ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ラッキーセブン",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "A.お名入れ※20字迄",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": "",
+          "over": {
+            "base": 500,
+            "per": 20,
+            "perUnit": false,
+            "agreeField": 3,
+            "agreeHas": "確認した/文"
+          },
+          "overAllowed": true
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "※お名入れは「A~Bが同一データ」かつ「10個以上」にてご注文ください。（9個までは原稿作成料発生）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認しました",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "9個迄原稿作成料1000円発生に同意し注文",
+              "fee": {
+                "amt": 1000,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "お名入れ入力欄はお客様にて文字数カウントが必要です。",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した/文字数超過の場合原稿作成手数料￥500+1文字ごとに20円追加に同意",
+              "fee": null,
+              "over": {
+                "base": 500,
+                "per": 20
+              }
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 10,
+      "notes": []
+    },
+    "minq": 10,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "min-qty",
+      "no-cancel-after",
+      "spec-change",
+      "no-noshi",
+      "free-ship-no-date",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb176namesheet.jpg",
+        "alt": "名入れリフレッシュシートPB（販促・夏フェス・スポーツ大会・参加賞） 商品写真1",
+        "width": 300,
+        "height": 300
+      },
+      {
+        "src": "images/product-details/47729/pb176-01.jpg",
+        "alt": "名入れリフレッシュシートPB（販促・夏フェス・スポーツ大会・参加賞） 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47729/pb176-02.jpg",
+        "alt": "名入れリフレッシュシートPB（販促・夏フェス・スポーツ大会・参加賞） 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/47729/pb176-03.jpg",
+        "alt": "名入れリフレッシュシートPB（販促・夏フェス・スポーツ大会・参加賞） 商品写真4",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb176namesheet": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "57469",
+    "code": "1597",
+    "title": "海乃福おかき 1個",
+    "price": 276,
+    "image": "images/1597.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1597.html",
+    "description": "乾燥珍味のエビやホタテ、カニがそのまま入ってます",
+    "size": "プチギフトサイズ:50×70×72mm",
+    "material": "",
+    "contents": "商品内容:おかき約25g入り(えび・かに・ほたて)",
+    "expiry": "",
+    "allergens": "アレルゲン:小麦・えび・かに",
+    "storage": "",
+    "notice": "※種類の指定はできません ※単品でのご購入は5個単位のご注文でお願い致します。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "wafu"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1597",
+        "t": "海乃福おかき 1個 1597",
+        "price": 276
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/1597.jpg",
+        "alt": "海乃福おかき 1個 商品写真1",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/57469/1597_1.jpg",
+        "alt": "海乃福おかき 1個 商品写真2",
+        "width": 500,
+        "height": 500
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1597": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

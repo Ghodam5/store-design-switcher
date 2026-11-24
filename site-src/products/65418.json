@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "65418",
+    "code": "gm498",
+    "title": "グラン・ミリオン ミニバームクーヘン2個入",
+    "price": 472,
+    "image": "images/gm498.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/gm498.html",
+    "description": "グラン・ミリオンとは、バラの花びらを幾重にも重ねることで出来上がる美しい大輪の花。 愛を育んできた時間をグラン・ミリオンの花びらにたとえ、世界でたった1つの愛のかたちを、お菓子と共にお届けします。",
+    "size": "サイズ:50×100×205mm",
+    "material": "",
+    "contents": "セット内容:ミルクバーム×1、チョコバーム×1",
+    "expiry": "賞味期限:30日",
+    "allergens": "アレルゲン:乳成分・小麦・卵",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "gm498",
+        "t": "グラン・ミリオン ミニバームクーヘン2個入 GM498",
+        "price": 472
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/gm498.jpg",
+        "alt": "グラン・ミリオン ミニバームクーヘン2個入 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/65418/gm498_1.jpg",
+        "alt": "グラン・ミリオン ミニバームクーヘン2個入 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "LUX・AUS"
+    ],
+    "speed": false,
+    "skus": {
+      "gm498": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

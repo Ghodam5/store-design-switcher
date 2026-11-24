@@ -1,0 +1,104 @@
+{
+  "active": true,
+  "product": {
+    "id": "21032",
+    "code": "w-bag-b00",
+    "title": "【ブライダルバッグ】エクセレント ML",
+    "price": 275,
+    "image": "images/features/21032.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/w-bag-b00.html",
+    "description": "光沢のあるパール加工が施された高級感あふれるブライダルバッグ。 袋の内側にはブルーのストライプ模様がプリントされており、内側のオシャレにもこだわったバッグです。",
+    "size": "h300mm×w420mm×d220mm",
+    "material": "紙(パール加工)、紐",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ブライダルバッグ",
+    "categories": [
+      "bag"
+    ],
+    "subs": [
+      "single"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "w-bag-b00",
+        "t": "【ブライダルバッグ】エクセレント サイズ:ML 1個",
+        "price": 275
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/21032.jpg",
+        "alt": "【ブライダルバッグ】エクセレント ML 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/21032/blue.jpg",
+        "alt": "【ブライダルバッグ】エクセレント ML 商品写真2",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "images/product-details/21032/bag_img01.jpg",
+        "alt": "【ブライダルバッグ】エクセレント ML 商品写真3",
+        "width": 630,
+        "height": 600
+      }
+    ]
+  },
+  "listing": {
+    "image": "images/features/w-bag-b00.jpg"
+  },
+  "feature": {
+    "id": "21032",
+    "name": "【ブライダルバッグ】エクセレント サイズ:ML",
+    "title": "エクセレント サイズ:ML",
+    "url": "https://www.luna-luce.jp/item/w-bag-b00.html",
+    "groups": [
+      "bag"
+    ],
+    "image": "images/features/21032.jpg",
+    "description": "光沢のあるパール加工が施された高級感あふれるブライダルバッグ。 袋の内側にはブルーのストライプ模様がプリントされており、内側のオシャレにもこだわったバッグです。",
+    "size": "h300mm×w420mm×d220mm",
+    "material": "紙(パール加工)、紐",
+    "pack": 1,
+    "canDemo": true,
+    "updated": "2022-09-07"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "w-bag-b00": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

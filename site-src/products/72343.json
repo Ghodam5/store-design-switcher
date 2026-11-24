@@ -1,0 +1,137 @@
+{
+  "active": true,
+  "product": {
+    "id": "72343",
+    "code": "grace06_10900",
+    "title": "Grace 10900円コース ムーンライト",
+    "price": 11990,
+    "image": "images/products/72343.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/grace06_10900.html",
+    "description": "グルメ・ファッション・インテリア・テーブルウェア・キッチンウェアなど魅力的な品揃えで選ぶ楽しさを贈ります。 ライフスタイルを彩るとっておきのアイテムを厳選して掲載しています。 結婚引出物や結婚内祝い、出産内祝い、快気祝いの他、各種記念品・景品等さまざまなギフトシーンにてお使い頂けるギフトカタログです。",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※システム料には宅配料金・郵送料金等の諸費用が含まれております。 ※掲載点数・掲載内容・ページ数は予告なく変更になる場合がございます。 ※不良品以外の返品は不可とさせていただきます。 ※納品目安7日~",
+    "category": "カタログギフト",
+    "categories": [
+      "catalog"
+    ],
+    "subs": [
+      "grace"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "grace06_10900",
+        "t": "カタログギフト Grace(グレース) 10900円コース ムーンライト",
+        "price": 11990
+      }
+    ],
+    "spec": {
+      "code": "grace06_10900",
+      "pid": "72343",
+      "fields": [
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの下のお書入れ内容（例：大輔 花子）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：大輔　花子"
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの上のお書入れ内容（例：寿、内祝）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：寿、内祝"
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの掛け方（のし掛け選択の方のみ）",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "包装",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のし",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/72343.jpg",
+        "alt": "Grace 10900円コース ムーンライト 商品写真1",
+        "width": 700,
+        "height": 700
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "catalog-fee"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "grace06_10900": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

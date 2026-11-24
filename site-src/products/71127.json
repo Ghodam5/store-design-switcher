@@ -1,0 +1,88 @@
+{
+  "active": true,
+  "product": {
+    "id": "71127",
+    "code": "a609",
+    "title": "【引き出物】北海道Premium 海鮮パスタ＆野菜スープセットC",
+    "price": 2484,
+    "image": "images/products/71127.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a609.html",
+    "description": "パスタとスープのセットで、海と大地の恵みに包まれて。",
+    "size": "商品サイズ:261×287×80mm",
+    "material": "",
+    "contents": "商品内容:北海道産サケとキャベツクリームパスタソース×2、 北海道産トマトとズワイガニクリームパスタソース×1、 アビッシーネ・リガーテ70g×1、 ロングパスタ タリアテッレ50g×1、 フジッリ・ブロンズ70g×1、 北海道産かぼちゃスープ×1、 北海道産玉ねぎスープ×1、 北海道産男爵いもスープ×1、 北海道産スイートコーンスープ×1、 北海道産アスパラスープ×1",
+    "expiry": "賞味期限:6ヶ月",
+    "allergens": "アレルゲン:小麦・乳成分・かに",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "gourmet"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a609",
+        "t": "北海道Premium 海鮮パスタ& 野菜スープセットC A609",
+        "price": 2484
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71127.jpg",
+        "alt": "【引き出物】北海道Premium 海鮮パスタ＆野菜スープセットC 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71127/a609_1.jpg",
+        "alt": "【引き出物】北海道Premium 海鮮パスタ＆野菜スープセットC 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71127/a609_2.jpg",
+        "alt": "【引き出物】北海道Premium 海鮮パスタ＆野菜スープセットC 商品写真3",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a609": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

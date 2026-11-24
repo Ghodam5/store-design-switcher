@@ -1,0 +1,132 @@
+{
+  "active": true,
+  "product": {
+    "id": "66771",
+    "code": "1819",
+    "title": "ジュエルボックス(ハートクッキー)ウェルカムオブジェ48個セット",
+    "price": 16896,
+    "image": "images/1819.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1819.html",
+    "description": "長い間探し続けて、やっと見つけた宝石箱の蓋をあけると...。 そこには溢れんばかりの愛情がいっぱい詰まっているようでした。 そんな夢のあるプチギフトボックスは、ウェディング後は小物入れとしてもお使い頂けます。 ゲストブックなど、記念日の大切な思い出を入れておけば、お二人だけの特別な宝箱に。",
+    "size": "商品サイズ:210×310×360mm、単品サイズ:(ダイヤ)65×75×70mm、 (ルビー)75×85×35mm、(エメラルド)70×80×35mm",
+    "material": "",
+    "contents": "商品内容:ハートクッキー5枚入×48個、セットBOX付き、カード付",
+    "expiry": "",
+    "allergens": "アレルゲン:乳成分・小麦",
+    "storage": "",
+    "notice": "※カード付き:挙式日、お名前が英字で入ります。但し、記号(-、^)を入れる事はできません。 ※この商品は納品日の7日前までにお申し込み下さい。 ※種類の指定は出来ません。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "cookie",
+      "welcome",
+      "set"
+    ],
+    "tags": [
+      "名入れ",
+      "売れ筋"
+    ],
+    "skus": [
+      {
+        "code": "1819",
+        "t": "★ジュエルボックス(ハートクッキー)ウェルカムオブジェ48個セット 1819",
+        "price": 16896
+      }
+    ],
+    "spec": {
+      "code": "1819",
+      "pid": "66771",
+      "fields": [
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/1819.jpg",
+        "alt": "ジュエルボックス(ハートクッキー)ウェルカムオブジェ48個セット 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/66771/1819_1.jpg",
+        "alt": "ジュエルボックス(ハートクッキー)ウェルカムオブジェ48個セット 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "season-delay",
+      "card-english"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1819": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

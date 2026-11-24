@@ -1,0 +1,76 @@
+{
+  "active": true,
+  "product": {
+    "id": "72080",
+    "code": "1872",
+    "title": "和つつみこんぺいとう",
+    "price": 285,
+    "image": "images/1872.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1872-2.html",
+    "description": "和の雰囲気を大切にした伝統を感じさせながらもちょっとユニークでかわいいプチギフト。 見た目もかわいいミニハンカチの中にはこんぺいとうが。懐かしくも新しいプチギフト。",
+    "size": "商品サイズ:40×60×55mm、ハンカチ:20 × 20cm",
+    "material": "",
+    "contents": "商品内容:こんぺいとう約20g、ハンカチ1枚",
+    "expiry": "",
+    "allergens": "アレルゲン:なし",
+    "storage": "",
+    "notice": "※色の指定はできません。バランスよく入れさせていただきます。 ※単品でのご購入は5個単位のご注文でお願い致します。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy",
+      "wafu"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1872",
+        "t": "和つつみこんぺいとう 1872",
+        "price": 285
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 2,
+      "max": 3,
+      "made": false,
+      "source": "db",
+      "label": "2～3日後"
+    },
+    "photos": [
+      {
+        "src": "images/1872.jpg",
+        "alt": "和つつみこんぺいとう 商品写真1",
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1872": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

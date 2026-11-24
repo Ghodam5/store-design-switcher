@@ -1,0 +1,167 @@
+{
+  "active": true,
+  "product": {
+    "id": "71564",
+    "code": "fla510hahpair2nd",
+    "title": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー) 地域別 ) マザーズデイ おかんも喜ぶ2種のシフォン",
+    "price": 5300,
+    "image": "images/features/fla510hahpair2nd.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-母の日ラッピングシフォン-ペアセット（メープ.html",
+    "description": "大人気のFLAVORのシフォンケーキを 母の日限定ラッピングでお届け シフォンケーキでお母さんを癒しとくつろぎを。 定番メープルとルナ限定ストロベリーの食べ比べセット ・離れて暮らすお母さんにはギフト配送も可能です。 ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。 内容:ストロベリーシフォンケーキ1個、メープルシフォンケーキ1個 サイズ:直径16cm 高さ16cm 賞味期限:出荷日より約10日",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi",
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla510hahpair2nd",
+        "t": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー)※北海道沖縄離島配送の場合は価格修正します",
+        "price": 5300
+      },
+      {
+        "code": "fla510hahpair2nd-rito",
+        "t": "北海道沖縄配送はコチラ FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー)",
+        "price": 6600
+      }
+    ],
+    "spec": {
+      "code": "fla510hahpair2nd",
+      "pid": "71564",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "母の日配送は4/28-AM12時締切りです※時間指定は午前中不可のエリアがございます",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "賞味期限が短い商品の為「代金引換」発送不可商品です。代金引換でご注文はキャンセルします",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "了解した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "t": "FLAVOR  母の日ラッピングシフォン ペアセット（メープル＆ストロベリー）※北海道沖縄離島配送の場合は価格修正します",
+          "price": 5300
+        },
+        {
+          "t": "北海道沖縄配送はコチラ FLAVOR  母の日ラッピングシフォン ペアセット（メープル＆ストロベリー）",
+          "price": 6600
+        }
+      ],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/fla510hahpair2nd.jpg",
+        "alt": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー) 地域別 ) マザーズデイ おかんも喜ぶ2種のシフォン 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71564/fla510hahpair2nd-01.jpg",
+        "alt": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー) 地域別 ) マザーズデイ おかんも喜ぶ2種のシフォン 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71564/fla510hahpair2nd-02.jpg",
+        "alt": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー) 地域別 ) マザーズデイ おかんも喜ぶ2種のシフォン 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71564/flavor-img.jpg",
+        "alt": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー) 地域別 ) マザーズデイ おかんも喜ぶ2種のシフォン 商品写真4",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/71564/fla-hako202410.jpg",
+        "alt": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー) 地域別 ) マザーズデイ おかんも喜ぶ2種のシフォン 商品写真5",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "feature": {
+    "id": "71564",
+    "name": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー)【ふわふわ 人気の フレイバー 定番】地域別送料無料) マザーズデイ おかんも喜ぶ2種のシフォン",
+    "title": "FLAVOR 母の日ラッピングシフォン ペアセット(メープル&ストロベリー) 地域別 ) マザーズデイ おかんも喜ぶ2種のシフォン",
+    "url": "https://www.luna-luce.jp/item/flavor-母の日ラッピングシフォン-ペアセット（メープ.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/fla510hahpair2nd.jpg",
+    "description": "大人気のFLAVORのシフォンケーキを 母の日限定ラッピングでお届け シフォンケーキでお母さんを癒しとくつろぎを。 定番メープルとルナ限定ストロベリーの食べ比べセット ・離れて暮らすお母さんにはギフト配送も可能です。 ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。 内容:ストロベリーシフォンケーキ1個、メープルシフォンケーキ1個 サイズ:直径16cm 高さ16cm 賞味期限:出荷日より約10日",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-05-07"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla510hahpair2nd": {
+        "code": "2",
+        "quantity": null
+      },
+      "fla510hahpair2nd-rito": {
+        "code": "2",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

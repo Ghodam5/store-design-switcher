@@ -1,0 +1,19 @@
+{
+  "id": "christmas",
+  "active": true,
+  "theme": "seasonal",
+  "title": "季節のプチギフト｜クリスマス",
+  "text": "冬のありがとうを、小さな贈り物に。",
+  "image": "images/kashi-xmas.jpg",
+  "href": "category.html?g=season&m=xmas&s=petit",
+  "cta": "クリスマスのプチギフトを見る",
+  "ids": [
+    "53691",
+    "53689",
+    "48732",
+    "53693"
+  ],
+  "startsAt": "2026-11-01T00:00:00+09:00",
+  "endsAt": "2026-12-26T00:00:00+09:00",
+  "timeZone": "Asia/Tokyo"
+}

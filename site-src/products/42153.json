@@ -1,0 +1,212 @@
+{
+  "active": true,
+  "product": {
+    "id": "42153",
+    "code": "something4",
+    "title": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション …",
+    "price": 15268,
+    "image": "images/products/42153.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/something4.html",
+    "description": "受付を華やかに、思わずゲストが一緒に写真を撮りたくなる演出アイテムのセットです。 サムシングフォーのおまじないで、みんなを幸せにします。 新居に荷物を増やしたくない人や、当日にしか使わない演出アイテムをまとめて頼みたい人にオススメです。 【Something Four】 花嫁が結婚式当日に「なにか古いもの」「なにか新しいもの」「なにか借りたもの」「なにか青いもの」の4つを身に着けると、 必ず幸せになれるという言い伝えです。 ※左足に「イニシャル」、右足に「Mr」「Mrs」を刺繍します。(右足の刺繍内容は固定です)",
+    "size": "",
+    "material": "",
+    "contents": "「借りたもの」ディズニードール2体 ※ディズニードールはレンタルです、ご使用後は当店にご返送下さい。 「古いたもの」アンティークブック ※アンティークブックはレンタルです、ご使用後は当店にご返送下さい。 「青いもの」 ジュエリーと青いリボンをあしらったミッキーハンド 「新しいもの」ウェルカム黒板ボード簡単DIYセット&フォトプロップス付きプレート",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※別仕様のウェイトドールをご注文の場合、ぬいぐるみオプション料金-1,000円でご注文いただけます。 ※返却商品は同封の返送用リストでご確認いただけます。同封の返送伝票をご利用いただくことで返送料は不要です。 ※ご注文時にぬいぐるみの買取をご希望の場合、新品のドールで対応させていただきます。後からの新品交換はできません。 ※ディズニードールはレンタルの為、ウェイトの調整はありません。 ※ディズニードールを未返却、買い取り希望のお客様には、1体9,980円でお譲り致します。 紛失・破損などをされた場合も買取でのご請求とさせていただきます。 (ユーズド品となりますので、保証書はお付けできません) ※アンティークブックを紛失・破損などをされた場合は、別途買い取りで請求させて頂きます。 ※出荷の際、ぬいぐるみはクリーニングをして出荷致しますが、 幸せを受け継ぐぬいぐるみのため若干の使用感を感じる場合がございます。 ※こちらの商品は、クレジット決済のみ対応いたします。 ※北海道・沖縄・離島は+2,000円送料をいただきます。 ※返送時は、同封しております着払い伝票をご使用ください。",
+    "category": "DIY用品",
+    "categories": [
+      "board"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "something4",
+        "t": "【レンタル】サムシングフォー ウェルカム黒板ボード+演出セット(オプション ディズニードールリース 14日プラン) 【往復送料込み】",
+        "price": 15268
+      }
+    ],
+    "spec": {
+      "code": "something4",
+      "pid": "42153",
+      "fields": [
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎イニシャル（例：直樹なら『N』）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹なら『N』"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎イニシャル（例：智美なら『T』）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美なら『T』"
+        },
+        {
+          "k": "その他（要確認）",
+          "part": "choice",
+          "role": "",
+          "label": "当店でディズニーウェイトドールをご注文済み",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "注文済み（レンタルドールをお付けしません）-1000円",
+              "fee": {
+                "amt": 1000,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            },
+            {
+              "t": "注文していない（レンタルドールをお付けします）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/42153.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/42153/something4.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/42153/rental01.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真3",
+        "width": 650,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/42153/rental02.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真4",
+        "width": 650,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/42153/rental03.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真5",
+        "width": 650,
+        "height": 1120
+      },
+      {
+        "src": "images/product-details/42153/rental04.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真6",
+        "width": 650,
+        "height": 590
+      },
+      {
+        "src": "images/product-details/42153/rental05.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真7",
+        "width": 650,
+        "height": 890
+      },
+      {
+        "src": "images/product-details/42153/rental06.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真8",
+        "width": 650,
+        "height": 450
+      },
+      {
+        "src": "images/product-details/42153/rental07.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真9",
+        "width": 650,
+        "height": 630
+      },
+      {
+        "src": "images/product-details/42153/rental08.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真10",
+        "width": 650,
+        "height": 790
+      },
+      {
+        "src": "images/product-details/42153/rental09.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真11",
+        "width": 650,
+        "height": 510
+      },
+      {
+        "src": "images/product-details/42153/rental10.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真12",
+        "width": 650,
+        "height": 570
+      },
+      {
+        "src": "images/product-details/42153/rental11.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真13",
+        "width": 650,
+        "height": 610
+      },
+      {
+        "src": "images/product-details/42153/rental12.jpg",
+        "alt": "サムシングフォー ウェルカム黒板ボード+演出セット(オプション … 商品写真14",
+        "width": 650,
+        "height": 450
+      }
+    ]
+  },
+  "listing": {
+    "title": "【レンタル】サムシングフォー ウェルカム黒板ボード＋演出セット（ディズニードールリース14日プラン）往復送料込み",
+    "image": "images/products/42153.jpg",
+    "categories": [
+      "diy"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "something4": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

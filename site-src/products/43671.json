@@ -1,0 +1,74 @@
+{
+  "active": true,
+  "product": {
+    "id": "43671",
+    "code": "hf63006",
+    "title": "ラブリーシャワー（ライスシャワー・フラワーシャワー）",
+    "price": 3850,
+    "image": "images/products/43671.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf63006.html",
+    "description": "",
+    "size": "",
+    "material": "",
+    "contents": "造花・花びら(3色)約500枚入り",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "shower"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf63006",
+        "t": "ラブリーシャワー",
+        "price": 3850
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "photos": [
+      {
+        "src": "images/products/43671.jpg",
+        "alt": "ラブリーシャワー（ライスシャワー・フラワーシャワー） 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/43671/HF630056-1.jpg",
+        "alt": "ラブリーシャワー（ライスシャワー・フラワーシャワー） 商品写真2",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf63006": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

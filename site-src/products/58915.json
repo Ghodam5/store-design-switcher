@@ -1,0 +1,162 @@
+{
+  "active": true,
+  "product": {
+    "id": "58915",
+    "code": "pb-hannyahako",
+    "title": "節分 豆まきにも 和柄般若小箱(金平糖 こんぺいとう)",
+    "price": 149,
+    "image": "images/features/58915.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-hannyahako.html",
+    "description": "受け取り拒否は許さない!? 般若が睨みを利かしたダークなプチギフト。 とげとげこんぺいとう入り。豆菓子はまだ早いかな、というお子様の節分にも◎ ビンゴなどの景品にもオススメです。",
+    "size": "5×5×5cm",
+    "material": "",
+    "contents": "こんぺいとう10g入り小箱",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb264hannyahako",
+        "t": "和柄般若小箱(金平糖・こんぺいとう)",
+        "price": 149
+      }
+    ],
+    "spec": {
+      "code": "pb-hannyahako",
+      "pid": "58915",
+      "fields": [
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "メッセージをお選びください。",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "A鬼感謝",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "B貢物",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "C夜露死苦",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "D賄賂",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "E愛羅武勇",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "F節分",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "G鬼は外",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 5,
+      "notes": []
+    },
+    "minq": 5,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/58915.jpg",
+        "alt": "節分 豆まきにも 和柄般若小箱(金平糖 こんぺいとう) 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58915/pb-hannyahako-03.jpg",
+        "alt": "節分 豆まきにも 和柄般若小箱(金平糖 こんぺいとう) 商品写真2",
+        "width": 701,
+        "height": 701
+      },
+      {
+        "src": "images/product-details/58915/pb-hannyahako-02.jpg",
+        "alt": "節分 豆まきにも 和柄般若小箱(金平糖 こんぺいとう) 商品写真3",
+        "width": 701,
+        "height": 701
+      },
+      {
+        "src": "images/product-details/58915/pb-hannyahako-04.jpg",
+        "alt": "節分 豆まきにも 和柄般若小箱(金平糖 こんぺいとう) 商品写真4",
+        "width": 701,
+        "height": 701
+      }
+    ]
+  },
+  "feature": {
+    "id": "58915",
+    "name": "節分 豆まきにも 和柄般若小箱(金平糖 こんぺいとう)【和風・プチギフト・個性派・鬼・悪・極道・卍・夜露死苦・愛羅武勇・感謝・ビンゴ参加賞・景品】",
+    "title": "節分 豆まきにも 和柄般若小箱(金平糖 こんぺいとう)",
+    "url": "https://www.luna-luce.jp/item/pb-hannyahako.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/58915.jpg",
+    "description": "受け取り拒否は許さない!? 般若が睨みを利かしたダークなプチギフト。 とげとげこんぺいとう入り。豆菓子はまだ早いかな、というお子様の節分にも◎ ビンゴなどの景品にもオススメです。",
+    "size": "5×5×5cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2025-01-17"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb264hannyahako": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

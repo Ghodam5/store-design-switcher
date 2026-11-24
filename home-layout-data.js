@@ -1,0 +1,2 @@
+/* 編集元site-src/home-layout.json */
+window.HOME_LAYOUT={"schemaVersion":1,"timeZone":"Asia/Tokyo","slots":{"legacy-christmas-row":{"active":false,"reason":"トップ特集カルーセルへ移動。元コンテンツは保持。"},"legacy-recommendations":{"active":false,"reason":"トップ特集カルーセルへ移動。元コンテンツは保持。"},"legacy-season-strip":{"active":false,"reason":"トップ特集カルーセルへ移動。元コンテンツは保持。"},"legacy-recommendation-sidebar":{"active":false,"reason":"トップ特集カルーセルへ移動。元コンテンツは保持。"},"christmas-sidebar":{"active":true,"startsAt":"2026-11-01T00:00:00+09:00","endsAt":"2026-12-26T00:00:00+09:00","timeZone":"Asia/Tokyo"}}};

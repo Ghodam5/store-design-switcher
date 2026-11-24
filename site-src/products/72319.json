@@ -1,0 +1,198 @@
+{
+  "active": true,
+  "product": {
+    "id": "72319",
+    "code": "cp0081",
+    "title": "SHIKISAI ONE ブロンズカラーコース＜カードタイプ＞",
+    "price": 28380,
+    "image": "images/products/72319.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/cp0081.html",
+    "description": "家電・インテリア雑貨・アウトドア品・防災グッズ・コスメ・ファッション・食品等、幅広いジャンルの商品が多彩に掲載されております。 ご年齢を問わず楽しんでアイテムをお選びいただけるギフトカタログです。 選んだギフトは宅配でご自宅に直接届くので手間がかかりません!",
+    "size": "カード:55 × 90 mm 、封筒タイプ:108 × 108 mm、BOXタイプ:170 × 120 × 20 mm",
+    "material": "",
+    "contents": "カード×1",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※システム料には宅配料金・郵送料金等の諸費用が含まれております。 ※掲載点数・掲載内容・ページ数は予告なく変更になる場合がございます。 ※不良品以外の返品は不可とさせていただきます。 ※納品目安7日~",
+    "category": "カタログギフト",
+    "categories": [
+      "catalog"
+    ],
+    "subs": [
+      "shikisai"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "cp0081",
+        "t": "SHIKISAI ONE ブロンズカラーコース<カードタイプ>(システム料¥800込)",
+        "price": 28380
+      }
+    ],
+    "spec": {
+      "code": "cp0081",
+      "pid": "72319",
+      "fields": [
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "包装",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの上のお書入れ内容（例：寿、内祝）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：寿、内祝"
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のし",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの掛け方（のし掛け選択の方のみ）",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの下のお書入れ内容（例：大輔 花子）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：大輔　花子"
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "カタログタイプ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "封筒タイプ　WD-W（ホワイト）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "封筒タイプ　WD-Y（イエロー）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "封筒タイプ　WD-B（ブラウン）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "封筒タイプ　WD-R（レッド）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "カードタイプBOX（WD-D）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/72319.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カードタイプ＞ 商品写真1",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72319/cp0081_1.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カードタイプ＞ 商品写真2",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72319/cp0081_2.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カードタイプ＞ 商品写真3",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72319/cp0081_3.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カードタイプ＞ 商品写真4",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72319/cp0081_4.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カードタイプ＞ 商品写真5",
+        "width": 500,
+        "height": 500
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "catalog-fee"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "cp0081": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

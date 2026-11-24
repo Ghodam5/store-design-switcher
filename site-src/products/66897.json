@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "66897",
+    "code": "1799",
+    "title": "福守り(ハートせんべい)",
+    "price": 241,
+    "image": "images/1799.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1799.html",
+    "description": "縁起の良いモチーフがはいったシンプルで大人可愛いお守り。",
+    "size": "プチギフトサイズ:10×70×190mm",
+    "material": "",
+    "contents": "商品内容:ハートせんべい5 枚入(しょうゆ味)",
+    "expiry": "",
+    "allergens": "アレルゲン:小麦",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "wafu"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1799",
+        "t": "福守り(ハートせんべい) 1799",
+        "price": 241
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 2,
+      "max": 3,
+      "made": false,
+      "source": "db",
+      "label": "2～3日後"
+    },
+    "photos": [
+      {
+        "src": "images/1799.jpg",
+        "alt": "福守り(ハートせんべい) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/66897/1799_1.jpg",
+        "alt": "福守り(ハートせんべい) 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1799": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

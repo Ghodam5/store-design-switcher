@@ -1,0 +1,396 @@
+{
+  "active": true,
+  "product": {
+    "id": "39774",
+    "code": "monitor-fcb2",
+    "title": "フラワークロックボード 2枚組",
+    "price": 27280,
+    "image": "images/features/monitor-fcb2.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/monitor-fcb2-2.html",
+    "description": "めでたい日に、華やかさを添えて演出します。 感謝を伝えるThank youの文字とデザインが選べるクロックプレートに、 美しいフラワーパーツ、光り輝くゴールドorシルバーのフレームをセットにした豪華なフラワークロックボードです。 フラワーパーツはオプションでフラワーポプリ、光触媒の選択ができます。 会場で使用するなら、フラワーポプリを選んでフローラルな香りで素敵な演出に。 日常使いを意識するなら、光触媒の消臭・防汚・抗菌の効果を選択! アクセントに使えるリボンにはご両親のお名前を英字で刺繍いたします。 リボンはボードの好きな箇所に接着剤などでつけて、お好みのアレンジができます。",
+    "size": "Sサイズ:約33.5×42.5cm",
+    "material": "",
+    "contents": "フラワークロックボード2枚、メーカー保証書(1年)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※フレーム、フラワーパーツ、クロックプレートデザイン、光触媒orフラワーポプリのオプションをお選びください。 ※ご注文の際は、お二人のお名前と記念日とご両親のお名前を英字にてお知らせください。 ※ご両親のお名前はおひとり分でも刺繍可能です。 ※ウェルカム用のリボンは、ご希望があればお子様のお名前を刺繍できます。 ※木製イーゼルは付属しておりませんので、お客様にてご用意ください。 ※花が時計の針に当たらないよう、調整してからご使用ください。 ※壁掛け用の紐は付属しておりません。 ※納品目安は約14日となっておりますが、受注状況により多少前後する場合がございます。プレゼント・結婚式等にお使いになる場合は日数に余裕をもってお申し込み下さい。 ※こちらの商品は完全受注生産のため、ご注文後のキャンセルはご遠慮頂いております。 ※モニター商品は割引きされた価格になっており、こちらの価格はレビューをしていただける場合の価格となっております。 ※モニター商品はレビューのお約束が絶対条件となっております。商品が到着し、使用してから感想を必ずお願い致します。 ※商品のレビューが頂けなかった場合、正規販売価格を請求させて頂きますので、予めご理解をお願いいたします。 ※頂いたご感想はルナ・ルーチェサイト内にて使用させて頂く場合がございますので、ご理解くださいますようお願い致します。",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "parents"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "monitor-fcb2",
+        "t": "【モニター商品】フラワークロックボード 両親贈呈用 2枚組",
+        "price": 27280
+      }
+    ],
+    "spec": {
+      "code": "monitor-fcb2",
+      "pid": "39774",
+      "fields": [
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "新郎様ご両親のお名前(例:kazuya & ayako )",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：kazuya & ayako"
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "新婦様ご両親のお名前(例:kazuya & ayako )",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：kazuya & ayako"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "2枚目:フレーム",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ゴールド",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "シルバー",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "2枚目：フラワーパーツ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "オールホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ピュアホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ピンクゴールド",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "2枚目：プレートデザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "(L30)バタフライ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "(L31)レース",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "(L32)ブラウン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "(L33)ローズ",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "1枚目：フラワーパーツ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "オールホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ピュアホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ピンクゴールド",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "オプション",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "フラワーポプリ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "光触媒",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "1枚目：フレーム",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ゴールド",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "シルバー",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "1枚目：プレートデザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "(L30)バタフライ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "(L31)レース",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "(L32)ブラウン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "(L33)ローズ",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "リボンのアレンジを固定仕様にする場合",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "希望しない（ストレート）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "希望する（ゆるふわカール）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/monitor-fcb2.jpg",
+        "alt": "フラワークロックボード 2枚組 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/39774/monitor01.jpg",
+        "alt": "フラワークロックボード 2枚組 商品写真2",
+        "width": 650,
+        "height": 820
+      },
+      {
+        "src": "images/product-details/39774/monitor3000.jpg",
+        "alt": "フラワークロックボード 2枚組 商品写真3",
+        "width": 650,
+        "height": 300
+      },
+      {
+        "src": "images/product-details/39774/flower-cb2-01.jpg",
+        "alt": "フラワークロックボード 2枚組 商品写真4",
+        "width": 650,
+        "height": 790
+      },
+      {
+        "src": "images/product-details/39774/flower-cb2-02.jpg",
+        "alt": "フラワークロックボード 2枚組 商品写真5",
+        "width": 650,
+        "height": 1130
+      },
+      {
+        "src": "images/product-details/39774/flower-cb2-03.jpg",
+        "alt": "フラワークロックボード 2枚組 商品写真6",
+        "width": 650,
+        "height": 1040
+      },
+      {
+        "src": "images/product-details/39774/flower-cb2-04.jpg",
+        "alt": "フラワークロックボード 2枚組 商品写真7",
+        "width": 650,
+        "height": 695
+      },
+      {
+        "src": "images/product-details/39774/flower-cb2-05.jpg",
+        "alt": "フラワークロックボード 2枚組 商品写真8",
+        "width": 650,
+        "height": 690
+      }
+    ]
+  },
+  "feature": {
+    "id": "39774",
+    "name": "【モニター商品】フラワークロックボード 両親贈呈用 2枚組【時計 記念品 ギフト 結婚式 造花 プレゼント 名入れ】",
+    "title": "フラワークロックボード 2枚組",
+    "url": "https://www.luna-luce.jp/item/monitor-fcb2-2.html",
+    "groups": [
+      "sale"
+    ],
+    "image": "images/features/monitor-fcb2.jpg",
+    "description": "めでたい日に、華やかさを添えて演出します。 感謝を伝えるThank youの文字とデザインが選べるクロックプレートに、 美しいフラワーパーツ、光り輝くゴールドorシルバーのフレームをセットにした豪華なフラワークロックボードです。 フラワーパーツはオプションでフラワーポプリ、光触媒の選択ができます。 会場で使用するなら、フラワーポプリを選んでフローラルな香りで素敵な演出に。 日常使いを意識するなら、光触媒の消臭・防汚・抗菌の効果を選択! アクセントに使えるリボンにはご両親のお名前を英字で刺繍いたします。 リボンはボードの好きな箇所に接着剤などでつけて、お好みのアレンジができます。",
+    "size": "Sサイズ:約33.5×42.5cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2021-05-11"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "monitor-fcb2": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

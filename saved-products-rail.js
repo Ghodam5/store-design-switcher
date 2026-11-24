@@ -1,0 +1,15 @@
+/* 会員認証とは独立した、同じブラウザ内のお気に入り／履歴。 */
+(()=>{'use strict';const S=window.ShopServices,C=window.ShopCatalog;if(!S||!C)return;
+const top=location.pathname.endsWith('/top.html'),item=!!document.getElementById('product-buy');if(!top&&!item)return;
+const host=document.createElement('section');host.className='saved-browser sec';host.setAttribute('aria-label','保存した商品と閲覧履歴');
+const before=top?document.getElementById('home-guides'):null;if(before)before.before(host);else document.querySelector('main').append(host);
+let observer;let selected=S.ids('favorites').length?'favorites':'recent';
+const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function paint(){observer?.disconnect();const kinds=[['favorites','お気に入り'],['recent','最近見た商品']];host.innerHTML='<div class="saved-browser-tabs" role="group" aria-label="表示する商品">'+kinds.map(([k,t])=>'<button type="button" data-saved-tab="'+k+'" aria-pressed="'+(selected===k)+'">'+t+' <small>'+S.ids(k).length+'</small></button>').join('')+'</div><p class="saved-browser-note">このブラウザに保存します。会員登録は不要です。サイトの保存データを削除すると消えます。</p>';
+ const rows=S.ids(selected).map(id=>C.get(id)).filter(Boolean);
+ if(rows.length){host.insertAdjacentHTML('beforeend','<div class="rail-wrap saved-browser-wrap"><button type="button" class="rail-nav prev" aria-label="前の商品へ"></button><div class="rail saved-browser-rail" tabindex="0" aria-label="'+(selected==='favorites'?'お気に入り':'最近見た商品')+'。横にスワイプできます">'+rows.map(p=>'<a class="saved-browser-card" href="item.html?id='+encodeURIComponent(p.id)+'"><img src="'+esc(p.image||'images/ui/parcel.svg')+'" alt="" width="100" height="85" loading="lazy"><span>'+esc(p.title)+'</span></a>').join('')+'</div><button type="button" class="rail-nav next" aria-label="次の商品へ"></button></div>');
+ const w=host.querySelector('.rail-wrap'),r=w.querySelector('.rail');function state(){w.classList.toggle('at-start',r.scrollLeft<2);w.classList.toggle('at-end',r.scrollLeft>=r.scrollWidth-r.clientWidth-2);}w.querySelector('.prev').onclick=()=>r.scrollBy({left:-r.clientWidth*.85,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});w.querySelector('.next').onclick=()=>r.scrollBy({left:r.clientWidth*.85,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});r.addEventListener('scroll',state,{passive:true});r.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();r.scrollBy({left:(e.key==='ArrowRight'?1:-1)*r.clientWidth*.85,behavior:'smooth'});}});observer=new ResizeObserver(state);observer.observe(r);requestAnimationFrame(state);
+ }else host.insertAdjacentHTML('beforeend','<p class="saved-browser-empty">'+(selected==='favorites'?'商品ページの「お気に入りに追加」で保存できます。':'商品ページを開くと、ここからもう一度見られます。')+'</p>');
+host.querySelectorAll('[data-saved-tab]').forEach(b=>b.onclick=()=>{selected=b.dataset.savedTab;paint();host.querySelector('[data-saved-tab="'+selected+'"]').focus({preventScroll:true});});}
+paint();addEventListener('luna:saved-products',paint);addEventListener('storage',e=>{if(e.key?.startsWith('lunaluce-'))paint();});
+})();

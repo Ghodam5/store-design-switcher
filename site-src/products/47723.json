@@ -1,0 +1,151 @@
+{
+  "active": true,
+  "product": {
+    "id": "47723",
+    "code": "japonesque-konpei2024",
+    "title": "ジャポネスク こんぺいとうPB 選べるデザイン 春夏秋冬 富士 さくら 桜",
+    "price": 165,
+    "image": "images/features/japonesque-konpei2024.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/japonesque-konpei.html",
+    "description": "昔ながらのあま~いお菓子”金平糖”を詰め込んだ、縁起物のプチギフト。 パッケージも春・夏・秋・冬・富士の5パターンから選べます 各柄6個以上よりご注文可能商品です 複数デザインでの合計6個はキャンセルいたします。",
+    "size": "H5×W5×D5cm",
+    "material": "",
+    "contents": "こんぺいとう ※中に入る金平糖の種類・お色はお任せとなります。",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "japonesque-konpei2024",
+        "t": "ジャポネスク こんぺいとうPB ※各柄6個よりご注文受付",
+        "price": 165
+      }
+    ],
+    "spec": {
+      "code": "japonesque-konpei2024",
+      "pid": "47723",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン※各柄６個よりご注文受付",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "春",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "夏",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "秋(感謝)",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "秋(寿)",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "冬",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "富士",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "※ご注意※柄混合での合計６個でのご注文はキャンセルします",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 6,
+      "notes": []
+    },
+    "minq": 6,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/japonesque-konpei2024.jpg",
+        "alt": "ジャポネスク こんぺいとうPB 選べるデザイン 春夏秋冬 富士 さくら 桜 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/47723/japonesque-konpei01.jpg",
+        "alt": "ジャポネスク こんぺいとうPB 選べるデザイン 春夏秋冬 富士 さくら 桜 商品写真2",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "feature": {
+    "id": "47723",
+    "name": "プチギフト ジャポネスク こんぺいとうPB ※各柄6個よりご注文受付和風 選べるデザイン 春夏秋冬 富士 さくら 桜 販促 御礼 退職 敬老",
+    "title": "ジャポネスク こんぺいとうPB 選べるデザイン 春夏秋冬 富士 さくら 桜",
+    "url": "https://www.luna-luce.jp/item/japonesque-konpei.html",
+    "groups": [
+      "sale"
+    ],
+    "image": "images/features/japonesque-konpei2024.jpg",
+    "description": "昔ながらのあま~いお菓子”金平糖”を詰め込んだ、縁起物のプチギフト。 パッケージも春・夏・秋・冬・富士の5パターンから選べます 各柄6個以上よりご注文可能商品です 複数デザインでの合計6個はキャンセルいたします。",
+    "size": "H5×W5×D5cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2024-05-22"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "japonesque-konpei2024": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

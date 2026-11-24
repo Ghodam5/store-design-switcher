@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 82" fill="none">
+  <title>Luna Luceの三日月と光の星</title>
+  <style>@media(prefers-reduced-motion:reduce){.traveler,.glint{display:none}}</style>
+  <!-- 文字の背面に置く、やわらかな黄色の三日月。 -->
+  <path d="M142 7 C108 -3 70 17 70 43 C70 69 107 84 137 72 C111 70 96 57 96 40 C96 23 113 11 142 7Z" fill="#FFF2AE" fill-opacity=".66" stroke="#E8C66C" stroke-opacity=".56" stroke-width="1"/>
+  <!-- 内側の輪郭だけを上から下へたどり、下端で煌めく。 -->
+  <g class="traveler">
+    <circle r="4.8" fill="#FFE58A" fill-opacity=".25"/>
+    <path d="M0 -4.5 1.1 -1.1 4.5 0 1.1 1.1 0 4.5 -1.1 1.1 -4.5 0 -1.1 -1.1Z" fill="#E9BF52"/>
+    <circle r=".9" fill="#FFFDF2"/>
+    <animateMotion path="M142 7 C113 11 96 23 96 40 C96 57 111 70 137 72" dur="6.4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;.82;1"/>
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.025;.8;.84;1" dur="6.4s" repeatCount="indefinite"/>
+  </g>
+  <g transform="translate(137 72)">
+    <g class="glint" opacity="0">
+      <circle r="8" fill="#FFF0B6" fill-opacity=".38"/>
+      <path d="M0 -6 1.3 -1.3 6 0 1.3 1.3 0 6 -1.3 1.3 -6 0 -1.3 -1.3Z" fill="#E4B84C"/>
+      <path d="m-5-5 2 2m6 6 2 2m0-10-2 2m-6 6-2 2" stroke="#F3D986" stroke-width=".8"/>
+      <animate attributeName="opacity" values="0;0;1;.28;.9;0;0" keyTimes="0;.8;.85;.88;.91;.96;1" dur="6.4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+</svg>

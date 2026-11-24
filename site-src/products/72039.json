@@ -1,0 +1,98 @@
+{
+  "active": true,
+  "product": {
+    "id": "72039",
+    "code": "1911",
+    "title": "Nice Cats!",
+    "price": 308,
+    "image": "images/features/72039.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1911.html",
+    "description": "ハートを打ち抜くファッションドックスとおめかし上手な猫達がやってきた!",
+    "size": "プチギフトサイズ:80×110×15 mm",
+    "material": "",
+    "contents": "商品内容:ハンカチ1枚(サイズ:280×280mm)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※種類の指定はできません。 ※単品でのご購入は5個単位のご注文でお願い致します。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1911",
+        "t": "Nice Cats! 1911",
+        "price": 308
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 2,
+      "max": 3,
+      "made": false,
+      "source": "db",
+      "label": "2～3日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/72039.jpg",
+        "alt": "Nice Cats! 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/72039/1911_1.jpg",
+        "alt": "Nice Cats! 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "72039",
+    "name": "【プチギフト】Nice Cats! 1911【サンクスギフト・ハンカチ・ねこ】※5個単位でご注文ください",
+    "title": "Nice Cats!",
+    "url": "https://www.luna-luce.jp/item/1911.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/72039.jpg",
+    "description": "ハートを打ち抜くファッションドックスとおめかし上手な猫達がやってきた!",
+    "size": "プチギフトサイズ:80×110×15 mm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-05-14"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1911": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

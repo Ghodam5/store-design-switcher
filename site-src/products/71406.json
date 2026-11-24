@@ -1,0 +1,154 @@
+{
+  "active": true,
+  "product": {
+    "id": "71406",
+    "code": "pb295mmloverusk",
+    "title": "ミッキー&ミニーのラブラブ紅白 ラスク PB ミッキーマウス ミ…",
+    "price": 258,
+    "image": "images/pb295mmloverusk.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/プチギフト-disney-ミッキー＆ミニーのラブラブ紅白-ラ.html",
+    "description": "おめでたい席にピッタリな「紅白ラスク」を いつもラブラブ、ミッキー&ミニーが幸せを届けます♪ ルナルーチェ限定のお名入れシール付きだから 名披露目も感謝の気持ちも伝わるスペシャルギフトの完成! 内容:1袋(ラスク2枚入り) サイズ:約10×10×3cm 賞味期限:出荷より約3ヶ月",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "お名入れなど印字サービスにつきまして ※ご注文の際にシールメッセージを選択の上、必要事項をお知らせください。記入のない場合は白紙でお届けいたします。 ※印字内容は全て同一での作成とさせていただきます。 ※お選びになった「シールメッセージ」と「入力された印字内容」が不一致の場合、「入力された印字内容」に合わせたメッセージシールに変更させていただきます。 ※お名入れなど印字内容のご連絡は「当ページ内専用入力欄」にご入力ください。 ※間違いの原因となりますため、ご注文確定後のメールへのご返信、問い合わせフォーム、備考欄での印字内容のご連絡はお控えください。 上記連絡方法での印字内容連絡を起因とした印字漏れは免責とさせていただきます。",
+    "category": "引き菓子",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "other",
+      "disney"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb295mmloverusk",
+        "t": "disney ミッキー&ミニーのラブラブ紅白 ラスク PB ※20個からご注文受付※",
+        "price": 258
+      }
+    ],
+    "spec": {
+      "code": "pb295mmloverusk",
+      "pid": "71406",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "※20個からご注文受付(19個までは自動キャンセル）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "シールメッセージ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ブライダル名入れ名前日付備考欄へ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "SPThanks自由文20字備考欄へ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "白紙(手書き用/白紙でお届け）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "text",
+          "role": "m",
+          "label": "シール備考/メッセージに合わせた内容を入力",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": 20,
+      "notes": []
+    },
+    "minq": 20,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "min-qty",
+      "bulk-100",
+      "spec-change",
+      "no-noshi",
+      "free-ship-no-date",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb295mmloverusk.jpg",
+        "alt": "ミッキー&ミニーのラブラブ紅白 ラスク PB ミッキーマウス ミ… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/71406/pb295mmloverusk-01.jpg",
+        "alt": "ミッキー&ミニーのラブラブ紅白 ラスク PB ミッキーマウス ミ… 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb295mmloverusk": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

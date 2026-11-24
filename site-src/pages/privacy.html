@@ -1,0 +1,84 @@
+<!doctype html><html lang="ja"><head>{{> navigation-head}}<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>個人情報の取り扱い｜ルナルーチェ</title><meta name="description" content="個人情報の取り扱いのページです。結婚式のプチギフト・名入れギフト・引菓子の通販「ルナルーチェ（Luna Luce）」。"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Cormorant+Garamond:wght@500;600&family=Great+Vibes&display=swap"></noscript><link rel="stylesheet" href="style.css?v={{version}}"><link rel="stylesheet" href="features.css?v={{version}}"><link rel="stylesheet" href="support.css?v={{version}}">{{> notes-head}}{{> share-head}}{{> services-head}}</head>
+<body class=""><div class="sample-bar">サンプル（案4デザイン・スマホが基本）｜<a href="index.html">説明と見比べ</a></div>
+{{> shipping}}
+{{> header}}
+<div class="drawer-bg" data-close-menu></div>
+{{> drawer}}<main class="wrap support-page service-page" id="support-main"><nav class="crumb"><a href="top.html">ホーム</a><span>›</span><a href="shopping-guide.html">ご利用ガイド</a><span>›</span>個人情報の取り扱い</nav><header class="guide-hero"><div><p class="guide-kicker">LUNA LUCE · GUIDE</p><h1>個人情報の取り扱い</h1><p>大切な情報を、必要な範囲で丁寧に扱います。</p></div><img src="images/ui/document.svg" alt="" width="144" height="144"></header><div class="service-body"><ol class="service-steps"><li><span>1</span><img src="images/ui/document.svg" alt="" width="48" height="48"><strong>入力</strong><p>ご注文・ご相談に必要な情報</p></li><li><span>2</span><img src="images/ui/parcel.svg" alt="" width="48" height="48"><strong>利用</strong><p>受付・製作・配送・ご連絡のため</p></li><li><span>3</span><img src="images/ui/heart.svg" alt="" width="48" height="48"><strong>管理</strong><p>担当者の権限と保管期間を管理</p></li></ol><section class="guide-section"><h2>このサンプルでの取り扱い</h2><p>お問い合わせ・会員登録・購入手続きなどの入力内容は外部に送信しません。個人情報やパスワードの保存は行いません。</p><p>お気に入りと最近見た商品は、商品IDのみをこのブラウザに保存します。端末を共有している場合は、一覧から削除できます。別端末や実会員の情報とは同期していません。</p></section><section class="guide-section"><h2>本番公開時に確認する方針</h2><ul><li>注文受付・製作・配送・お問い合わせ対応など、利用目的を明示します。</li><li>委託先・配送会社・決済会社との必要な情報共有、第三者提供と共同利用を区別します。</li><li>安全管理、保管期間、開示・訂正・削除等の窓口を運用に合わせて確定します。</li><li>アクセス解析・外部サービスの利用と、お客様が選べる設定を案内します。</li></ul></section><p class="service-notice">旧本店の記載をそのまま転用せず、受注管理への接続先と保管ルールを確定してから本番用の方針を仕上げます。</p><a class="source-link" href="contact.html">個人情報について問い合わせる</a></div></main>{{> footer}}{{> bottom}}<script>
+document.querySelectorAll('[data-open-menu]').forEach(b=>b.addEventListener('click',()=>document.body.classList.add('menu-open')));
+document.querySelectorAll('[data-close-menu]').forEach(b=>b.addEventListener('click',()=>document.body.classList.remove('menu-open')));
+document.querySelectorAll('.acc>button').forEach(b=>b.addEventListener('click',()=>b.parentElement.classList.toggle('open')));
+document.querySelectorAll('.ftab').forEach(t=>t.addEventListener('click',()=>{const f=t.closest('.finder');
+  f.querySelectorAll('.ftab,.fp').forEach(x=>x.classList.remove('on'));t.classList.add('on');f.querySelector('#'+t.dataset.p).classList.add('on');}));
+// PC：横の段をマウスのホイール・ドラッグ・左右の矢印で動かす（スマホは指でスワイプ）
+(function(){
+const fine=window.matchMedia('(hover:hover) and (pointer:fine)');
+document.querySelectorAll('.rail-wrap').forEach(w=>{
+ const r=w.querySelector('.rail'),prev=w.querySelector('.rail-nav.prev'),next=w.querySelector('.rail-nav.next');
+ r.querySelectorAll('img').forEach(i=>i.draggable=false);
+ // マウスの端末では「商品の区切りに吸い付く」動きを切る（ホイールやドラッグで動かした位置がそのまま止まるように）
+ const snap=()=>{r.style.scrollSnapType=fine.matches?'none':'';};snap();if(fine.addEventListener)fine.addEventListener('change',snap);
+ const upd=()=>{const max=r.scrollWidth-r.clientWidth-2;w.classList.toggle('at-start',r.scrollLeft<=2);w.classList.toggle('at-end',r.scrollLeft>=max);};
+ const go=d=>{const from=r.scrollLeft,to=from+r.clientWidth*0.85*d;r.scrollTo({left:to,behavior:'smooth'});
+   setTimeout(()=>{if(Math.abs(r.scrollLeft-from)<2)r.scrollLeft=to;upd();},450);};
+ prev.addEventListener('click',()=>go(-1));next.addEventListener('click',()=>go(1));
+ r.addEventListener('scroll',upd,{passive:true});window.addEventListener('resize',upd);upd();
+ // ホイール：縦に回すと横へ動く。段の端まで行ったら、いつものページのスクロールに戻る
+ r.addEventListener('wheel',e=>{if(!fine.matches||Math.abs(e.deltaX)>Math.abs(e.deltaY))return;
+   const max=r.scrollWidth-r.clientWidth,d=e.deltaY*(e.deltaMode===1?40:1);
+   if((d>0&&r.scrollLeft>=max-1)||(d<0&&r.scrollLeft<=1))return;
+   e.preventDefault();r.classList.add('wheeling');r.scrollLeft+=d;clearTimeout(r._t);r._t=setTimeout(()=>r.classList.remove('wheeling'),160);},{passive:false});
+ // ドラッグ：つかんで左右に引っぱる。少し動かしたら商品のクリックにしない
+ let down=false,sx=0,sl=0,moved=false;
+ r.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.button!==0)return;down=true;moved=false;sx=e.clientX;sl=r.scrollLeft;});
+ window.addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-sx;
+   if(!moved&&Math.abs(dx)>5){moved=true;r.classList.add('dragging');}if(moved)r.scrollLeft=sl-dx;});
+ window.addEventListener('pointerup',()=>{if(!down)return;down=false;if(moved){r.classList.remove('dragging');setTimeout(()=>{moved=false;upd();},0);}});
+ r.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();}},true);
+});})();
+// 大カテゴリの収納は全ページ共通のheader-scroll.jsで扱う。
+// 季節の特集・検索ワード・カテゴリの帯など、横に並ぶ所もマウスのホイールとドラッグで動かす
+(function(){const fine=window.matchMedia('(hover:hover) and (pointer:fine)');
+document.querySelectorAll('.season,.chips,.cats').forEach(r=>{
+ r.querySelectorAll('img').forEach(i=>i.draggable=false);
+ const snap=()=>{r.style.scrollSnapType=fine.matches?'none':'';};snap();
+ r.addEventListener('wheel',e=>{if(!fine.matches||r.scrollWidth<=r.clientWidth+1||Math.abs(e.deltaX)>Math.abs(e.deltaY))return;
+   const max=r.scrollWidth-r.clientWidth,d=e.deltaY*(e.deltaMode===1?40:1);
+   if((d>0&&r.scrollLeft>=max-1)||(d<0&&r.scrollLeft<=1))return;e.preventDefault();r.scrollLeft+=d;},{passive:false});
+ let down=false,sx=0,sl=0,moved=false;
+ r.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.button!==0||r.scrollWidth<=r.clientWidth+1)return;down=true;moved=false;sx=e.clientX;sl=r.scrollLeft;});
+ window.addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-sx;if(!moved&&Math.abs(dx)>5){moved=true;r.style.cursor='grabbing';}if(moved)r.scrollLeft=sl-dx;});
+ window.addEventListener('pointerup',()=>{if(!down)return;down=false;r.style.cursor='';if(moved)setTimeout(()=>moved=false,0);});
+ r.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();}},true);
+});})();
+// 横に動かせる場所にマウスを乗せたら、マウスの横に「ホイールで横にスクロール」の案内を出す
+(function(){const fine=window.matchMedia('(hover:hover) and (pointer:fine)');if(!fine.matches)return;
+const tip=document.createElement('div');tip.className='hhint';tip.setAttribute('aria-hidden','true');
+tip.innerHTML='<svg viewBox="0 0 24 24"><rect x="6" y="3" width="12" height="18" rx="6"/><path d="M12 7v3"/></svg><span><b class="t1">ホイールで横にスクロール</b><small class="t2">ドラッグでも動きます</small></span>';
+document.body.appendChild(tip);const t1=tip.querySelector('.t1'),t2=tip.querySelector('.t2');let hideT=0,cur=null;
+function place(e){const w=tip.offsetWidth,h=tip.offsetHeight;let x=e.clientX+18,y=e.clientY+20;
+ if(x+w>innerWidth-8)x=e.clientX-w-12;if(y+h>innerHeight-8)y=e.clientY-h-12;tip.style.transform='translate('+x+'px,'+y+'px)';}
+function text(r){const atEnd=r.scrollLeft>=r.scrollWidth-r.clientWidth-2;
+ t1.textContent=atEnd?'ここが最後です':'ホイールで横にスクロール';t2.textContent=atEnd?'上に回すと戻ります':'ドラッグでも動きます';}
+document.querySelectorAll('.rail,.season,.chips,.cats').forEach(r=>{
+ r.addEventListener('mousemove',e=>{if(r.scrollWidth<=r.clientWidth+1||r.classList.contains('dragging')||e.buttons){tip.classList.remove('on');return;}
+   cur=r;text(r);place(e);if(!tip.classList.contains('busy'))tip.classList.add('on');});
+ r.addEventListener('mouseleave',()=>{tip.classList.remove('on');cur=null;});
+ r.addEventListener('wheel',()=>{tip.classList.remove('on');tip.classList.add('busy');clearTimeout(hideT);
+   hideT=setTimeout(()=>{tip.classList.remove('busy');if(cur){text(cur);tip.classList.add('on');}},700);},{passive:true});
+ r.addEventListener('pointerdown',()=>tip.classList.remove('on'));
+});})();
+document.querySelectorAll('.viewsw button').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.viewsw button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+  document.body.classList.toggle('show-grid',b.dataset.v==='grid');}));
+
+// 下のタブの実際の高さを測り、「カートに入れる」の帯をその上に置く（iPhoneのホームバー対策）
+(function(){const tb=document.querySelector('.tabs-bottom'),bb=document.querySelector('.sticky-buy'),R=document.documentElement;
+function fit(){const show=tb&&getComputedStyle(tb).display!=='none';
+ R.style.setProperty('--tabh',(show?tb.getBoundingClientRect().height:0)+'px');
+ if(bb)R.style.setProperty('--buyh',bb.getBoundingClientRect().height+'px');}
+fit();window.addEventListener('load',fit);window.addEventListener('resize',fit);
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);})();
+</script><script>
+// 「カートに戻る」は sample-cart.html#wrap へ。カート側が直前の選択を元に戻して熨斗・包装を開く
+</script><script src="catico.js?v={{version}}"></script><script src="hscroll.js?v={{version}}"></script><script src="data.js?v={{version}}"></script><script src="feature-data.js?v={{version}}"></script><script src="product-data.js?v={{version}}"></script><script src="catalog.js?v={{version}}"></script><script src="campaign-data.js?v={{version}}"></script><script src="campaign-rules.js?v={{version}}"></script><script src="demo-cart.js?v={{version}}"></script><script src="support-ui.js?v={{version}}"></script><script src="header-scroll.js?v={{version}}"></script>{{> notes-script}}{{> share-script}}{{> services-script}}</body></html>

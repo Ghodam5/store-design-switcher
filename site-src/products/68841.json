@@ -1,0 +1,153 @@
+{
+  "active": true,
+  "product": {
+    "id": "68841",
+    "code": "fla206vdchoco",
+    "title": "FLAVOR バレンタイン特別ラッピング チョコレートシフォンケ…",
+    "price": 3600,
+    "image": "images/fla206vdchoco.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-ブラックサンタのチョコレートシフォンケーキ.html",
+    "description": "リッチな甘さの中の芳醇な香りとほんのりとした苦味が魅力 ”チョコレート好き” にはたまらない美味しさです。 ◆◆ギフト配送も承ります◆◆ ※ご注文時に配送先のご住所をお知らせください。(配達日・配送先の後日変更は手数料発生) ※北海道沖縄離島配送は追加送料が必要です。 内容:チョコレートシフォンケーキミドルサイズ 1個 サイズ:直径16cm 高さ16cm",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla206vdchoco",
+        "t": "FLAVOR バレンタイン特別ラッピング チョコレートシフォンケーキ",
+        "price": 3600
+      }
+    ],
+    "spec": {
+      "code": "fla206vdchoco",
+      "pid": "68841",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は追加送料加算",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "配送日（2/5注文締切です）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "賞味期限が短い商品の為「代金引換」発送不可商品です",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した（代金引換は自動キャンセル）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "「のし・包装」対象外商品。/ご注文確認後の配送先・配送日変更は手数料必要",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/fla206vdchoco.jpg",
+        "alt": "FLAVOR バレンタイン特別ラッピング チョコレートシフォンケ… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/68841/fla206vdchoco-01.jpg",
+        "alt": "FLAVOR バレンタイン特別ラッピング チョコレートシフォンケ… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/68841/flac-koshiki.jpg",
+        "alt": "FLAVOR バレンタイン特別ラッピング チョコレートシフォンケ… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/68841/flavor-img.jpg",
+        "alt": "FLAVOR バレンタイン特別ラッピング チョコレートシフォンケ… 商品写真4",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/68841/fla-hako202410.jpg",
+        "alt": "FLAVOR バレンタイン特別ラッピング チョコレートシフォンケ… 商品写真5",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla206vdchoco": {
+        "code": "2",
+        "quantity": 888
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

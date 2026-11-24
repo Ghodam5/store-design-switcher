@@ -1,0 +1,107 @@
+{
+  "active": true,
+  "product": {
+    "id": "55687",
+    "code": "water6set",
+    "title": "7年保存可能水2L×6本セット",
+    "price": 1980,
+    "image": "images/features/water6set.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/water6set.html",
+    "description": "大事な人のいざという時に役立てるようにとの優しさから生まれた防災セットです。 貰った方が実際に食べて非常食を身近に感じていただくことで、大事な人を守る備蓄色を手にするきっかけ作りに! 試食用に、災害時用の備蓄として。平常時、いざという災害時でも嬉しい贈り物です。 一人なら2日分、2人なら1日分のお水が確保できる2Lのお水6本のセットです。 最大7年間の長期保存可能なお水なので有事に備えておくのにもってこいのセットです。",
+    "size": "",
+    "material": "",
+    "contents": "7年保存水2L×6本",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※賞味期限は6年以上保証するものをお出ししております。 ※ご注文確認から商品の到着まで、通常1週間ほどお時間をいただきます。 ※注文が殺到する場合、商品到着までお時間がかかる場合がございます。お早めにご注文下さいますようお願い申し上げます。 ※降雪や台風などの天候の影響や交通事情により、ご指定いただいた日時にお届けできない場合がございます。予めご了承ください。",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "bousai"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "water6set",
+        "t": "7年保存可能水2L×6本セット",
+        "price": 1980
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/water6set.jpg",
+        "alt": "7年保存可能水2L×6本セット 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/55687/water6set01.jpg",
+        "alt": "7年保存可能水2L×6本セット 商品写真2",
+        "width": 700,
+        "height": 490
+      },
+      {
+        "src": "images/product-details/55687/water6set02.jpg",
+        "alt": "7年保存可能水2L×6本セット 商品写真3",
+        "width": 700,
+        "height": 670
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "bousai-6y"
+    ]
+  },
+  "feature": {
+    "id": "55687",
+    "name": "【日本製】7年保存可能水2L×6本セット //非常食・災害・緊急・防災・備蓄・お歳暮・お中元・引出物",
+    "title": "7年保存可能水2L×6本セット",
+    "url": "https://www.luna-luce.jp/item/water6set.html",
+    "groups": [
+      "preparedness"
+    ],
+    "image": "images/features/water6set.jpg",
+    "description": "大事な人のいざという時に役立てるようにとの優しさから生まれた防災セットです。 貰った方が実際に食べて非常食を身近に感じていただくことで、大事な人を守る備蓄色を手にするきっかけ作りに! 試食用に、災害時用の備蓄として。平常時、いざという災害時でも嬉しい贈り物です。 一人なら2日分、2人なら1日分のお水が確保できる2Lのお水6本のセットです。 最大7年間の長期保存可能なお水なので有事に備えておくのにもってこいのセットです。",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-08-20"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "water6set": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

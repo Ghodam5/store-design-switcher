@@ -1,0 +1,87 @@
+{
+  "active": true,
+  "product": {
+    "id": "66946",
+    "code": "1715",
+    "title": "【演出用品】ウッドゲストブック",
+    "price": 2904,
+    "image": "images/products/66946.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1715.html",
+    "description": "木製ならではのぬくもりが思い出深いふたりの門出を記録します。",
+    "size": "商品サイズ:148×170×22mm",
+    "material": "材質:木製",
+    "contents": "商品内容:ゲストカード40枚(40名様分)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "guest"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1715",
+        "t": "ウッドゲストブック 1715",
+        "price": 2904
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 2,
+      "max": 3,
+      "made": false,
+      "source": "db",
+      "label": "2～3日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/66946.jpg",
+        "alt": "【演出用品】ウッドゲストブック 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/66946/1715_1.jpg",
+        "alt": "【演出用品】ウッドゲストブック 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/66946/1715_2.jpg",
+        "alt": "【演出用品】ウッドゲストブック 商品写真3",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1715": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

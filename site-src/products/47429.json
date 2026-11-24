@@ -1,0 +1,166 @@
+{
+  "active": true,
+  "product": {
+    "id": "47429",
+    "code": "coaster-data50",
+    "title": "オリジナル名入れコースター 同一データ50枚セット【送料無料】",
+    "price": 12500,
+    "image": "images/products/47429.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/coaster-data50.html",
+    "description": "コルク製の名入れコースターに 「お名入れ」をしてお届けします。 飲食店様に大好評のコースター。 ”推し”のお名前を入れて、ミーティングイベントなどでのお友達への御挨拶にもオススメです。",
+    "size": "",
+    "material": "",
+    "contents": "同一データ:名入れコースター50枚(φ9.00×0.4cm)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※同一データを50枚印字するセットです、違う名前を50枚分印字することはできません。 ※英字最長20字まで。カタカナひらがな最長10文字まで可能ですが「黄金比率」でのご注文をおすすめします。(いずれも「、」「。」「空白」なども文字数に含みます。) ※漢字での名入れは推奨しておりません。 ※「焼入れ印字」での製作の為、「。(まる)」「``(濁点)」、 「文字の細かな部分(画数が多い文字)」は「文字つぶれ」が発生する場合がございます。 ※フォント(文字デザイン)のご指定はいただけません。 ※販売時期によりコルクコースターの品質(お色・外見・厚みなど)が異なる場合がございます。 ※当店が製作不可能と判断したご依頼は内容変更をお願いする場合がございます。 ※文字数の大幅な超過など、ページ内にご案内のない特別なご要望での製作は特注料金が別途発生致します。 あらかじめご了承ください。",
+    "category": "プチギフト",
+    "categories": [
+      "paper"
+    ],
+    "subs": [
+      "coaster"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb005coster50",
+        "t": "【名入れ】オリジナル名入れコースター 同一データ50枚セット【送料無料】",
+        "price": 12500
+      }
+    ],
+    "spec": {
+      "code": "coaster-data50",
+      "pid": "47429",
+      "fields": [
+        {
+          "k": "名入れ：お名前",
+          "part": "area",
+          "role": "n",
+          "label": "印字するお名前",
+          "req": true,
+          "form": "テキスト複数行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "01.スタンダード",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "03.ローズ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "06.ムーン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "07.ティアラ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "09.バタフライ",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/47429.jpg",
+        "alt": "オリジナル名入れコースター 同一データ50枚セット【送料無料】 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47429/coaster-data50.jpg",
+        "alt": "オリジナル名入れコースター 同一データ50枚セット【送料無料】 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47429/costerbasic01.jpg",
+        "alt": "オリジナル名入れコースター 同一データ50枚セット【送料無料】 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/47429/costerbasic02.jpg",
+        "alt": "オリジナル名入れコースター 同一データ50枚セット【送料無料】 商品写真4",
+        "width": 700,
+        "height": 508
+      },
+      {
+        "src": "images/product-details/47429/costerbasic03.jpg",
+        "alt": "オリジナル名入れコースター 同一データ50枚セット【送料無料】 商品写真5",
+        "width": 700,
+        "height": 819
+      },
+      {
+        "src": "images/product-details/47429/costerbasic04.jpg",
+        "alt": "オリジナル名入れコースター 同一データ50枚セット【送料無料】 商品写真6",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/47429/coaster10.jpg",
+        "alt": "オリジナル名入れコースター 同一データ50枚セット【送料無料】 商品写真7",
+        "width": 650,
+        "height": 280
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb005coster50": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

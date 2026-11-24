@@ -1,0 +1,37 @@
+{
+  "id": "recommended-features",
+  "active": true,
+  "kind": "features",
+  "theme": "sky",
+  "title": "おすすめ特集",
+  "text": "気になる特集から、贈り物を選びましょう。",
+  "href": "feature-list.html",
+  "cta": "おすすめ特集の一覧へ",
+  "tiles": [
+    {
+      "label": "ブライダルバッグ",
+      "href": "bridal-bag.html",
+      "image": "images/bridal-bag-intro.jpg"
+    },
+    {
+      "label": "防災・備蓄ギフト",
+      "href": "preparedness-gift.html",
+      "image": "images/feature-emergency.jpg"
+    },
+    {
+      "label": "にゃんこモチーフ",
+      "href": "neko.html",
+      "image": "images/feature-neko.jpg"
+    },
+    {
+      "label": "新着商品",
+      "href": "new-arrivals.html",
+      "image": "images/feature-new.jpg"
+    },
+    {
+      "label": "数量限定・特価商品",
+      "href": "sale.html",
+      "image": "images/feature-sale.jpg"
+    }
+  ]
+}

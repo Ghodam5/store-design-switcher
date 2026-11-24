@@ -1,0 +1,160 @@
+{
+  "active": true,
+  "product": {
+    "id": "58085",
+    "code": "pb296wandafulnya",
+    "title": "寄付付き ワンだふるニャ タオルギフト PB (クッキー or こんぺいとう )",
+    "price": 590,
+    "image": "images/features/pb296wandafulnya.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-mascotsweets.html",
+    "description": "ふわふわもふもふの肌触りはまるでわんにゃん♪ タオルマスコット×スイーツギフト タオル部分をくるんとたたんで収納するとマスコット大変身☆ 頭部にループがついているからかけて使っても◎ わんにゃんが全面プリントされたギフトボックスから ちょこんと見えるお顔にキュンキュンがとまらない・・・ 寄付つきのワンだフルなギフト。 売上金の一部がチャリティーとして寄付されるギフト。 無理のない範囲でチャリティー活動を始めてみませんか? 売上の一部を、全国の動物保護支援を行う「公益社団法人アニマル・ドネーション」様に寄付いたします。 内容:ハンドタオル×1枚(サイズ:約25×25cm)、選んだお菓子1種類 サイズ:ラッピングサイズ約22×11×11cm 賞味期限:いずれも出荷より こんぺいとう約6ヵ月、クッキー約3か月",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb296wandafulnya",
+        "t": "ワンだふるニャ 贈り物PB (中身お任せのお菓子付き)",
+        "price": 590
+      }
+    ],
+    "spec": {
+      "code": "pb296wandafulnya",
+      "pid": "58085",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "タオル×おかし",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "わんこ(犬)×クッキー",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "わんこ(犬)×こんぺいとう",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "にゃんこ(猫)×クッキー",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "にゃんこ(猫)×こんぺいとう",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "bulk-100",
+      "spec-change",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/pb296wandafulnya.jpg",
+        "alt": "寄付付き ワンだふるニャ タオルギフト PB (クッキー or こんぺいとう ) 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58085/pb296wandafulnya-01.jpg",
+        "alt": "寄付付き ワンだふるニャ タオルギフト PB (クッキー or こんぺいとう ) 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58085/pb296wandafulnya-02.jpg",
+        "alt": "寄付付き ワンだふるニャ タオルギフト PB (クッキー or こんぺいとう ) 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58085/pb296wandafulnya-03.jpg",
+        "alt": "寄付付き ワンだふるニャ タオルギフト PB (クッキー or こんぺいとう ) 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58085/pb296wandafulnya-04.jpg",
+        "alt": "寄付付き ワンだふるニャ タオルギフト PB (クッキー or こんぺいとう ) 商品写真5",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "58085",
+    "name": "【ギフト】寄付付き ワンだふるニャ タオルギフト PB (クッキー or こんぺいとう ) //マスコット・猫・犬・かわいい・タオル・ギフト・バレンタインのお返し・ホワイトデー・内祝・挨拶",
+    "title": "寄付付き ワンだふるニャ タオルギフト PB (クッキー or こんぺいとう )",
+    "url": "https://www.luna-luce.jp/item/pb-mascotsweets.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/pb296wandafulnya.jpg",
+    "description": "ふわふわもふもふの肌触りはまるでわんにゃん♪ タオルマスコット×スイーツギフト タオル部分をくるんとたたんで収納するとマスコット大変身☆ 頭部にループがついているからかけて使っても◎ わんにゃんが全面プリントされたギフトボックスから ちょこんと見えるお顔にキュンキュンがとまらない・・・ 寄付つきのワンだフルなギフト。 売上金の一部がチャリティーとして寄付されるギフト。 無理のない範囲でチャリティー活動を始めてみませんか? 売上の一部を、全国の動物保護支援を行う「公益社団法人アニマル・ドネーション」様に寄付いたします。 内容:ハンドタオル×1枚(サイズ:約25×25cm)、選んだお菓子1種類 サイズ:ラッピングサイズ約22×11×11cm 賞味期限:いずれも出荷より こんぺいとう約6ヵ月、クッキー約3か月",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-03-30"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb296wandafulnya": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "active": true,
+  "product": {
+    "id": "12419",
+    "code": "00000W1004",
+    "title": "ディズニー招待状セット \"シルエット\"",
+    "price": 3080,
+    "image": "images/products/12419.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/00000w1004.html",
+    "description": "高級感あふれるパール調の厚手の紙に、カラーパール印刷のミッキーマウスとミニーマウスのシルエットが輝きます。 エンボス加工の繊細な模様や、隠れミッキーなどディズニーファンならずとも思わず唸ってしまう可愛さ♪ お二人の結婚式にふさわしい「大人ディズニー」なデザインとなっています。 ミッキーマウスの形の窓からお好きな画像や文字をのぞかせる事が出来る、 個性や遊び心の出せる招待状です。 ディズニーの正規ライセンス商品です。",
+    "size": "",
+    "material": "",
+    "contents": "1キット10名様分入 ・招待状 表紙 154×220mm 10枚 (二つ折りガイド筋付き) ・招待状 中紙 148×210mm 10枚 (二つ折りガイド筋付き)(+1枚 予備用) ・封筒 120×176mm 10袋 ・返信用はがき 148×100mm 10枚 ・付箋(挙式参列のお願い)52×74mm 2枚 ・付箋(祝辞のお願い) 52×74mm 2枚 ・付箋(余興のお願い) 52×74mm 2枚 ・シール(ミッキーマウス)10枚 ・銀ゴムひも 10本 テンプレートダウンロードパスポート",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "ペーパーアイテムご購入の前に必ずお読みください。",
+    "category": "ペーパーアイテム",
+    "categories": [
+      "paper"
+    ],
+    "subs": [
+      "invite"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "00000W1004",
+        "t": "ディズニー招待状セット ”シルエット” ミッキーマウス ペーパーアイテム",
+        "price": 3080
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/12419.jpg",
+        "alt": "ディズニー招待状セット \"シルエット\" 商品写真1",
+        "width": 800,
+        "height": 589
+      },
+      {
+        "src": "images/product-details/12419/W1004-4.jpg",
+        "alt": "ディズニー招待状セット \"シルエット\" 商品写真2",
+        "width": 1200,
+        "height": 1105
+      },
+      {
+        "src": "images/product-details/12419/W1004-3.jpg",
+        "alt": "ディズニー招待状セット \"シルエット\" 商品写真3",
+        "width": 1200,
+        "height": 929
+      },
+      {
+        "src": "images/product-details/12419/W1004-21.jpg",
+        "alt": "ディズニー招待状セット \"シルエット\" 商品写真4",
+        "width": 1200,
+        "height": 779
+      },
+      {
+        "src": "images/product-details/12419/W1001-10043.jpg",
+        "alt": "ディズニー招待状セット \"シルエット\" 商品写真5",
+        "width": 1200,
+        "height": 875
+      },
+      {
+        "src": "images/product-details/12419/W1001-04-23.jpg",
+        "alt": "ディズニー招待状セット \"シルエット\" 商品写真6",
+        "width": 1200,
+        "height": 795
+      },
+      {
+        "src": "images/product-details/12419/57eb1c867ec759a17b10bce2bee6b31f.jpg",
+        "alt": "ディズニー招待状セット \"シルエット\" 商品写真7",
+        "width": 200,
+        "height": 70
+      },
+      {
+        "src": "images/product-details/12419/11.jpg",
+        "alt": "ディズニー招待状セット \"シルエット\" 商品写真8",
+        "width": 600,
+        "height": 498
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "paper-read"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "00000w1004": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

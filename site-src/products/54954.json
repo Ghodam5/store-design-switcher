@@ -1,0 +1,138 @@
+{
+  "active": true,
+  "product": {
+    "id": "54954",
+    "code": "pb-sikikarin",
+    "title": "四季折々(かりんとう)PB",
+    "price": 188,
+    "image": "images/pb-sikikarin.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-sikikarin.html",
+    "description": "国産素材にこだわった手作りのかりんとうをそれぞれの季節に合わせた選べるデザイン帯を巻き、小箱に入れました。 春・夏・秋・冬・富士の5パターンから選ぶことができ、お値段もとってもリーズナブルな和風プチギフトです♪",
+    "size": "サイズ:約5×5×5cm",
+    "material": "",
+    "contents": "かりんとう15g×1袋",
+    "expiry": "賞味期限:発送後約1か月",
+    "allergens": "",
+    "storage": "",
+    "notice": "※ご注文は1デザインにつき30個以上でお願い致します。 ※お届けまでに14日ほどお時間をいただく商品です。お急ぎの場合はお早めにご注文下さいますようお願い申し上げます。 ※ご注文の際は必ずデザインの指定をお願いいたします。 ※200個以上での大口注文の場合は一度お問合せください。問い合せなしでの大口注文は、在庫の状況によりお受けすることができない場合がございます。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "wafu"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-sikikarin",
+        "t": "四季折々(かりんとう)PB ※1種30個よりご注文受付",
+        "price": 188
+      }
+    ],
+    "spec": {
+      "code": "pb-sikikarin",
+      "pid": "54954",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン（1種30個～）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "春",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "夏",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "秋",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "冬",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "富士",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "複数デザインの29個まではキャンセルします",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 30,
+      "notes": []
+    },
+    "minq": 30,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb-sikikarin.jpg",
+        "alt": "四季折々(かりんとう)PB 商品写真1",
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-sikikarin": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

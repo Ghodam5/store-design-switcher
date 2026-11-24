@@ -1,0 +1,145 @@
+{
+  "active": true,
+  "product": {
+    "id": "5320",
+    "code": "000WB-M304",
+    "title": "ローズレース(ミラー)",
+    "price": 14750,
+    "image": "images/000wb-m304.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/5320.html",
+    "description": "人気なミラータイプのウェルカムボード。 繊細なデザインをサンドブラストで施されたミラーボードは、風合いも優しく、二人の幸せの入り口までゲストをご案内します。 レース状にデザインされたローズと蝶々がクラシカルなウエルカムボード。 ※飾りは付きません。 。 ▼お急ぎ対応商品です▼",
+    "size": "フレームサイズ約385×490mm",
+    "material": "ガラス等",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "000WB-M304",
+        "t": "ローズレース(ミラー)",
+        "price": 14750
+      }
+    ],
+    "spec": {
+      "code": "000WB-M304",
+      "pid": "5320",
+      "fields": [
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Tomomi"
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "フレーム",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ウッディホワイト（WB-M304W）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ウッディブラック（WB-M304B）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Naoki"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/000wb-m304.jpg",
+        "alt": "ローズレース(ミラー) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/5320/000WB-M304-2.jpg",
+        "alt": "ローズレース(ミラー) 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/5320/000WB-M304-3.jpg",
+        "alt": "ローズレース(ミラー) 商品写真3",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "000wb-m304": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

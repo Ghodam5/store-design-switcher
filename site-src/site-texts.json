@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "note": "ページに出る見出し・ボタンなどの文字。OMSのサイトビルダー「表示する文字」で直す。key は変えない（ページの部品が使う名前）。",
+  "texts": [
+    { "key": "item.description", "group": "商品ページ", "label": "商品の説明の見出し", "text": "商品の説明" },
+    { "key": "item.notes", "group": "商品ページ", "label": "注意事項の見出し", "text": "ご注文の前に" },
+    { "key": "item.leadTime", "group": "商品ページ", "label": "お届けまでの日数の見出し", "text": "ご注文からお届けまで" },
+    { "key": "item.source", "group": "商品ページ", "label": "本店の商品情報へのリンク", "text": "本店の商品情報を見る ↗" },
+    { "key": "item.recommend", "group": "商品ページ", "label": "おすすめ商品の見出し", "text": "こちらもおすすめ" },
+    { "key": "item.trial", "group": "商品ページ", "label": "名入れの商品の見出し", "text": "名入れができる商品" },
+    { "key": "item.trialAll", "group": "商品ページ", "label": "名入れの商品一覧へのリンク", "text": "名入れできる商品一覧へ" },
+    { "key": "item.cart", "group": "商品ページ", "label": "カートに入れるボタン", "text": "ダミーカートに入れる" }
+  ]
+}

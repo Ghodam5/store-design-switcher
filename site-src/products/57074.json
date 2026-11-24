@@ -1,0 +1,83 @@
+{
+  "active": true,
+  "product": {
+    "id": "57074",
+    "code": "gm398",
+    "title": "プレミアム堂島バーム GM398",
+    "price": 864,
+    "image": "images/gm398.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/gm398.html",
+    "description": "世界第三位に輝いた有田逸朗氏監修。 料理人のワールドカップ2006にて世界第三位の栄冠に輝き、世界が認めた有田逸朗氏監修のプレミアムスイーツ。",
+    "size": "サイズ:160×160×47mm",
+    "material": "",
+    "contents": "セット内容:プレミアム堂島バームクーヘン×1",
+    "expiry": "賞味期限:約30日",
+    "allergens": "アレルゲン:乳成分・小麦・卵",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [
+      "売れ筋"
+    ],
+    "skus": [
+      {
+        "code": "gm398",
+        "t": "プレミアム堂島バーム GM398",
+        "price": 864
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/gm398.jpg",
+        "alt": "プレミアム堂島バーム GM398 商品写真1",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/57074/gm398_1.jpg",
+        "alt": "プレミアム堂島バーム GM398 商品写真2",
+        "width": 500,
+        "height": 500
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "LUX・AUS"
+    ],
+    "speed": false,
+    "skus": {
+      "gm398": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

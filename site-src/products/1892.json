@@ -1,0 +1,202 @@
+{
+  "active": true,
+  "product": {
+    "id": "1892",
+    "code": "WB-V921_V926",
+    "title": "フラワーベース",
+    "price": 15488,
+    "image": "images/wb-v921_v926.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/wb-v921_v926.html",
+    "description": "披露宴ではウェルカムボードとしてウェディングを演出。使った後も素敵なお部屋の演出をしてくれます。シックなすりガラス。。",
+    "size": "・商品サイズ:約200×240×40mm ・名入れ高級桐箱入り:約224×270×78mm",
+    "material": "・スワロフスキー装飾(V922・926) ・クリスタルローズ装飾(V924) ・ガラス",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "WB-V921_V926",
+        "t": "フラワーベース",
+        "price": 15488
+      }
+    ],
+    "spec": {
+      "code": "WB-V921_V926",
+      "pid": "1892",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "クローバー（V922すりガラス）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "クリスタルローズ（V924すりガラス）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "サクラ（V926すりガラス）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "彫刻する英文",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "WD-65 [Precious Days]",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "WD-66 [Welcome]",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "WD-67 [Thank you]",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "WD-68 [感謝]",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎の誕生日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦の誕生日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/wb-v921_v926.jpg",
+        "alt": "フラワーベース 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/1892/WB-V921_V926-2.jpg",
+        "alt": "フラワーベース 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/1892/imgWB-V921_V926.jpg",
+        "alt": "フラワーベース 商品写真3",
+        "width": 700,
+        "height": 1960
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "wb-v921_v926": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

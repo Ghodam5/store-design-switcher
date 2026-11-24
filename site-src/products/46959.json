@@ -1,0 +1,227 @@
+{
+  "active": true,
+  "product": {
+    "id": "46959",
+    "code": "pb-252kairoretro",
+    "title": "あったかプチギフト 招福カイロ(10個~名入れ対応) 招き猫 だ…",
+    "price": 248,
+    "image": "images/features/pb-252kairoretro.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-kairo-retro.html",
+    "description": "2024年10月リニューアル! 心も体も温まるカイロのプチギフト! デザインは、だるま、招き猫からお選びいただけます♪ ※10個以上ご注文の際の方は備考欄にて印字内容をお知らせください。 ※名入れ印字に関しては同一データ10個以上でのみ承ります。 (共通パッケージ、共通名入れに限る) ※9個までのご注文での名入れ印字、個別製作での名入れ印字は特注となります。 ※9個までの共通印字:1~9個までは原稿作成料¥1000を追加料金",
+    "size": "",
+    "material": "",
+    "contents": "カイロ1個 パッケージサイズ 約12×7×1.5cm",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi",
+      "season"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb-252kairoretro",
+        "t": "招福カイロ(10個~名入れ対応)",
+        "price": 248
+      }
+    ],
+    "spec": {
+      "code": "pb-252kairoretro",
+      "pid": "46959",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "パッケージデザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "だるま(福)（pb252D",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "だるま(寿)（pb252D",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "だるま(必勝)（pb252D",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "だるま(合格)（pb252D",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "だるま(感謝)（pb252D",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "招き猫(千万両)（pb252N",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "招き猫(寿)（pb252N",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "招き猫(必勝)（pb252N",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "招き猫(合格)（pb252N",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "招き猫(感謝)（pb252N",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "印字するお名前（※10個以下名入れ不可）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "名入れに関しては1デザイン10個以上（※個別名入れ不可）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認しました",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 10,
+      "notes": []
+    },
+    "minq": 10,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "min-qty",
+      "no-cancel-after",
+      "bulk-100",
+      "spec-change",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/pb-252kairoretro.jpg",
+        "alt": "あったかプチギフト 招福カイロ(10個~名入れ対応) 招き猫 だ… 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/46959/pb-252kairoretro-1.jpg",
+        "alt": "あったかプチギフト 招福カイロ(10個~名入れ対応) 招き猫 だ… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/46959/pb-252kairoretro-2.jpg",
+        "alt": "あったかプチギフト 招福カイロ(10個~名入れ対応) 招き猫 だ… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/46959/pb-252kairoretro-3.jpg",
+        "alt": "あったかプチギフト 招福カイロ(10個~名入れ対応) 招き猫 だ… 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/46959/pb-252kairoretro-4.jpg",
+        "alt": "あったかプチギフト 招福カイロ(10個~名入れ対応) 招き猫 だ… 商品写真5",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "listing": {
+    "image": "images/pb-252kairoretro.jpg"
+  },
+  "feature": {
+    "id": "46959",
+    "name": "【かいろ】あったかプチギフト 招福カイロ(10個~名入れ対応) 招き猫 だるま 「合格祈願」「受験」「必勝」",
+    "title": "あったかプチギフト 招福カイロ(10個~名入れ対応) 招き猫 だるま 「合格祈願」「受験」「必勝」",
+    "url": "https://www.luna-luce.jp/item/pb-kairo-retro.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/pb-252kairoretro.jpg",
+    "description": "2024年10月リニューアル! 心も体も温まるカイロのプチギフト! デザインは、だるま、招き猫からお選びいただけます♪ ※10個以上ご注文の際の方は備考欄にて印字内容をお知らせください。 ※名入れ印字に関しては同一データ10個以上でのみ承ります。 (共通パッケージ、共通名入れに限る) ※9個までのご注文での名入れ印字、個別製作での名入れ印字は特注となります。 ※9個までの共通印字:1~9個までは原稿作成料¥1000を追加料金",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-04-03"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-252kairoretro": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

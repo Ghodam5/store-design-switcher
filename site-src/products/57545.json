@@ -1,0 +1,123 @@
+{
+  "active": true,
+  "product": {
+    "id": "57545",
+    "code": "pb-xmaspartybox5",
+    "title": "パーティBOX-PB 5個セット(金平糖)",
+    "price": 600,
+    "image": "images/pb-xmaspartybox5.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-xmaspartybox5.html",
+    "description": "クリスマス柄のボックスに金平糖を入れたプチギフト★ 古くから、子供から大人まで幅広い年代に愛されてきた星の形に似ている金平糖は、夜空にキラキラと輝く聖なる夜の贈り物にピッタリ♪ パッケージのカラーもホワイト・クラフトの2種類からお選びいただけます。",
+    "size": "商品サイズ:約5×5×5cm",
+    "material": "",
+    "contents": "金平糖10g入りプチギフト×5個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※こちらの商品は受注生産品のため、お届けまでに1週間ほどお時間をいただきます。予めご了承ください。 ※こんぺいとうの色・種類は写真と異なる場合があります。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy",
+      "set"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "PB002XMASPBOX5",
+        "t": "クリスマス パーティBOX-PB 5個セット(金平糖)",
+        "price": 600
+      }
+    ],
+    "spec": {
+      "code": "pb-xmaspartybox5",
+      "pid": "57545",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "カラー",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "クラフト",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb-xmaspartybox5.jpg",
+        "alt": "パーティBOX-PB 5個セット(金平糖) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/57545/pb-xmaspartybox5.jpg",
+        "alt": "パーティBOX-PB 5個セット(金平糖) 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/57545/pb-xmaspartybox5img.jpg",
+        "alt": "パーティBOX-PB 5個セット(金平糖) 商品写真3",
+        "width": 700,
+        "height": 540
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb002xmaspbox5": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

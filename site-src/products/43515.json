@@ -1,0 +1,83 @@
+{
+  "active": true,
+  "product": {
+    "id": "43515",
+    "code": "hf61801",
+    "title": "パステルローズドラジェ40本セット(バスケット付)",
+    "price": 11550,
+    "image": "images/hf61801.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf61801.html",
+    "description": "",
+    "size": "本体サイズ:φ30×30cm",
+    "material": "",
+    "contents": "ドラジェ1個入りフラワースティック×40本",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※この商品は納品日の14日前までにお申し込み下さい。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy",
+      "welcome",
+      "set"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf61801",
+        "t": "パステルローズドラジェ40本セット(バスケット付) 1457",
+        "price": 11550
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/hf61801.jpg",
+        "alt": "パステルローズドラジェ40本セット(バスケット付) 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/43515/HF61801-1.jpg",
+        "alt": "パステルローズドラジェ40本セット(バスケット付) 商品写真2",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf61801": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

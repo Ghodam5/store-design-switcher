@@ -1,0 +1,202 @@
+{
+  "active": true,
+  "product": {
+    "id": "64012",
+    "code": "fla507mpair",
+    "title": "本店ベストレート FLAVOR 選べるシフォンペアセット ミドル…",
+    "price": 4980,
+    "image": "images/fla507mpair.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/64012.html",
+    "description": "定番メープルミドル1個と、 4種のシフォンからおふたつめが選べるペアセットを 送料込みのお得なセットでご提供。 注目の新フレーバー、店舗限定販売「いちご」、 リピート率NO.1の「メープル」 初夏にたべたいさわやかな「レモン」 濃厚な甘さがクセになる「チョコ」 ※ラッピング・のし・包装・紙袋は有料対応となります。",
+    "size": "直径約16cm 高さ16cm ※箱サイズ約20×20×20cm",
+    "material": "",
+    "contents": "メープルシフォンケーキミドルサイズ 1個 4種のミドルシフォン(メープル、レモン、チョコ、いちご)よりお選びいただいた1個",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "chiffon"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla507mpair",
+        "t": "FLAVOR 選べるシフォンペアセット ミドル(箱入り) ※代金引換発送不可商品※",
+        "price": 4980
+      }
+    ],
+    "spec": {
+      "code": "fla507mpair",
+      "pid": "64012",
+      "fields": [
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "配送日指定にご協力ください※お急ぎ配送不可商品※",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "通常出荷※約7営業日後発送",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "配送日指定(10日後より有効",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道：沖縄は送料高騰の為注文不可（自動キャンセル）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "シフォン１個目(固定)+シフォン2個目",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "メープル＋レモン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "メープル＋チョコ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "メープル＋メープル",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "メープル＋いちご",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "ご注文後の配送先・配送日：味変更は手数料がかかります",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "のし・包装(ラッピング)・紙袋は有料対応となります。専用ページよりカートにお入れください。",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/fla507mpair.jpg",
+        "alt": "本店ベストレート FLAVOR 選べるシフォンペアセット ミドル… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/64012/fla507mpair-01.jpg",
+        "alt": "本店ベストレート FLAVOR 選べるシフォンペアセット ミドル… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/64012/fla507mpair-02.jpg",
+        "alt": "本店ベストレート FLAVOR 選べるシフォンペアセット ミドル… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/64012/fla507mpair-03.jpg",
+        "alt": "本店ベストレート FLAVOR 選べるシフォンペアセット ミドル… 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/64012/flavor-img.jpg",
+        "alt": "本店ベストレート FLAVOR 選べるシフォンペアセット ミドル… 商品写真5",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/64012/fla-hako202410.jpg",
+        "alt": "本店ベストレート FLAVOR 選べるシフォンペアセット ミドル… 商品写真6",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla507mpair": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

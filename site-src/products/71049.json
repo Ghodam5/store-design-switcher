@@ -1,0 +1,159 @@
+{
+  "active": true,
+  "product": {
+    "id": "71049",
+    "code": "fla121middle2025",
+    "title": "FLAVOR クリスマスギフトセット メープルシフォンケーキ ミ…",
+    "price": 3400,
+    "image": "images/fla121middle2025.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-サンタflavor-サンタのシフォン-メープル-シフォンケ.html",
+    "description": "フレイバーの定番メープルシフォンケーキを クリスマスギフトセット限定「サンタ袋ラッピング」でお届けします。 なにがでてくるのかな?ワクワクと一緒にあまーいシフォンのプレゼントはいかが? ◆◆ギフト配送も承ります◆◆ ※ご注文時に配送先のご住所をお知らせください。(配達日・配送先の後日変更は手数料発生) ※北海道沖縄離島配送は追加送料が必要です。",
+    "size": "",
+    "material": "",
+    "contents": "メープルシフォンケーキ1個 パウダーシュガー1袋 直径16cm 高さ16cm",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla121middle2025",
+        "t": "FLAVOR クリスマスギフトセット メープルシフォンケーキ ミドルサイズ(箱入り)",
+        "price": 3400
+      }
+    ],
+    "spec": {
+      "code": "fla121middle2025",
+      "pid": "71049",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は別途送料加算※同意がない場合キャンセルします",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "12月2週までご注文受付 配送日時指定",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "賞味期限が短い商品の為「代金引換」発送不可商品です。代金引換でご注文はキャンセルします",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "了解した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "「のし・包装」対象外商品。/ご注文確認後の配送先・配送日変更は手数料必要",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/fla121middle2025.jpg",
+        "alt": "FLAVOR クリスマスギフトセット メープルシフォンケーキ ミ… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/71049/fla121middle2025-01.jpg",
+        "alt": "FLAVOR クリスマスギフトセット メープルシフォンケーキ ミ… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71049/fla121middle2025-02.jpg",
+        "alt": "FLAVOR クリスマスギフトセット メープルシフォンケーキ ミ… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71049/flam-koshiki.jpg",
+        "alt": "FLAVOR クリスマスギフトセット メープルシフォンケーキ ミ… 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71049/flavor-img.jpg",
+        "alt": "FLAVOR クリスマスギフトセット メープルシフォンケーキ ミ… 商品写真5",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/71049/fla-hako202410.jpg",
+        "alt": "FLAVOR クリスマスギフトセット メープルシフォンケーキ ミ… 商品写真6",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla121middle2025": {
+        "code": "0",
+        "quantity": 0
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

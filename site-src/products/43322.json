@@ -1,0 +1,135 @@
+{
+  "active": true,
+  "product": {
+    "id": "43322",
+    "code": "hf60301",
+    "title": "プリモモ 50個セット",
+    "price": 15400,
+    "image": "images/hf60301.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf60301.html",
+    "description": "",
+    "size": "本体サイズ:50×43×27cm(台座13cm)",
+    "material": "",
+    "contents": "ドラジェ3個×50個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "※カード付き:挙式日、お名前が英字で入ります。但し、記号(-、^)を入れる事はできません。 ※この商品は納品日の14日前までにお申し込み下さい。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "candy",
+      "set"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "hf60301",
+        "t": "プリモモ 50個セット",
+        "price": 15400
+      }
+    ],
+    "spec": {
+      "code": "hf60301",
+      "pid": "43322",
+      "fields": [
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/hf60301.jpg",
+        "alt": "プリモモ 50個セット 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/43322/HF60301-1.jpg",
+        "alt": "プリモモ 50個セット 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/43322/HF60301-2.jpg",
+        "alt": "プリモモ 50個セット 商品写真3",
+        "width": 650,
+        "height": 650
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "card-english"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf60301": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

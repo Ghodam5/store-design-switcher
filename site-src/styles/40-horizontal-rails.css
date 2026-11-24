@@ -1,0 +1,98 @@
+/* ===== Netflixのような横スワイプの段 ===== */
+.rowsec{padding:26px 0 4px}
+.row-h{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.row-h h2{font-size:17px;font-weight:900;display:flex;align-items:center;gap:8px;line-height:1.35}
+.row-h h2::before{content:"";width:5px;height:20px;border-radius:3px;background:var(--teal);flex-shrink:0}
+.row-h h2 small{font-size:11.5px;font-weight:400;color:var(--sub)}
+.row-h .all{font-size:12.5px;font-weight:700;color:var(--teal-d);white-space:nowrap;display:flex;align-items:center;gap:6px}
+.row-h .arrows{display:none}
+.rail{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0 -14px;padding:2px 14px 8px;scroll-padding:0 14px}
+.rail::-webkit-scrollbar{display:none}
+.rail .prod{flex:0 0 40%;scroll-snap-align:start}
+.rail .more-card{flex:0 0 40%;scroll-snap-align:start;border-radius:14px;background:var(--teal-l);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;font-weight:900;color:var(--teal-d);font-size:14px;text-align:center;padding:10px}
+.rail .more-card i{width:44px;height:44px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:20px}
+/* 売れ筋：大きな順位の数字（Netflixのトップ10風） */
+.rail.top10 .prod{flex:0 0 52%;padding-left:30px;background:none;overflow:visible}
+.rail.top10 .prod .ph{border-radius:14px;overflow:hidden}
+.rail.top10 .prod .b{background:#fff;border-radius:0 0 14px 14px}
+.rail.top10 .num{position:absolute;left:-6px;top:38%;font-size:84px;font-weight:900;line-height:1;color:#fff;-webkit-text-stroke:3px var(--teal);z-index:3;font-family:var(--sans)}
+.rail.top10 .prod:hover{transform:none;box-shadow:none}
+/* カテゴリページの表示切替 */
+.viewsw{display:flex;background:#fff;border-radius:999px;padding:4px;border:2px solid var(--line);margin:12px 0 4px}
+.viewsw button{flex:1;border:0;background:none;border-radius:999px;padding:7px 0;font-weight:700;font-size:13px;color:var(--sub);cursor:pointer}
+.viewsw button.on{background:var(--teal);color:#fff}
+.view-grid{display:none}
+body.show-grid .view-rows{display:none}
+body.show-grid .view-grid{display:block}
+@media (min-width:1024px){
+  .rowsec{padding:34px 0 6px}
+  .row-h h2{font-size:20px}
+  .row-h .arrows{display:flex;gap:6px}
+  .row-h .arrows button{width:34px;height:34px;border-radius:50%;border:2px solid var(--line);background:#fff;cursor:pointer;font-weight:900;color:var(--teal-d)}
+  .row-h .arrows button:hover{border-color:var(--teal)}
+  .rail{margin:0;padding:2px 0 8px;scroll-padding:0}
+  .rail .prod,.rail .more-card{flex:0 0 calc((100% - 40px)/5)}
+  .rail.top10 .prod{flex:0 0 calc((100% - 30px)/4)}
+  .viewsw{max-width:360px}
+}
+
+/* ===== PCで横の段を動かす（ホイール・ドラッグ・左右の矢印） ===== */
+.rail-wrap{position:relative}
+.rail-nav{display:none}
+@media (min-width:1024px){
+  .row-h .arrows{display:none}
+  .rail-nav{display:flex;position:absolute;top:calc(50% - 44px);width:46px;height:46px;border-radius:50%;background:#fff;border:0;box-shadow:0 6px 18px rgba(38,48,58,.2);font-size:28px;font-weight:900;line-height:1;color:var(--teal-d);align-items:center;justify-content:center;cursor:pointer;z-index:6;transition:opacity .2s,transform .2s}
+  .rail-nav:hover{transform:scale(1.08);color:#fff;background:var(--teal)}
+  .rail-nav.prev{left:-16px}
+  .rail-nav.next{right:-16px}
+  .rail-wrap.at-start .rail-nav.prev,.rail-wrap.at-end .rail-nav.next{opacity:0;pointer-events:none}
+  .rail-wrap::after{content:"";position:absolute;top:0;bottom:8px;right:0;width:56px;background:linear-gradient(90deg,rgba(246,248,249,0),var(--bg));pointer-events:none;z-index:4;transition:opacity .2s}
+  .rail-wrap.at-end::after{opacity:0}
+  .rail{cursor:grab;user-select:none;-webkit-user-select:none;scroll-snap-type:none}
+  .rail .prod,.rail .more-card{scroll-snap-align:none}
+  .rail.dragging,.rail.wheeling{scroll-snap-type:none;cursor:grabbing}
+  .rail.dragging .prod{pointer-events:none}
+}
+
+/* ===== マウスの横に出す「ホイールで横にスクロール」の案内 ===== */
+.hhint{position:fixed;left:0;top:0;z-index:200;pointer-events:none;display:flex;align-items:center;gap:8px;background:var(--ink);color:#fff;border-radius:10px;padding:7px 12px 7px 9px;box-shadow:0 6px 18px rgba(38,48,58,.25);opacity:0;transition:opacity .15s;white-space:nowrap}
+.hhint.on{opacity:.95}
+.hhint svg{width:20px;height:20px;stroke:#fff;fill:none;stroke-width:1.7;stroke-linecap:round;flex-shrink:0}
+.hhint svg path{stroke:var(--yellow);stroke-width:2.2;animation:hhwheel 1.2s ease-in-out infinite}
+.hhint b{display:block;font-size:12.5px;font-weight:700;line-height:1.3}
+.hhint small{display:block;font-size:10.5px;color:#cfd7dc;line-height:1.3}
+@keyframes hhwheel{0%{transform:translateY(0)}50%{transform:translateY(3px)}100%{transform:translateY(0)}}
+@media (prefers-reduced-motion:reduce){.hhint svg path{animation:none}}
+
+/* カテゴリ欄：はみ出さない5列×2段＋アイコン（2026-11-15 コメント対応） */
+.cats{display:grid;grid-template-columns:repeat(5,1fr);gap:2px 4px;height:auto;overflow:visible;padding:6px 10px 8px;transition:max-height .25s,padding .25s;max-height:320px}
+.cats a{display:flex;flex-direction:column;align-items:center;gap:2px;padding:5px 2px;border-radius:12px;white-space:normal;text-align:center;font-size:10.5px;line-height:1.25;font-weight:700;color:var(--ink)}
+.cats a svg{width:24px;height:24px;fill:none;stroke:var(--teal-d);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+.cats a span{white-space:nowrap}
+.cats a .lf{display:none}
+header.hd.min .cats{max-height:0;padding-top:0;padding-bottom:0;overflow:hidden;border-top-color:transparent}
+@media (min-width:1024px){
+ .cats{display:flex;flex-wrap:wrap;justify-content:center;gap:2px 6px;padding:6px 24px;max-height:none}
+ .cats a{flex-direction:row;gap:6px;padding:6px 12px;font-size:13px;font-weight:500;border-radius:999px}
+ .cats a svg{width:18px;height:18px}
+ .cats a .lf{display:inline}
+ .cats a .ls{display:none}
+ header.hd.min .cats{max-height:none;padding:6px 24px}
+}
+
+/* PCのダークモードで入力欄が黒くなる対策：このサイトは明るい配色だけ（2026-11-15 コメント対応） */
+:root{color-scheme:light only}
+input,select,textarea{background-color:#fff;color:var(--ink,#26303a)}
+input::placeholder,textarea::placeholder{color:#9aa4ad}
+.qty input,.sbox input{background-color:#fff;color:var(--ink,#26303a)}
+
+/* チェック欄を自前で描く：PCやダークモードで中が黒くならないように（2026-11-16 コメント対応） */
+input[type=checkbox]{-webkit-appearance:none;appearance:none;width:22px;height:22px;flex:0 0 22px;margin:0;border:2px solid var(--teal,#2fa9a3);border-radius:6px;background:#fff;display:inline-grid;place-content:center;cursor:pointer;transition:none}
+input[type=checkbox]::before{content:"";width:6px;height:11px;border:solid #fff;border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px) scale(0);transition:transform .15s ease}
+input[type=checkbox]:checked{background:var(--teal,#2fa9a3)}
+input[type=checkbox]:checked::before{transform:rotate(45deg) translate(-1px,-1px) scale(1)}
+input[type=checkbox]:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(47,169,163,.3)}
+/* メイン写真（FLAVORの箱とケーキ）2026-11-16：スマホでは箱とケーキが入る位置に */
+.main-bn .ph img{object-position:68% center}
+@media (min-width:1024px){.main-bn .ph img{object-position:center}}
+

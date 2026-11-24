@@ -1,0 +1,186 @@
+{
+  "active": true,
+  "product": {
+    "id": "72169",
+    "code": "cp0024_0028",
+    "title": "OCEAN&TERRE GOURMET UMAI COURSE",
+    "price": 6600,
+    "image": "images/products/72169.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/cp0024_0028.html",
+    "description": "こだわりの食を産地直送でお届けする「OCEAN&TERRE GOURMET(オーシャンテールグルメ)」。 産地直送だからこそ、安心感や信頼を感じられ、生産者の「思い」と「美味い」がより伝わるカタログギフト。",
+    "size": "《カタログタイプ》 カタログ:258 × 210 × 60mm パッケージ:290 × 215 × 22mm 《カードタイプ》 カード:50 × 90mm パッケージ:175 × 138 × 22mm",
+    "material": "",
+    "contents": "《カタログタイプ》カタログ×1、ハガキ×1、保護シール×1 、 《カードタイプ》カード×1",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※システム料には宅配料金・郵送料金等の諸費用が含まれております。 ※掲載点数・掲載内容・ページ数は予告なく変更になる場合がございます。 ※不良品以外の返品は不可とさせていただきます。 ※納品目安7日~",
+    "category": "カタログギフト",
+    "categories": [
+      "catalog"
+    ],
+    "subs": [
+      "ocean"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "cp0024_0028",
+        "t": "OCEAN&TERRE GOURMET UMAI COURSE",
+        "price": 6600
+      }
+    ],
+    "spec": {
+      "code": "cp0024_0028",
+      "pid": "72169",
+      "fields": [
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの下のお書入れ内容（例：大輔 花子）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：大輔　花子"
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの上のお書入れ内容（例：寿、内祝）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：寿、内祝"
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの掛け方（のし掛け選択の方のみ）",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "包装",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のし",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "カタログタイプ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "カタログタイプ（CP0024）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "カードタイプ（CP0028）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/72169.jpg",
+        "alt": "OCEAN&TERRE GOURMET UMAI COURSE 商品写真1",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72169/cp0024_0028_1.jpg",
+        "alt": "OCEAN&TERRE GOURMET UMAI COURSE 商品写真2",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72169/cp0024_0028_2.jpg",
+        "alt": "OCEAN&TERRE GOURMET UMAI COURSE 商品写真3",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72169/cp0024_0028_3.jpg",
+        "alt": "OCEAN&TERRE GOURMET UMAI COURSE 商品写真4",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72169/cp0024_0028_img.jpg",
+        "alt": "OCEAN&TERRE GOURMET UMAI COURSE 商品写真5",
+        "width": 700,
+        "height": 1000
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "spec-change",
+      "season-delay",
+      "catalog-fee"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "cp0024_0028": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

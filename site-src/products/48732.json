@@ -1,0 +1,148 @@
+{
+  "active": true,
+  "product": {
+    "id": "48732",
+    "code": "pb-santacube",
+    "title": "トゥインクルスター サンタキューブ(金平糖&苺チョコ)",
+    "price": 275,
+    "image": "images/pb-santacube.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-santacube.html",
+    "description": "金平糖10gとドライ苺チョコを1個が入った、2種類のお菓子が楽しめるセット。 名入れ対応可能な星型オーナメント付きなので、企業でのイベントや子供会などのクリスマス行事にお使いいただけます。 もちろん、クリスマスシーズンの挙式にもお使いください♥",
+    "size": "",
+    "material": "",
+    "contents": "ドライ苺チョコ1個、金平糖10g",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※お届けまでに1週間ほどお時間をいただく商品となりますので、お早めにご注文ください。 ※名入れ商品となりますので、ご注文の際に備考欄で印字希望するお名前をご記入ください。 ※タグを名入れなしで制作することも可能です。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi",
+      "season"
+    ],
+    "subs": [
+      "candy",
+      "choco"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb-santacube",
+        "t": "トゥインクルスター サンタキューブ(金平糖&苺チョコ)",
+        "price": 275
+      }
+    ],
+    "spec": {
+      "code": "pb-santacube",
+      "pid": "48732",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン※各柄5個よりご注文受付",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "01.ゴールドスター",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "02.ブラックスター",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "03.スタースカイ",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "印字するお名前",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": 5,
+      "notes": []
+    },
+    "minq": 5,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb-santacube.jpg",
+        "alt": "トゥインクルスター サンタキューブ(金平糖&苺チョコ) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/48732/pb-santacube.jpg",
+        "alt": "トゥインクルスター サンタキューブ(金平糖&苺チョコ) 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/48732/pb-santacube01.jpg",
+        "alt": "トゥインクルスター サンタキューブ(金平糖&苺チョコ) 商品写真3",
+        "width": 700,
+        "height": 900
+      },
+      {
+        "src": "images/product-details/48732/pb-santacube02.jpg",
+        "alt": "トゥインクルスター サンタキューブ(金平糖&苺チョコ) 商品写真4",
+        "width": 700,
+        "height": 400
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-santacube": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

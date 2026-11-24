@@ -1,0 +1,103 @@
+{
+  "active": true,
+  "product": {
+    "id": "38246",
+    "code": "010ds-2410",
+    "title": "ディズニー ミッキー&ミニー ラブラブタイム ウォッシュタオル2P10個セット",
+    "price": 7678,
+    "image": "images/features/010ds-2410.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/010ds-2410.html",
+    "description": "ミッキーマウスのギフトなら誰もが最高の笑顔に 世界中のみんなに愛され続けている永遠の人気者「ミッキーマウス」。 色あいがすてきなタオルセット。ミッキーマウスファンにはたまらないギフトアイテムです",
+    "size": "箱21.0×30.0×4.0cm",
+    "material": "綿100%",
+    "contents": "ウォッシュタオル(約34×36cm)×2 10個セット",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "goods",
+      "disney",
+      "set"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "010ds-2410",
+        "t": "ミッキー&ミニー ラブラブタイム ウォッシュタオル2P10個セット",
+        "price": 7678
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/010ds-2410.jpg",
+        "alt": "ディズニー ミッキー&ミニー ラブラブタイム ウォッシュタオル2P10個セット 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/38246/love2time-01.jpg",
+        "alt": "ディズニー ミッキー&ミニー ラブラブタイム ウォッシュタオル2P10個セット 商品写真2",
+        "width": 650,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/38246/love2time-02.jpg",
+        "alt": "ディズニー ミッキー&ミニー ラブラブタイム ウォッシュタオル2P10個セット 商品写真3",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "feature": {
+    "id": "38246",
+    "name": "【数量限定】Disney ディズニー ミッキー&ミニー ラブラブタイム ウォッシュタオル2P10個セット DS-2410【Disney 結婚式 内祝 挨拶 お返し】",
+    "title": "ディズニー ミッキー&ミニー ラブラブタイム ウォッシュタオル2P10個セット",
+    "url": "https://www.luna-luce.jp/item/010ds-2410.html",
+    "groups": [
+      "sale"
+    ],
+    "image": "images/features/010ds-2410.jpg",
+    "description": "ミッキーマウスのギフトなら誰もが最高の笑顔に 世界中のみんなに愛され続けている永遠の人気者「ミッキーマウス」。 色あいがすてきなタオルセット。ミッキーマウスファンにはたまらないギフトアイテムです",
+    "size": "箱21.0×30.0×4.0cm",
+    "material": "綿100%",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2025-07-10"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "010ds-2410": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

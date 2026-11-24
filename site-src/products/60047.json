@@ -1,0 +1,296 @@
+{
+  "active": true,
+  "product": {
+    "id": "60047",
+    "code": "pb221kmamoriex",
+    "title": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就",
+    "price": 380,
+    "image": "images/features/60047.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/大願成就-ka★mi守り-単品-名入れ可能-オリジナルお守.html",
+    "description": "がんばる人をオリジナルお守りで応援! 「四字熟語+自由文20字」でオリジナルお守りを作成。 アレンジ次第で、結婚式、敬老の日、販促品としてもお使いいただけます。 ※ご注文の際は、印字を希望する「四字熟語」「自由文(おなまえなど)20字迄」をお知らせください。",
+    "size": "サイズ:赤系:約8.5×5.2×2.5cm 青系:約8.5×6×2.5cm ※いずれも飾り紐は計測にふくみません。",
+    "material": "",
+    "contents": "内容:お菓子入りオリジナルおまもり(紙製)× ※お菓子は下記よりいずれかをお選びください。 ・勝利こんぺいとう1袋 出荷より約180日 ・紅白京飴2個 出荷より約180日 ・まるっとドーナッツ1個 出荷より約15日",
+    "expiry": "賞味期限:三か月",
+    "allergens": "",
+    "storage": "",
+    "notice": "備考: ※ご注文の際は、印字を希望する「四字熟語」「自由文(おなまえなど)20字迄」をお知らせください。 ※受注製造の為、お届けまでに約14日ほどお時間をいただく商品となります。お早めにご注文ください。 ※ご注文後の減数、キャンセルはお受け出来ません。 ※ご注文後の増数は、納期を延長させていただく場合がございます。 ※お届けまでに1週間ほどお時間をいただく商品です。お急ぎの場合はお早めにご注文下さいますようお願い申し上げます。 ※100個以上での大口注文の場合は一度お問合せください。問い合せなしでの大口注文は、在庫の状況によりお受けすることができない場合がございます",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "other"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb221kmamoriex",
+        "t": "大願成就 KA★MI守り 単品 ※お名入れは10個から注文受付",
+        "price": 380
+      }
+    ],
+    "spec": {
+      "code": "pb221kmamoriex",
+      "pid": "60047",
+      "fields": [
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "四字熟語",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": 4,
+          "ph": "",
+          "opts": [
+            {
+              "t": "合格祈願",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "学業成就",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "優勝祈願",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "絶対全国",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "大願成就",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "幸運招来",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "大安吉日",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "一音入魂",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "一意奮闘",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "正射必中",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "その他備考欄へ記入※4文字まで※特注料金発生",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "お守りお色×お菓子選択",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "赤系×勝利こんぺいとう",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "赤系×まるっとドーナッツ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "赤系×紅白京飴",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "青系×勝利こんぺいとう",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "青系×まるっとドーナッツ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "青系×紅白京飴",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "※賞味期限をご確認の上ご注文願います",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "お名入れは10個からご注文可能です。9個までのご注文は｢四字熟語のみの印字｣でお届け",
+          "req": true,
+          "form": "チェックボックス",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "※確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "「お名入れ」は漢字・ひらがな・カタカナ、数字は漢数字推奨。※英字＆数字が混じる場合は印字向きが変わります",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 10,
+      "notes": []
+    },
+    "minq": 10,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "bulk-100",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/60047.jpg",
+        "alt": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60047/pb221-01.jpg",
+        "alt": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60047/pb221-02.jpg",
+        "alt": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60047/pb221-03.jpg",
+        "alt": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60047/pb221-04.jpg",
+        "alt": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就 商品写真5",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60047/pb-kamimamoriex-05.jpg",
+        "alt": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就 商品写真6",
+        "width": 700,
+        "height": 703
+      },
+      {
+        "src": "images/product-details/60047/pb-kamimamoriex-01.jpg",
+        "alt": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就 商品写真7",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60047/senjyaseal-kyotu.jpg",
+        "alt": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就 商品写真8",
+        "width": 702,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "60047",
+    "name": "大願成就 KA★MI守り 単品 ※お名入れは10個から注文受付 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 合格祈願 学業成就",
+    "title": "大願成就 KA MI守り 単品 オリジナルお守り作成 ドーナッツ おまもり 御守 絵馬 学業成就",
+    "url": "https://www.luna-luce.jp/item/大願成就-ka★mi守り-単品-名入れ可能-オリジナルお守.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/60047.jpg",
+    "description": "がんばる人をオリジナルお守りで応援! 「四字熟語+自由文20字」でオリジナルお守りを作成。 アレンジ次第で、結婚式、敬老の日、販促品としてもお使いいただけます。 ※ご注文の際は、印字を希望する「四字熟語」「自由文(おなまえなど)20字迄」をお知らせください。",
+    "size": "サイズ:赤系:約8.5×5.2×2.5cm 青系:約8.5×6×2.5cm ※いずれも飾り紐は計測にふくみません。",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-06-17"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb221kmamoriex": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

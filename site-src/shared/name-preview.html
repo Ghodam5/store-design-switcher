@@ -1,0 +1,38 @@
+<section class="sec name-preview" id="namer" data-name-preview aria-labelledby="name-preview-title">
+ <div class="sh"><h2 id="name-preview-title">名入れプレビュー（お試し）</h2></div>
+ <p class="preview-notice"><strong>お試し用</strong> 入力しても注文にはならず、カートへの反映・保存はされません。</p>
+ <div class="preview-switch" role="group" aria-label="試す見本の種類">
+  <button type="button" data-preview-type="seal" aria-pressed="true">ミニシール</button>
+  <button type="button" data-preview-type="place" aria-pressed="false">席札</button>
+  <button type="button" data-preview-type="seating" aria-pressed="false">席次表</button>
+ </div>
+ <div class="namer">
+  <div class="pv preview-stage">
+   <h3 data-preview-heading>ミニシールの見本</h3>
+   <div class="preview-art preview-seal" data-preview-panel="seal" aria-label="選んだミニシールの図柄と入力内容"><img class="seal-design-image" data-seal-image src="images/opt-seal-z01.jpg" alt="ティアラ-Pの見本"><p class="seal-fixed-note">画像内のお名前は元画像の印字例です。</p><div class="seal-input-proof"><p class="preview-message" data-preview-value="message">Thank you</p><p class="preview-names" data-preview-value="names">Taro &amp; Hanako</p><p class="preview-date" data-preview-value="date">2027.04.18</p></div><small>上の図柄と、今回入力した内容の確認用です。印字位置・書体は確定していません。</small></div>
+   <div class="preview-art preview-place" data-preview-panel="place" aria-label="席札の見本" hidden>
+    <span class="preview-kicker">WELCOME</span><p class="preview-guest"><span data-preview-value="guest">山田 花子</span><small>様</small></p><p class="preview-date" data-preview-value="date">2027.04.18</p><p class="preview-hosts" data-preview-value="names">Taro &amp; Hanako</p>
+   </div>
+   <div class="preview-art preview-seating" data-preview-panel="seating" aria-label="架空の席次表の見本" hidden>
+    <span class="preview-kicker">SEATING PLAN</span><p class="preview-names" data-preview-value="names">Taro &amp; Hanako</p><p class="preview-date" data-preview-value="date">2027.04.18</p>
+    <div class="preview-head-table">新郎・新婦</div>
+    <div class="preview-tables"><div><b>Table A</b><ul><li><span data-preview-value="guest">山田 花子</span> 様</li><li>佐藤 太郎 様</li><li>鈴木 美咲 様</li></ul></div><div><b>Table B</b><ul><li>田中 健太 様</li><li>高橋 さくら 様</li><li>伊藤 翔 様</li></ul></div></div>
+    <p class="preview-fiction">お名前・席の配置は架空の見本です</p>
+   </div>
+   <p class="preview-caption">デザインのイメージを試す見本です。<br>実際の商品・印刷用データとは異なります。</p>
+  </div>
+  <div class="form">
+   <h3>見本を選んで、<br>名入れを試してみませんか。</h3>
+   <p class="lead" data-preview-description>メッセージとお名前を、小さなシールの見本に入れてみましょう。</p>
+   <fieldset class="preview-backgrounds" data-preview-background-field><legend>カートで選べるミニシール</legend><label for="preview-seal-choice" class="sr-only">ミニシールの図柄</label><select id="preview-seal-choice" data-seal-choice></select><p class="note">カートと同じ図柄名です。ここで選んでも注文・カートには反映されません。</p><details class="seal-source-sheets"><summary>大きい原本の図柄一覧を見る</summary><p>バックアップの原本画像です。文字や図柄を作り直していません。個別見本の元画質には限りがあります。</p><img src="images/seal-originals/op-seal01.jpg" alt="ミニシール図柄一覧 1" loading="lazy"><img src="images/seal-originals/op-seal02.jpg" alt="ミニシール図柄一覧 2" loading="lazy"><img src="images/seal-originals/op-seal03.jpg" alt="ミニシール図柄一覧 3" loading="lazy"><img src="images/seal-originals/op-seal04.jpg" alt="ミニシール図柄一覧 4" loading="lazy"><img src="images/seal-originals/op-seal05.jpg" alt="ミニシール図柄一覧 5" loading="lazy"></details></fieldset>
+   <div class="field" data-preview-message-field><label for="preview-message">メッセージ</label><select id="preview-message" data-preview-input="message"><option>Thank you</option><option>Happy Wedding</option><option>With Love</option><option>ありがとう</option></select></div>
+   <div class="field"><label for="preview-names">新郎新婦のお名前・贈り主名</label><input id="preview-names" data-preview-input="names" value="Taro &amp; Hanako" maxlength="40" autocomplete="off" spellcheck="false"></div>
+   <div class="field" data-preview-guest-field hidden><label for="preview-guest">ゲストのお名前（敬称なし）</label><input id="preview-guest" data-preview-input="guest" value="山田 花子" maxlength="30" autocomplete="off"><small>「様」は見本に自動で付けます。</small></div>
+   <div class="field"><label for="preview-date">日付</label><input id="preview-date" data-preview-input="date" type="date" value="2027-04-18"></div>
+   <p class="preview-status" role="status" aria-live="polite" data-preview-status>選択中：ミニシール</p>
+   <a class="btn co preview-search" href="category.html?g=all&amp;n=1">名入れできる商品をさがす</a>
+   <ol class="trysteps"><li>気に入った商品を選んでカートへ</li><li>カートで「名入れ・ご指定を入力する」にチェック</li><li>その商品の名入れ欄に入力して注文</li></ol>
+   <p class="note">ここでの入力はお試し専用です。実際の名入れは、商品を選んだあとカートで入力してください。</p>
+  </div>
+ </div>
+<div class="paper-preview-info"><h3>席札・席次表について</h3><p>本店バックアップには、手作り用ペーパー商品をテンプレートで編集・印刷する方式の記載がありました。このページでは無地の配置見本をお試しいただけます。商品の図柄や購入者用テンプレートを再現・配布するものではありません。</p><a href="category.html?g=paper">ペーパーアイテムを見る ›</a></div></section>

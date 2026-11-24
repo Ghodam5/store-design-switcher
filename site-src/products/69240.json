@@ -1,0 +1,124 @@
+{
+  "active": true,
+  "product": {
+    "id": "69240",
+    "code": "1861",
+    "title": "LOVE ♡ フレーバーバスケット(紅茶&クッキー)40個セット",
+    "price": 16896,
+    "image": "images/1861.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1861.html",
+    "description": "バスケットの中に大人可愛いチューリップモチーフのパッケージが◎、花言葉は「想いやり」、ハートクッキーにチューリップ風味の紅茶を添えて。",
+    "size": "全体サイズ:290×360×260mm、プチギフトサイズ:160×65×23mm",
+    "material": "",
+    "contents": "セット内容:チューリップティー1個、ハートクッキー(プレーン)2枚入り、かご付き",
+    "expiry": "",
+    "allergens": "アレルゲン:乳成分・小麦",
+    "storage": "",
+    "notice": "※種類の指定はできません。 ※カード付き:挙式日、お名前が英字で入ります。但し、記号(-、^)を入れる事はできません。 ※この商品は納品日の7日前までにお申し込み下さい。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "cookie",
+      "tea",
+      "set"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "1861",
+        "t": "★LOVE ♡ フレーバーバスケット(紅茶&クッキー)40個セット 1861",
+        "price": 16896
+      }
+    ],
+    "spec": {
+      "code": "1861",
+      "pid": "69240",
+      "fields": [
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Tomomi"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Naoki"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/1861.jpg",
+        "alt": "LOVE ♡ フレーバーバスケット(紅茶&クッキー)40個セット 商品写真1",
+        "width": 520,
+        "height": 390
+      },
+      {
+        "src": "images/product-details/69240/1861_1.jpg",
+        "alt": "LOVE ♡ フレーバーバスケット(紅茶&クッキー)40個セット 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1861": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

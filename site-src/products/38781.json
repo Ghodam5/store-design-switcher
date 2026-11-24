@@ -1,0 +1,213 @@
+{
+  "active": true,
+  "product": {
+    "id": "38781",
+    "code": "luna-j-d23l",
+    "title": "子育て卒業証書 リリィ【送料無料】",
+    "price": 9680,
+    "image": "images/products/38781.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/luna-j-d23l.html",
+    "description": "「思い出の写真」と「生まれた日から記念日までの日数」に感謝の言葉を添える。 それが子育て卒業証書です。 結婚式のクライマックスに、ご両親への感謝状として。 親元を離れるお子様から、言葉では少し照れくさいから形に変えて。 実家からの巣立ち、これから一人で頑張るお子様へのエールとして。 写真入りで自由文も選べるので使い方はあなた次第、 家族だけの卒業式で次のステップへの区切りにご利用下さい。",
+    "size": "約315×225×45mm(壁掛け用紐付き)",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※ご注文後、使用する写真を別途メールにて、 info@luna-luce.jp までお送りください。 ※メールで画像を送る際、ご注文者様のお名前を本文にご記入下さい。 ※画像ファイル名をそれぞれ、ご新郎様・ご新婦様のお名前にして頂きます様お願いします。 (例:taro.jpg hanako.jpg など) ※添付写真データは、商品作成後に消去させて頂きます。 ※メールでの送信が難しい場合は、弊社まで使用したい写真をお送りください。 ※お送りいただきました写真は返品不可となりますので、ご了承下さい。 ※お客様から当社へ写真を郵送中の紛失に関しましては、一切責任を負いかねます。 ※顔のはっきり分かる写真をご用意下さい。 ※画像のファイルサイズが1MB以上のものが好ましいです。 ※添付写真は返品不可となりますので、ご了承下さい。 ※納品目安は約14日となっておりますが、受注状況により多少前後する場合がございます。 プレゼント・結婚式等にお使いになる場合は日数に余裕をもってお申し込み下さい。 ※こちらの商品は完全受注生産のため、ご注文後のキャンセルはご遠慮頂いております。",
+    "category": "演出用品",
+    "categories": [
+      "kosodate",
+      "parents"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "luna-j-d23l",
+        "t": "子育て卒業証書 リリィ",
+        "price": 9680
+      }
+    ],
+    "spec": {
+      "code": "luna-j-d23l",
+      "pid": "38781",
+      "fields": [
+        {
+          "k": "名入れ：生年月日",
+          "part": "text",
+          "role": "d",
+          "label": "生年月日（例：1988年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：1988年12月24日"
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "定型文",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "01.結婚式/感謝",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "02.結婚式/世界一",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "03.結婚式/宝物",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "04.旅立ち",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "05.卒業",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "06.成人",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "07.巣立ち",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "08.自由文(+3000円）",
+              "fee": {
+                "amt": 3000,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "印字するお名前（例：Takahiro）※半角英数字",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Takahiro"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/38781.jpg",
+        "alt": "子育て卒業証書 リリィ【送料無料】 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/38781/j-b01l_main.jpg",
+        "alt": "子育て卒業証書 リリィ【送料無料】 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/38781/kosodate01.jpg",
+        "alt": "子育て卒業証書 リリィ【送料無料】 商品写真3",
+        "width": 650,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/38781/kosodate01l.jpg",
+        "alt": "子育て卒業証書 リリィ【送料無料】 商品写真4",
+        "width": 650,
+        "height": 570
+      },
+      {
+        "src": "images/product-details/38781/kosodate02-l.jpg",
+        "alt": "子育て卒業証書 リリィ【送料無料】 商品写真5",
+        "width": 650,
+        "height": 1280
+      },
+      {
+        "src": "images/product-details/38781/kosodate03-l.jpg",
+        "alt": "子育て卒業証書 リリィ【送料無料】 商品写真6",
+        "width": 650,
+        "height": 740
+      },
+      {
+        "src": "images/product-details/38781/b_kosodate.jpg",
+        "alt": "子育て卒業証書 リリィ【送料無料】 商品写真7",
+        "width": 650,
+        "height": 180
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "spec-change",
+      "season-delay",
+      "photo-mail"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "luna-j-d23l": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

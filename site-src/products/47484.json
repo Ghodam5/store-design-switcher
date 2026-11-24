@@ -1,0 +1,284 @@
+{
+  "active": true,
+  "product": {
+    "id": "47484",
+    "code": "ecoflavor-104-101",
+    "title": "メープルシフォンケーキ ミドルサイズ(箱入り)",
+    "price": 2484,
+    "image": "images/ecoflavor-104-101.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-104-101.html",
+    "description": "有名百貨店でも取り扱いのある口当たりもふわふわとしたやわからシフォンケーキ。 メープルシフォンケーキはフレイバーのラインナップの中でも最も愛されている人気者。 創業以来、ひとつひとつ愛情込めて丁寧に焼き上げてきました。 ふんわりとした生地の食感、メープル独自のコクのある深い味わい、 さらに風味豊かな香りなど、食べた人を夢中にさせてしまう永遠の魅惑的存在なのです。 ◆◆ギフト配送も承ります◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます)",
+    "size": "直径16cm 高さ16cm",
+    "material": "",
+    "contents": "メープルシフォンケーキミドルサイズ 1個",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "chiffon"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "ecoflavor-104-101",
+        "t": "メープルシフォンケーキ ミドルサイズ(箱入)※代金引換発送不可商品※",
+        "price": 2484
+      }
+    ],
+    "spec": {
+      "code": "ecoflavor-104-101",
+      "pid": "47484",
+      "fields": [
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "配送日指定にご協力ください※6日以内での配送は「お急ぎ料金」が発生",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "通常出荷※約7営業日後発送",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "配送日指定(10日後より有効",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "お急ぎ発送（3～6日発送）※お急ぎ料金(1000～2000円、日数により変動）追加に同意し注文※",
+              "fee": {
+                "amt": 2000,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "賞味期限が短い商品の為「代金引換」発送不可商品です。代金引換でご注文はキャンセルします",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "了解した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "ご注文確認後の配送先・配送日変更は手数料がかかります",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "のし・包装(ラッピング)・紙袋は有料サービスです。（専用ページより購入時のみ対応）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    }
+  },
+  "detail": {
+    "photos": [
+      {
+        "src": "images/product-details/47484/ecoflavor-104-101.jpg",
+        "alt": "メープルシフォンケーキ ミドルサイズ(箱入り) 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/47484/ecoflavor-104-101-01.jpg",
+        "alt": "メープルシフォンケーキ ミドルサイズ(箱入り) 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/47484/flavor-img.jpg",
+        "alt": "メープルシフォンケーキ ミドルサイズ(箱入り) 商品写真3",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/47484/fla-hako202410.jpg",
+        "alt": "メープルシフォンケーキ ミドルサイズ(箱入り) 商品写真4",
+        "width": 700,
+        "height": 350
+      },
+      {
+        "src": "images/product-details/47484/fla2026gw.jpg",
+        "alt": "メープルシフォンケーキ ミドルサイズ(箱入り) 商品写真5",
+        "width": 700,
+        "height": 700
+      }
+    ],
+    "sections": [
+      {
+        "title": "商品について",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "ふんわりとした口当たりと、メープルのコク・豊かな香りを楽しめるFLAVORのシフォンケーキ。創業以来、一つひとつ丁寧に焼き上げている人気のフレーバーです。"
+          },
+          {
+            "type": "p",
+            "text": "箱入りのミドルサイズを1個お届けします。ご自宅用にも、贈り物にもお使いいただけます。"
+          }
+        ]
+      },
+      {
+        "title": "ご注文の前に",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "お届け・賞味期限"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "お届けの目安はご注文から約1週間です。賞味期限は約10日と短いため、ご使用日に合わせて配送日をご指定ください。",
+              "常温便でのお届けです。賞味期限にかかわらず、お早めにお召し上がりください。",
+              "天候・交通事情による配送遅延は補償できません。"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "キャンセル・受け取り"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "受注生産のため、キャンセルはできません。",
+              "発送後、住所間違いや不在などお客様の都合で受け取れなかった場合は、再送・返金はできません。必ず受け取れる日程と配送先をご指定ください。",
+              "配送先はご注文時にお知らせください。後日変更をお受けできない場合があります。贈り先にも受け取り予定をお伝えください。"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "包装・仕様"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "包装・熨斗・紙袋は有料です。カートの各選択欄でご指定ください。備考欄だけでの指定は無効です。",
+              "ラッピング・容量・販売価格などは予告なく変更になる場合があります。"
+            ]
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "label": "商品番号",
+        "value": "ecoflavor-104-101"
+      },
+      {
+        "label": "内容量",
+        "value": "メープルシフォンケーキミドルサイズ 1個"
+      },
+      {
+        "label": "サイズ",
+        "value": "直径16cm 高さ16cm"
+      },
+      {
+        "label": "賞味期限",
+        "value": "約10日"
+      },
+      {
+        "label": "熨斗・包装",
+        "value": "対応（有料サービス。カートで選択）"
+      },
+      {
+        "label": "お届けの目安",
+        "value": "約1週間後"
+      }
+    ],
+    "crumbs": [
+      {
+        "title": "食べ物・飲み物",
+        "url": "category.html?g=food"
+      },
+      {
+        "title": "シフォンケーキ",
+        "url": "category.html?g=food&m=chiffon"
+      }
+    ],
+    "relatedIds": [
+      "47481",
+      "64012",
+      "72097",
+      "68841",
+      "71049",
+      "65078"
+    ],
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-104-101.html",
+    "sourceDate": "2026-11-18",
+    "photoPolicy": "本店ギャラリーに掲載された商品の原本。異なる商品の画像や共通バナーは含めない。"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "ecoflavor-104-101": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

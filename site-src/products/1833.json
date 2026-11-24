@@ -1,0 +1,187 @@
+{
+  "active": true,
+  "product": {
+    "id": "1833",
+    "code": "WB-C941_C942",
+    "title": "フラワークロック",
+    "price": 19980,
+    "image": "images/wb-c941_c942.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/wb-c941_c942.html",
+    "description": "時計のバックに光触媒加工を施したリースフラワーをあしらいました。クリアな素材とやさしい色合いがマッチした高級感のあるクロックです。 また、名入れをした高級桐箱に入れて贈ります。 ※光触媒とは・・・・ 太陽などの光を当てると活動する触媒で、空気中の嫌な臭いを取り除いたり、防カビ・防汚などの抗菌作用があります。。 ▼お急ぎ対応商品です▼",
+    "size": "約21×29.5×7cm",
+    "material": "ガラス、アクリル 名入れ高級桐箱 スワロフスキー装飾",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board",
+      "parents"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "WB-C941_C942",
+        "t": "フラワークロック",
+        "price": 19980
+      }
+    ],
+    "spec": {
+      "code": "WB-C941_C942",
+      "pid": "1833",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "クロックカラー",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ホワイト（C941）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ピンク（C942）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "彫刻する英文",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "Precious Days（WD-65）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Welcome（WD-66）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Thank you（WD-67）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎の誕生日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦の誕生日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/wb-c941_c942.jpg",
+        "alt": "フラワークロック 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/1833/imgWB-C941_C942.jpg",
+        "alt": "フラワークロック 商品写真2",
+        "width": 700,
+        "height": 680
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "wb-c941_c942": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

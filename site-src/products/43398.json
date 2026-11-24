@@ -1,0 +1,106 @@
+{
+  "active": true,
+  "product": {
+    "id": "43398",
+    "code": "hf61002",
+    "title": "アクア・フローラル(ドラジェ) 1個",
+    "price": 245,
+    "image": "images/hf61002.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf61002.html",
+    "description": "",
+    "size": "サイズ:4×6×4cm",
+    "material": "",
+    "contents": "ドラジェ3個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf61002",
+        "t": "アクア・フローラル(ドラジェ) 1個",
+        "price": 245
+      }
+    ],
+    "spec": {
+      "code": "hf61002",
+      "pid": "43398",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "20個以上でご注文ください。※19個迄は自動キャンセル（セット商品との同時購入時はのぞく）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 20,
+      "notes": []
+    },
+    "minq": 20,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/hf61002.jpg",
+        "alt": "アクア・フローラル(ドラジェ) 1個 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/43398/21item.jpg",
+        "alt": "アクア・フローラル(ドラジェ) 1個 商品写真2",
+        "width": 700,
+        "height": 100
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf61002": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

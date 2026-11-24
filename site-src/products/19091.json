@@ -1,0 +1,115 @@
+{
+  "active": true,
+  "product": {
+    "id": "19091",
+    "code": "000000W2008",
+    "title": "ディズニー席次表セット \"チェック ピンクサファイア\"",
+    "price": 3080,
+    "image": "images/products/19091.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/00000w2008.html",
+    "description": "人気のディズニーシリーズに新作が仲間入り! ミッキーのシルエットが立体的に加工された、楽しそうな雰囲気の席次表。 大きく両面に配置されたミッキーの手はパール仕様の上品仕上げ。 指でなぞるとこだわりの立体加工にゲストもビックリ! 楽しい時間の演出は、ディズニーにお任せ☆ さぁ、素敵なパレードの始まりです!! 世代を問わず愛される、ミッキーマウスとミニーマウスならゲストも楽しくなるはず! 結婚式はもちろん、パーティーにもオススメのデザインです♪ ミッキーマウスの形の窓からお好きな画像や文字をのぞかせる事が出来る、 個性や遊び心の出せる席次表です。 ディズニーの正規ライセンス商品です。",
+    "size": "",
+    "material": "",
+    "contents": "1キット10名様分入 ・席次表 表紙 218×208mm 10枚 (二つ折りガイド筋付き) ・席次表 中紙 210×297mm 10枚 (+1枚 予備用) (三つ折りガイド筋付き) ・銀ゴムひも 10本 テンプレートダウンロードパスポート",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "ペーパーアイテムご購入の前に必ずお読みください。",
+    "category": "ペーパーアイテム",
+    "categories": [
+      "paper"
+    ],
+    "subs": [
+      "seat"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "00000W2008",
+        "t": "ディズニー席次表セット ”チェック ピンクサファイア” ミッキーマウス ペーパーアイテム",
+        "price": 3080
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/19091.jpg",
+        "alt": "ディズニー席次表セット \"チェック ピンクサファイア\" 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/19091/adc7f9f55a655e64a69e6f02ae3f401f.jpg",
+        "alt": "ディズニー席次表セット \"チェック ピンクサファイア\" 商品写真2",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "images/product-details/19091/843421410d23bb6ed3858dcf8e59c245.jpg",
+        "alt": "ディズニー席次表セット \"チェック ピンクサファイア\" 商品写真3",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "images/product-details/19091/57eb1c867ec759a17b10bce2bee6b31f.jpg",
+        "alt": "ディズニー席次表セット \"チェック ピンクサファイア\" 商品写真4",
+        "width": 200,
+        "height": 70
+      },
+      {
+        "src": "images/product-details/19091/11.jpg",
+        "alt": "ディズニー席次表セット \"チェック ピンクサファイア\" 商品写真5",
+        "width": 600,
+        "height": 498
+      },
+      {
+        "src": "images/product-details/19091/w2008_30.jpg",
+        "alt": "ディズニー席次表セット \"チェック ピンクサファイア\" 商品写真6",
+        "width": 600,
+        "height": 424
+      },
+      {
+        "src": "images/product-details/19091/w2008_p.jpg",
+        "alt": "ディズニー席次表セット \"チェック ピンクサファイア\" 商品写真7",
+        "width": 600,
+        "height": 424
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "paper-read"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "00000w2008": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

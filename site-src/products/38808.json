@@ -1,0 +1,195 @@
+{
+  "active": true,
+  "product": {
+    "id": "38808",
+    "code": "pb-wagaracho",
+    "title": "お菓子が選べる 和柄蝶結び小箱 熨斗付きプチギフト 和柄小箱 出…",
+    "price": 280,
+    "image": "images/pb-wagaracho.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pbmm-ame01.html",
+    "description": "繰り返しあっても良いお祝い、御礼、記念品等におすすめの 「蝶結びのし」デザインの和風テイストのプチギフト。 ちっちゃいけれどお名前も入れられます。 職人手作りの紅白の手作り京飴、 ハート型がかわいいハートクッキー、 色とりどりのこんぺいとう の3種類より贈る相手に合わせておえらびください。",
+    "size": "5×5×5cm",
+    "material": "",
+    "contents": "ハートクッキー5枚 コンペイトウ10g 紅白飴3個(紅:苺ミルク味 白:ミルク味) ※中に入る飴の色はランダムとなります。 のいずれか",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "candy",
+      "wafu"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb-245wacho",
+        "t": "30個からご注文受付 お菓子が選べる 和柄蝶結び小箱 名入れ対応",
+        "price": 280
+      }
+    ],
+    "spec": {
+      "code": "pb-wagaracho",
+      "pid": "38808",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "お菓子選択",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "こんぺいとう",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "京あめ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ハートクッキー",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "表書き",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": 3,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "お名入れ(６字×２行迄)",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "「表書き／お名入れ／お菓子が全て同じ」で30個よりご注文受付",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "お知らせ（長文の項目名）",
+          "part": "notice",
+          "role": "",
+          "label": "29個までのご注文は「原稿作成料金(1原稿につき￥1000）」が必要です。※29個迄ご注文で同意がない場合は自動キャンセル",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": 30,
+      "notes": []
+    },
+    "minq": 30,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/pb-wagaracho.jpg",
+        "alt": "お菓子が選べる 和柄蝶結び小箱 熨斗付きプチギフト 和柄小箱 出… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/38808/pb-wagaracho.jpg",
+        "alt": "お菓子が選べる 和柄蝶結び小箱 熨斗付きプチギフト 和柄小箱 出… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/38808/pb-wagaracho-01.jpg",
+        "alt": "お菓子が選べる 和柄蝶結び小箱 熨斗付きプチギフト 和柄小箱 出… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/38808/pb-wagaracho-02.jpg",
+        "alt": "お菓子が選べる 和柄蝶結び小箱 熨斗付きプチギフト 和柄小箱 出… 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/38808/pb-wagaracho-03.jpg",
+        "alt": "お菓子が選べる 和柄蝶結び小箱 熨斗付きプチギフト 和柄小箱 出… 商品写真5",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/38808/pb-wagaracho-04.jpg",
+        "alt": "お菓子が選べる 和柄蝶結び小箱 熨斗付きプチギフト 和柄小箱 出… 商品写真6",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/38808/pb-wagaracho-05.jpg",
+        "alt": "お菓子が選べる 和柄蝶結び小箱 熨斗付きプチギフト 和柄小箱 出… 商品写真7",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-245wacho": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "active": true,
+  "product": {
+    "id": "60036",
+    "code": "pb-kmamoriset",
+    "title": "KA MI守り 10個セット こんぺいとう おまもり 御守 絵馬 中学 高校 大学 資格試験",
+    "price": 1950,
+    "image": "images/features/pb-kmamoriset.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/ネコポス送料無料-合格祈願-ka★mi守り-10個セット　こ.html",
+    "description": "がんばる受験生ををオリジナルお守りで応援! 日本全国ネコポス送料無料でおとどけします! ご注意! こちらの商品は四字熟語(文言)の変更、お名入れの変更はお受けできません。",
+    "size": "サイズ:約8.5×6×2.5cm ※いずれも飾り紐は計測にふくみません。",
+    "material": "",
+    "contents": "内容:お菓子入りオリジナルおまもり(紙製)×10 ※お守り1個につき勝利こんぺいとう1袋入り",
+    "expiry": "賞味期限:出荷より約3ヶ月保証",
+    "allergens": "",
+    "storage": "",
+    "notice": "備考: ※受注製造の為、お届けまでに約14日ほどお時間をいただく商品となります。お早めにご注文ください。 ※ご注文後の減数、キャンセルはお受け出来ません。 ※ご注文後の増数は、納期を延長させていただく場合がございます。 ※お届けまでに1週間ほどお時間をいただく商品です。お急ぎの場合はお早めにご注文下さいますようお願い申し上げます。 ※100個以上での大口注文の場合は一度お問合せください。問い合せなしでの大口注文は、在庫の状況によりお受けすることができない場合がございます",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb220kmamoriset",
+        "t": "合格祈願 KA★MI守り 10個セット こんぺいとう",
+        "price": 1950
+      }
+    ],
+    "spec": {
+      "code": "pb-kmamoriset",
+      "pid": "60036",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "他商品(シール、小袋、紙袋なども含む)と同梱の場合は追加送料がかかります",
+          "req": true,
+          "form": "チェックボックス",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "お知らせ（長文の項目名）",
+          "part": "notice",
+          "role": "",
+          "label": "ポスト配送です※お品物がポストに入らない場合「不在票」が投函されます。配送業者の保管期限内に再配達依頼をしてください。※再送には別途手数料発生",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "bulk-100",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/pb-kmamoriset.jpg",
+        "alt": "KA MI守り 10個セット こんぺいとう おまもり 御守 絵馬 中学 高校 大学 資格試験 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60036/pb-kmamoriset-01.jpg",
+        "alt": "KA MI守り 10個セット こんぺいとう おまもり 御守 絵馬 中学 高校 大学 資格試験 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60036/pb-kmamoriset-02.jpg",
+        "alt": "KA MI守り 10個セット こんぺいとう おまもり 御守 絵馬 中学 高校 大学 資格試験 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/60036/pb-kmamoriset-03.jpg",
+        "alt": "KA MI守り 10個セット こんぺいとう おまもり 御守 絵馬 中学 高校 大学 資格試験 商品写真4",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "60036",
+    "name": "ネコポス送料無料 合格祈願 KA★MI守り 10個セット こんぺいとう おまもり 御守 絵馬 中学 高校 大学 資格試験 応援 ギフト",
+    "title": "KA MI守り 10個セット こんぺいとう おまもり 御守 絵馬 中学 高校 大学 資格試験",
+    "url": "https://www.luna-luce.jp/item/ネコポス送料無料-合格祈願-ka★mi守り-10個セット　こ.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/pb-kmamoriset.jpg",
+    "description": "がんばる受験生ををオリジナルお守りで応援! 日本全国ネコポス送料無料でおとどけします! ご注意! こちらの商品は四字熟語(文言)の変更、お名入れの変更はお受けできません。",
+    "size": "サイズ:約8.5×6×2.5cm ※いずれも飾り紐は計測にふくみません。",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-04-03"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb220kmamoriset": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

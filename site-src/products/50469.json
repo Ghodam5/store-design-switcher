@@ -1,0 +1,85 @@
+{
+  "active": true,
+  "product": {
+    "id": "50469",
+    "code": "con1133",
+    "title": "【20％OFF】記帳式芳名帳BOX（パールホワイト）",
+    "price": 2960,
+    "image": "images/products/50469.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/con1133.html",
+    "description": "連名で記入できる高級感あふれるゲストブックです。",
+    "size": "サイズ:193×145×28mm、箱サイズ:15.5×20.5×3.5cm",
+    "material": "",
+    "contents": "ゲストカード12枚(60名様分) 用紙取り外し可",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "guest"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "con1133",
+        "t": "記帳式芳名帳BOX(パールホワイト)",
+        "price": 2960
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 4,
+      "max": 6,
+      "made": false,
+      "source": "db",
+      "label": "4～6日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/50469.jpg",
+        "alt": "【20％OFF】記帳式芳名帳BOX（パールホワイト） 商品写真1",
+        "width": 800,
+        "height": 800
+      },
+      {
+        "src": "images/product-details/50469/con1133-02.jpg",
+        "alt": "【20％OFF】記帳式芳名帳BOX（パールホワイト） 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/50469/con1133-03.jpg",
+        "alt": "【20％OFF】記帳式芳名帳BOX（パールホワイト） 商品写真3",
+        "width": 1100,
+        "height": 1100
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "con1133": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

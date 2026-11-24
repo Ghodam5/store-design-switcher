@@ -1,0 +1,161 @@
+{
+  "active": true,
+  "product": {
+    "id": "72321",
+    "code": "cp0091",
+    "title": "SHIKISAI ONE ブロンズカラーコース＜カタログタイプ＞",
+    "price": 28380,
+    "image": "images/products/72321.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/cp0091.html",
+    "description": "家電・インテリア雑貨・アウトドア品・防災グッズ・コスメ・ファッション・食品等、幅広いジャンルの商品が多彩に掲載されております。 ご年齢を問わず楽しんでアイテムをお選びいただけるギフトカタログです。 選んだギフトは宅配でご自宅に直接届くので手間がかかりません!",
+    "size": "カタログ:210 × 148 mm 、パッケージ:211 × 148.5 mm",
+    "material": "",
+    "contents": "記念品カタログ×1、ハガキ×1、保護シール×1",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※システム料には宅配料金・郵送料金等の諸費用が含まれております。 ※掲載点数・掲載内容・ページ数は予告なく変更になる場合がございます。 ※不良品以外の返品は不可とさせていただきます。 ※納品目安7日~",
+    "category": "カタログギフト",
+    "categories": [
+      "catalog"
+    ],
+    "subs": [
+      "shikisai"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "cp0091",
+        "t": "SHIKISAI ONE ブロンズカラーコース<カタログタイプ>(システム料¥800込)",
+        "price": 28380
+      }
+    ],
+    "spec": {
+      "code": "cp0091",
+      "pid": "72321",
+      "fields": [
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの上のお書入れ内容（例：寿、内祝）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：寿、内祝"
+        },
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "包装",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のし",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの掛け方（のし掛け選択の方のみ）",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの下のお書入れ内容（例：大輔 花子）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：大輔　花子"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/72321.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カタログタイプ＞ 商品写真1",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72321/cp0091_1.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カタログタイプ＞ 商品写真2",
+        "width": 501,
+        "height": 501
+      },
+      {
+        "src": "images/product-details/72321/cp0091_2.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カタログタイプ＞ 商品写真3",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72321/cp0091_3.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カタログタイプ＞ 商品写真4",
+        "width": 500,
+        "height": 500
+      },
+      {
+        "src": "images/product-details/72321/cp0091_4.jpg",
+        "alt": "SHIKISAI ONE ブロンズカラーコース＜カタログタイプ＞ 商品写真5",
+        "width": 501,
+        "height": 500
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "catalog-fee"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "cp0091": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

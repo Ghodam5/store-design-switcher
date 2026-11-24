@@ -1,0 +1,167 @@
+{
+  "active": true,
+  "product": {
+    "id": "53691",
+    "code": "pb258xmaskairo30",
+    "title": "名入れ対応プチギフト クリスマスカイロPB(かいろ1枚入り)30…",
+    "price": 7980,
+    "image": "images/pb258xmaskairo30.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-xmaskairo30.html",
+    "description": "2024年11月リニューアル!! 大量に配りたい時に助かるお値打ちセット価格! クリスマスカードと寒い冬に嬉しいカイロが一体になった季節感たっぷりのプチギフト。 サンタからのクリスマスカードは、デザインが選べる6種類。 内容量:カイロ30個 パッケージサイズ :約9.5×10.5×1.5cm ※カイロが見える仕様のため、完成サイズに個体差あり。 ★20文字までのお名入れもしくはメッセージなどを印字してお届けします ※文字数超過は1文字ごとに特注料金が発生します。 ※印字内容は必ずご注文時にお知らせください。即制作に入るため、後日連絡は変更料金がかかります。",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※製造に7~10日ほどお時間がかかる商品のため、お早めにご注文ください。 ※お名入れ印字をご希望の場合は、ご注文時にお知らせください。 ご注文後即制作に入るため、後日連絡は変更料金がかかります。 ※「貼らないカイロ」「貼るカイロ」いずれか(または混在)でのお届けとなります。ご指定はご容赦ください。 また、販売時期によりカイロの仕様(サイズ、持続時間)が異なる場合がございます。 ※商品の仕様(色目、リボン、販売価格等)は販売時期により変更になる場合がございます。商品画像はイメージです。 ※店舗でのご注文確認時、ご使用日までにお届けが不可能と判断した場合、キャンセルさせていただく場合がございます。 ご連絡は原則メールで行います。ご注文成立の可否をお客様にてかならずご確認ください。 ※送料無料のアイコン・表記がございましても、北海道・沖縄・一部離島は別途送料が発生します。 (ポスト便配送商品をのぞく)",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi",
+      "season"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb258xmaskairo30",
+        "t": "名入れ対応 クリスマスカイロPB(かいろ1枚入り)30個セット",
+        "price": 7980
+      }
+    ],
+    "spec": {
+      "code": "pb258xmaskairo30",
+      "pid": "53691",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ツリー",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "スノーマン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "サンタ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "パターン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "モノクロ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "北欧風",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "text",
+          "role": "m",
+          "label": "印字内容/名入れ・メッセージなど20文字迄※超過は1文字ごとに特注料金加算します",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/pb258xmaskairo30.jpg",
+        "alt": "名入れ対応プチギフト クリスマスカイロPB(かいろ1枚入り)30… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/53691/pb258xmaskairo30.jpg",
+        "alt": "名入れ対応プチギフト クリスマスカイロPB(かいろ1枚入り)30… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/53691/pb258xmaskairo30-01.jpg",
+        "alt": "名入れ対応プチギフト クリスマスカイロPB(かいろ1枚入り)30… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/53691/pb258xmaskairo30-02.jpg",
+        "alt": "名入れ対応プチギフト クリスマスカイロPB(かいろ1枚入り)30… 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/53691/pb258xmaskairo30-03.jpg",
+        "alt": "名入れ対応プチギフト クリスマスカイロPB(かいろ1枚入り)30… 商品写真5",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/53691/pb258xmaskairo30-04.jpg",
+        "alt": "名入れ対応プチギフト クリスマスカイロPB(かいろ1枚入り)30… 商品写真6",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb258xmaskairo30": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

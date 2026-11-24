@@ -1,0 +1,24 @@
+{
+  "id": "intro",
+  "active": true,
+  "kind": "message",
+  "theme": "cream",
+  "image": "images/main-flavor.jpg",
+  "alt": "水引の箱に入ったFLAVORシフォンケーキと、披露宴会場のテーブル",
+  "badge": "10個からお名入れOK",
+  "headline": "ゲストの数だけ、\n名前入りの\nありがとうを。",
+  "accent": "名前入りのありがとう",
+  "text": "結婚式・発表会・部活の記念品に。カートでお名前を入れるだけ。",
+  "buttons": [
+    {
+      "label": "名入れを試してみる",
+      "href": "name-preview.html",
+      "style": "main"
+    },
+    {
+      "label": "売れ筋を見る",
+      "href": "#rank",
+      "style": "sub"
+    }
+  ]
+}

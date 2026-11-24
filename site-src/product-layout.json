@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "note": "商品ページの段組み。side は写真の右（スマホでは写真の下）で、商品名・値段の下に並ぶ。buy（数量・カートに入れる）は side に必ず入れ、その前の部品は購入欄の上、後ろの部品は下に出る。below は写真と購入欄の下に横幅いっぱいで並ぶ。OMSのサイトビルダー「商品ページの段組み」で直す。商品ごとに変えるときは商品の layout に同じ形で入れる。",
+  "parts": [
+    {
+      "id": "delivery",
+      "label": "お届けまでの日数"
+    },
+    {
+      "id": "buy",
+      "label": "購入欄（数量・カートに入れる）"
+    },
+    {
+      "id": "description",
+      "label": "商品の説明"
+    },
+    {
+      "id": "spec",
+      "label": "内容量・サイズなどの表"
+    },
+    {
+      "id": "notes",
+      "label": "ご注文の前に（注意事項）"
+    },
+    {
+      "id": "source",
+      "label": "本店の商品情報へのリンク"
+    },
+    {
+      "id": "recommend",
+      "label": "こちらもおすすめ（ほかの商品）"
+    },
+    {
+      "id": "share",
+      "label": "SNSでシェア"
+    },
+    {
+      "id": "trial",
+      "label": "名入れができる商品"
+    }
+  ],
+  "side": [
+    "buy",
+    "description",
+    "spec",
+    "notes",
+    "note:cancel-if-late",
+    "source",
+    "recommend"
+  ],
+  "below": [
+    "note:made-to-order",
+    "delivery",
+    "note:free-ship-no-date",
+    "trial",
+    "share"
+  ]
+}

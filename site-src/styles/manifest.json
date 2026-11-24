@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "policy": "順序はカスケードの一部。部品の追加は既存の所有ファイルへ。公開CSSを直接編集しない。",
+  "bundles": [
+    {
+      "output": "style.css",
+      "sources": [
+        "site-src/styles/00-foundation.css",
+        "site-src/styles/10-shell-and-controls.css",
+        "site-src/styles/20-page-patterns.css",
+        "site-src/styles/30-desktop-layout.css",
+        "site-src/styles/40-horizontal-rails.css",
+        "site-src/styles/50-campaign-patterns.css",
+        "site-src/styles/60-interaction-and-options.css",
+        "site-src/styles/70-catalog-and-account.css",
+        "site-src/styles/80-compatibility.css",
+        "site-src/styles/90-shell-current.css"
+      ]
+    },
+    {
+      "output": "cart.css",
+      "sources": [
+        "site-src/styles/components/cart.css"
+      ]
+    },
+    {
+      "output": "features.css",
+      "sources": [
+        "site-src/styles/components/features.css"
+      ]
+    },
+    {
+      "output": "home-guides.css",
+      "sources": [
+        "site-src/styles/components/home-guides.css"
+      ]
+    },
+    {
+      "output": "home-promos.css",
+      "sources": [
+        "site-src/styles/components/home-promos.css"
+      ]
+    },
+    {
+      "output": "name-preview.css",
+      "sources": [
+        "site-src/styles/components/name-preview.css"
+      ]
+    },
+    {
+      "output": "notes-resize.css",
+      "sources": [
+        "site-src/styles/components/notes-resize.css"
+      ]
+    },
+    {
+      "output": "page-share.css",
+      "sources": [
+        "site-src/styles/components/page-share.css"
+      ]
+    },
+    {
+      "output": "pilot-inputs.css",
+      "sources": [
+        "site-src/styles/components/pilot-inputs.css"
+      ]
+    },
+    {
+      "output": "product-detail.css",
+      "sources": [
+        "site-src/styles/components/product-detail.css"
+      ]
+    },
+    {
+      "output": "product-guide.css",
+      "sources": [
+        "site-src/styles/components/product-guide.css"
+      ]
+    },
+    {
+      "output": "purchase-history.css",
+      "sources": [
+        "site-src/styles/components/purchase-history.css"
+      ]
+    },
+    {
+      "output": "rail-controls.css",
+      "sources": [
+        "site-src/styles/components/rail-controls.css"
+      ]
+    },
+    {
+      "output": "saved-products-rail.css",
+      "sources": [
+        "site-src/styles/components/saved-products-rail.css"
+      ]
+    },
+    {
+      "output": "site-announcements.css",
+      "sources": [
+        "site-src/styles/components/site-announcements.css"
+      ]
+    },
+    {
+      "output": "site-services.css",
+      "sources": [
+        "site-src/styles/components/site-services.css"
+      ]
+    },
+    {
+      "output": "support.css",
+      "sources": [
+        "site-src/styles/components/support.css"
+      ]
+    },
+    {
+      "output": "walking-cat.css",
+      "sources": [
+        "site-src/styles/components/walking-cat.css"
+      ]
+    },
+    {
+      "output": "index-1.css",
+      "sources": [
+        "site-src/styles/pages/index-1.css"
+      ]
+    },
+    {
+      "output": "naire-1.css",
+      "sources": [
+        "site-src/styles/pages/naire-1.css"
+      ]
+    },
+    {
+      "output": "naire-2.css",
+      "sources": [
+        "site-src/styles/pages/naire-2.css"
+      ]
+    },
+    {
+      "output": "naire-3.css",
+      "sources": [
+        "site-src/styles/pages/naire-3.css"
+      ]
+    },
+    {
+      "output": "noshi-1.css",
+      "sources": [
+        "site-src/styles/pages/noshi-1.css"
+      ]
+    },
+    {
+      "output": "delivery-notes.css",
+      "sources": [
+        "site-src/styles/components/delivery-notes.css"
+      ]
+    }
+  ]
+}

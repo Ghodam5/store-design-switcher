@@ -1,0 +1,102 @@
+{
+  "active": true,
+  "product": {
+    "id": "65445",
+    "code": "gm490",
+    "title": "ムクノハナ 鰹節セットA GM490",
+    "price": 691,
+    "image": "images/gm490.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/gm490.html",
+    "description": "おふたりを祝福してくれるゲストの皆様に贈りたい一品と共に伝える感謝。 お祝いの日にふさわしい和食が楽しめる縁起物のセットをお楽しみいただけます。",
+    "size": "サイズ:137×215×80mm",
+    "material": "",
+    "contents": "セット内容:鰹節3g×10",
+    "expiry": "賞味期限:180日",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "gourmet"
+    ],
+    "tags": [
+      "売れ筋"
+    ],
+    "skus": [
+      {
+        "code": "gm490",
+        "t": "ムクノハナ 鰹節セットA GM490",
+        "price": 691
+      }
+    ],
+    "spec": {
+      "code": "gm490",
+      "pid": "65445",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "こちらの商品は「のし・包装」不可商品です。",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/gm490.jpg",
+        "alt": "ムクノハナ 鰹節セットA GM490 商品写真1",
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "LUX・AUS"
+    ],
+    "speed": false,
+    "skus": {
+      "gm490": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

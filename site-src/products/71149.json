@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "71149",
+    "code": "a677",
+    "title": "PremiumフルーツバームセットD",
+    "price": 3888,
+    "image": "images/a677.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a677.html",
+    "description": "自然の恵みが持つ、芳醇な香りと濃厚な甘みを何層にも重ねました。",
+    "size": "商品サイズ:383×315×75mm",
+    "material": "",
+    "contents": "商品内容:栃木県産 とちおとめ苺バーム×3、山形県産 さくらんぼバーム×3、 山梨県産 白桃バーム×3、北海道産 赤肉メロンバーム×3、 沖縄県産 マンゴーバーム×3、山形県産 ラ・フランスバーム×3",
+    "expiry": "賞味期限:4ヶ月",
+    "allergens": "アレルゲン:小麦・卵・乳成分",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a677",
+        "t": "PremiumフルーツバームセットD A677",
+        "price": 3888
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/a677.jpg",
+        "alt": "PremiumフルーツバームセットD 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/71149/a677_1.jpg",
+        "alt": "PremiumフルーツバームセットD 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a677": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

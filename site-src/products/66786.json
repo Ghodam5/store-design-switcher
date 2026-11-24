@@ -1,0 +1,183 @@
+{
+  "active": true,
+  "product": {
+    "id": "66786",
+    "code": "pb247disneyfbox",
+    "title": "disney friends box PB クッキー 名入れシー…",
+    "price": 311,
+    "image": "images/pb247disneyfbox.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/disney-ミッキー-＆ミニーのバウムクーヘン-pb※ルナル-2.html",
+    "description": "ルナルーチェ限定のディズニーPBに 待望のクッキーが復活。 可愛いディズニーカバーを被せたBOXには、味で選んだハートのクッキー入り。 しっかりラッピングもされているのでどんなシーンでもご使用いただけます。 2色アソートでお届け、数量10個のご注文なら各5個ずつでご用意させていただきます。 ※ご注文の際にカードメッセージを選択の上、必要事項をお知らせください。記入のない場合は白紙でお届けいたします。 ※印字内容は全て同一での作成とさせていただきます。",
+    "size": "サイズ:約15×8×6cm",
+    "material": "",
+    "contents": "内容:ハートクッキー5枚",
+    "expiry": "賞味期限:出荷より約1ヶ月",
+    "allergens": "",
+    "storage": "",
+    "notice": "※商品購入および購入特典サービスに最低購入数がございます。ご確認の上ご購入ください。 ※数量限定の為、予告なく販売終了する場合がございます ※商品の仕様(ラッピング・リボン色、お菓子のメーカー、形状、味、販売価格は変更になる場合がございます。 ※ご注文後の減数、キャンセルはお受け出来ません。増数は納期を延長させていただく場合がございます。 ※100個以上での大口注文の場合は一度お問合せください。在庫の状況によりお受けできない場合がございます",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "cookie",
+      "disney"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb247disneyfbox",
+        "t": "disney friends box PB クッキー 名入れシールつき ※10個よりご注文受付",
+        "price": 311
+      }
+    ],
+    "spec": {
+      "code": "pb247disneyfbox",
+      "pid": "66786",
+      "fields": [
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "シールメッセージ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ブライダル用Thankyou…お名前＆記念日備考欄へ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "一般ギフト用SpecialThanks自由文20字備考欄へ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "白紙(手書き用/印刷なし）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "備考/お名前(英字) 記念日(数字)or自由文20字",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "※10個からご注文受付(9個までは自動キャンセル）※無料シールサービス対象外商品",
+          "req": true,
+          "form": "チェックボックス",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "※確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 10,
+      "notes": []
+    },
+    "minq": 10,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": true,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "min-qty",
+      "food-no-return",
+      "bulk-100",
+      "spec-change",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb247disneyfbox.jpg",
+        "alt": "disney friends box PB クッキー 名入れシー… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/66786/pb247disneyfbox-01.jpg",
+        "alt": "disney friends box PB クッキー 名入れシー… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/66786/pb247disneyfbox-02.jpg",
+        "alt": "disney friends box PB クッキー 名入れシー… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/66786/pb247disneyfbox-03.jpg",
+        "alt": "disney friends box PB クッキー 名入れシー… 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/66786/dseal05-kyotu1.jpg",
+        "alt": "disney friends box PB クッキー 名入れシー… 商品写真5",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/66786/dseal05-kyotu2n.jpg",
+        "alt": "disney friends box PB クッキー 名入れシー… 商品写真6",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/66786/dseal05-tuika.jpg",
+        "alt": "disney friends box PB クッキー 名入れシー… 商品写真7",
+        "width": 700,
+        "height": 999
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb247disneyfbox": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

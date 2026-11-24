@@ -1,0 +1,137 @@
+/* ---------- 2026-11-16 クリックできるところは、マウスを乗せると色がふわっと変わる ---------- */
+:where(a,button,summary,select,.chip,.ftab,.cats a,.fp a,.sb,.prod,.tab,.icon-btn,.btn,.rail-nav,.pick button,.onoff button,.orow>button,.qty button,.dpick label,.cpo .chk,.cpd-opts a,.opx .toc a,.cpd-cta,.cpd-cta2,.cpd-acc summary,.ng-rel a,.ng-back a,.opx .go,.opx .back,.cpo .addbtn,.sbox button,.links a){transition:background-color .3s ease,color .3s ease,border-color .3s ease,box-shadow .3s ease,transform .3s ease,filter .3s ease,opacity .3s ease}
+@media (hover:hover) and (pointer:fine){
+  .ft a:hover,.crumb a:hover,.opx .crumb a:hover,.cpd .crumb a:hover,.row-h .all:hover,a.all:hover,.opx .cpo a:hover,.cpo .chk a:hover{color:var(--coral-d);border-color:var(--coral)}
+  .btn.co:hover,.cpd-cta:hover,.cpo .addbtn:hover:not(:disabled),.opx .back:hover{background:#f59084;filter:none}
+  .btn.wh:hover{background:var(--teal-l);border-color:var(--teal-d);color:var(--teal-d)}
+  .chip:not(.on):hover,.ftab:not(.on):hover{background:var(--teal-l);border-color:var(--teal);color:var(--teal-d)}
+  .chip.on:hover,.ftab.on:hover{background:var(--teal-d);border-color:var(--teal-d)}
+  .sb:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(38,48,58,.12);filter:saturate(1.15) brightness(1.02)}
+  .sb:hover .go{background:var(--teal);color:#fff}
+  .fp a:hover{background:var(--teal-l);border-color:var(--teal)}
+  .tab:hover{color:var(--teal-d)}.tab:hover svg{stroke:var(--teal-d)}
+  .icon-btn:hover{background:var(--teal-l);border-radius:50%}
+  .sbox button:hover{background:var(--teal-d)}
+  .pick button:not(.on):hover,.onoff button:not(.on):hover,.qty button:hover,.wadd:hover{background:var(--teal-l);border-color:var(--teal);color:var(--teal-d)}
+  .orow>button:hover{background:var(--teal-l)}
+  .cpd-cta2:hover,.cpd-acc summary:hover,.cpd-opts a:hover,.ng-rel a:hover{background:var(--teal-l);border-color:var(--teal);color:var(--teal-d)}
+  .ng-back a:hover,.opx .go:hover{background:var(--teal-d)}
+  .dpick label:hover,.cpo .chk:hover{background:var(--teal-l);border-color:var(--teal)}
+  .links a:hover{background:#d96457}
+  .cpx-bn:hover{filter:saturate(1.15) brightness(1.04)}
+  .cpx-bn:hover .more{background:#fff6c2;color:var(--coral-d)}
+}
+/* スマホ（指で押している間も、同じようにふわっと変わる） */
+.btn.co:active,.cpd-cta:active,.cpo .addbtn:active{filter:brightness(1.06)}
+.chip:active,.ftab:active,.fp a:active,.pick button:active,.cpd-opts a:active,.dpick label:active,.cpo .chk:active,.cpd-acc summary:active{background:var(--teal-l);border-color:var(--teal)}
+.sb:active{filter:saturate(1.15) brightness(1.03)}
+@media (prefers-reduced-motion:reduce){:where(a,button,summary,label){transition:none}}
+/* 5円キャンペーン：カート参照とスワイプで変える個数欄 */
+.cpo .cartref{background:var(--bg);border-radius:12px;padding:10px 12px;font-size:13px}
+.cpo .cartref .cl{display:flex;justify-content:space-between;gap:8px;padding:4px 0;border-bottom:1px dashed var(--line)}
+.cpo .cartref .cl.off{color:var(--sub)}
+.cpo .cartref .ct{margin-top:6px;font-weight:700}.cpo .cartref .ct b{color:var(--coral-d);font-size:18px}
+.cpo .cartref.empty{background:#fdecea;color:#b23b33}.cpo .cartref.empty small{display:block;color:#b23b33;margin-top:2px}
+.cpo .demo{margin-top:8px;font-size:12px;color:var(--sub);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.cpo .demo button{font:inherit;font-size:12px;border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:3px 12px;cursor:pointer}
+.cpo .demo button.on{border-color:var(--teal);background:var(--teal-l);color:var(--teal-d);font-weight:700}
+.cpo .qtybox{display:flex;align-items:stretch;gap:8px}
+.cpo .qb{flex:0 0 48px;border:1.5px solid var(--line);background:#fff;border-radius:12px;font-size:22px;font-weight:700;cursor:pointer;color:var(--teal-d)}
+.cpo .qb:disabled{color:#c9ced2;cursor:not-allowed}
+.cpo .qs{position:relative;flex:1;touch-action:pan-y;cursor:ew-resize;user-select:none;background:#fff;border:1.5px solid var(--line);border-radius:12px;transition:border-color .3s,background-color .3s}
+.cpo .qs input{width:100%;height:100%;min-height:50px;border:0;background:transparent;text-align:center;font:inherit;font-size:22px;font-weight:900;color:var(--ink);padding:0 8px;box-shadow:none!important;cursor:inherit}
+.cpo .qs input::placeholder{font-size:12.5px;font-weight:700;color:#b23b33}
+.cpo .qs .sw{position:absolute;left:0;right:0;bottom:1px;text-align:center;font-size:10px;color:var(--sub);pointer-events:none}
+.cpo .qs.swiping{border-color:var(--teal);background:var(--teal-l)}
+.cpo .qtybox.empty .qs{background:#fdecea;border-color:#e08a84;cursor:not-allowed}
+.cpo .qtybox.empty .sw{display:none}
+.cpo .qwarn{margin-top:8px;background:#fff6e0;border:1.5px solid #f0b35a;border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700;color:#a05a00}
+.cpo .qtybox.shake{animation:cpShake .35s}
+@keyframes cpShake{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+/* 数量欄：スワイプで変える（全ページ共通） */
+.qty.swipable input{cursor:ew-resize;touch-action:pan-y;user-select:none}
+.qty.swiping{border-color:var(--teal);background:var(--teal-l)}
+.qty.swiping input{background-color:var(--teal-l)}
+/* LINE友だち登録クーポンのバナー */
+.cpx-bn.line{background:linear-gradient(125deg,#06c755 0%,#2fd77b 45%,#8be86a 100%);background-size:200% 200%;box-shadow:0 10px 26px rgba(6,160,80,.4)}
+.cpx-bn.line::before{background:radial-gradient(circle at 15% 20%,rgba(255,255,255,.4),transparent 45%),repeating-linear-gradient(135deg,transparent 0 14px,rgba(255,255,255,.07) 14px 28px)}
+.cpx-bn.line .tag{color:#05803a;background:#fff6c2}
+.cpx-bn.line h2{text-shadow:0 2px 6px rgba(0,90,40,.4)}
+.cpx-bn.line h2 b{color:#fff35c;font-size:1.55em;text-shadow:0 2px 0 rgba(0,100,40,.35)}
+.cpx-bn.line p{text-shadow:0 1px 4px rgba(0,90,40,.45)}
+.cpx-bn.line p strong{background:#fff35c;color:#b0191a;padding:0 6px;border-radius:4px;text-shadow:none;font-weight:900;animation:cpxBlink 1.6s ease-in-out infinite}
+.cpx-bn.line .more{color:#05803a}
+.cpx-bn.line .tkt{position:absolute;right:14px;top:20px;width:118px;height:84px;z-index:2;animation:cpxFloat 3.6s ease-in-out infinite;filter:drop-shadow(0 8px 10px rgba(0,80,30,.4))}
+.cpx-bn.line .tk-in{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;background:#fff;color:#05803a;border-radius:10px;font-weight:900;line-height:1.1;-webkit-mask:radial-gradient(circle 9px at 0 50%,transparent 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 9px at 100% 50%,transparent 98%,#000) right/51% 100% no-repeat;mask:radial-gradient(circle 9px at 0 50%,transparent 98%,#000) left/51% 100% no-repeat,radial-gradient(circle 9px at 100% 50%,transparent 98%,#000) right/51% 100% no-repeat}
+.cpx-bn.line .tk-in::after{content:"";position:absolute;inset:6px;border:2px dashed #7fe0a8;border-radius:7px;pointer-events:none}
+.cpx-bn.line .tk-in small{font-size:9px;letter-spacing:.12em;color:#e0364a}
+.cpx-bn.line .tk-in b{font-size:22px;letter-spacing:.04em}
+.cpx-bn.line .tk-in em{font-style:normal;font-size:11px;background:#06c755;color:#fff;border-radius:999px;padding:0 8px;margin-top:3px}
+.cpx-bn.line .ping{position:absolute;right:8px;top:12px;z-index:3;min-width:26px;height:26px;display:flex;align-items:center;justify-content:center;border-radius:999px;background:#ff3b4a;color:#fff;font-weight:900;font-size:14px;border:2px solid #fff;animation:cpxPing 1.4s ease-in-out infinite}
+.cpx-bn.line .sp{position:absolute;z-index:1;width:14px;height:14px;opacity:0;background:#fff;clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);animation:cpxTwinkle 2.6s ease-in-out infinite;pointer-events:none}
+.cpx-bn.line .sp.s1{left:8%;top:14%}.cpx-bn.line .sp.s2{left:44%;top:10%;animation-delay:.7s;width:10px;height:10px}.cpx-bn.line .sp.s3{left:70%;top:60%;animation-delay:1.3s;width:18px;height:18px}.cpx-bn.line .sp.s4{left:20%;top:70%;animation-delay:1.9s;width:10px;height:10px}.cpx-bn.line .sp.s5{left:90%;top:40%;animation-delay:.3s}
+@keyframes cpxPing{0%,100%{transform:scale(1)}15%{transform:scale(1.3)}30%{transform:scale(1)}45%{transform:scale(1.2)}60%{transform:scale(1)}}
+@keyframes cpxBlink{0%,100%{background:#fff35c}50%{background:#fff}}
+@keyframes cpxTwinkle{0%,100%{opacity:0;transform:scale(.4) rotate(0)}50%{opacity:1;transform:scale(1) rotate(45deg)}}
+@media (prefers-reduced-motion:reduce){.cpx-bn.line .tkt,.cpx-bn.line .ping,.cpx-bn.line p strong,.cpx-bn.line .sp{animation:none}.cpx-bn.line .sp{display:none}}
+@media (hover:hover) and (pointer:fine){.cpx-bn.line:hover .more{background:#fff35c;color:#05803a}}
+.cpx-bn.line .tkt{top:auto;bottom:64px;right:12px;width:112px;height:78px}
+.cpx-bn.line .tk-in{padding:0 14px}
+.cpx-bn.line .tk-in b{font-size:19px}
+.cpx-bn.line .ping{top:auto;bottom:128px;right:6px}
+.cpx-bn.line .more{width:fit-content}
+.cpx-bn.line p{max-width:64%}
+/* SNSフォローでクーポン（Facebook / X / Instagram / Threads） */
+.cpx-bn.sns{background:var(--bgc);background-size:200% 200%;box-shadow:0 10px 26px var(--sh)}
+.cpx-bn.sns .tag{color:var(--a)}
+.cpx-bn.sns .more{color:var(--a)}
+.cpx-bn.sns:hover .more{color:var(--a)}
+.cpx-bn.sns .tk-in{color:var(--a)}
+.cpx-bn.sns .tk-in::after{border-color:var(--al)}
+.cpx-bn.sns .tk-in em{background:var(--a)}
+.cpx-bn.sns h2,.cpx-bn.sns p{text-shadow:0 2px 6px rgba(0,0,0,.35)}
+.cpx-bn.sns p strong{text-shadow:none}
+.cpx-bn.fb{--bgc:linear-gradient(125deg,#1262d6 0%,#2f86f5 50%,#6fb4ff 100%);--sh:rgba(24,119,242,.4);--a:#1260d0;--al:#9cc6ff}
+.cpx-bn.xx{--bgc:linear-gradient(125deg,#0b0f13 0%,#1d2933 50%,#3d4f5c 100%);--sh:rgba(15,20,25,.5);--a:#0f1419;--al:#b9c4cc}
+.cpx-bn.ig{--bgc:linear-gradient(125deg,#833ab4 0%,#e1306c 45%,#fd8d32 100%);--sh:rgba(225,48,108,.42);--a:#c2185b;--al:#ffb3cf}
+.cpx-bn.th{--bgc:linear-gradient(125deg,#14111c 0%,#3a2a63 50%,#7b5cd6 100%);--sh:rgba(58,42,99,.5);--a:#4e34a0;--al:#cbbdf5}
+.cpx-bn.sns h2{font-size:clamp(16px,4.7vw,24px);word-break:normal;overflow-wrap:anywhere}
+.cpx-bn.sns h2 b{font-size:1.6em}
+/* SNS：コメントでさらにクーポン */
+.cpx-bn.sns .bonus{display:flex;align-items:center;gap:8px;margin-top:12px;background:rgba(255,255,255,.95);color:var(--a);font-weight:900;font-size:13.5px;border-radius:12px;padding:7px 12px;box-shadow:0 4px 12px rgba(0,0,0,.2);animation:cpxBonus 2.4s ease-in-out infinite}
+.cpx-bn.sns .bonus i{font-style:normal;flex:none;width:22px;height:22px;border-radius:50%;background:#ff3b4a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px;line-height:1}
+.cpx-bn.sns .more{margin-top:12px}
+@keyframes cpxBonus{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@media (prefers-reduced-motion:reduce){.cpx-bn.sns .bonus{animation:none}}
+/* 銀行・郵便局の振込割引（案） */
+.cpx-bn.bank{background:linear-gradient(125deg,#0f3b73 0%,#1d62b0 55%,#3f8fe0 100%);background-size:200% 200%;box-shadow:0 10px 26px rgba(15,59,115,.45)}
+.cpx-bn.bank .tag{color:#0f3b73;background:#ffe9a3}
+.cpx-bn.bank h2{text-shadow:0 2px 6px rgba(0,0,0,.35)}
+.cpx-bn.bank h2 b{color:#ffe27a;font-size:1.25em}
+.cpx-bn.bank p{text-shadow:0 1px 4px rgba(0,0,0,.4)}
+.cpx-bn.bank p strong{background:#ffe27a;color:#0f3b73;padding:0 6px;border-radius:4px;text-shadow:none;font-weight:900}
+.cpx-bn.bank .more{color:#0f3b73}
+.cpx-bn.bank .coin span{font-size:28px}
+@media (hover:hover) and (pointer:fine){.cpx-bn.bank:hover .more{background:#ffe9a3;color:#0f3b73}}
+.cpx-bn.sns .tkt{bottom:140px}
+.cpx-bn.sns .ping{bottom:204px}
+.cpx-bn.bank h2{font-size:clamp(16px,4.9vw,24px);word-break:normal;overflow-wrap:anywhere}
+.cpx-bn.bank .coin{top:auto;bottom:62px;right:14px;width:96px;height:96px}
+.cpx-bn.bank .coin span{font-size:26px}
+.cpx-bn.bank p{max-width:62%}
+.cpx-bn.bank .more{width:fit-content}
+.cpx-bn.bank .coin{bottom:22px;width:88px;height:88px}
+.cpx-bn.bank .coin span{font-size:24px}
+.cpx-bn.sns .bonus{gap:6px;font-size:13px;justify-content:center;padding:8px 10px}
+.cpx-bn.sns .bonus em{font-style:normal}
+.cpx-bn.sns .bonus i{width:auto;height:auto;background:none;color:#ff3b4a;font-size:16px;font-style:normal}
+.cpx-bn.sns .bonus b{background:var(--a);color:#fff;border-radius:999px;padding:1px 10px;font-size:12.5px}
+.cpx-bn.sns .tk-in small{font-size:8px;letter-spacing:.06em}
+.cpx-bn.sns .tkt{bottom:122px;width:104px;height:72px}
+.cpx-bn.sns .ping{bottom:182px}
+.cpx-bn.sns h2 b{font-size:1.45em}
+.cpx-bn.sns p{max-width:60%}
+.cpx-bn.sns .tkt{width:114px;height:76px}
+.cpx-bn.sns .tk-in em{white-space:nowrap;font-size:10px;padding:0 6px}
+.cpx-bn.sns .tk-in small{white-space:nowrap;font-size:7.5px}
+.cpx-bn.sns .tk-in b{font-size:17px}

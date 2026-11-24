@@ -1,0 +1,152 @@
+{
+  "active": true,
+  "product": {
+    "id": "65497",
+    "code": "pb-lllpan",
+    "title": "Long Love Life 7年保存レトルトパン2個セット ご挨拶 保存食 非常食",
+    "price": 1180,
+    "image": "images/features/pb-lllpan.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/65497.html",
+    "description": "ご家庭や職場、車にストックしておけば緊急時の非常食としても役立つもらって嬉しい保存食。 令和のギフトは実用性重視+お洒落さもバッチリ☆ 自分で買うには少し後回しになりがち、でももらって嬉しい非常食は大切な人にお試ししてもらうことで防災意識を高める機会にも◎ バレンタインに美味しいチョコもいいけれど、美味しいお守りを贈ってみませんか? ・話題の7年保存レトルトパンのギフト仕様。 ・ ネコポス発送、お客様組み立て品。 ・紙袋&パンのフレーバーはお選びいただけます。",
+    "size": "",
+    "material": "",
+    "contents": "7年保存レトルトパン(チョコ・ブルーベリー)よりいずれか2個+紙袋1枚",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※賞味期限は製造より7年となります。 ※ご注文から商品の到着までに通常1週間ほどお時間をいただきます。 ※注文が殺到した場合、商品到着までお時間がかかる場合がございます。お早めにご注文くださいますようお願い申し上げます。 ※降雪や台風などの天候の影響や交通事情により、ご指定いただいた日時にお届けできない場合がございます。予めご了承くださいますようお願い申し上げます。 ※ネコポスでの発送のため時間指定がいただけません。 ※他の商品とご注文の場合は、宅配便で商品を同梱にしてのお届けとなりますので送料が別途発生します。",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "season"
+    ],
+    "subs": [
+      "bousai"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-lllpan",
+        "t": "Long Love Life 7年保存レトルトパン2個セット",
+        "price": 1180
+      }
+    ],
+    "spec": {
+      "code": "pb-lllpan",
+      "pid": "65497",
+      "fields": [
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "紙袋×パン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "袋別添でのポスト便発送 となります",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "spec-change",
+      "season-delay",
+      "nekopos"
+    ],
+    "photos": [
+      {
+        "src": "images/features/pb-lllpan.jpg",
+        "alt": "Long Love Life 7年保存レトルトパン2個セット ご挨拶 保存食 非常食 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/65497/pb-lllpan-01.jpg",
+        "alt": "Long Love Life 7年保存レトルトパン2個セット ご挨拶 保存食 非常食 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/65497/pb-lllpan-02.jpg",
+        "alt": "Long Love Life 7年保存レトルトパン2個セット ご挨拶 保存食 非常食 商品写真3",
+        "width": 701,
+        "height": 701
+      },
+      {
+        "src": "images/product-details/65497/pb-lllpan-03.jpg",
+        "alt": "Long Love Life 7年保存レトルトパン2個セット ご挨拶 保存食 非常食 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/65497/pb-lllpan-04.jpg",
+        "alt": "Long Love Life 7年保存レトルトパン2個セット ご挨拶 保存食 非常食 商品写真5",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "65497",
+    "name": "【選べる チョコレート ベリー 限定】Long Love Life 7年保存レトルトパン2個セット ギフト バレンタイン ホワイトデー ご挨拶 保存食 非常食 ポスト便送料無料",
+    "title": "Long Love Life 7年保存レトルトパン2個セット ご挨拶 保存食 非常食",
+    "url": "https://www.luna-luce.jp/item/65497.html",
+    "groups": [
+      "preparedness",
+      "sale"
+    ],
+    "image": "images/features/pb-lllpan.jpg",
+    "description": "ご家庭や職場、車にストックしておけば緊急時の非常食としても役立つもらって嬉しい保存食。 令和のギフトは実用性重視+お洒落さもバッチリ☆ 自分で買うには少し後回しになりがち、でももらって嬉しい非常食は大切な人にお試ししてもらうことで防災意識を高める機会にも◎ バレンタインに美味しいチョコもいいけれど、美味しいお守りを贈ってみませんか? ・話題の7年保存レトルトパンのギフト仕様。 ・ ネコポス発送、お客様組み立て品。 ・紙袋&パンのフレーバーはお選びいただけます。",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2024-01-26"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-lllpan": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

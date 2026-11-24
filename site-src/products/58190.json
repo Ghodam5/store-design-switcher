@@ -1,0 +1,284 @@
+{
+  "active": true,
+  "product": {
+    "id": "58190",
+    "code": "pb-goen",
+    "title": "GOEN PB (金平糖)",
+    "price": 184,
+    "image": "images/features/pb-goen.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-goen.html",
+    "description": "豊富なデザインから選べるパッケージに、お二人のお名前と記念日を印字し 金平糖をお付けしたカードサイズのプチギフト。 カードサイズなのでサッとお渡ししやすく、受け取りやすいサイズ感がGOOD◎",
+    "size": "サイズ:約10×7×2cm",
+    "material": "",
+    "contents": "セット内容:金平糖入りプチギフト1個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-goen",
+        "t": "GOEN プチギフト PB (金平糖)",
+        "price": 184
+      }
+    ],
+    "spec": {
+      "code": "pb-goen",
+      "pid": "58190",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "リボン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "にゃんこ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "MR＆MRS",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "R&G",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ミモザ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "FromSea",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "松竹梅",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "白壁",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "花結び",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "クラシッククラウン",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 10,
+    "minnote": "最低数量は仮（商品データに記載なし）",
+    "hasName": true,
+    "petit": true,
+    "seal": true,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    }
+  },
+  "detail": {
+    "photos": [
+      {
+        "src": "images/product-details/58190/pb-goen.jpg",
+        "alt": "GOEN PB (金平糖) 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58190/pb-goen01.jpg",
+        "alt": "GOEN PB (金平糖) 商品写真2",
+        "width": 700,
+        "height": 850
+      },
+      {
+        "src": "images/product-details/58190/pb-goen02.jpg",
+        "alt": "GOEN PB (金平糖) 商品写真3",
+        "width": 700,
+        "height": 890
+      },
+      {
+        "src": "images/product-details/58190/pb-goen03.jpg",
+        "alt": "GOEN PB (金平糖) 商品写真4",
+        "width": 700,
+        "height": 190
+      }
+    ],
+    "sections": [
+      {
+        "title": "商品について",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "お二人のお名前と記念日を印字したパッケージに、金平糖を添えるカードサイズのプチギフトです。豊富なデザインからお好みの柄を選べます。"
+          },
+          {
+            "type": "p",
+            "text": "手渡ししやすい約10×7×2cmのサイズ。挙式の記念や、ゲストへのご挨拶にお使いいただけます。"
+          }
+        ]
+      },
+      {
+        "title": "ご注文の前に",
+        "blocks": [
+          {
+            "type": "ul",
+            "items": [
+              "受注生産のため、お届けまでの目安は約1週間です。日程に余裕をもってお申し込みください。",
+              "名入れをご希望の場合は、カートでデザイン・新婦名・新郎名・挙式年月日をご指定ください。入力方法は下の「名入れ・刺繍の注文方法」で確認できます。",
+              "金平糖の種類は掲載写真と異なる場合があります。"
+            ]
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "label": "商品番号",
+        "value": "pb-goen"
+      },
+      {
+        "label": "内容量",
+        "value": "セット内容:金平糖入りプチギフト1個"
+      },
+      {
+        "label": "サイズ",
+        "value": "サイズ:約10×7×2cm"
+      },
+      {
+        "label": "名入れ・刺繍",
+        "value": "対応。ご新婦のお名前（例：智美、Tomomi）／ご新郎のお名前（例：直樹、Naoki）／挙式年月日（例：2008年12月24日）"
+      },
+      {
+        "label": "お届けの目安",
+        "value": "約1週間後"
+      }
+    ],
+    "crumbs": [
+      {
+        "title": "食べ物・飲み物",
+        "url": "category.html?g=food"
+      },
+      {
+        "title": "プチギフト",
+        "url": "category.html?g=food&m=petit"
+      },
+      {
+        "title": "キャンディー・金平糖",
+        "url": "category.html?g=food&m=petit&s=candy"
+      }
+    ],
+    "relatedIds": [
+      "69417",
+      "72358",
+      "58915",
+      "58966",
+      "59688",
+      "70386"
+    ],
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-goen.html",
+    "sourceDate": "2026-11-18",
+    "photoPolicy": "本店ギャラリーに掲載された商品の原本。異なる商品の画像や共通バナーは含めない。"
+  },
+  "feature": {
+    "id": "58190",
+    "name": "【プチギフト】GOEN プチギフト PB (金平糖)//名入れ・こんぺいとう・カード型・名入れ♪",
+    "title": "GOEN PB (金平糖)",
+    "url": "https://www.luna-luce.jp/item/pb-goen.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/pb-goen.jpg",
+    "description": "豊富なデザインから選べるパッケージに、お二人のお名前と記念日を印字し 金平糖をお付けしたカードサイズのプチギフト。 カードサイズなのでサッとお渡ししやすく、受け取りやすいサイズ感がGOOD◎",
+    "size": "サイズ:約10×7×2cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2022-08-29"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-goen": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

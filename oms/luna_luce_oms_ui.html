@@ -1,0 +1,2475 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luna Luce OMS | 統合受注・名入れ制作管理システム 設計＆UIプロトタイプ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: {
+              DEFAULT: '#1F2A27',
+              light: '#2C3B37',
+              dark: '#141C1A',
+            },
+            ivory: {
+              DEFAULT: '#FAF8F5',
+              warm: '#F3EFE8',
+              card: '#FFFFFF',
+            },
+            champagne: {
+              DEFAULT: '#B8965C',
+              light: '#E8DEC8',
+              soft: '#F7F3EA',
+            },
+            taupe: {
+              DEFAULT: '#5E514D',
+              light: '#8A7B76',
+            },
+            urgent: '#D9534F',
+            coral: '#E07A5F',
+            sage: '#2A9D8F',
+          },
+          fontFamily: {
+            sans: ['"Noto Sans JP"', 'sans-serif'],
+            serif: ['"Noto Serif JP"', 'serif'],
+            serifEn: ['"Cormorant Garamond"', 'serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body {
+      background-color: #FAF8F5;
+      color: #2B2624;
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+    /* Custom subtle scrollbars */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #F3EFE8;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #C9BFA9;
+      border-radius: 9999px;
+    }
+    .tab-btn-active {
+      background-color: #B8965C;
+      color: #FFFFFF;
+      box-shadow: 0 2px 8px rgba(184, 150, 92, 0.35);
+    }
+    .drawer-enter {
+      transform: translateX(0%);
+    }
+    .drawer-exit {
+      transform: translateX(100%);
+    }
+    @keyframes pulseSoft {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.45; }
+    }
+    .animate-pulse-soft {
+      animation: pulseSoft 2.2s infinite;
+    }
+    .oms-sheet th {
+      font-weight: 500;
+      color: #5E514D;
+      text-align: left;
+      white-space: nowrap;
+      vertical-align: top;
+      padding: 4px 10px 4px 0;
+      width: 7.5rem;
+    }
+    .oms-sheet td {
+      padding: 4px 0;
+      color: #1F2A27;
+      vertical-align: top;
+    }
+    .real-size-stage {
+      background-color: #F3EFE8;
+      background-image:
+        linear-gradient(rgba(31, 42, 39, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(31, 42, 39, 0.06) 1px, transparent 1px);
+      background-size: 10mm 10mm;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- =====================================================================
+       TOP NAVIGATION HEADER
+       ===================================================================== -->
+  <header class="bg-forest text-white sticky top-0 z-40 shadow-md border-b border-white/10">
+    <div class="w-full px-4 sm:px-6 py-3 flex flex-col gap-3">
+      <!-- Brand Identity -->
+      <div class="flex items-start justify-between gap-4">
+        <div class="flex items-center gap-3 min-w-0">
+          <div class="w-9 h-9 rounded-xl bg-champagne/20 border border-champagne/60 flex items-center justify-center text-champagne font-serifEn text-xl font-semibold">
+            L
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="font-serifEn text-xl tracking-wider text-white">Luna Luce</span>
+              <span class="px-2 py-0.5 rounded-md bg-champagne text-[11px] font-semibold tracking-wider text-white">
+                OMS 2.0
+              </span>
+            </div>
+            <p class="text-[11px] text-stone-300 tracking-wide leading-snug">
+              統合受注・名入れ制作管理システム（Welcart / 楽天 / Yahoo! / 電話・FAX 一元管理）
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex flex-wrap items-center justify-end gap-3">
+        <div class="text-right">
+          <div class="flex items-center justify-end gap-1.5 text-[11px] text-emerald-300">
+            <span class="w-2 h-2 rounded-full bg-sage animate-pulse-soft shrink-0"></span>
+            <span>3販路API 自動ポーリング稼働中</span>
+          </div>
+          <p id="last-sync-time" class="text-[10px] text-stone-400 font-mono">最終同期: 2026-11-19 10:15:00</p>
+        </div>
+        <button
+          onclick="triggerManualSync()"
+          class="px-3 py-2 rounded-xl bg-forest-light hover:bg-white/15 border border-white/15 text-xs text-stone-100 flex items-center gap-1.5 transition-colors shrink-0"
+        >
+          <svg class="w-3.5 h-3.5 text-champagne" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
+          <span>今すぐ全販路取込</span>
+        </button>
+      </div>
+
+      <!-- 4 Main View Tabs -->
+      <nav class="flex flex-wrap items-center gap-2" aria-label="システムビュー切替">
+        <button
+          id="nav-tab-dashboard"
+          onclick="switchTab('dashboard')"
+          class="tab-btn tab-btn-active whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-medium transition-all flex items-center gap-1.5"
+        >
+          <span>1. 統合受注ダッシュボード（現場UI）</span>
+        </button>
+        <button
+          id="nav-tab-architecture"
+          onclick="switchTab('architecture')"
+          class="tab-btn whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-medium text-stone-300 hover:text-white hover:bg-forest-light transition-all flex items-center gap-1.5"
+        >
+          <span>2. システム全容・API連携図</span>
+        </button>
+        <button
+          id="nav-tab-schema"
+          onclick="switchTab('schema')"
+          class="tab-btn whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-medium text-stone-300 hover:text-white hover:bg-forest-light transition-all flex items-center gap-1.5"
+        >
+          <span>3. DBスキーマ・正規化設計</span>
+        </button>
+        <button
+          id="nav-tab-simulator"
+          onclick="switchTab('simulator')"
+          class="tab-btn whitespace-nowrap px-3.5 py-2 rounded-xl text-xs font-medium text-stone-300 hover:text-white hover:bg-forest-light transition-all flex items-center gap-1.5"
+        >
+          <span>4. 加工・送り状CSV出力シミュレーター</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =====================================================================
+       MAIN CONTENT AREA
+       ===================================================================== -->
+  <main class="flex-1 max-w-[1440px] w-full mx-auto px-4 sm:px-6 py-6">
+
+    <!-- ===================================================================
+         TAB 1: 統合受注ダッシュボード（現場オペレーションUI）
+         =================================================================== -->
+    <section id="view-dashboard" class="space-y-5">
+      <!-- Top KPI Strip -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
+        <div class="bg-white rounded-2xl p-4 border border-stone-200/80 shadow-xs">
+          <p class="text-[11px] text-taupe-light font-medium">本日新規受注（4販路計）</p>
+          <div class="flex items-baseline justify-between mt-1.5">
+            <span id="kpi-total" class="font-serifEn text-3xl font-semibold text-forest">8</span>
+            <span class="text-[11px] text-sage font-medium bg-sage/10 px-2 py-0.5 rounded-full">全販路統合済</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-4 border border-urgent/30 shadow-xs cursor-pointer hover:border-urgent transition-colors" onclick="filterByUrgency()">
+          <p class="text-[11px] text-urgent font-medium flex items-center gap-1">
+            <span>挙式日7日以内・要急ぎ</span>
+          </p>
+          <div class="flex items-baseline justify-between mt-1.5">
+            <span id="kpi-urgent" class="font-serifEn text-3xl font-semibold text-urgent">2</span>
+            <span class="text-[11px] text-urgent bg-urgent/10 px-2 py-0.5 rounded-full font-medium">最優先制作</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-4 border border-amber-300/60 shadow-xs cursor-pointer hover:border-amber-500 transition-colors" onclick="filterByWarning()">
+          <p class="text-[11px] text-amber-800 font-medium">名入れ要確認（パース警告）</p>
+          <div class="flex items-baseline justify-between mt-1.5">
+            <span id="kpi-warning" class="font-serifEn text-3xl font-semibold text-amber-600">2</span>
+            <span class="text-[11px] text-amber-800 bg-amber-100 px-2 py-0.5 rounded-full font-medium">要チェック</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-4 border border-stone-200/80 shadow-xs">
+          <p class="text-[11px] text-taupe-light font-medium">制作・レーザー加工待ち</p>
+          <div class="flex items-baseline justify-between mt-1.5">
+            <span id="kpi-production" class="font-serifEn text-3xl font-semibold text-champagne">3</span>
+            <span class="text-[11px] text-taupe bg-champagne-soft px-2 py-0.5 rounded-full">バッチ出力可</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl p-4 border border-stone-200/80 shadow-xs col-span-2 sm:col-span-1">
+          <p class="text-[11px] text-taupe-light font-medium">本日出荷予定（B2/佐川連携）</p>
+          <div class="flex items-baseline justify-between mt-1.5">
+            <span id="kpi-shipping" class="font-serifEn text-3xl font-semibold text-sage">2</span>
+            <span class="text-[11px] text-sage bg-sage/10 px-2 py-0.5 rounded-full">伝票発行準備</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Part stock lives only in this page -->
+      <div class="bg-white rounded-2xl p-4 border border-stone-200/80 shadow-xs">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+          <div>
+            <p class="text-xs font-semibold text-forest">部品在庫（菓子・箱・サンクスカード・ミニシール）</p>
+            <p class="text-[11px] text-taupe-light mt-0.5">この画面の中だけ。注文を確定すると、その注文の内訳数だけ減ります。再読込で元に戻ります。</p>
+          </div>
+          <p id="part-stock-note" class="text-[11px] text-taupe">まだ引き落としはありません</p>
+        </div>
+        <div id="part-stock-strip" class="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-3"></div>
+      </div>
+
+      <!-- Filter & Action Toolbar -->
+      <div class="bg-white rounded-2xl p-4 border border-stone-200/80 shadow-xs space-y-3">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+          <!-- Channel Filter Pills -->
+          <div class="flex flex-wrap items-center gap-1.5">
+            <span class="text-xs font-medium text-taupe mr-1">販路:</span>
+            <button onclick="setChannelFilter('ALL')" data-channel="ALL" class="channel-pill px-3 py-1.5 rounded-xl text-xs font-medium bg-forest text-white transition-all">すべて</button>
+            <button onclick="setChannelFilter('WELCART')" data-channel="WELCART" class="channel-pill px-3 py-1.5 rounded-xl text-xs font-medium bg-ivory-warm text-taupe hover:bg-champagne-light/60 transition-all">自社Welcart</button>
+            <button onclick="setChannelFilter('RAKUTEN')" data-channel="RAKUTEN" class="channel-pill px-3 py-1.5 rounded-xl text-xs font-medium bg-ivory-warm text-taupe hover:bg-champagne-light/60 transition-all">楽天市場</button>
+            <button onclick="setChannelFilter('YAHOO')" data-channel="YAHOO" class="channel-pill px-3 py-1.5 rounded-xl text-xs font-medium bg-ivory-warm text-taupe hover:bg-champagne-light/60 transition-all">Yahoo!ショッピング</button>
+            <button onclick="setChannelFilter('MANUAL')" data-channel="MANUAL" class="channel-pill px-3 py-1.5 rounded-xl text-xs font-medium bg-ivory-warm text-taupe hover:bg-champagne-light/60 transition-all">電話・FAX注文</button>
+          </div>
+
+          <!-- Search & Manual Order Entry -->
+          <div class="flex flex-wrap items-center gap-2">
+            <div class="relative flex-1 sm:w-64">
+              <input
+                id="order-search"
+                type="text"
+                oninput="renderOrdersTable()"
+                placeholder="注文番号・顧客名・新郎新婦名・商品名..."
+                class="w-full pl-9 pr-3 py-2 rounded-xl border border-stone-300 bg-ivory text-xs focus:outline-none focus:border-champagne"
+              />
+              <svg class="w-4 h-4 text-stone-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+            <button
+              onclick="openManualOrderModal()"
+              class="px-3.5 py-2 rounded-xl bg-champagne hover:bg-champagne/90 text-white text-xs font-medium shadow-xs flex items-center gap-1.5 transition-colors whitespace-nowrap"
+            >
+              <span>＋ 電話・FAX注文 手動登録</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Status Filter & Batch Actions -->
+        <div class="pt-3 border-t border-stone-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div class="flex flex-wrap items-center gap-1.5">
+            <span class="text-xs font-medium text-taupe mr-1">工程:</span>
+            <button onclick="setStatusFilter('ALL')" data-status="ALL" class="status-pill px-2.5 py-1 rounded-lg text-[11px] font-medium bg-taupe text-white">全工程</button>
+            <button onclick="setStatusFilter('新規受付')" data-status="新規受付" class="status-pill px-2.5 py-1 rounded-lg text-[11px] font-medium bg-stone-100 text-taupe hover:bg-stone-200">新規受付</button>
+            <button onclick="setStatusFilter('名入れ確認中')" data-status="名入れ確認中" class="status-pill px-2.5 py-1 rounded-lg text-[11px] font-medium bg-stone-100 text-taupe hover:bg-stone-200">名入れ確認中</button>
+            <button onclick="setStatusFilter('校正・データ作成')" data-status="校正・データ作成" class="status-pill px-2.5 py-1 rounded-lg text-[11px] font-medium bg-stone-100 text-taupe hover:bg-stone-200">校正・データ作成</button>
+            <button onclick="setStatusFilter('製造・レーザー加工')" data-status="製造・レーザー加工" class="status-pill px-2.5 py-1 rounded-lg text-[11px] font-medium bg-stone-100 text-taupe hover:bg-stone-200">製造・レーザー加工</button>
+            <button onclick="setStatusFilter('梱包・出荷済')" data-status="梱包・出荷済" class="status-pill px-2.5 py-1 rounded-lg text-[11px] font-medium bg-stone-100 text-taupe hover:bg-stone-200">梱包・出荷済</button>
+            <button id="btn-reset-special" onclick="resetSpecialFilters()" class="hidden px-2.5 py-1 rounded-lg text-[11px] font-medium bg-rose-100 text-urgent hover:bg-rose-200">
+              × 特別絞り込み解除
+            </button>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <span id="selected-count-label" class="text-[11px] text-taupe-light">選択中: 0件</span>
+            <button
+              onclick="goToSimulatorWithSelected()"
+              class="px-3 py-1.5 rounded-xl bg-forest hover:bg-forest-light text-white text-xs font-medium transition-colors"
+            >
+              選択注文の加工・送り状CSVを生成 →
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wedding-Date-Sorted Order Table -->
+      <div class="bg-white rounded-2xl border border-stone-200/80 shadow-xs overflow-hidden">
+        <div class="px-4 py-3 bg-ivory-warm/70 border-b border-stone-200/80 flex flex-wrap items-center justify-between gap-2">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-semibold text-forest">受注一覧（挙式日・納期が近い順に自動ソート）</span>
+            <span class="text-[11px] text-taupe-light">※ 行を開くと、内訳・プリントサンプル・受注管理表・実寸プレビューが出ます</span>
+          </div>
+          <span id="table-row-count" class="text-xs font-mono text-taupe">表示: 8件</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse min-w-[1280px]">
+            <thead>
+              <tr class="border-b border-stone-200 bg-stone-50/80 text-[11px] font-semibold text-taupe tracking-wider">
+                <th class="py-3 px-3 w-10 text-center">
+                  <input id="select-all-checkbox" type="checkbox" onclick="toggleSelectAll(this)" class="rounded border-stone-300 text-champagne focus:ring-champagne" />
+                </th>
+                <th class="py-3 px-3">挙式日 / 残日数</th>
+                <th class="py-3 px-3">販路 / 注文番号</th>
+                <th class="py-3 px-3">注文者 / 配送先</th>
+                <th class="py-3 px-3">商品・数量・金額</th>
+                <th class="py-3 px-3">正規化済み名入れ内容（自動パース結果）</th>
+                <th class="py-3 px-3">オプション・料金・印</th>
+                <th class="py-3 px-3">工程ステータス</th>
+                <th class="py-3 px-3 text-right">操作</th>
+              </tr>
+            </thead>
+            <tbody id="orders-tbody" class="divide-y divide-stone-100 text-xs">
+              <!-- Populated dynamically by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         TAB 2: システム全容・データ連携アーキテクチャ
+         =================================================================== -->
+    <section id="view-architecture" class="hidden space-y-6">
+      <div class="bg-white rounded-2xl p-6 border border-stone-200/80 shadow-xs">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-stone-100">
+          <div>
+            <span class="text-[11px] font-serifEn tracking-widest text-champagne uppercase">System Architecture</span>
+            <h2 class="font-serif text-xl font-semibold text-forest mt-0.5">
+              4販路統合・名入れ正規化・制作自動化アーキテクチャ全容
+            </h2>
+            <p class="text-xs text-taupe-light mt-1">
+              自社Welcart（特注入力欄）と楽天・Yahoo!の異なる入力形式を「ブライダル共通スキーマ」へ正規化し、現場の転記作業ゼロを実現します。
+            </p>
+          </div>
+          <div class="flex items-center gap-2 text-xs bg-champagne-soft px-3.5 py-2 rounded-xl border border-champagne/30 text-taupe">
+            <span class="font-semibold text-forest">推奨技術スタック:</span>
+            <span>Node.js (TypeScript) or Python (FastAPI) + PostgreSQL + Next.js / React</span>
+          </div>
+        </div>
+
+        <!-- Visual 3-Stage Pipeline Diagram -->
+        <div class="grid grid-cols-1 lg:grid-cols-11 gap-4 items-stretch mt-6">
+          
+          <!-- Stage 1: Ingestion Channels -->
+          <div class="lg:col-span-3 space-y-3">
+            <div class="text-xs font-bold text-forest bg-ivory-warm px-3 py-2 rounded-xl border border-stone-200 text-center">
+              ① 受注データ取込層（4販路）
+            </div>
+
+            <!-- Welcart -->
+            <div class="p-3.5 rounded-xl border-2 border-emerald-700/30 bg-emerald-50/40 space-y-1.5">
+              <div class="flex items-center justify-between">
+                <span class="px-2 py-0.5 rounded-md bg-emerald-800 text-white text-[10px] font-bold">自社 WordPress / Welcart</span>
+                <span class="text-[10px] font-mono text-emerald-800">MySQL / REST API</span>
+              </div>
+              <p class="text-xs font-semibold text-forest">特注カート記入欄・カスタムオーダー直接抽出</p>
+              <p class="text-[11px] text-taupe-light leading-relaxed">
+                <code class="bg-white px-1 rounded text-[10px]">wp_usces_order_meta</code> および <code class="bg-white px-1 rounded text-[10px]">role=n/d/w/h/m/s</code> の構造化フィールドをWebhook/5分毎ポーリングで無欠損取得。
+              </p>
+            </div>
+
+            <!-- Rakuten RMS -->
+            <div class="p-3.5 rounded-xl border-2 border-rose-700/30 bg-rose-50/40 space-y-1.5">
+              <div class="flex items-center justify-between">
+                <span class="px-2 py-0.5 rounded-md bg-rose-700 text-white text-[10px] font-bold">楽天市場 (RMS WEB API)</span>
+                <span class="text-[10px] font-mono text-rose-800">XML / JSON API</span>
+              </div>
+              <p class="text-xs font-semibold text-forest">searchOrder / getOrder 定期取得</p>
+              <p class="text-[11px] text-taupe-light leading-relaxed">
+                SKU項目選択肢（名入れ文字・書体・熨斗）および注文備考欄を抽出。出荷完了時は <code class="bg-white px-1 rounded text-[10px]">updateOrderShipping</code> で伝票番号を自動反映。
+              </p>
+            </div>
+
+            <!-- Yahoo Shopping -->
+            <div class="p-3.5 rounded-xl border-2 border-amber-600/30 bg-amber-50/40 space-y-1.5">
+              <div class="flex items-center justify-between">
+                <span class="px-2 py-0.5 rounded-md bg-amber-600 text-white text-[10px] font-bold">Yahoo!ショッピング API</span>
+                <span class="text-[10px] font-mono text-amber-800">OAuth2.0 REST</span>
+              </div>
+              <p class="text-xs font-semibold text-forest">orderList / orderInfo 定期取得</p>
+              <p class="text-[11px] text-taupe-light leading-relaxed">
+                オプション項目・ストアへの要望欄を抽出。出荷時は <code class="bg-white px-1 rounded text-[10px]">orderChange</code> APIでステータスと配送伝票番号を書き戻し。
+              </p>
+            </div>
+
+            <!-- Phone / FAX -->
+            <div class="p-3.5 rounded-xl border-2 border-sky-700/30 bg-sky-50/40 space-y-1.5">
+              <div class="flex items-center justify-between">
+                <span class="px-2 py-0.5 rounded-md bg-sky-700 text-white text-[10px] font-bold">電話・FAX・大口見積注文</span>
+                <span class="text-[10px] font-mono text-sky-800">OMS直入力フォーム</span>
+              </div>
+              <p class="text-xs font-semibold text-forest">0586-86-1150 / 1140 受付分</p>
+              <p class="text-[11px] text-taupe-light leading-relaxed">
+                専用入力フォームから登録することで、ネット注文と同一の制作キュー・送り状CSVへ合流。
+              </p>
+            </div>
+          </div>
+
+          <!-- Arrow 1 -->
+          <div class="lg:col-span-1 flex items-center justify-center py-2">
+            <div class="flex lg:flex-col items-center gap-1 text-champagne">
+              <span class="text-[10px] font-mono font-semibold">RAW JSON</span>
+              <svg class="w-6 h-6 rotate-90 lg:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Stage 2: Core Normalization & DB Engine -->
+          <div class="lg:col-span-3 flex flex-col justify-between space-y-3">
+            <div class="text-xs font-bold text-white bg-forest px-3 py-2 rounded-xl text-center">
+              ② ブライダル正規化・業務ロジック中核
+            </div>
+
+            <div class="flex-1 bg-forest text-stone-100 rounded-2xl p-4 space-y-3.5 border border-champagne/40 shadow-md">
+              <div class="p-3 rounded-xl bg-forest-light border border-white/10">
+                <p class="text-xs font-bold text-champagne">1. 名入れパーサー＆表記ゆれ正規化</p>
+                <p class="text-[11px] text-stone-300 mt-1 leading-relaxed">
+                  全角/半角英数・日付フォーマット（<code class="text-amber-300">2026.11.28</code> 等）・新郎新婦名（<code class="text-amber-300">&amp; / ♡</code>）を自動分解。未入力や機種依存文字を検知すると「要確認フラグ」を自動点灯。
+                </p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-forest-light border border-white/10">
+                <p class="text-xs font-bold text-champagne">2. 料金・キャンペーン自動検算エンジン</p>
+                <p class="text-[11px] text-stone-300 mt-1 leading-relaxed">
+                  文字数超過（+500円/件）・デザイン校正料（+500円）・「5円ご縁プチギフト特典（税別800円以上の引出物・引菓子対象判定）」を全販路共通ルールで再検算。
+                </p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-forest-light border border-white/10">
+                <p class="text-xs font-bold text-champagne">3. 挙式日逆算スケジュール・アラート</p>
+                <p class="text-[11px] text-stone-300 mt-1 leading-relaxed">
+                  挙式日から制作リードタイム（通常7営業日・特急3営業日）を逆算し、出荷デッドライン超過リスクを自動警告。
+                </p>
+              </div>
+
+              <div class="p-3 rounded-xl bg-forest-light border border-white/10">
+                <p class="text-xs font-bold text-champagne">4. 冪等性キュー＆リトライ制御</p>
+                <p class="text-[11px] text-stone-300 mt-1 leading-relaxed">
+                  <code class="text-emerald-300">(channel, channel_order_id)</code> の複合ユニーク制約で重複取込を防止。API一時エラー時は指数バックオフで自動再試行。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Arrow 2 -->
+          <div class="lg:col-span-1 flex items-center justify-center py-2">
+            <div class="flex lg:flex-col items-center gap-1 text-champagne">
+              <span class="text-[10px] font-mono font-semibold">NORMALIZED</span>
+              <svg class="w-6 h-6 rotate-90 lg:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- Stage 3: Output & Fulfillment Pipelines -->
+          <div class="lg:col-span-3 space-y-3">
+            <div class="text-xs font-bold text-forest bg-ivory-warm px-3 py-2 rounded-xl border border-stone-200 text-center">
+              ③ 制作・出荷・顧客通知 出力層
+            </div>
+
+            <div class="p-3.5 rounded-xl border border-stone-200 bg-ivory space-y-1.5">
+              <span class="px-2 py-0.5 rounded-md bg-champagne text-white text-[10px] font-bold">制作・レーザー彫刻指示出力</span>
+              <p class="text-xs font-semibold text-forest">加工機用CSV・サンキューカードSVG一括生成</p>
+              <p class="text-[11px] text-taupe-light">
+                ウェルカムボード・リングピロー彫刻機へそのまま流し込める整形済みCSVと、校正確認用画像をワンクリック出力。
+              </p>
+            </div>
+
+            <div class="p-3.5 rounded-xl border border-stone-200 bg-ivory space-y-1.5">
+              <span class="px-2 py-0.5 rounded-md bg-sage text-white text-[10px] font-bold">配送・送り状CSV出力</span>
+              <p class="text-xs font-semibold text-forest">ヤマトB2クラウド / 佐川e飛伝 / クリックポスト</p>
+              <p class="text-[11px] text-taupe-light">
+                式場直送（会場名＋担当者様＋挙式日記載）の備考欄フォーマットを自動整形して送り状CSVを生成。
+              </p>
+            </div>
+
+            <div class="p-3.5 rounded-xl border border-stone-200 bg-ivory space-y-1.5">
+              <span class="px-2 py-0.5 rounded-md bg-taupe text-white text-[10px] font-bold">自動メール＆デザイン校正連絡</span>
+              <p class="text-xs font-semibold text-forest">名入れ内容確認・発送完了メール自動送信</p>
+              <p class="text-[11px] text-taupe-light">
+                名入れ確定内容と挙式日・お届け予定日を差し込んだ定型メールをワンクリック送信・履歴保存。
+              </p>
+            </div>
+
+            <div class="p-3.5 rounded-xl border border-stone-200 bg-ivory space-y-1.5">
+              <span class="px-2 py-0.5 rounded-md bg-forest text-white text-[10px] font-bold">モール側ステータス双方向同期</span>
+              <p class="text-xs font-semibold text-forest">伝票番号・出荷完了通知の自動書き戻し</p>
+              <p class="text-[11px] text-taupe-light">
+                B2クラウドから発行された送り状番号を取り込むと、Welcart・楽天・Yahoo!の注文ステータスを自動で「発送済」へ更新。
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- API Credential & Token Lifecycle Monitor -->
+      <div class="bg-white rounded-2xl p-6 border border-stone-200/80 shadow-xs">
+        <h3 class="font-serif text-base font-semibold text-forest mb-1">
+          外部API認証トークン・死活監視モニター（運用トラブル防止機構）
+        </h3>
+        <p class="text-xs text-taupe-light mb-4">
+          楽天市場RMSのライセンスキー期限切れやYahoo!のOAuth2トークン失効による「受注取りこぼし」を防ぐための監視パネル設計です。
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="p-4 rounded-xl bg-ivory border border-stone-200">
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-semibold text-xs text-forest">WordPress / Welcart API</span>
+              <span class="px-2 py-0.5 rounded-full bg-sage/15 text-sage text-[10px] font-bold">正常稼働 (200 OK)</span>
+            </div>
+            <p class="text-[11px] text-taupe-light">認証方式: Application Password + HMAC署名Webhook</p>
+            <p class="text-[11px] font-mono text-taupe mt-1">有効期限: 無期限（ローテーション推奨: 180日）</p>
+          </div>
+
+          <div class="p-4 rounded-xl bg-ivory border border-amber-300">
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-semibold text-xs text-forest">楽天市場 RMS WEB API</span>
+              <span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-[10px] font-bold">期限残 18日（更新通知済）</span>
+            </div>
+            <p class="text-[11px] text-taupe-light">認証方式: serviceSecret + licenseKey（90日毎更新）</p>
+            <p class="text-[11px] font-mono text-amber-800 mt-1">有効期限: 2026-12-07（14日前にSlack/メール警告）</p>
+          </div>
+
+          <div class="p-4 rounded-xl bg-ivory border border-stone-200">
+            <div class="flex items-center justify-between mb-2">
+              <span class="font-semibold text-xs text-forest">Yahoo!ショッピング API</span>
+              <span class="px-2 py-0.5 rounded-full bg-sage/15 text-sage text-[10px] font-bold">自動リフレッシュ正常</span>
+            </div>
+            <p class="text-[11px] text-taupe-light">認証方式: OAuth 2.0 (Access Token 1時間 / Refresh自動更新)</p>
+            <p class="text-[11px] font-mono text-taupe mt-1">次回リフレッシュ: 42分後（Cron自動実行）</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         TAB 3: データベース設計（ER図・スキーマ定義）
+         =================================================================== -->
+    <section id="view-schema" class="hidden space-y-5">
+      <div class="bg-white rounded-2xl p-6 border border-stone-200/80 shadow-xs">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 pb-4 border-b border-stone-100">
+          <div>
+            <span class="text-[11px] font-serifEn tracking-widest text-champagne uppercase">Database Schema Design</span>
+            <h2 class="font-serif text-xl font-semibold text-forest mt-0.5">
+              PostgreSQL 統合受注・名入れ正規化データベース設計（全8テーブル）
+            </h2>
+            <p class="text-xs text-taupe-light mt-1">
+              左側のテーブルを選択すると、カラム定義・制約・インデックス・ブライダル業務上の役割を確認できます。
+            </p>
+          </div>
+          <button
+            onclick="copySqlDdl()"
+            class="px-3.5 py-2 rounded-xl bg-forest hover:bg-forest-light text-white text-xs font-medium flex items-center gap-1.5 self-start md:self-auto transition-colors"
+          >
+            <span>CREATE TABLE DDLをコピー</span>
+          </button>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 mt-5">
+          <!-- Table Selector List -->
+          <div id="schema-table-list" class="lg:col-span-4 space-y-2">
+            <!-- Populated by JS -->
+          </div>
+
+          <!-- Selected Table Detail -->
+          <div id="schema-table-detail" class="lg:col-span-8 bg-ivory rounded-2xl p-5 border border-stone-200">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         TAB 4: 1-Click CSV・加工データ出力シミュレーター
+         =================================================================== -->
+    <section id="view-simulator" class="hidden space-y-5">
+      <div class="bg-white rounded-2xl p-6 border border-stone-200/80 shadow-xs">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-stone-100">
+          <div>
+            <span class="text-[11px] font-serifEn tracking-widest text-champagne uppercase">Production &amp; Logistics Output</span>
+            <h2 class="font-serif text-xl font-semibold text-forest mt-0.5">
+              レーザー加工・印字指示CSV ＆ ヤマトB2クラウド送り状CSV 出力シミュレーター
+            </h2>
+            <p class="text-xs text-taupe-light mt-1">
+              ダッシュボードでチェックした注文（未選択時は制作・出荷対象注文）から、現場システムへそのまま投入できるCSVをリアルタイム生成します。
+            </p>
+          </div>
+          <div class="flex flex-wrap items-center gap-2">
+            <button
+              onclick="downloadSimulatedCsv('laser')"
+              class="px-4 py-2.5 rounded-xl bg-champagne hover:bg-champagne/90 text-white text-xs font-semibold shadow-xs transition-colors"
+            >
+              ↓ レーザー加工用CSVをダウンロード
+            </button>
+            <button
+              onclick="downloadSimulatedCsv('yamato')"
+              class="px-4 py-2.5 rounded-xl bg-sage hover:bg-sage/90 text-white text-xs font-semibold shadow-xs transition-colors"
+            >
+              ↓ ヤマトB2送り状CSVをダウンロード
+            </button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-5">
+          <!-- Laser / Engraving CSV Preview -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs font-bold text-forest flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-champagne"></span>
+                <span>1. 制作・レーザー彫刻・カード印字用 CSV（UTF-8 BOM付）</span>
+              </h3>
+              <span id="sim-laser-count" class="text-[11px] font-mono text-taupe-light">0件出力</span>
+            </div>
+            <pre id="csv-preview-laser" class="bg-forest text-stone-100 p-4 rounded-xl text-[11px] font-mono overflow-x-auto leading-relaxed h-72"></pre>
+          </div>
+
+          <!-- Yamato B2 CSV Preview -->
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xs font-bold text-forest flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-sage"></span>
+                <span>2. ヤマト運輸 B2クラウド 送り状発行用 CSV（式場直送対応）</span>
+              </h3>
+              <span id="sim-yamato-count" class="text-[11px] font-mono text-taupe-light">0件出力</span>
+            </div>
+            <pre id="csv-preview-yamato" class="bg-forest text-stone-100 p-4 rounded-xl text-[11px] font-mono overflow-x-auto leading-relaxed h-72"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================================
+       SLIDE-OVER DRAWER: 受注詳細＆名入れ正規化インスペクター
+       ===================================================================== -->
+  <div id="drawer-backdrop" onclick="closeOrderDrawer()" class="fixed inset-0 bg-black/40 backdrop-blur-[1px] z-40 hidden transition-opacity"></div>
+
+  <aside id="order-drawer" class="fixed top-0 right-0 h-full w-full max-w-2xl bg-white z-50 shadow-2xl border-l border-stone-200 drawer-exit transition-transform duration-300 flex flex-col">
+    <!-- Drawer Header -->
+    <div class="px-6 py-4 bg-forest text-white flex items-center justify-between shrink-0">
+      <div>
+        <div class="flex items-center gap-2">
+          <span id="drawer-channel-badge" class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-700 text-white">自社Welcart</span>
+          <span id="drawer-order-id" class="font-mono text-sm font-semibold text-champagne">WC-20261119-01</span>
+        </div>
+        <h3 id="drawer-product-title" class="font-serif text-base font-medium mt-1">
+          透明アクリル ウェルカムボード「Lumière」ゴールド箔押し
+        </h3>
+      </div>
+      <button onclick="closeOrderDrawer()" class="p-2 rounded-xl hover:bg-white/10 text-stone-300 hover:text-white transition-colors" aria-label="閉じる">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Drawer Scrollable Body -->
+    <div class="flex-1 overflow-y-auto p-6 space-y-6">
+      
+      <!-- Alert Banner if Warning Exists -->
+      <div id="drawer-warning-box" class="hidden p-3.5 rounded-xl bg-amber-50 border border-amber-300 text-amber-900 text-xs flex items-start gap-2.5">
+        <span class="font-bold text-amber-600 text-sm">⚠</span>
+        <div>
+          <p class="font-bold">自動パース警告（確認・修正が必要です）</p>
+          <p id="drawer-warning-text" class="mt-0.5 text-[11px] leading-relaxed"></p>
+        </div>
+      </div>
+
+      <!-- 1. Live SVG Tag/Card Engraving Preview -->
+      <div class="bg-ivory-warm rounded-2xl p-4 border border-stone-200">
+        <div class="flex items-center justify-between mb-2.5">
+          <span class="text-xs font-bold text-forest">リアルタイム仕上がりプレビュー（刻印・カード印字イメージ）</span>
+          <span class="text-[10px] text-taupe-light">※ 下のフォームを編集すると即時反映されます</span>
+        </div>
+
+        <div class="bg-white rounded-xl p-4 border border-champagne/40 flex items-center justify-center shadow-inner">
+          <svg id="engraving-svg-preview" viewBox="0 0 460 210" class="w-full max-w-[420px] h-auto">
+            <defs>
+              <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#C9A66B" />
+                <stop offset="50%" stop-color="#9E7B43" />
+                <stop offset="100%" stop-color="#C9A66B" />
+              </linearGradient>
+            </defs>
+            <!-- Card Base -->
+            <rect x="8" y="8" width="444" height="194" rx="12" fill="#FAF8F5" stroke="url(#goldGrad)" stroke-width="2" />
+            <rect x="15" y="15" width="430" height="180" rx="8" fill="none" stroke="#DFB1A5" stroke-width="0.8" stroke-dasharray="3 2" />
+            
+            <!-- Header Message -->
+            <text id="svg-header-msg" x="230" y="48" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="15" letter-spacing="3" fill="#8A7B76">
+              WELCOME TO OUR WEDDING
+            </text>
+
+            <!-- Decorative Diamond -->
+            <line x1="130" y1="62" x2="215" y2="62" stroke="#DFB1A5" stroke-width="1" />
+            <polygon points="230,57 235,62 230,67 225,62" fill="#DFB1A5" />
+            <line x1="245" y1="62" x2="330" y2="62" stroke="#DFB1A5" stroke-width="1" />
+
+            <!-- Groom & Bride Names -->
+            <text id="svg-couple-names" x="230" y="110" text-anchor="middle" font-family="'Cormorant Garamond', 'Noto Serif JP', serif" font-size="30" font-weight="600" fill="#433936">
+              Takuya &amp; Misaki
+            </text>
+
+            <!-- Wedding Date -->
+            <text id="svg-wedding-date" x="230" y="144" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="16" letter-spacing="2.5" fill="#9E7B43">
+              2026.11.24
+            </text>
+
+            <!-- Sub Note / Noshi -->
+            <text id="svg-sub-note" x="230" y="175" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#7A6B66">
+              書体: モダンカリグラフィ ｜ 包装: 蝶結び熨斗
+            </text>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Print samples: several designs, one name and date -->
+      <div class="space-y-2.5">
+        <div class="flex items-end justify-between gap-3 border-b border-stone-200 pb-2">
+          <h4 class="text-xs font-bold text-forest">プリントサンプル</h4>
+          <span class="text-[10px] text-taupe-light">同じ名前・同じ日付。デザインだけ違います</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+          <div class="rounded-xl border-2 border-champagne bg-white px-3 py-3 text-center">
+            <p class="text-[9px] tracking-[0.18em] text-champagne">CALLIGRAPHY</p>
+            <p class="js-sample-name mt-2 font-serifEn text-lg leading-tight text-forest break-words">Takuya &amp; Misaki</p>
+            <p class="js-sample-date mt-1 font-mono text-[11px] text-champagne">2026.11.24</p>
+          </div>
+          <div class="rounded-xl border border-forest bg-ivory px-3 py-3 text-center">
+            <p class="text-[9px] tracking-[0.18em] text-taupe">明朝</p>
+            <p class="js-sample-name mt-2 font-serif text-base leading-tight text-forest break-words">Takuya &amp; Misaki</p>
+            <p class="js-sample-date mt-1 font-mono text-[11px] text-forest">2026.11.24</p>
+          </div>
+          <div class="rounded-xl border border-dashed border-champagne bg-champagne-soft px-3 py-3 text-center">
+            <p class="text-[9px] tracking-[0.18em] text-taupe">筆記・丸枠</p>
+            <p class="js-sample-name mt-2 font-serif italic text-base leading-tight text-forest break-words">Takuya &amp; Misaki</p>
+            <p class="js-sample-date mt-1 font-mono text-[11px] text-taupe">2026.11.24</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Parts expanded from the parent quantity -->
+      <div class="space-y-2.5">
+        <div class="flex items-end justify-between gap-3 border-b border-stone-200 pb-2">
+          <h4 class="text-xs font-bold text-forest">部品内訳</h4>
+          <span id="drawer-parent-qty" class="text-[10px] font-mono text-taupe-light">親数量 1</span>
+        </div>
+        <div id="drawer-parts-body" class="rounded-xl border border-stone-200 bg-ivory px-3 py-1 text-xs"></div>
+      </div>
+
+      <!-- Decided fees, dates, proof, campaign mark -->
+      <div class="rounded-2xl border border-stone-200 bg-ivory-warm/60 p-4 space-y-3">
+        <h4 class="text-xs font-bold text-forest">この注文の料金・期限・校正</h4>
+        <div class="space-y-1 text-xs font-mono text-forest">
+          <p id="fee-extra-line">文字数超過 ¥0</p>
+          <p id="fee-noshi-line">のし ¥0</p>
+          <p id="fee-wrap-line">ラッピング ¥0</p>
+          <p id="fee-option-total" class="text-taupe">オプション計 ¥0</p>
+        </div>
+        <p id="campaign-mark-line" class="text-xs text-forest">本店カートから渡された印: なし</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+          <p id="best-before-line" class="rounded-xl bg-white border border-stone-200 px-3 py-2 text-forest">賞味期限 なし</p>
+          <p id="cutoff-line" class="rounded-xl bg-white border border-stone-200 px-3 py-2 text-forest">即日締切 13:00</p>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <button
+            id="rush-toggle-btn"
+            type="button"
+            onclick="toggleRushTicket()"
+            class="px-3 py-2 rounded-xl bg-white border border-urgent/50 text-urgent text-xs font-semibold"
+          >
+            特急チケットを付ける
+          </button>
+          <span id="rush-state-line" class="text-[11px] text-taupe">特急チケットなし</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-2 pt-1 border-t border-stone-200">
+          <span id="proof-state-line" class="text-xs font-semibold text-forest">校正: 未送付</span>
+          <button
+            id="proof-send-btn"
+            type="button"
+            onclick="markProofSent()"
+            class="px-3 py-2 rounded-xl bg-white border border-champagne text-taupe text-xs font-semibold disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            校正を送付済みにする
+          </button>
+          <button
+            id="proof-approve-btn"
+            type="button"
+            onclick="markProofApproved()"
+            class="px-3 py-2 rounded-xl bg-forest text-white text-xs font-semibold disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            校正を承認済みにする
+          </button>
+        </div>
+      </div>
+
+      <!-- Work sheet and real-size preview. Not a PDF. -->
+      <div class="space-y-3">
+        <div class="flex items-end justify-between gap-3 border-b border-stone-200 pb-2">
+          <h4 class="text-xs font-bold text-forest">受注管理表</h4>
+          <span class="text-[10px] text-taupe-light">この画面の控です。PDFではありません</span>
+        </div>
+        <div class="oms-sheet rounded-xl border border-forest bg-white px-4 py-3">
+          <div class="flex items-baseline justify-between gap-3 border-b border-forest/15 pb-2 mb-2">
+            <p class="font-serif text-sm text-forest">受注管理表</p>
+            <p id="sheet-order-id" class="font-mono text-[11px] text-champagne">—</p>
+          </div>
+          <table class="w-full text-xs">
+            <tbody>
+              <tr><th>販路</th><td id="sheet-channel"></td></tr>
+              <tr><th>注文者</th><td id="sheet-customer"></td></tr>
+              <tr><th>お届け先</th><td id="sheet-ship"></td></tr>
+              <tr><th>商品</th><td id="sheet-product"></td></tr>
+              <tr><th>親数量</th><td id="sheet-qty"></td></tr>
+              <tr><th>内訳</th><td id="sheet-parts"></td></tr>
+              <tr><th>名入れ</th><td id="sheet-names"></td></tr>
+              <tr><th>日付</th><td id="sheet-date" class="font-mono"></td></tr>
+              <tr><th>挙式日</th><td id="sheet-wedding" class="font-mono"></td></tr>
+              <tr><th>料金</th><td id="sheet-fees"></td></tr>
+              <tr><th>賞味期限</th><td id="sheet-best"></td></tr>
+              <tr><th>即日締切</th><td id="sheet-cutoff"></td></tr>
+              <tr><th>特急</th><td id="sheet-rush"></td></tr>
+              <tr><th>校正</th><td id="sheet-proof"></td></tr>
+              <tr><th>キャンペーン印</th><td id="sheet-campaign"></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="space-y-2">
+          <div class="flex items-end justify-between gap-3">
+            <h4 class="text-xs font-bold text-forest">実寸レイアウト</h4>
+            <span class="text-[10px] text-taupe-light">ミリ指定の画面プレビューです</span>
+          </div>
+          <div class="real-size-stage overflow-x-auto rounded-xl border border-stone-200 p-4">
+            <div class="flex flex-wrap items-end gap-6">
+              <div>
+                <div class="bg-white border border-champagne shadow-sm flex flex-col items-center justify-center text-center px-3" style="width:91mm;height:55mm">
+                  <p class="text-[9px] tracking-[0.22em] text-taupe-light">THANK YOU</p>
+                  <p class="js-sample-name font-serif text-lg leading-tight text-forest mt-1 break-words">名前</p>
+                  <p class="js-sample-date font-mono text-xs text-champagne mt-1">日付</p>
+                </div>
+                <p class="text-[10px] text-taupe mt-1">サンクスカード 91×55mm</p>
+              </div>
+              <div>
+                <div class="bg-white border border-champagne rounded-full overflow-hidden flex items-center justify-center text-center" style="width:30mm;height:30mm">
+                  <div class="px-1">
+                    <p class="js-sample-name text-[8px] leading-tight text-forest break-all">名前</p>
+                    <p class="js-sample-date text-[7px] font-mono text-champagne mt-0.5">日付</p>
+                  </div>
+                </div>
+                <p class="text-[10px] text-taupe mt-1">ミニシール φ30mm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Confirm deducts part stock inside this page -->
+      <div class="rounded-2xl border border-forest/15 bg-forest text-stone-100 p-4 space-y-2.5">
+        <h4 class="text-xs font-bold text-champagne">部品在庫の確定</h4>
+        <p id="drawer-stock-line" class="text-[11px] leading-relaxed text-stone-300"></p>
+        <p id="drawer-stock-move" class="text-[11px] leading-relaxed text-stone-300"></p>
+        <button
+          id="stock-commit-btn"
+          type="button"
+          onclick="confirmOrderStock()"
+          class="w-full px-3 py-2.5 rounded-xl bg-champagne text-white text-xs font-semibold disabled:opacity-40 disabled:cursor-not-allowed"
+        >
+          この注文を確定して部品在庫を引き落とす
+        </button>
+      </div>
+
+      <!-- 2. Editable Normalized Fields (item_personalizations) -->
+      <div class="space-y-4">
+        <div class="flex items-center justify-between border-b border-stone-200 pb-2">
+          <h4 class="text-xs font-bold text-forest">正規化済み名入れ・制作データ編集（DB: item_personalizations）</h4>
+          <span id="drawer-char-fee-badge" class="px-2 py-0.5 rounded bg-stone-100 text-[11px] font-mono text-taupe">文字数超過 ¥0</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
+          <div>
+            <label class="block text-[11px] font-medium text-taupe mb-1">新郎・新婦名（role: n）</label>
+            <input
+              id="edit-couple-names"
+              type="text"
+              oninput="updateLivePreviewFromInputs()"
+              class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:border-champagne focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label class="block text-[11px] font-medium text-taupe mb-1">挙式日・記念日（role: d / YYYY-MM-DD）</label>
+            <input
+              id="edit-wedding-date"
+              type="date"
+              oninput="updateLivePreviewFromInputs()"
+              class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:border-champagne focus:outline-none font-mono"
+            />
+          </div>
+
+          <div>
+            <label class="block text-[11px] font-medium text-taupe mb-1">見出し・定型メッセージ（role: m）</label>
+            <input
+              id="edit-header-msg"
+              type="text"
+              oninput="updateLivePreviewFromInputs()"
+              class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:border-champagne focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label class="block text-[11px] font-medium text-taupe mb-1">書体・デザイン指定（role: w/h）</label>
+            <select
+              id="edit-font-style"
+              onchange="updateLivePreviewFromInputs()"
+              class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:border-champagne focus:outline-none bg-white"
+            >
+              <option value="モダンカリグラフィ（ゴールド）">モダンカリグラフィ（ゴールド）</option>
+              <option value="クラシック明朝（トープ）">クラシック明朝（トープ）</option>
+              <option value="ナチュラル筆記体（ホワイト）">ナチュラル筆記体（ホワイト）</option>
+              <option value="和モダン毛筆体（金箔）">和モダン毛筆体（金箔）</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-[11px] font-medium text-taupe mb-1">熨斗・サンクスシール（role: s）</label>
+            <input
+              id="edit-noshi-seal"
+              type="text"
+              oninput="updateLivePreviewFromInputs()"
+              class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:border-champagne focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label class="block text-[11px] font-medium text-taupe mb-1">工程ステータス</label>
+            <select
+              id="edit-order-status"
+              class="w-full px-3 py-2 rounded-xl border border-stone-300 focus:border-champagne focus:outline-none bg-white font-medium text-forest"
+            >
+              <option value="新規受付">新規受付</option>
+              <option value="名入れ確認中">名入れ確認中</option>
+              <option value="校正・データ作成">校正・データ作成</option>
+              <option value="製造・レーザー加工">製造・レーザー加工</option>
+              <option value="梱包・出荷済">梱包・出荷済</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-between pt-2">
+          <label class="inline-flex items-center gap-2 text-xs text-taupe cursor-pointer">
+            <input id="edit-clear-warning" type="checkbox" class="rounded border-stone-300 text-sage focus:ring-sage" />
+            <span>名入れ内容を目視確認済みにする（パース警告を解除）</span>
+          </label>
+          <button
+            onclick="saveDrawerEdits()"
+            class="px-4 py-2 rounded-xl bg-forest hover:bg-forest-light text-white text-xs font-semibold shadow-xs transition-colors"
+          >
+            変更内容を保存する
+          </button>
+        </div>
+      </div>
+
+      <!-- 3. Raw Channel Payload Viewer -->
+      <div class="space-y-2">
+        <div class="flex items-center justify-between">
+          <h4 class="text-xs font-bold text-forest">モール受信生データ（channel_raw_payloads 証跡ログ）</h4>
+          <span class="text-[10px] text-taupe-light font-mono">改ざん防止・監査用保存</span>
+        </div>
+        <pre id="drawer-raw-payload" class="bg-stone-900 text-emerald-300 p-3.5 rounded-xl text-[11px] font-mono overflow-x-auto leading-relaxed"></pre>
+      </div>
+
+      <!-- 4. 1-Click Production & Fulfillment Actions -->
+      <div class="pt-3 border-t border-stone-200 space-y-2.5">
+        <h4 class="text-xs font-bold text-forest">個別ワンクリック出力・外部API同期アクション</h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+          <button
+            onclick="triggerSingleAction('laser')"
+            class="px-3.5 py-2.5 rounded-xl bg-champagne-soft hover:bg-champagne/20 border border-champagne/50 text-taupe text-xs font-semibold text-left flex items-center justify-between transition-colors"
+          >
+            <span>レーザー加工用CSV出力</span>
+            <span class="text-champagne">↓ CSV</span>
+          </button>
+
+          <button
+            onclick="triggerSingleAction('yamato')"
+            class="px-3.5 py-2.5 rounded-xl bg-sage/10 hover:bg-sage/20 border border-sage/40 text-forest text-xs font-semibold text-left flex items-center justify-between transition-colors"
+          >
+            <span>ヤマトB2クラウドCSV出力</span>
+            <span class="text-sage">↓ B2</span>
+          </button>
+
+          <button
+            onclick="triggerSingleAction('email')"
+            class="px-3.5 py-2.5 rounded-xl bg-ivory-warm hover:bg-stone-200/70 border border-stone-300 text-taupe text-xs font-semibold text-left flex items-center justify-between transition-colors"
+          >
+            <span>サンクス・校正確認メール送信</span>
+            <span>✉ 送信</span>
+          </button>
+
+          <button
+            onclick="triggerSingleAction('sync_mall')"
+            class="px-3.5 py-2.5 rounded-xl bg-forest hover:bg-forest-light text-white text-xs font-semibold text-left flex items-center justify-between transition-colors"
+          >
+            <span>モール側出荷完了API同期</span>
+            <span class="text-champagne">⇄ API</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </aside>
+
+  <!-- =====================================================================
+       MANUAL PHONE / FAX ORDER MODAL
+       ===================================================================== -->
+  <div id="manual-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 backdrop-blur-[1px] p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-stone-200 space-y-4">
+      <div class="flex items-center justify-between pb-3 border-b border-stone-200">
+        <div>
+          <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-sky-700 text-white">電話・FAX受注入力</span>
+          <h3 class="font-serif text-base font-semibold text-forest mt-1">電話・FAX・大口注文 新規登録フォーム</h3>
+        </div>
+        <button onclick="closeManualOrderModal()" class="p-1.5 rounded-lg hover:bg-stone-100 text-taupe">✕</button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+        <div>
+          <label class="block text-[11px] font-medium text-taupe mb-1">受付経路</label>
+          <select id="manual-channel-type" class="w-full px-3 py-2 rounded-xl border border-stone-300 bg-white">
+            <option value="FAX注文">FAX注文 (0586-86-1140)</option>
+            <option value="電話注文">電話注文 (0586-86-1150)</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-[11px] font-medium text-taupe mb-1">挙式日 / 希望納品日</label>
+          <input id="manual-wedding-date" type="date" value="2026-12-05" class="w-full px-3 py-2 rounded-xl border border-stone-300 font-mono" />
+        </div>
+        <div>
+          <label class="block text-[11px] font-medium text-taupe mb-1">ご注文者名</label>
+          <input id="manual-customer-name" type="text" placeholder="例: 佐藤 健太" class="w-full px-3 py-2 rounded-xl border border-stone-300" />
+        </div>
+        <div>
+          <label class="block text-[11px] font-medium text-taupe mb-1">お届け先（式場名・ご自宅）</label>
+          <input id="manual-venue" type="text" placeholder="例: ホテル椿山荘東京 宴会課気付" class="w-full px-3 py-2 rounded-xl border border-stone-300" />
+        </div>
+        <div class="sm:col-span-2">
+          <label class="block text-[11px] font-medium text-taupe mb-1">商品名・数量</label>
+          <input id="manual-product" type="text" value="プチギフト Merci アールグレイ＆フィナンシェ × 65個" class="w-full px-3 py-2 rounded-xl border border-stone-300" />
+        </div>
+        <div>
+          <label class="block text-[11px] font-medium text-taupe mb-1">名入れ新郎新婦名</label>
+          <input id="manual-couple" type="text" placeholder="例: Kenta & Yui" class="w-full px-3 py-2 rounded-xl border border-stone-300" />
+        </div>
+        <div>
+          <label class="block text-[11px] font-medium text-taupe mb-1">熨斗・タグ指定</label>
+          <input id="manual-noshi" type="text" value="オリジナルサンクスタグ付" class="w-full px-3 py-2 rounded-xl border border-stone-300" />
+        </div>
+      </div>
+
+      <div class="pt-3 border-t border-stone-200 flex justify-end gap-2">
+        <button onclick="closeManualOrderModal()" class="px-4 py-2 rounded-xl bg-stone-100 hover:bg-stone-200 text-taupe text-xs">キャンセル</button>
+        <button onclick="submitManualOrder()" class="px-5 py-2 rounded-xl bg-forest hover:bg-forest-light text-white text-xs font-semibold">
+          受注キューへ登録する
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       TOAST NOTIFICATION
+       ===================================================================== -->
+  <div id="toast-container" class="fixed bottom-5 right-5 z-[60] pointer-events-none opacity-0 translate-y-2 transition-all duration-300">
+    <div class="bg-forest text-white px-4 py-3 rounded-xl shadow-xl border border-champagne/40 text-xs flex items-center gap-2.5">
+      <span class="w-2 h-2 rounded-full bg-champagne"></span>
+      <span id="toast-msg">処理が完了しました</span>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       JAVASCRIPT APPLICATION LOGIC
+       ===================================================================== -->
+  <script>
+    // 基準日: 2026-11-19
+    const TODAY_STR = '2026-11-19';
+
+    // 初期サンプル受注データ（自社Welcart / 楽天 / Yahoo! / 電話FAX）
+    let ordersData = [
+      {
+        id: 'WC-20261119-01',
+        channel: 'WELCART',
+        channelLabel: '自社Welcart',
+        orderDate: '2026-11-19 08:42',
+        weddingDate: '2026-11-24',
+        customerName: '高橋 拓也',
+        shippingTo: 'アニヴェルセル表参道 婚礼サロン気付',
+        postalCode: '107-0061',
+        address: '東京都港区北青山3-5-30',
+        phone: '03-5410-8988',
+        productName: '透明アクリル ウェルカムボード「Lumière」',
+        sku: 'LL-WB-001-GLD',
+        qty: 1,
+        amount: 15300,
+        coupleNames: 'Takuya & Misaki',
+        headerMsg: 'WELCOME TO OUR WEDDING',
+        fontStyle: 'モダンカリグラフィ（ゴールド）',
+        noshiSeal: '蝶結び熨斗（内熨斗）',
+        overCharFee: 500,
+        campaign5Yen: false,
+        status: '製造・レーザー加工',
+        warning: null,
+        selected: true,
+        rawPayload: {
+          source: 'WordPress Welcart REST / wp_usces_order_meta',
+          usces_order_id: 10842,
+          custom_order: {
+            role_n_couple: 'Takuya & Misaki',
+            role_d_wedding_date: '2026.11.24',
+            role_m_message: 'WELCOME TO OUR WEDDING',
+            role_w_font: 'Modern Calligraphy Gold',
+            role_s_noshi: '蝶結び（内熨斗）',
+            over_char_surcharge: 500
+          }
+        }
+      },
+      {
+        id: 'RK-394810-20261119',
+        channel: 'RAKUTEN',
+        channelLabel: '楽天市場',
+        orderDate: '2026-11-19 07:15',
+        weddingDate: '2026-11-25',
+        customerName: '山本 梨花',
+        shippingTo: 'ご自宅配送（大阪府大阪市中央区）',
+        postalCode: '542-0081',
+        address: '大阪府大阪市中央区南船場2-4-12',
+        phone: '090-1234-5678',
+        productName: '真鍮ガラスケース リングピロー「Étoile」',
+        sku: 'LL-RP-014-BRS',
+        qty: 1,
+        amount: 6930,
+        coupleNames: 'Koji ♡ Rika（旧字体確認要）',
+        headerMsg: 'FOREVER & ALWAYS',
+        fontStyle: 'クラシック明朝（トープ）',
+        noshiSeal: 'ギフトBOXリボン包装',
+        overCharFee: 0,
+        campaign5Yen: false,
+        status: '名入れ確認中',
+        warning: '楽天市場の備考欄に特殊記号「♡」が含まれています。レーザー彫刻機用フォントでは「&」への置換推奨のため確認してください。',
+        selected: true,
+        rawPayload: {
+          source: 'Rakuten RMS getOrder API v2.0',
+          orderNumber: '394810-20261119-08419201',
+          ItemModelList: [
+            {
+              itemName: '真鍮ガラスケース リングピロー エトワール',
+              selectedChoice: '書体:クラシック明朝/彫刻名:Koji ♡ Rika/挙式日:2026/11/25'
+            }
+          ],
+          remarks: '挙式が来週水曜日のため急ぎでお願いします！ハート記号入れられますか？'
+        }
+      },
+      {
+        id: 'YH-lunaluce-100492',
+        channel: 'YAHOO',
+        channelLabel: 'Yahoo!ショッピング',
+        orderDate: '2026-11-18 22:10',
+        weddingDate: '2026-12-03',
+        customerName: '鈴木 健一',
+        shippingTo: 'ザ・リッツ・カールトン東京 宴会デスク気付',
+        postalCode: '107-6245',
+        address: '東京都港区赤坂9-7-1',
+        phone: '03-3423-8000',
+        productName: 'プチギフト「Merci」アールグレイ＆フィナンシェ',
+        sku: 'LL-PG-082-EARL',
+        qty: 72,
+        amount: 30240,
+        coupleNames: 'Kenichi & Ayaka',
+        headerMsg: 'THANK YOU FOR COMING',
+        fontStyle: 'ナチュラル筆記体（ホワイト）',
+        noshiSeal: 'オリジナルサンクスタグ付',
+        overCharFee: 0,
+        campaign5Yen: false,
+        status: '校正・データ作成',
+        warning: null,
+        selected: true,
+        rawPayload: {
+          source: 'Yahoo! Shopping orderInfo API',
+          OrderId: 'lunaluce-100492',
+          ItemOption: [
+            { Name: 'タグ印字新郎新婦名', Value: 'Kenichi & Ayaka' },
+            { Name: '挙式日', Value: '2026年12月3日' }
+          ],
+          ShipRequest: '12月1日午前中に会場へ直送希望'
+        }
+      },
+      {
+        id: 'WC-20261119-02',
+        channel: 'WELCART',
+        channelLabel: '自社Welcart',
+        orderDate: '2026-11-19 09:30',
+        weddingDate: '2026-12-12',
+        customerName: '伊藤 美咲',
+        shippingTo: 'ご自宅配送（愛知県名古屋市中区）',
+        postalCode: '460-0008',
+        address: '愛知県名古屋市中区栄3-15-8',
+        phone: '080-9876-5432',
+        productName: '【引出物】今治オーガニックタオル木箱セット＋5円ご縁ギフト',
+        sku: 'LL-HG-105-SET',
+        qty: 35,
+        amount: 38675,
+        coupleNames: 'Daisuke & Misaki',
+        headerMsg: 'WITH HEARTFELT THANKS',
+        fontStyle: '和モダン毛筆体（金箔）',
+        noshiSeal: '結び切り10本（新郎新婦連名）',
+        overCharFee: 0,
+        campaign5Yen: true,
+        status: '新規受付',
+        warning: null,
+        selected: false,
+        rawPayload: {
+          source: 'WordPress Welcart REST',
+          usces_order_id: 10843,
+          campaign_mark: '5円ご縁'
+        }
+      },
+      {
+        id: 'FAX-20261119-01',
+        channel: 'MANUAL',
+        channelLabel: '電話・FAX注文',
+        orderDate: '2026-11-19 09:50',
+        weddingDate: '2026-12-14',
+        customerName: '株式会社ブライダルプロデュース東海',
+        shippingTo: '名古屋マリオットアソシアホテル 資材室気付',
+        postalCode: '450-6002',
+        address: '愛知県名古屋市中村区名駅1-1-4',
+        phone: '052-584-1111',
+        productName: '大口法人注文：オリジナル名入れドラジェBOX',
+        sku: 'LL-BLK-020-DRG',
+        qty: 120,
+        amount: 45600,
+        coupleNames: 'Shota & Haruka',
+        headerMsg: 'HAPPY WEDDING',
+        fontStyle: 'モダンカリグラフィ（ゴールド）',
+        noshiSeal: 'ゴールドリボンシール',
+        overCharFee: 0,
+        campaign5Yen: false,
+        status: '校正・データ作成',
+        warning: null,
+        selected: false,
+        rawPayload: {
+          source: 'Manual FAX Order Entry (0586-86-1140)',
+          fax_received_at: '2026-11-19 09:45',
+          corporate_estimate_id: 'EST-2026-889'
+        }
+      },
+      {
+        id: 'RK-394810-20261118',
+        channel: 'RAKUTEN',
+        channelLabel: '楽天市場',
+        orderDate: '2026-11-18 19:05',
+        weddingDate: '2026-12-19',
+        customerName: '中村 翔太',
+        shippingTo: 'ご自宅配送（神奈川県横浜市西区）',
+        postalCode: '220-0012',
+        address: '神奈川県横浜市西区みなとみらい2-3-1',
+        phone: '090-5555-1212',
+        productName: 'プリザーブドフラワー 感謝状時計「Grâce」',
+        sku: 'LL-PGF-003-CLK',
+        qty: 2,
+        amount: 33000,
+        coupleNames: '（未入力・備考欄確認要）',
+        headerMsg: 'THANK YOU MOM & DAD',
+        fontStyle: 'クラシック明朝（トープ）',
+        noshiSeal: '贈呈用化粧箱ラッピング',
+        overCharFee: 0,
+        campaign5Yen: false,
+        status: '名入れ確認中',
+        warning: '注文時の選択肢で「新郎新婦名・生年月日」が空欄です。サンクスメールにてヒアリングが必要です。',
+        selected: false,
+        rawPayload: {
+          source: 'Rakuten RMS getOrder API v2.0',
+          orderNumber: '394810-20261118-08415590',
+          ItemModelList: [
+            {
+              itemName: '両親贈呈品 子育て感謝状 フラワークロック',
+              selectedChoice: '彫刻内容:後ほどメールで連絡/挙式日:2026-12-19'
+            }
+          ]
+        }
+      },
+      {
+        id: 'YH-lunaluce-100488',
+        channel: 'YAHOO',
+        channelLabel: 'Yahoo!ショッピング',
+        orderDate: '2026-11-17 15:20',
+        weddingDate: '2026-11-28',
+        customerName: '小林 結衣',
+        shippingTo: '八芳園 バンケットオフィス気付',
+        postalCode: '108-8631',
+        address: '東京都港区白金台1-1-1',
+        phone: '03-3443-3111',
+        productName: '木製結婚証明書「Chêne（シェーヌ）」ゲスト参加型',
+        sku: 'LL-CRT-009-WOD',
+        qty: 1,
+        amount: 18900,
+        coupleNames: 'Ryosuke & Yui',
+        headerMsg: 'MARRIAGE CERTIFICATE',
+        fontStyle: 'モダンカリグラフィ（ゴールド）',
+        noshiSeal: '専用スタンド＆化粧箱付',
+        overCharFee: 0,
+        campaign5Yen: false,
+        status: '梱包・出荷済',
+        warning: null,
+        selected: false,
+        rawPayload: {
+          source: 'Yahoo! Shopping orderInfo API',
+          OrderId: 'lunaluce-100488',
+          tracking_number: '4912-8841-9023'
+        }
+      },
+      {
+        id: 'WC-20261117-09',
+        channel: 'WELCART',
+        channelLabel: '自社Welcart',
+        orderDate: '2026-11-17 11:10',
+        weddingDate: '2026-11-29',
+        customerName: '渡辺 麻衣',
+        shippingTo: 'ご自宅配送（兵庫県神戸市中央区）',
+        postalCode: '650-0021',
+        address: '兵庫県神戸市中央区三宮町1-4-3',
+        phone: '070-3322-9988',
+        productName: '席次表・メニュー表 DIY印刷キット「Blanc」',
+        sku: 'LL-PPR-031-WHT',
+        qty: 80,
+        amount: 22400,
+        coupleNames: 'Naoki & Mai',
+        headerMsg: 'WEDDING RECEPTION',
+        fontStyle: 'クラシック明朝（トープ）',
+        noshiSeal: 'ゴールドゴム紐付属',
+        overCharFee: 0,
+        campaign5Yen: false,
+        status: '梱包・出荷済',
+        warning: null,
+        selected: false,
+        rawPayload: {
+          source: 'WordPress Welcart REST',
+          usces_order_id: 10831,
+          tracking_number: '4912-8841-8810'
+        }
+      }
+    ];
+
+    // データベーススキーマ定義データ
+    const dbSchemaTables = [
+      {
+        name: 'orders',
+        jpName: '統合受注ヘッダ（全販路共通マスター）',
+        description: 'Welcart・楽天・Yahoo!・電話/FAXの全注文を単一フォーマットへ正規化して格納する中核テーブル。挙式日（wedding_date）と出荷期限を保持します。',
+        indexes: ['UNIQUE (channel, channel_order_id)', 'INDEX idx_orders_wedding_date (wedding_date, status)'],
+        columns: [
+          { col: 'id', type: 'UUID / BIGSERIAL', key: 'PK', note: 'OMS内部一意注文ID' },
+          { col: 'channel', type: 'VARCHAR(20)', key: 'UQ1', note: 'WELCART | RAKUTEN | YAHOO | MANUAL' },
+          { col: 'channel_order_id', type: 'VARCHAR(64)', key: 'UQ1', note: '各モールの元注文番号（重複取込防止）' },
+          { col: 'wedding_date', type: 'DATE', key: 'IDX', note: '挙式日・記念日（残日数ソート・アラート基準）' },
+          { col: 'ship_deadline', type: 'DATE', key: '', note: '挙式日から逆算した最終出荷リミット日' },
+          { col: 'customer_name', type: 'VARCHAR(100)', key: '', note: '注文者氏名' },
+          { col: 'shipping_venue_name', type: 'VARCHAR(150)', key: '', note: '式場名・会場担当者名（式場直送時）' },
+          { col: 'shipping_postal_code', type: 'VARCHAR(10)', key: '', note: '配送先郵便番号' },
+          { col: 'shipping_address', type: 'TEXT', key: '', note: '配送先住所' },
+          { col: 'total_amount_tax_in', type: 'INTEGER', key: '', note: '税込合計金額（超過料・キャンペーン反映済）' },
+          { col: 'oms_status', type: 'VARCHAR(30)', key: 'IDX', note: '新規受付 / 名入れ確認中 / 校正 / 加工 / 出荷済' },
+          { col: 'has_parse_warning', type: 'BOOLEAN', key: 'IDX', note: '名入れ未入力・特殊記号等の要確認フラグ' }
+        ]
+      },
+      {
+        name: 'item_personalizations',
+        jpName: '名入れ・特注カート記入欄 正規化テーブル',
+        description: 'Welcartの特注記入欄（role: n/d/w/h/m/s）や楽天の項目選択肢を分解し、レーザー加工機・印字CSVへそのまま出力できる構造化データとして保持します。',
+        indexes: ['INDEX idx_pers_order_item (order_item_id)'],
+        columns: [
+          { col: 'id', type: 'BIGSERIAL', key: 'PK', note: '名入れ明細ID' },
+          { col: 'order_item_id', type: 'BIGINT', key: 'FK', note: 'order_items.id への外部キー' },
+          { col: 'role_n_couple_names', type: 'VARCHAR(120)', key: '', note: '新郎新婦名（例: Takuya & Misaki）' },
+          { col: 'role_d_event_date_text', type: 'VARCHAR(40)', key: '', note: '印字用日付表記（例: 2026.11.24）' },
+          { col: 'role_m_header_message', type: 'VARCHAR(160)', key: '', note: '見出し・定型メッセージ' },
+          { col: 'role_wh_font_style', type: 'VARCHAR(60)', key: '', note: '書体・デザイン・箔押し色指定' },
+          { col: 'role_s_noshi_seal', type: 'VARCHAR(80)', key: '', note: '熨斗表書き・サンクスシール指定' },
+          { col: 'over_char_fee', type: 'INTEGER', key: '', note: '文字数超過追加料金（500円/件・20円/枚）' },
+          { col: 'drafting_fee', type: 'INTEGER', key: '', note: 'デザイン版下・校正オプション料（500円）' },
+          { col: 'is_verified_by_staff', type: 'BOOLEAN', key: '', note: 'スタッフ目視確認完了フラグ' }
+        ]
+      },
+      {
+        name: 'order_items',
+        jpName: '受注明細・SKUテーブル',
+        description: '注文に紐づく商品SKU・単価・数量を管理。各モールの異なる商品コードを自社統一SKU（LL-xxx）へマッピングします。',
+        indexes: ['INDEX idx_items_order_id (order_id)', 'INDEX idx_items_sku (unified_sku)'],
+        columns: [
+          { col: 'id', type: 'BIGSERIAL', key: 'PK', note: '受注明細ID' },
+          { col: 'order_id', type: 'UUID', key: 'FK', note: 'orders.id への外部キー' },
+          { col: 'unified_sku', type: 'VARCHAR(50)', key: 'IDX', note: 'ルナルーチェ統一商品SKU（例: LL-WB-001）' },
+          { col: 'product_name', type: 'VARCHAR(200)', key: '', note: '商品名' },
+          { col: 'unit_price_ex_tax', type: 'INTEGER', key: '', note: '税抜単価（キャンペーン判定基準）' },
+          { col: 'quantity', type: 'INTEGER', key: '', note: '注文数量' },
+          { col: 'requires_engraving', type: 'BOOLEAN', key: '', note: '名入れ・レーザー加工対象商品フラグ' }
+        ]
+      },
+      {
+        name: 'campaign_evaluations',
+        jpName: 'ブライダル特典・5円ご縁キャンペーン判定ログ',
+        description: '「税抜800円以上の引出物・引菓子1点につき5円プチギフト特典付与」などのキャンペーン適用条件を自動検算・記録します。',
+        indexes: ['UNIQUE (order_id, campaign_code)'],
+        columns: [
+          { col: 'id', type: 'BIGSERIAL', key: 'PK', note: '判定ログID' },
+          { col: 'order_id', type: 'UUID', key: 'FK', note: 'orders.id への外部キー' },
+          { col: 'campaign_code', type: 'VARCHAR(40)', key: 'UQ', note: '例: 5YEN_GOEN_GIFT' },
+          { col: 'is_eligible', type: 'BOOLEAN', key: '', note: '特典適用条件クリア判定結果' },
+          { col: 'qualifying_item_qty', type: 'INTEGER', key: '', note: '対象商品の合計数量' },
+          { col: 'bonus_item_qty', type: 'INTEGER', key: '', note: '同梱すべき5円プチギフト数量' }
+        ]
+      },
+      {
+        name: 'channel_raw_payloads',
+        jpName: 'モール受信生データ証跡（監査ログ）',
+        description: '各APIから受信した未加工のJSON/XMLペイロードをそのまま保存。パース規則変更時の再解析や顧客との「言った・言わない」防止に活用します。',
+        indexes: ['INDEX idx_raw_order_id (order_id)'],
+        columns: [
+          { col: 'id', type: 'BIGSERIAL', key: 'PK', note: '生データID' },
+          { col: 'order_id', type: 'UUID', key: 'FK', note: 'orders.id への外部キー' },
+          { col: 'channel', type: 'VARCHAR(20)', key: '', note: '取得元販路' },
+          { col: 'raw_json', type: 'JSONB', key: '', note: 'APIレスポンス原文（JSONBインデックス対応）' },
+          { col: 'fetched_at', type: 'TIMESTAMPTZ', key: '', note: 'API取込日時' }
+        ]
+      },
+      {
+        name: 'production_batches',
+        jpName: '制作・レーザー加工バッチ出力履歴',
+        description: 'どの注文をいつ加工用CSVとして出力し、作業指示書を発行したかの履歴を管理し、二重制作を防止します。',
+        indexes: ['INDEX idx_batch_created_at (created_at)'],
+        columns: [
+          { col: 'id', type: 'BIGSERIAL', key: 'PK', note: '制作バッチID' },
+          { col: 'batch_code', type: 'VARCHAR(32)', key: 'UQ', note: '例: LASER-20261119-01' },
+          { col: 'order_ids', type: 'UUID[]', key: '', note: 'バッチに含まれた注文ID配列' },
+          { col: 'machine_type', type: 'VARCHAR(40)', key: '', note: 'LASER_ACRYLIC | CARD_PRINTER | NOSHI' },
+          { col: 'exported_by', type: 'VARCHAR(60)', key: '', note: '出力担当者名' },
+          { col: 'created_at', type: 'TIMESTAMPTZ', key: '', note: '出力日時' }
+        ]
+      },
+      {
+        name: 'shipments',
+        jpName: '配送・送り状番号・モール書き戻し管理',
+        description: 'ヤマトB2クラウドや佐川e飛伝で発行された伝票番号を保持し、楽天・Yahoo!・Welcartへの出荷完了API通知ステータスを管理します。',
+        indexes: ['INDEX idx_ship_order_id (order_id)', 'INDEX idx_ship_tracking (tracking_number)'],
+        columns: [
+          { col: 'id', type: 'BIGSERIAL', key: 'PK', note: '出荷ID' },
+          { col: 'order_id', type: 'UUID', key: 'FK', note: 'orders.id への外部キー' },
+          { col: 'carrier_code', type: 'VARCHAR(20)', key: '', note: 'YAMATO | SAGAWA | CLICKPOST' },
+          { col: 'tracking_number', type: 'VARCHAR(32)', key: 'IDX', note: '送り状伝票番号' },
+          { col: 'shipped_at', type: 'TIMESTAMPTZ', key: '', note: '出荷完了日時' },
+          { col: 'mall_sync_status', type: 'VARCHAR(20)', key: '', note: 'PENDING | SYNCED | FAILED' },
+          { col: 'mall_synced_at', type: 'TIMESTAMPTZ', key: '', note: 'RMS / Yahoo! / Welcart への発送通知完了日時' }
+        ]
+      },
+      {
+        name: 'api_credentials',
+        jpName: '外部API認証・トークン有効期限管理',
+        description: '楽天RMSライセンスキーの90日更新期限やYahoo! OAuth2リフレッシュトークンを暗号化保存し、期限切れ前にアラートを発報します。',
+        indexes: ['UNIQUE (channel)'],
+        columns: [
+          { col: 'id', type: 'SERIAL', key: 'PK', note: '認証設定ID' },
+          { col: 'channel', type: 'VARCHAR(20)', key: 'UQ', note: 'WELCART | RAKUTEN | YAHOO' },
+          { col: 'encrypted_secret', type: 'TEXT', key: '', note: 'AES-256暗号化済みAPIキー・トークン' },
+          { col: 'expires_at', type: 'TIMESTAMPTZ', key: '', note: 'キー有効期限（楽天RMS期限監視用）' },
+          { col: 'last_polled_at', type: 'TIMESTAMPTZ', key: '', note: '最終正常ポーリング日時' },
+          { col: 'health_status', type: 'VARCHAR(20)', key: '', note: 'HEALTHY | EXPIRING_SOON | ERROR' }
+        ]
+      }
+    ];
+
+    // フィルタ状態
+    let activeChannel = 'ALL';
+    let activeStatus = 'ALL';
+    let onlyUrgent = false;
+    let onlyWarning = false;
+    let currentEditingOrderId = null;
+    let selectedSchemaIndex = 0;
+
+    /**
+     * 挙式日までの残日数を計算
+     */
+    function calcDaysUntilWedding(weddingDateStr) {
+      const today = new Date(TODAY_STR + 'T00:00:00');
+      const wDate = new Date(weddingDateStr + 'T00:00:00');
+      const diffTime = wDate - today;
+      return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    }
+
+    /**
+     * メインタブ切替
+     */
+    function switchTab(tabName) {
+      const tabs = ['dashboard', 'architecture', 'schema', 'simulator'];
+      tabs.forEach((t) => {
+        const viewEl = document.getElementById(`view-${t}`);
+        const btnEl = document.getElementById(`nav-tab-${t}`);
+        if (t === tabName) {
+          viewEl.classList.remove('hidden');
+          btnEl.classList.add('tab-btn-active');
+          btnEl.classList.remove('text-stone-300', 'hover:text-white', 'hover:bg-forest-light');
+        } else {
+          viewEl.classList.add('hidden');
+          btnEl.classList.remove('tab-btn-active');
+          btnEl.classList.add('text-stone-300', 'hover:text-white', 'hover:bg-forest-light');
+        }
+      });
+
+      if (tabName === 'simulator') {
+        renderCsvSimulator();
+      } else if (tabName === 'schema') {
+        renderSchemaExplorer();
+      }
+    }
+
+    /**
+     * KPIカードの数値更新
+     */
+    function updateKpis() {
+      const total = ordersData.length;
+      const urgent = ordersData.filter((o) => calcDaysUntilWedding(o.weddingDate) <= 7 && o.status !== '梱包・出荷済').length;
+      const warning = ordersData.filter((o) => Boolean(o.warning)).length;
+      const production = ordersData.filter((o) => o.status === '製造・レーザー加工' || o.status === '校正・データ作成').length;
+      const shipping = ordersData.filter((o) => o.status === '梱包・出荷済').length;
+
+      document.getElementById('kpi-total').textContent = total;
+      document.getElementById('kpi-urgent').textContent = urgent;
+      document.getElementById('kpi-warning').textContent = warning;
+      document.getElementById('kpi-production').textContent = production;
+      document.getElementById('kpi-shipping').textContent = shipping;
+    }
+
+    /**
+     * 販路・ステータスフィルタ操作
+     */
+    function setChannelFilter(channel) {
+      activeChannel = channel;
+      document.querySelectorAll('.channel-pill').forEach((btn) => {
+        if (btn.dataset.channel === channel) {
+          btn.className = 'channel-pill px-3 py-1.5 rounded-xl text-xs font-medium bg-forest text-white transition-all';
+        } else {
+          btn.className = 'channel-pill px-3 py-1.5 rounded-xl text-xs font-medium bg-ivory-warm text-taupe hover:bg-champagne-light/60 transition-all';
+        }
+      });
+      renderOrdersTable();
+    }
+
+    function setStatusFilter(status) {
+      activeStatus = status;
+      document.querySelectorAll('.status-pill').forEach((btn) => {
+        if (btn.dataset.status === status) {
+          btn.className = 'status-pill px-2.5 py-1 rounded-lg text-[11px] font-medium bg-taupe text-white';
+        } else {
+          btn.className = 'status-pill px-2.5 py-1 rounded-lg text-[11px] font-medium bg-stone-100 text-taupe hover:bg-stone-200';
+        }
+      });
+      renderOrdersTable();
+    }
+
+    function filterByUrgency() {
+      onlyUrgent = true;
+      onlyWarning = false;
+      document.getElementById('btn-reset-special').classList.remove('hidden');
+      renderOrdersTable();
+      showToast('挙式日7日以内の要急ぎ注文に絞り込みました');
+    }
+
+    function filterByWarning() {
+      onlyWarning = true;
+      onlyUrgent = false;
+      document.getElementById('btn-reset-special').classList.remove('hidden');
+      renderOrdersTable();
+      showToast('名入れパース警告のある注文に絞り込みました');
+    }
+
+    function resetSpecialFilters() {
+      onlyUrgent = false;
+      onlyWarning = false;
+      document.getElementById('btn-reset-special').classList.add('hidden');
+      renderOrdersTable();
+    }
+
+    /**
+     * 受注一覧テーブルの描画（挙式日昇順ソート）
+     */
+    function renderOrdersTable() {
+      const tbody = document.getElementById('orders-tbody');
+      const query = document.getElementById('order-search').value.trim().toLowerCase();
+
+      // 挙式日が近い順にソート
+      const sorted = [...ordersData].sort((a, b) => new Date(a.weddingDate) - new Date(b.weddingDate));
+
+      const filtered = sorted.filter((order) => {
+        if (activeChannel !== 'ALL' && order.channel !== activeChannel) return false;
+        if (activeStatus !== 'ALL' && order.status !== activeStatus) return false;
+        if (onlyUrgent && !(calcDaysUntilWedding(order.weddingDate) <= 7 && order.status !== '梱包・出荷済')) return false;
+        if (onlyWarning && !order.warning) return false;
+
+        if (query) {
+          const haystack = `${order.id} ${order.customerName} ${order.coupleNames} ${order.productName} ${order.shippingTo} ${order.campaignMark || ''}`.toLowerCase();
+          if (!haystack.includes(query)) return false;
+        }
+        return true;
+      });
+
+      document.getElementById('table-row-count').textContent = `表示: ${filtered.length}件 / 全${ordersData.length}件`;
+      tbody.innerHTML = '';
+
+      filtered.forEach((order) => {
+        const daysLeft = calcDaysUntilWedding(order.weddingDate);
+        let urgencyBadge = '';
+        if (order.status === '梱包・出荷済') {
+          urgencyBadge = `<span class="inline-block px-2 py-0.5 rounded-full bg-sage/15 text-sage text-[10px] font-bold">出荷完了</span>`;
+        } else if (daysLeft <= 7) {
+          urgencyBadge = `<span class="inline-block px-2 py-0.5 rounded-full bg-urgent text-white text-[10px] font-bold animate-pulse-soft">挙式まであと${daysLeft}日</span>`;
+        } else if (daysLeft <= 16) {
+          urgencyBadge = `<span class="inline-block px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 text-[10px] font-bold">あと${daysLeft}日</span>`;
+        } else {
+          urgencyBadge = `<span class="inline-block px-2 py-0.5 rounded-full bg-stone-100 text-taupe text-[10px]">あと${daysLeft}日</span>`;
+        }
+
+        // Channel badge style
+        const channelStyles = {
+          WELCART: 'bg-emerald-800 text-white',
+          RAKUTEN: 'bg-rose-700 text-white',
+          YAHOO: 'bg-amber-600 text-white',
+          MANUAL: 'bg-sky-700 text-white'
+        };
+
+        // Status badge style
+        const statusStyles = {
+          '新規受付': 'bg-sky-50 text-sky-800 border-sky-200',
+          '名入れ確認中': 'bg-amber-50 text-amber-800 border-amber-300',
+          '校正・データ作成': 'bg-purple-50 text-purple-800 border-purple-200',
+          '製造・レーザー加工': 'bg-champagne-soft text-taupe border-champagne/40',
+          '梱包・出荷済': 'bg-sage/10 text-sage border-sage/30'
+        };
+
+        const tr = document.createElement('tr');
+        tr.className = `hover:bg-champagne-soft/40 transition-colors cursor-pointer ${order.warning ? 'bg-amber-50/35' : ''}`;
+        tr.onclick = (e) => {
+          if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'BUTTON') return;
+          openOrderDrawer(order.id);
+        };
+
+        tr.innerHTML = `
+          <td class="py-3.5 px-3 text-center">
+            <input
+              type="checkbox"
+              ${order.selected ? 'checked' : ''}
+              onchange="toggleSingleSelect('${order.id}', this.checked)"
+              class="rounded border-stone-300 text-champagne focus:ring-champagne"
+            />
+          </td>
+          <td class="py-3.5 px-3 whitespace-nowrap">
+            <div class="font-mono text-xs font-semibold text-forest">${order.weddingDate}</div>
+            <div class="mt-1">${urgencyBadge}</div>
+            <div class="text-[10px] text-taupe mt-1">賞味 ${escapeHtml(order.bestBefore || 'なし')}</div>
+            <div class="text-[10px] ${orderClock(order).within ? 'text-sage' : 'text-urgent'}">${orderClock(order).within ? '13:00まで（内）' : '13:00過ぎ'} ${escapeHtml(orderClock(order).time)}</div>
+            ${order.rushTicket ? '<div class="mt-1"><span class="px-1.5 py-0.5 rounded bg-urgent text-white text-[10px] font-bold">特急チケット</span></div>' : ''}
+          </td>
+          <td class="py-3.5 px-3 whitespace-nowrap">
+            <span class="px-2 py-0.5 rounded text-[10px] font-bold ${channelStyles[order.channel]}">${order.channelLabel}</span>
+            <div class="font-mono text-[11px] text-taupe mt-1">${order.id}</div>
+            <div class="text-[10px] text-stone-400">${order.orderDate}</div>
+          </td>
+          <td class="py-3.5 px-3">
+            <div class="font-semibold text-forest">${order.customerName} 様</div>
+            <div class="text-[11px] text-taupe-light mt-0.5 max-w-[190px] truncate" title="${order.shippingTo}">
+              ${order.shippingTo}
+            </div>
+          </td>
+          <td class="py-3.5 px-3">
+            <div class="font-medium text-forest max-w-[210px] leading-snug">${order.productName}</div>
+            <div class="flex items-center gap-2 mt-1 text-[11px]">
+              <span class="font-mono text-stone-500">${order.sku}</span>
+              <span class="font-semibold text-taupe">× ${order.qty}点</span>
+              <span class="font-mono font-semibold text-forest">¥${order.amount.toLocaleString()}</span>
+            </div>
+            <div class="text-[10px] text-taupe-light mt-1 whitespace-nowrap">内訳 ${partsSummary(order)}</div>
+          </td>
+          <td class="py-3.5 px-3">
+            <div class="p-2 rounded-xl bg-ivory border border-stone-200/80 max-w-[230px]">
+              <div class="flex items-center justify-between gap-1">
+                <span class="font-serif font-semibold text-forest truncate">${order.coupleNames}</span>
+                ${order.warning ? '<span class="shrink-0 px-1.5 py-0.2 rounded bg-amber-500 text-white text-[9px] font-bold">要確認</span>' : '<span class="shrink-0 text-[10px] text-sage">✓ 正規化済</span>'}
+              </div>
+              <div class="text-[10px] text-taupe-light mt-0.5 truncate">${order.fontStyle}</div>
+            </div>
+          </td>
+          <td class="py-3.5 px-3">
+            <div class="text-[11px] text-taupe">${order.noshiSeal}</div>
+            <div class="mt-1 space-y-0.5 font-mono text-[10px] text-forest leading-relaxed">
+              ${feeLines(order).map((line) => `<div class="whitespace-nowrap">${escapeHtml(line)}</div>`).join('')}
+            </div>
+            <div class="mt-1">
+              ${order.campaignMark ? `<span class="inline-block whitespace-nowrap px-1.5 py-0.5 rounded bg-champagne-soft text-champagne border border-champagne/40 text-[10px] font-semibold">「${escapeHtml(order.campaignMark)}」</span>` : ''}
+            </div>
+          </td>
+          <td class="py-3.5 px-3 whitespace-nowrap">
+            <select
+              onchange="quickChangeStatus('${order.id}', this.value)"
+              class="min-w-[9.5rem] px-2.5 py-1.5 rounded-xl border text-[11px] font-semibold cursor-pointer focus:outline-none ${statusStyles[order.status]}"
+            >
+              <option value="新規受付" ${order.status === '新規受付' ? 'selected' : ''}>新規受付</option>
+              <option value="名入れ確認中" ${order.status === '名入れ確認中' ? 'selected' : ''}>名入れ確認中</option>
+              <option value="校正・データ作成" ${order.status === '校正・データ作成' ? 'selected' : ''}>校正・データ作成</option>
+              <option value="製造・レーザー加工" ${order.status === '製造・レーザー加工' ? 'selected' : ''}>製造・レーザー加工</option>
+              <option value="梱包・出荷済" ${order.status === '梱包・出荷済' ? 'selected' : ''}>梱包・出荷済</option>
+            </select>
+            <div class="text-[10px] text-taupe mt-1">校正: ${escapeHtml(order.proofStatus || '未送付')}</div>
+            <div class="text-[10px] ${order.stockCommitted ? 'text-sage' : 'text-taupe-light'}">${order.stockCommitted ? '在庫引当済' : '在庫未確定'}</div>
+          </td>
+          <td class="py-3.5 px-3 text-right whitespace-nowrap">
+            <button
+              onclick="openOrderDrawer('${order.id}')"
+              class="px-3 py-1.5 rounded-xl bg-ivory-warm hover:bg-champagne hover:text-white text-taupe text-[11px] font-medium border border-stone-200 transition-colors"
+            >
+              名入れ詳細
+            </button>
+          </td>
+        `;
+
+        tbody.appendChild(tr);
+      });
+
+      updateSelectedCount();
+      updateKpis();
+      renderPartStock();
+    }
+
+    /**
+     * チェックボックス選択制御
+     */
+    function toggleSingleSelect(id, checked) {
+      const target = ordersData.find((o) => o.id === id);
+      if (target) target.selected = checked;
+      updateSelectedCount();
+    }
+
+    function toggleSelectAll(checkbox) {
+      ordersData.forEach((o) => {
+        o.selected = checkbox.checked;
+      });
+      renderOrdersTable();
+    }
+
+    function updateSelectedCount() {
+      const count = ordersData.filter((o) => o.selected).length;
+      document.getElementById('selected-count-label').textContent = `選択中: ${count}件`;
+    }
+
+    /**
+     * テーブル上からのクイックステータス変更
+     */
+    function quickChangeStatus(id, newStatus) {
+      const order = ordersData.find((o) => o.id === id);
+      if (!order) return;
+      order.status = newStatus;
+      renderOrdersTable();
+      showToast(`注文 ${order.id} の工程を「${newStatus}」に更新しました`);
+    }
+
+    const SAME_DAY_CUTOFF = '13:00';
+    const PART_KEYS = [
+      { key: 'sweets', label: '菓子', short: '菓子' },
+      { key: 'box', label: '箱', short: '箱' },
+      { key: 'thanksCard', label: 'サンクスカード', short: 'カード' },
+      { key: 'miniSeal', label: 'ミニシール', short: 'シール' },
+    ];
+    let partStock = { sweets: 500, box: 340, thanksCard: 360, miniSeal: 200 };
+    let lastStockMove = '';
+    const STAFF_EXTRAS = {
+      'WC-20261119-01': { extraCharApplies: true, extraCharCount: 6, noshiFee: 20, wrappingFee: 0 },
+      'RK-394810-20261119': { wrappingFee: 90 },
+      'YH-lunaluce-100492': { bestBefore: '2027-02-28', proofStatus: '送付済' },
+      'WC-20261119-02': { campaignMark: '5円ご縁', noshiFee: 20 },
+      'FAX-20261119-01': { extraCharApplies: true, extraCharCount: 2, bestBefore: '2027-04-30', proofStatus: '承認済' },
+      'RK-394810-20261118': { wrappingFee: 90 },
+      'YH-lunaluce-100488': { proofStatus: '承認済' },
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function formatYen(amount) {
+      return '¥' + Number(amount || 0).toLocaleString('ja-JP');
+    }
+
+    function applyStaffDefaults(order) {
+      if (!order.partPer) order.partPer = { sweets: 1, box: 1, thanksCard: 1, miniSeal: 1 };
+      if (order.extraCharApplies == null) order.extraCharApplies = false;
+      if (order.extraCharCount == null) order.extraCharCount = 0;
+      if (order.noshiFee == null) order.noshiFee = 0;
+      if (order.wrappingFee == null) order.wrappingFee = 0;
+      if (order.campaignMark === undefined) order.campaignMark = null;
+      if (order.bestBefore === undefined) order.bestBefore = null;
+      if (!order.proofStatus) order.proofStatus = '未送付';
+      if (order.rushTicket == null) order.rushTicket = false;
+      if (order.stockCommitted == null) order.stockCommitted = false;
+      return order;
+    }
+
+    function hydrateStaffOrders() {
+      Object.entries(STAFF_EXTRAS).forEach(([id, extra]) => {
+        const order = ordersData.find((item) => item.id === id);
+        if (order) Object.assign(order, extra);
+      });
+      ordersData.forEach(applyStaffDefaults);
+    }
+
+    function partCounts(order) {
+      const per = order.partPer || {};
+      const qty = Number(order.qty) || 0;
+      const counts = {};
+      PART_KEYS.forEach((part) => {
+        counts[part.key] = (Number(per[part.key]) || 0) * qty;
+      });
+      return counts;
+    }
+
+    function partsSummary(order) {
+      const counts = partCounts(order);
+      return PART_KEYS.map((part) => `${part.short}${counts[part.key]}`).join('・');
+    }
+
+    function feeNumbers(order) {
+      const applies = !!order.extraCharApplies;
+      const count = applies ? Number(order.extraCharCount) || 0 : 0;
+      const extraTotal = applies ? 500 + 20 * count : 0;
+      return {
+        extraBase: applies ? 500 : 0,
+        extraCount: count,
+        extraPer: 20,
+        extraTotal,
+        noshi: Number(order.noshiFee) || 0,
+        wrapping: Number(order.wrappingFee) || 0,
+      };
+    }
+
+    function feeLines(order) {
+      const fees = feeNumbers(order);
+      const extra = fees.extraTotal > 0
+        ? `超過 ${formatYen(fees.extraBase)}+${formatYen(fees.extraPer)}×${fees.extraCount}=${formatYen(fees.extraTotal)}`
+        : `超過 ${formatYen(0)}`;
+      return [extra, `のし ${formatYen(fees.noshi)}`, `包装 ${formatYen(fees.wrapping)}`];
+    }
+
+    function orderClock(order) {
+      const time = String((order.orderDate || '').split(' ')[1] || '00:00').slice(0, 5);
+      return { time, within: time <= SAME_DAY_CUTOFF };
+    }
+
+    function currentOrder() {
+      return ordersData.find((order) => order.id === currentEditingOrderId) || null;
+    }
+
+    function syncSampleTexts(couple, isoDate) {
+      const dotted = String(isoDate || '').replace(/-/g, '.');
+      document.querySelectorAll('.js-sample-name').forEach((el) => {
+        el.textContent = couple;
+      });
+      document.querySelectorAll('.js-sample-date').forEach((el) => {
+        el.textContent = dotted;
+      });
+      const sheetNames = document.getElementById('sheet-names');
+      const sheetDate = document.getElementById('sheet-date');
+      if (sheetNames) sheetNames.textContent = couple;
+      if (sheetDate) sheetDate.textContent = dotted;
+    }
+
+    function renderPartStock() {
+      const el = document.getElementById('part-stock-strip');
+      if (!el) return;
+      el.innerHTML = PART_KEYS.map((part) => {
+        const count = partStock[part.key];
+        const low = count < 80;
+        return `<div class="rounded-xl border px-3 py-2 ${low ? 'border-amber-300 bg-amber-50' : 'border-stone-200 bg-ivory'}">
+          <p class="text-[10px] text-taupe-light">${part.label}</p>
+          <p class="font-serifEn text-2xl leading-none text-forest mt-1">${count}</p>
+        </div>`;
+      }).join('');
+      const note = document.getElementById('part-stock-note');
+      if (note) note.textContent = lastStockMove || 'まだ引き落としはありません';
+    }
+
+    function renderDrawerStaff(order) {
+      const counts = partCounts(order);
+      const fees = feeNumbers(order);
+      const clock = orderClock(order);
+      const optionTotal = fees.extraTotal + fees.noshi + fees.wrapping;
+
+      document.getElementById('drawer-parent-qty').textContent = `親数量 ${order.qty}`;
+      document.getElementById('drawer-parts-body').innerHTML = PART_KEYS.map((part) => {
+        const per = Number(order.partPer[part.key]) || 0;
+        return `<div class="flex items-center justify-between gap-3 py-1.5 border-b border-stone-200/80 last:border-b-0">
+          <span class="text-taupe">${part.label}</span>
+          <span class="font-mono text-forest">親 ${order.qty} × ${per} ＝ ${counts[part.key]}</span>
+        </div>`;
+      }).join('');
+
+      const extraLine = fees.extraTotal > 0
+        ? `文字数超過 ${formatYen(fees.extraBase)} ＋ ${formatYen(fees.extraPer)} × ${fees.extraCount}文字 ＝ ${formatYen(fees.extraTotal)}（1注文につき1回）`
+        : `文字数超過 ${formatYen(0)}`;
+      document.getElementById('fee-extra-line').textContent = extraLine;
+      document.getElementById('fee-noshi-line').textContent = `のし ${formatYen(fees.noshi)}`;
+      document.getElementById('fee-wrap-line').textContent = `ラッピング ${formatYen(fees.wrapping)}`;
+      document.getElementById('fee-option-total').textContent = `オプション計 ${formatYen(optionTotal)}`;
+      document.getElementById('campaign-mark-line').textContent = order.campaignMark
+        ? `本店カートから渡された印: 「${order.campaignMark}」`
+        : '本店カートから渡された印: なし';
+      document.getElementById('best-before-line').textContent = order.bestBefore
+        ? `賞味期限 ${order.bestBefore}`
+        : '賞味期限 なし';
+      document.getElementById('cutoff-line').textContent = clock.within
+        ? `即日締切 ${SAME_DAY_CUTOFF}。受付 ${clock.time}（締切内）`
+        : `即日締切 ${SAME_DAY_CUTOFF}。受付 ${clock.time}（締切後）`;
+
+      const rushBtn = document.getElementById('rush-toggle-btn');
+      rushBtn.textContent = order.rushTicket ? '特急チケットを外す' : '特急チケットを付ける';
+      rushBtn.className = order.rushTicket
+        ? 'px-3 py-2 rounded-xl bg-urgent text-white text-xs font-semibold'
+        : 'px-3 py-2 rounded-xl bg-white border border-urgent/50 text-urgent text-xs font-semibold';
+      document.getElementById('rush-state-line').textContent = order.rushTicket ? '特急チケット付き' : '特急チケットなし';
+      document.getElementById('proof-state-line').textContent = `校正: ${order.proofStatus}`;
+      document.getElementById('proof-send-btn').disabled = order.proofStatus !== '未送付';
+      document.getElementById('proof-approve-btn').disabled = order.proofStatus !== '送付済';
+
+      document.getElementById('sheet-order-id').textContent = order.id;
+      document.getElementById('sheet-channel').textContent = order.channelLabel;
+      document.getElementById('sheet-customer').textContent = `${order.customerName} 様`;
+      document.getElementById('sheet-ship').textContent = order.shippingTo;
+      document.getElementById('sheet-product').textContent = `${order.productName} / ${order.sku}`;
+      document.getElementById('sheet-qty').textContent = String(order.qty);
+      document.getElementById('sheet-parts').textContent = PART_KEYS.map((part) => `${part.label} ${counts[part.key]}`).join('、');
+      document.getElementById('sheet-fees').textContent = `超過 ${formatYen(fees.extraTotal)} / のし ${formatYen(fees.noshi)} / ラッピング ${formatYen(fees.wrapping)}`;
+      document.getElementById('sheet-best').textContent = order.bestBefore || 'なし';
+      document.getElementById('sheet-cutoff').textContent = `${SAME_DAY_CUTOFF} / ${clock.time} / ${clock.within ? '締切内' : '締切後'}`;
+      document.getElementById('sheet-rush').textContent = order.rushTicket ? 'あり' : 'なし';
+      document.getElementById('sheet-proof').textContent = order.proofStatus;
+      document.getElementById('sheet-campaign').textContent = order.campaignMark ? `「${order.campaignMark}」` : 'なし';
+
+      const typedDate = document.getElementById('edit-wedding-date').value || order.weddingDate;
+      document.getElementById('sheet-wedding').textContent = typedDate;
+      syncSampleTexts(document.getElementById('edit-couple-names').value || order.coupleNames, typedDate);
+
+      const plan = PART_KEYS.map((part) => `${part.short} ${counts[part.key]}`).join('、');
+      document.getElementById('drawer-stock-line').textContent =
+        'いまの部品在庫 ' + PART_KEYS.map((part) => `${part.label} ${partStock[part.key]}`).join('、');
+      document.getElementById('drawer-stock-move').textContent = order.stockCommitted
+        ? `確定済み。引き落とした数: ${plan}`
+        : `未確定。確定すると ${plan} を引き落とします。`;
+      const commitBtn = document.getElementById('stock-commit-btn');
+      commitBtn.disabled = !!order.stockCommitted;
+      commitBtn.textContent = order.stockCommitted
+        ? '部品在庫は引き落とし済み'
+        : 'この注文を確定して部品在庫を引き落とす';
+    }
+
+    function toggleRushTicket() {
+      const order = currentOrder();
+      if (!order) return;
+      order.rushTicket = !order.rushTicket;
+      renderOrdersTable();
+      renderDrawerStaff(order);
+      showToast(order.rushTicket ? `${order.id} に特急チケットを付けました` : `${order.id} の特急チケットを外しました`);
+    }
+
+    function markProofSent() {
+      const order = currentOrder();
+      if (!order || order.proofStatus !== '未送付') return;
+      order.proofStatus = '送付済';
+      renderOrdersTable();
+      renderDrawerStaff(order);
+      showToast(`${order.id} の校正を送付済みにしました`);
+    }
+
+    function markProofApproved() {
+      const order = currentOrder();
+      if (!order || order.proofStatus !== '送付済') return;
+      order.proofStatus = '承認済';
+      renderOrdersTable();
+      renderDrawerStaff(order);
+      showToast(`${order.id} の校正を承認済みにしました`);
+    }
+
+    function confirmOrderStock() {
+      const order = currentOrder();
+      if (!order) return;
+      if (order.stockCommitted) {
+        showToast('この注文の部品在庫はすでに引き落とし済みです');
+        return;
+      }
+      const counts = partCounts(order);
+      const short = PART_KEYS.filter((part) => partStock[part.key] < counts[part.key]);
+      if (short.length) {
+        showToast(`在庫が足りないので確定できません（${short.map((part) => part.label).join('・')}）`);
+        return;
+      }
+      PART_KEYS.forEach((part) => {
+        partStock[part.key] -= counts[part.key];
+      });
+      order.stockCommitted = true;
+      lastStockMove = `${order.id} を確定。` + PART_KEYS.map((part) => `${part.short} -${counts[part.key]}（残 ${partStock[part.key]}）`).join('、');
+      renderOrdersTable();
+      renderDrawerStaff(order);
+      showToast(`${order.id} の内訳数を部品在庫から引き落としました`);
+    }
+
+    /**
+     * 詳細・名入れ正規化ドロワーを開く
+     */
+    function openOrderDrawer(id) {
+      const order = ordersData.find((o) => o.id === id);
+      if (!order) return;
+      currentEditingOrderId = id;
+
+      document.getElementById('drawer-channel-badge').textContent = order.channelLabel;
+      document.getElementById('drawer-order-id').textContent = order.id;
+      document.getElementById('drawer-product-title').textContent = `${order.productName}（× ${order.qty}点）`;
+
+      // 警告ボックス表示制御
+      const warnBox = document.getElementById('drawer-warning-box');
+      if (order.warning) {
+        warnBox.classList.remove('hidden');
+        document.getElementById('drawer-warning-text').textContent = order.warning;
+      } else {
+        warnBox.classList.add('hidden');
+      }
+
+      // フォームへ値をセット
+      document.getElementById('edit-couple-names').value = order.coupleNames;
+      document.getElementById('edit-wedding-date').value = order.weddingDate;
+      document.getElementById('edit-header-msg').value = order.headerMsg;
+      document.getElementById('edit-font-style').value = order.fontStyle;
+      document.getElementById('edit-noshi-seal').value = order.noshiSeal;
+      document.getElementById('edit-order-status').value = order.status;
+      document.getElementById('edit-clear-warning').checked = !order.warning;
+
+      // Raw Payload表示
+      document.getElementById('drawer-raw-payload').textContent = JSON.stringify(order.rawPayload, null, 2);
+
+      // SVGプレビューと現場パネル
+      renderDrawerStaff(order);
+      updateLivePreviewFromInputs();
+
+      // ドロワーアニメーション表示
+      document.getElementById('drawer-backdrop').classList.remove('hidden');
+      const drawer = document.getElementById('order-drawer');
+      drawer.classList.remove('drawer-exit');
+      drawer.classList.add('drawer-enter');
+    }
+
+    function closeOrderDrawer() {
+      document.getElementById('drawer-backdrop').classList.add('hidden');
+      const drawer = document.getElementById('order-drawer');
+      drawer.classList.remove('drawer-enter');
+      drawer.classList.add('drawer-exit');
+      currentEditingOrderId = null;
+    }
+
+    /**
+     * 入力内容に合わせてSVG仕上がりプレビューをリアルタイム更新
+     */
+    function updateLivePreviewFromInputs() {
+      const couple = document.getElementById('edit-couple-names').value || 'Groom & Bride';
+      const wDate = document.getElementById('edit-wedding-date').value || '2026-12-01';
+      const msg = document.getElementById('edit-header-msg').value || 'WELCOME TO OUR WEDDING';
+      const font = document.getElementById('edit-font-style').value;
+      const noshi = document.getElementById('edit-noshi-seal').value;
+
+      document.getElementById('svg-couple-names').textContent = couple;
+      document.getElementById('svg-wedding-date').textContent = wDate.replace(/-/g, '.');
+      document.getElementById('svg-header-msg').textContent = msg;
+      document.getElementById('svg-sub-note').textContent = `書体: ${font} ｜ 包装: ${noshi}`;
+      syncSampleTexts(couple, wDate);
+      const sheetWedding = document.getElementById('sheet-wedding');
+      if (sheetWedding) sheetWedding.textContent = wDate;
+
+      const order = currentOrder();
+      const fees = order ? feeNumbers(order) : null;
+      const badge = document.getElementById('drawer-char-fee-badge');
+      if (fees && fees.extraTotal > 0) {
+        badge.textContent = `文字数超過 ${formatYen(fees.extraBase)}＋${formatYen(fees.extraPer)}×${fees.extraCount}＝${formatYen(fees.extraTotal)}`;
+        badge.className = 'px-2 py-0.5 rounded bg-rose-100 text-urgent text-[11px] font-mono font-semibold';
+      } else {
+        badge.textContent = `文字数超過 ${formatYen(0)}`;
+        badge.className = 'px-2 py-0.5 rounded bg-stone-100 text-taupe text-[11px] font-mono';
+      }
+    }
+
+    /**
+     * ドロワー編集内容を保存
+     */
+    function saveDrawerEdits() {
+      const order = ordersData.find((o) => o.id === currentEditingOrderId);
+      if (!order) return;
+
+      order.coupleNames = document.getElementById('edit-couple-names').value;
+      order.weddingDate = document.getElementById('edit-wedding-date').value;
+      order.headerMsg = document.getElementById('edit-header-msg').value;
+      order.fontStyle = document.getElementById('edit-font-style').value;
+      order.noshiSeal = document.getElementById('edit-noshi-seal').value;
+      order.status = document.getElementById('edit-order-status').value;
+
+      if (document.getElementById('edit-clear-warning').checked) {
+        order.warning = null;
+        document.getElementById('drawer-warning-box').classList.add('hidden');
+      }
+
+      renderOrdersTable();
+      renderDrawerStaff(order);
+      updateLivePreviewFromInputs();
+      showToast(`注文 ${order.id} の正規化データを保存しました`);
+    }
+
+    /**
+     * ドロワー内の個別アクション実行
+     */
+    function triggerSingleAction(actionType) {
+      const order = ordersData.find((o) => o.id === currentEditingOrderId);
+      if (!order) return;
+
+      if (actionType === 'laser') {
+        ordersData.forEach((o) => (o.selected = o.id === order.id));
+        closeOrderDrawer();
+        switchTab('simulator');
+        showToast(`${order.id} のレーザー加工用CSVを生成しました`);
+      } else if (actionType === 'yamato') {
+        ordersData.forEach((o) => (o.selected = o.id === order.id));
+        closeOrderDrawer();
+        switchTab('simulator');
+        showToast(`${order.id} のヤマトB2送り状CSVを生成しました`);
+      } else if (actionType === 'email') {
+        showToast(`${order.customerName} 様宛に「名入れ内容・校正確認メール」を送信しました`);
+      } else if (actionType === 'sync_mall') {
+        order.status = '梱包・出荷済';
+        renderOrdersTable();
+        closeOrderDrawer();
+        showToast(`${order.channelLabel} APIへ出荷完了・伝票番号を同期しました`);
+      }
+    }
+
+    /**
+     * 手動API同期シミュレーション
+     */
+    function triggerManualSync() {
+      const now = new Date();
+      const timeStr = now.toTimeString().split(' ')[0];
+      document.getElementById('last-sync-time').textContent = `最終同期: ${TODAY_STR} ${timeStr}`;
+      showToast('Welcart・楽天市場・Yahoo!ショッピングから最新受注データを同期しました');
+    }
+
+    /**
+     * 電話・FAX注文 手動登録モーダル
+     */
+    function openManualOrderModal() {
+      const modal = document.getElementById('manual-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeManualOrderModal() {
+      const modal = document.getElementById('manual-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    function submitManualOrder() {
+      const type = document.getElementById('manual-channel-type').value;
+      const wDate = document.getElementById('manual-wedding-date').value || '2026-12-05';
+      const custName = document.getElementById('manual-customer-name').value.trim() || '新規電話・FAX顧客';
+      const venue = document.getElementById('manual-venue').value.trim() || 'ご自宅配送';
+      const product = document.getElementById('manual-product').value.trim() || 'ブライダルプチギフト';
+      const couple = document.getElementById('manual-couple').value.trim() || 'New Couple';
+      const noshi = document.getElementById('manual-noshi').value.trim() || 'オリジナルタグ';
+
+      const newId = `${type.startsWith('FAX') ? 'FAX' : 'TEL'}-20261119-${String(ordersData.length + 1).padStart(2, '0')}`;
+
+      ordersData.unshift({
+        id: newId,
+        channel: 'MANUAL',
+        channelLabel: type,
+        orderDate: `${TODAY_STR} 10:19`,
+        weddingDate: wDate,
+        customerName: custName,
+        shippingTo: venue,
+        postalCode: '460-0001',
+        address: venue,
+        phone: '0586-86-1150',
+        productName: product,
+        sku: 'LL-MAN-001',
+        qty: 1,
+        amount: 27300,
+        coupleNames: couple,
+        headerMsg: 'THANK YOU FOR COMING',
+        fontStyle: 'モダンカリグラフィ（ゴールド）',
+        noshiSeal: noshi,
+        overCharFee: 0,
+        campaign5Yen: false,
+        status: '新規受付',
+        warning: null,
+        selected: true,
+        rawPayload: {
+          source: `Manual ${type} Form`,
+          entered_at: `${TODAY_STR} 10:19`,
+          operator: 'Staff-01'
+        }
+      });
+      applyStaffDefaults(ordersData[0]);
+
+      closeManualOrderModal();
+      renderOrdersTable();
+      showToast(`${type}（${newId}）を統合受注キューへ追加しました`);
+    }
+
+    /**
+     * データベーススキーマエクスプローラー描画
+     */
+    function renderSchemaExplorer() {
+      const listEl = document.getElementById('schema-table-list');
+      const detailEl = document.getElementById('schema-table-detail');
+
+      listEl.innerHTML = '';
+      dbSchemaTables.forEach((tbl, idx) => {
+        const isActive = idx === selectedSchemaIndex;
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.onclick = () => {
+          selectedSchemaIndex = idx;
+          renderSchemaExplorer();
+        };
+        btn.className = `w-full text-left p-3.5 rounded-xl border transition-all ${
+          isActive
+            ? 'bg-forest text-white border-forest shadow-xs'
+            : 'bg-ivory hover:bg-champagne-soft/60 text-taupe border-stone-200'
+        }`;
+        btn.innerHTML = `
+          <div class="flex items-center justify-between">
+            <span class="font-mono text-xs font-bold ${isActive ? 'text-champagne' : 'text-forest'}">${tbl.name}</span>
+            <span class="text-[10px] ${isActive ? 'text-stone-300' : 'text-stone-400'}">${tbl.columns.length} cols</span>
+          </div>
+          <p class="text-[11px] mt-1 ${isActive ? 'text-stone-200' : 'text-taupe-light'}">${tbl.jpName}</p>
+        `;
+        listEl.appendChild(btn);
+      });
+
+      const currentTbl = dbSchemaTables[selectedSchemaIndex];
+      detailEl.innerHTML = `
+        <div class="pb-3 border-b border-stone-200">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <h3 class="font-mono text-base font-bold text-forest">${currentTbl.name}</h3>
+            <span class="px-2.5 py-0.5 rounded-full bg-champagne-soft text-taupe text-[11px] font-medium border border-champagne/30">
+              ${currentTbl.jpName}
+            </span>
+          </div>
+          <p class="text-xs text-taupe-light mt-1.5 leading-relaxed">${currentTbl.description}</p>
+          <div class="flex flex-wrap gap-1.5 mt-2.5">
+            ${currentTbl.indexes.map((ix) => `<span class="px-2 py-0.5 rounded bg-stone-200/70 font-mono text-[10px] text-forest">${ix}</span>`).join('')}
+          </div>
+        </div>
+
+        <div class="overflow-x-auto mt-3">
+          <table class="w-full text-left border-collapse text-xs">
+            <thead>
+              <tr class="border-b border-stone-300 text-[11px] text-taupe">
+                <th class="py-2 px-2">カラム名</th>
+                <th class="py-2 px-2">データ型</th>
+                <th class="py-2 px-2">制約</th>
+                <th class="py-2 px-2">ブライダル業務用途・説明</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-stone-200/70">
+              ${currentTbl.columns
+                .map(
+                  (c) => `
+                <tr>
+                  <td class="py-2 px-2 font-mono font-semibold text-forest">${c.col}</td>
+                  <td class="py-2 px-2 font-mono text-[11px] text-taupe-light">${c.type}</td>
+                  <td class="py-2 px-2">
+                    ${
+                      c.key
+                        ? `<span class="px-1.5 py-0.5 rounded text-[10px] font-mono font-bold ${
+                            c.key === 'PK'
+                              ? 'bg-champagne text-white'
+                              : c.key === 'FK'
+                              ? 'bg-sage text-white'
+                              : 'bg-stone-200 text-forest'
+                          }">${c.key}</span>`
+                        : '-'
+                    }
+                  </td>
+                  <td class="py-2 px-2 text-taupe">${c.note}</td>
+                </tr>
+              `
+                )
+                .join('')}
+            </tbody>
+          </table>
+        </div>
+      `;
+    }
+
+    function copySqlDdl() {
+      const currentTbl = dbSchemaTables[selectedSchemaIndex];
+      const ddl = `CREATE TABLE ${currentTbl.name} (\n` +
+        currentTbl.columns.map((c) => `  ${c.col} ${c.type}${c.key === 'PK' ? ' PRIMARY KEY' : ''}, -- ${c.note}`).join('\n') +
+        `\n);`;
+
+      const tempInput = document.createElement('textarea');
+      tempInput.value = ddl;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+      showToast(`${currentTbl.name} の CREATE TABLE DDL をクリップボードにコピーしました`);
+    }
+
+    /**
+     * CSVシミュレーター画面へ選択注文を持って遷移
+     */
+    function goToSimulatorWithSelected() {
+      switchTab('simulator');
+    }
+
+    /**
+     * レーザー加工CSV & ヤマトB2送り状CSVの生成とプレビュー
+     */
+    function getTargetOrdersForCsv() {
+      const selected = ordersData.filter((o) => o.selected);
+      return selected.length > 0 ? selected : ordersData.slice(0, 3);
+    }
+
+    function renderCsvSimulator() {
+      const targets = getTargetOrdersForCsv();
+
+      // 1. レーザー加工・印字指示CSV
+      const laserHeader = '注文ID,販路,挙式日,商品SKU,数量,新郎新婦名(role_n),印字日付(role_d),見出し(role_m),書体デザイン(role_wh),熨斗シール(role_s),キャンペーン印';
+      const laserRows = targets.map((o) =>
+        [
+          o.id,
+          o.channelLabel,
+          o.weddingDate,
+          o.sku,
+          o.qty,
+          `"${o.coupleNames}"`,
+          o.weddingDate.replace(/-/g, '.'),
+          `"${o.headerMsg}"`,
+          `"${o.fontStyle}"`,
+          `"${o.noshiSeal}"`,
+          o.campaignMark ? `"${o.campaignMark}"` : 'なし'
+        ].join(',')
+      );
+      document.getElementById('csv-preview-laser').textContent = [laserHeader, ...laserRows].join('\n');
+      document.getElementById('sim-laser-count').textContent = `${targets.length}件出力対象`;
+
+      // 2. ヤマトB2クラウド送り状CSV
+      const yamatoHeader = 'お客様管理番号,送り状種類,お届け先郵便番号,お届け先住所,お届け先名称(式場・様方),お届け先電話番号,品名1,記事欄(挙式日・新郎新婦様名)';
+      const yamatoRows = targets.map((o) =>
+        [
+          o.id,
+          '0',
+          o.postalCode,
+          `"${o.address}"`,
+          `"${o.shippingTo}（${o.customerName}様）"`,
+          o.phone,
+          `"${o.productName}"`,
+          `"【挙式日:${o.weddingDate}】${o.coupleNames}様分"`
+        ].join(',')
+      );
+      document.getElementById('csv-preview-yamato').textContent = [yamatoHeader, ...yamatoRows].join('\n');
+      document.getElementById('sim-yamato-count').textContent = `${targets.length}件出力対象`;
+    }
+
+    function downloadSimulatedCsv(type) {
+      const content =
+        type === 'laser'
+          ? document.getElementById('csv-preview-laser').textContent
+          : document.getElementById('csv-preview-yamato').textContent;
+      const filename =
+        type === 'laser'
+          ? `lunaluce_laser_engraving_${TODAY_STR}.csv`
+          : `lunaluce_yamato_b2_${TODAY_STR}.csv`;
+
+      const bom = new Uint8Array([0xef, 0xbb, 0xbf]);
+      const blob = new Blob([bom, content], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      showToast(`${filename} をダウンロードしました`);
+    }
+
+    /**
+     * トースト通知表示
+     */
+    let toastTimeout = null;
+    function showToast(message) {
+      const container = document.getElementById('toast-container');
+      const msgEl = document.getElementById('toast-msg');
+      msgEl.textContent = message;
+      container.classList.remove('opacity-0', 'translate-y-2');
+      container.classList.add('opacity-100', 'translate-y-0');
+
+      if (toastTimeout) clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        container.classList.add('opacity-0', 'translate-y-2');
+        container.classList.remove('opacity-100', 'translate-y-0');
+      }, 3000);
+    }
+
+    // 初期描画
+    window.addEventListener('DOMContentLoaded', () => {
+      hydrateStaffOrders();
+      renderOrdersTable();
+      renderSchemaExplorer();
+      renderCsvSimulator();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "id": "new-feature",
+  "active": false,
+  "title": "新しい特集",
+  "text": "特集の説明を入力してください。",
+  "image": "images/features/pb-goen.jpg",
+  "href": "category.html?g=all",
+  "cta": "特集を見る",
+  "ids": [
+    "58190",
+    "48734",
+    "69417",
+    "38808"
+  ],
+  "theme": "rose"
+}

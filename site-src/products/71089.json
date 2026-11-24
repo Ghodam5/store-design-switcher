@@ -1,0 +1,88 @@
+{
+  "active": true,
+  "product": {
+    "id": "71089",
+    "code": "a655",
+    "title": "【引き出物】TSUTSUMI 瑞穂の恵み 千葉産 ふさおとめ",
+    "price": 1512,
+    "image": "images/products/71089.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a655.html",
+    "description": "日本人の体に深く染み渡る瑞穂の恵みの豊かで繊細な優しい風味を、おもてなしの心で包みました。",
+    "size": "商品サイズ:155×95×55mm",
+    "material": "",
+    "contents": "商品内容:千葉産 ふさおとめ30 0g ×1、 風呂敷(360×360mm)×1 (材質:ポリエステル)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "gohan"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a655",
+        "t": "TSUTSUMI 瑞穂の恵み 千葉産 ふさおとめ A655",
+        "price": 1512
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71089.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵み 千葉産 ふさおとめ 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71089/a655_1.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵み 千葉産 ふさおとめ 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71089/a655_2.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵み 千葉産 ふさおとめ 商品写真3",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a655": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

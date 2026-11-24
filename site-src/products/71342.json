@@ -1,0 +1,196 @@
+{
+  "active": true,
+  "product": {
+    "id": "71342",
+    "code": "pb283ranbowbox",
+    "title": "A Ranbow Stripe box HI pb (こんぺいとう) お名入れ可能 レインボー虹 推し活",
+    "price": 228,
+    "image": "images/features/pb283ranbowbox.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a-ranbow-stripe-box-hi-pb-（こんぺいとう）-※1柄6個からご注文受付.html",
+    "description": "定番7色と5色の虹をボーダーにアレンジしたプチギフト。 レインボーカラーをイメージした人の推し活に 新郎新婦様のお名前を入れて結婚式のプチギフトにも♪ キラキラ輝く人をイメージしたこんぺいとう入り うれしいお名入れ対応。20文字以内であればメッセージもお入れできます。 ※印字内容は全て同一での作成とさせていただきます。 サイズ:5×5×5cm 内容:こんぺいとう10g入り 消費期限:出荷日より約180日",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※一部商品は最低購入数のお願いがございます。ご確認の上ご購入ください。 ※商品仕様は販売時期により変更になる場合がございます ※受注生産品の為お届けまでに14日ほどお時間をいただきます 「お届け目安」より早くお届けをご希望の場合は「特急料金(¥1000~)」が発生します。 ※ご注文確認時ご使用日までにお届けが不可能と判断した場合、キャンセルさせていただきます。ご連絡は原則メールで行います。ご注文成立の可否をお客様にてかならずご確認ください。 ※食品の為、天候・交通状況などでお届けが遅れた場合でも返品はお受けできません。 ※ご注文後の数量、配送日等の各種変更は手数料が発生します。 ※100個以上ご注文の場合はお問合せください。通常納期でのお届けができない場合がございます ※のし・包装対象外商品/化粧箱のご用意はございません。 ※送料無料配送は当店指定配送の為、日時指定不可の場合がございます",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb283ranbowbox",
+        "t": "A Ranbow Stripe box HI pb (こんぺいとう) ※1柄6個からご注文受付",
+        "price": 228
+      }
+    ],
+    "spec": {
+      "code": "pb283ranbowbox",
+      "pid": "71342",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "レインボーのお色",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "定番7色レインボー",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "5色レインボー(赤黄緑青紫)",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "お名入れ記念日など(20字まで)",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": "",
+          "over": {
+            "base": 500,
+            "per": 20,
+            "perUnit": false,
+            "agreeField": 3,
+            "agreeHas": "確認した/文"
+          },
+          "overAllowed": true
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "同一内容で6個よりご注文受付※5個までは自動キャンセル",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "お名入れ入力欄はお客様にて文字数カウントが必要です。",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した/文字数超過の場合原稿作成手数料￥500+1文字ごとに20円追加に同意",
+              "fee": null,
+              "over": {
+                "base": 500,
+                "per": 20
+              }
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 6,
+      "notes": []
+    },
+    "minq": 6,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "bulk-100",
+      "no-noshi",
+      "free-ship-no-date",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/pb283ranbowbox.jpg",
+        "alt": "A Ranbow Stripe box HI pb (こんぺいとう) お名入れ可能 レインボー虹 推し活 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71342/pb283ranbowbox-01.jpg",
+        "alt": "A Ranbow Stripe box HI pb (こんぺいとう) お名入れ可能 レインボー虹 推し活 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71342/pb283ranbowbox-02.jpg",
+        "alt": "A Ranbow Stripe box HI pb (こんぺいとう) お名入れ可能 レインボー虹 推し活 商品写真3",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "71342",
+    "name": "A Ranbow Stripe box HI pb (こんぺいとう) ※1柄6個からご注文受付 お名入れ可能 プチギフト レインボー虹 推し活",
+    "title": "A Ranbow Stripe box HI pb (こんぺいとう) お名入れ可能 レインボー虹 推し活",
+    "url": "https://www.luna-luce.jp/item/a-ranbow-stripe-box-hi-pb-（こんぺいとう）-※1柄6個からご注文受付.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/pb283ranbowbox.jpg",
+    "description": "定番7色と5色の虹をボーダーにアレンジしたプチギフト。 レインボーカラーをイメージした人の推し活に 新郎新婦様のお名前を入れて結婚式のプチギフトにも♪ キラキラ輝く人をイメージしたこんぺいとう入り うれしいお名入れ対応。20文字以内であればメッセージもお入れできます。 ※印字内容は全て同一での作成とさせていただきます。 サイズ:5×5×5cm 内容:こんぺいとう10g入り 消費期限:出荷日より約180日",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-02-18"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb283ranbowbox": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

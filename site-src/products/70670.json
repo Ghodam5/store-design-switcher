@@ -1,0 +1,257 @@
+{
+  "active": true,
+  "product": {
+    "id": "70670",
+    "code": "pb251namedaruma",
+    "title": "お名入れだるまボックス PB (こんぺいとう) 願掛け 紅白だるま 御年賀 差し入れ",
+    "price": 228,
+    "image": "images/features/70670.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/お名入れだるまボックス-pb-（こんぺいとう）-※1色10.html",
+    "description": "七転び八起きで縁起かつぎのだるまさんが 「ころばない四角だるま」に大変身 ユニークなだるまで願掛け祈願 うれしいお名入れ対応。 ・応援メッセージを入れて合格祈願に ・お店の名前を入れて新規オープンや年末年始の御挨拶に ・新郎新婦様のお名前を入れて結婚式のプチギフトにも 脳の働きを応援するこんぺいとう入り。 ※印字内容は全て同一での作成とさせていただきます。 サイズ:約5×5×5cm 内容:こんぺいとう10g入り 消費期限:出荷日より約180日",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb251namedarumab",
+        "t": "お名入れだるまボックス PB (こんぺいとう) ※1色10個からご注文受付",
+        "price": 228
+      }
+    ],
+    "spec": {
+      "code": "pb251namedaruma",
+      "pid": "70670",
+      "fields": [
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "名入れ記念日など(20字まで)",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": "",
+          "over": {
+            "base": 500,
+            "per": 20,
+            "perUnit": false,
+            "agreeField": 3,
+            "agreeHas": "確認した/文"
+          },
+          "overAllowed": true
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "12個よりご注文受付（※11個までは自動キャンセル",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "願掛け文字×お色",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "合格×ホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "合格×ピンク",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "合格×アソート (約半々）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "必勝×ホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "必勝×ピンク",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "必勝×アソート (約半々）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "感謝×ホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "感謝×ピンク",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "感謝×アソート (約半々）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "入魂×ホワイト",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "入魂×ピンク",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "入魂×アソート (約半々）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "お名入れ入力欄はお客様にて文字数カウントが必要です。",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した/文字数超過の場合原稿作成手数料￥500+1文字ごとに20円追加に同意",
+              "fee": null,
+              "over": {
+                "base": 500,
+                "per": 20
+              }
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 10,
+      "notes": []
+    },
+    "minq": 10,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "min-qty",
+      "bulk-100",
+      "spec-change",
+      "no-noshi",
+      "free-ship-no-date",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/70670.jpg",
+        "alt": "お名入れだるまボックス PB (こんぺいとう) 願掛け 紅白だるま 御年賀 差し入れ 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70670/251namedaruma1.jpg",
+        "alt": "お名入れだるまボックス PB (こんぺいとう) 願掛け 紅白だるま 御年賀 差し入れ 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70670/251namedaruma2.jpg",
+        "alt": "お名入れだるまボックス PB (こんぺいとう) 願掛け 紅白だるま 御年賀 差し入れ 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70670/251namedaruma3.jpg",
+        "alt": "お名入れだるまボックス PB (こんぺいとう) 願掛け 紅白だるま 御年賀 差し入れ 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70670/251namedaruma4.jpg",
+        "alt": "お名入れだるまボックス PB (こんぺいとう) 願掛け 紅白だるま 御年賀 差し入れ 商品写真5",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "70670",
+    "name": "お名入れだるまボックス PB (こんぺいとう) ※1色12個からご注文受付 プチギフト 合格祈願 必勝祈願 願掛け 紅白だるま 御年賀 販促 応援 差し入れ",
+    "title": "お名入れだるまボックス PB (こんぺいとう) 願掛け 紅白だるま 御年賀 差し入れ",
+    "url": "https://www.luna-luce.jp/item/お名入れだるまボックス-pb-（こんぺいとう）-※1色10.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/70670.jpg",
+    "description": "七転び八起きで縁起かつぎのだるまさんが 「ころばない四角だるま」に大変身 ユニークなだるまで願掛け祈願 うれしいお名入れ対応。 ・応援メッセージを入れて合格祈願に ・お店の名前を入れて新規オープンや年末年始の御挨拶に ・新郎新婦様のお名前を入れて結婚式のプチギフトにも 脳の働きを応援するこんぺいとう入り。 ※印字内容は全て同一での作成とさせていただきます。 サイズ:約5×5×5cm 内容:こんぺいとう10g入り 消費期限:出荷日より約180日",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-05-19"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb251namedarumab": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

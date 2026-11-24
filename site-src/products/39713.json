@@ -1,0 +1,158 @@
+{
+  "active": true,
+  "product": {
+    "id": "39713",
+    "code": "w-bag-gs50st",
+    "title": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】",
+    "price": 11000,
+    "image": "images/features/39713.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/w-bag-gs50st-2.html",
+    "description": "シックさを感じさせる、ゴールドカラーにブラウンの紐。 袋の内側にはブラウンのストライプ模様がプリントされており、内側のオシャレにもこだわったバッグです。 お得な50個セットをご用意しました。",
+    "size": "h250mm×w300mm×d200mm",
+    "material": "紙(光沢紙)、紐",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ブライダルバッグ",
+    "categories": [
+      "bag"
+    ],
+    "subs": [
+      "set"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "w-bag-gs50st",
+        "t": "ゴールド(厚手) サイズ:S 50個セット",
+        "price": 11000
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 50,
+    "delivery": {
+      "min": 1,
+      "max": 2,
+      "made": false,
+      "source": "db",
+      "label": "1～2日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/39713.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/39713/bag_img01.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真2",
+        "width": 630,
+        "height": 600
+      },
+      {
+        "src": "images/product-details/39713/bag_img02.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真3",
+        "width": 630,
+        "height": 40
+      },
+      {
+        "src": "images/product-details/39713/bag_01-01.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真4",
+        "width": 280,
+        "height": 220
+      },
+      {
+        "src": "images/product-details/39713/bag_01-02.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真5",
+        "width": 350,
+        "height": 95
+      },
+      {
+        "src": "images/product-details/39713/bag_01-03.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真6",
+        "width": 150,
+        "height": 125
+      },
+      {
+        "src": "images/product-details/39713/bag_02-01.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真7",
+        "width": 280,
+        "height": 220
+      },
+      {
+        "src": "images/product-details/39713/bag_02-02.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真8",
+        "width": 350,
+        "height": 95
+      },
+      {
+        "src": "images/product-details/39713/bag_02-03.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真9",
+        "width": 150,
+        "height": 125
+      },
+      {
+        "src": "images/product-details/39713/bag_03-01.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真10",
+        "width": 280,
+        "height": 220
+      },
+      {
+        "src": "images/product-details/39713/bag_03-02.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真11",
+        "width": 350,
+        "height": 95
+      },
+      {
+        "src": "images/product-details/39713/bag_03-03.jpg",
+        "alt": "【ブライダルバッグ】ゴールド（厚手）S 50個セット【送料無料】 商品写真12",
+        "width": 150,
+        "height": 125
+      }
+    ]
+  },
+  "listing": {
+    "image": "images/features/w-bag-gs50st.jpg"
+  },
+  "feature": {
+    "id": "39713",
+    "name": "【ブライダルバッグ】ゴールド(厚手) サイズ:S 50個セット【送料無料】",
+    "title": "ゴールド(厚手) サイズ:S 50個セット",
+    "url": "https://www.luna-luce.jp/item/w-bag-gs50st-2.html",
+    "groups": [
+      "bag"
+    ],
+    "image": "images/features/39713.jpg",
+    "description": "シックさを感じさせる、ゴールドカラーにブラウンの紐。 袋の内側にはブラウンのストライプ模様がプリントされており、内側のオシャレにもこだわったバッグです。 お得な50個セットをご用意しました。",
+    "size": "h250mm×w300mm×d200mm",
+    "material": "紙(光沢紙)、紐",
+    "pack": 50,
+    "canDemo": true,
+    "updated": "2021-05-11"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "w-bag-gs50st": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

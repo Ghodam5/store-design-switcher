@@ -1,0 +1,77 @@
+{
+  "active": true,
+  "product": {
+    "id": "43538",
+    "code": "hf61905",
+    "title": "リボンスティック 50本セット(バスケット付)",
+    "price": 12600,
+    "image": "images/hf61905.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf61905.html",
+    "description": "",
+    "size": "本体サイズ:30×24×22cm",
+    "material": "",
+    "contents": "箸×50本",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "welcome",
+      "set",
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf61905",
+        "t": "リボンスティック 50本セット(バスケット付)",
+        "price": 12600
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/hf61905.jpg",
+        "alt": "リボンスティック 50本セット(バスケット付) 商品写真1",
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf61905": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

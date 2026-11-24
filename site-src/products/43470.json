@@ -1,0 +1,115 @@
+{
+  "active": true,
+  "product": {
+    "id": "43470",
+    "code": "hf61404",
+    "title": "ポピー耳かき 1本",
+    "price": 179,
+    "image": "images/hf61404.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf61404.html",
+    "description": "",
+    "size": "サイズ:4×18cm",
+    "material": "",
+    "contents": "ポピー耳かき",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※アソートでのお届けとなります、色の指定はできません。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [
+      "売れ筋"
+    ],
+    "skus": [
+      {
+        "code": "hf61404",
+        "t": "ポピー耳かき 1本",
+        "price": 179
+      }
+    ],
+    "spec": {
+      "code": "hf61404",
+      "pid": "43470",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "20個以上でご注文ください。※19個迄は自動キャンセル（セット商品との同時購入時はのぞく）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 20,
+      "notes": []
+    },
+    "minq": 20,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/hf61404.jpg",
+        "alt": "ポピー耳かき 1本 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/43470/21item.jpg",
+        "alt": "ポピー耳かき 1本 商品写真2",
+        "width": 700,
+        "height": 100
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "min-qty",
+      "spec-change",
+      "season-delay",
+      "assort-color"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf61404": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "active": true,
+  "product": {
+    "id": "50447",
+    "code": "con1121_1122",
+    "title": "【20％OFF】結婚証明書 チャペル用（パールホワイト・ネイビー）",
+    "price": 2560,
+    "image": "images/products/50447.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/con1121_1122.html",
+    "description": "式を優雅に演出する必須アイテム。 シックなデザインで様々なシーンで幅広く活躍します。",
+    "size": "サイズ:279×205×10mm、箱サイズ21.5×28.0×2.5cm",
+    "material": "",
+    "contents": "証明書2枚入り(本人記入用1枚、司式者記入用1枚)用紙取り外し可(リボン2か所とめ)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "cert"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "con1121_1122",
+        "t": "結婚証明書チャペル用(パールホワイト・ネイビー)",
+        "price": 2560
+      }
+    ],
+    "spec": {
+      "code": "con1121_1122",
+      "pid": "50447",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "カラー",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "パールホワイト（con1121）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ネイビー（con1122）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 4,
+      "max": 6,
+      "made": false,
+      "source": "db",
+      "label": "4～6日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/50447.jpg",
+        "alt": "【20％OFF】結婚証明書 チャペル用（パールホワイト・ネイビー） 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/50447/con1121_1122-02.jpg",
+        "alt": "【20％OFF】結婚証明書 チャペル用（パールホワイト・ネイビー） 商品写真2",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "con1121_1122": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

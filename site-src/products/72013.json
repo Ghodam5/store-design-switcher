@@ -1,0 +1,76 @@
+{
+  "active": true,
+  "product": {
+    "id": "72013",
+    "code": "1904",
+    "title": "ウェルカムバード プチ(ハートクッキー)1個",
+    "price": 207,
+    "image": "images/1904.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1904.html",
+    "description": "可愛らしいフォルムとパステルカラーがキュートなウェルカムバード。 手のひらサイズで女性やお子様にもオススメの愛らしいデザインです。 「今日はありがとう」 「これからもよろしくね」 幸せの青い鳥を思わせるシルエット、5つの楽しそうな鳥たちのさえずりに感謝のことばを託して贈ります。",
+    "size": "プチギフトサイズ:34×116×69mm",
+    "material": "",
+    "contents": "商品内容:ハートクッキー3枚入り",
+    "expiry": "",
+    "allergens": "アレルゲン:乳成分・小麦",
+    "storage": "",
+    "notice": "※5種類バランス良く入れさせていただきます。色のご指定は出来ません。 ※単品でのご購入は5個単位のご注文でお願い致します。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "cookie",
+      "welcome"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1904",
+        "t": "ウェルカムバード プチ(ハートクッキー)1個 1904",
+        "price": 207
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 2,
+      "max": 3,
+      "made": false,
+      "source": "db",
+      "label": "2～3日後"
+    },
+    "photos": [
+      {
+        "src": "images/1904.jpg",
+        "alt": "ウェルカムバード プチ(ハートクッキー)1個 商品写真1",
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1904": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

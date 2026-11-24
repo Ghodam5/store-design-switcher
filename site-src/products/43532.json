@@ -1,0 +1,83 @@
+{
+  "active": true,
+  "product": {
+    "id": "43532",
+    "code": "hf61901",
+    "title": "華らんまん 20個セット(バスケット付)",
+    "price": 7000,
+    "image": "images/hf61901.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf61901.html",
+    "description": "",
+    "size": "本体サイズ:30×24×22cm",
+    "material": "",
+    "contents": "ドラジェ2個×20個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy",
+      "welcome",
+      "set"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf61901",
+        "t": "華らんまん 20個セット(バスケット付)",
+        "price": 7000
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/hf61901.jpg",
+        "alt": "華らんまん 20個セット(バスケット付) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/43532/HF61901-1.jpg",
+        "alt": "華らんまん 20個セット(バスケット付) 商品写真2",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf61901": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

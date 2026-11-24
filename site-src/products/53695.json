@@ -1,0 +1,175 @@
+{
+  "active": true,
+  "product": {
+    "id": "53695",
+    "code": "pb-xmaskonpei30",
+    "title": "名入れ対応プチギフト クリスマススターPB(金平糖入り) 30個…",
+    "price": 3880,
+    "image": "images/pb-xmaskonpei30.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-xmaskonpei30.html",
+    "description": "大量に配りたい時に助かるお値打ちセット価格! クリスマスカードと昔ながらのほっとする優しい味がする甘い金平糖が一体になった季節感たっぷりのプチギフト。 サンタからのクリスマスカードは、デザインが選べる6種類。 手書きのメッセージを書くスペースもあるので、クリスマスカードとしてもお使いいただけます。",
+    "size": "サイズ:10.5×14.8cm",
+    "material": "",
+    "contents": "金平糖10gを挟んだクリスマスカード×30個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※製造に1週間ほどお時間がかかる商品のため、お早めにご注文ください。 ※クリスマス時期は注文が殺到しますので、お早めにご注文くださいますようお願い申し上げます。 ※お名前印字希望の場合はご注文の際に備考欄にて印字するお名前をお知らせください。 ※手書きメッセージを希望の場合は、無印字をご希望ください。 ※無印字の場合はお客様にて手書きでメッセージをお入れください。 ※送料無料商品ですが、北海道・沖縄・一部離島・海外は送料をいただきます。何卒ご理解くださいますようお願い申し上げます。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi",
+      "season"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb-xmaskonpei30",
+        "t": "名入れ対応プチギフト クリスマススターPB(金平糖入り) 送料無料30個セット",
+        "price": 3880
+      }
+    ],
+    "spec": {
+      "code": "pb-xmaskonpei30",
+      "pid": "53695",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ツリー",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "スノーマン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "サンタくま",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "パターン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "モノクロ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "北欧風",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/pb-xmaskonpei30.jpg",
+        "alt": "名入れ対応プチギフト クリスマススターPB(金平糖入り) 30個… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/53695/pb-xmaskonpei30.jpg",
+        "alt": "名入れ対応プチギフト クリスマススターPB(金平糖入り) 30個… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/53695/pb-xmaskonpeiimg.jpg",
+        "alt": "名入れ対応プチギフト クリスマススターPB(金平糖入り) 30個… 商品写真3",
+        "width": 700,
+        "height": 260
+      },
+      {
+        "src": "images/product-details/53695/pb-xmasdesign.jpg",
+        "alt": "名入れ対応プチギフト クリスマススターPB(金平糖入り) 30個… 商品写真4",
+        "width": 700,
+        "height": 910
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-xmaskonpei30": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

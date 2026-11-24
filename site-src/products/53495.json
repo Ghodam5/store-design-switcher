@@ -1,0 +1,140 @@
+{
+  "active": true,
+  "product": {
+    "id": "53495",
+    "code": "pb277pirotowel",
+    "title": "ご挨拶 のし掛けボックス入りタオル 6個セット 引っ越し 出産内祝 上棟",
+    "price": 1980,
+    "image": "images/features/pb277pirotowel.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/sale23105.html",
+    "description": "新居への引っ越し、工事に伴うご挨拶など 「ちょっとしたギフト」にピッタリなタオルを リーズナブルなセットでお届けします。 熨斗掛けなのでフォーマルなシーンからカジュアルなシーンまで 失礼なく贈ることが可能です。 パッケージサイズ約17.5×10×4cm ・ピロー箱入りタオル1枚×6個",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※販売時期によりタオルのお色、形状が変更になる場合がございます。 ※商品の仕様(色目、販売価格等)は販売時期により変更になる場合がございます。 商品画像はイメージです。 ※店舗でのご注文確認時、ご使用日までにお届けが不可能と判断した場合、キャンセルさせていただく場合がございます。 ご連絡は原則メールで行います。ご注文成立の可否をお客様にてかならずご確認ください。 ※当店指定以外の箇所の文字変更などは 特注対応となり、有料(¥500~内容により変動+プラス納期)となります。",
+    "category": "",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "goods",
+      "set"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb277pirotowel",
+        "t": "のし掛けボックス入りタオル 6個セット",
+        "price": 1980
+      }
+    ],
+    "spec": {
+      "code": "pb277pirotowel",
+      "pid": "53495",
+      "fields": [
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしお書入れ※のし上の変更もコチラへ（例：記念品/株式会社ルナ）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：記念品/株式会社ルナ"
+        },
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "持ち運び用紙袋",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のし蝶結び×表書き",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": 3,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/pb277pirotowel.jpg",
+        "alt": "ご挨拶 のし掛けボックス入りタオル 6個セット 引っ越し 出産内祝 上棟 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/53495/pb277pirotowel-01.jpg",
+        "alt": "ご挨拶 のし掛けボックス入りタオル 6個セット 引っ越し 出産内祝 上棟 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/53495/pb277pirotowel-02.jpg",
+        "alt": "ご挨拶 のし掛けボックス入りタオル 6個セット 引っ越し 出産内祝 上棟 商品写真3",
+        "width": 711,
+        "height": 675
+      }
+    ]
+  },
+  "feature": {
+    "id": "53495",
+    "name": "ご挨拶 のし掛けボックス入りタオル 6個セット 引っ越し 販促 出産内祝 周年祝 記念品 上棟",
+    "title": "ご挨拶 のし掛けボックス入りタオル 6個セット 引っ越し 出産内祝 上棟",
+    "url": "https://www.luna-luce.jp/item/sale23105.html",
+    "groups": [
+      "sale"
+    ],
+    "image": "images/features/pb277pirotowel.jpg",
+    "description": "新居への引っ越し、工事に伴うご挨拶など 「ちょっとしたギフト」にピッタリなタオルを リーズナブルなセットでお届けします。 熨斗掛けなのでフォーマルなシーンからカジュアルなシーンまで 失礼なく贈ることが可能です。 パッケージサイズ約17.5×10×4cm ・ピロー箱入りタオル1枚×6個",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2025-04-02"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb277pirotowel": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

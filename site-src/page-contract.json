@@ -1,0 +1,12 @@
+{
+  "requiredIncludes": ["navigation-head", "shipping", "header", "drawer", "bottom", "notes-head", "notes-script", "share-head", "share-script", "services-head", "services-script"],
+  "footerExceptions": {
+    "index.html": "既存の見比べ専用ページ。v30以前の仕様を保持",
+    "campaign.html": "既存キャンペーンの簡易構成を保持",
+    "campaign-5yen.html": "既存キャンペーン注文の簡易構成を保持",
+    "mypage.html": "既存会員サンプルの簡易構成を保持",
+    "option.html": "既存名入れ説明の簡易構成を保持"
+  },
+  "headAssets": ["style.css", "features.css", "navigation-position.js", "notes-resize.css", "page-share.css", "site-services.css", "rail-controls.css", "touch-guard.js", "pilot-inputs.css", "pilot-inputs.js"],
+  "requiredAssets": ["notes-resize.js", "page-share.js", "site-services-core.js", "site-services-ui.js", "rail-controls.js", "saved-products-rail.js", "site-announcements.js", "header-scroll.js", "hscroll.js", "catico.js"]
+}

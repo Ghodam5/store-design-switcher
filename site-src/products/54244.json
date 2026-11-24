@@ -1,0 +1,87 @@
+{
+  "active": true,
+  "product": {
+    "id": "54244",
+    "code": "a181",
+    "title": "極バウムセットC",
+    "price": 2160,
+    "image": "images/a181.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a181.html",
+    "description": "本格的な味わいのバウムクーヘン。 ひとくち味わうだけで、「極」の意味を感じられます。 黒蜜をかけると、より一層美味しくお召し上がりいただけます。",
+    "size": "205×213×105mm",
+    "material": "",
+    "contents": "黄粉バウム×2、黒糖バウム×2、シナモンバウム×2、さつま芋バウム×2、和栗バウム×2、黒蜜10g×2",
+    "expiry": "製造日より4か月",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a181",
+        "t": "極バウムセットC A181",
+        "price": 2160
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/a181.jpg",
+        "alt": "極バウムセットC 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/54244/73kiwami.jpg",
+        "alt": "極バウムセットC 商品写真2",
+        "width": 700,
+        "height": 530
+      },
+      {
+        "src": "images/product-details/54244/a181_1.jpg",
+        "alt": "極バウムセットC 商品写真3",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a181": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

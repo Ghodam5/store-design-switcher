@@ -1,0 +1,150 @@
+/* v17：マウス操作のPCでは検索欄とカテゴリ帯をコンパクトにする。
+   タッチ端末の余白・押しやすさと、スマホ幅の2段構成は保持する。 */
+@media (hover:hover) and (pointer:fine) and (max-width:1023px){
+ .hd-search{padding-bottom:6px}
+ .hd-search .sbox input{padding:7px 10px}
+ .cats.big{gap:4px;padding:6px 10px 8px}
+ .cats.big a:not(.cp-fav){padding:4px 2px;gap:2px;font-size:12px}
+ .cats.big a:not(.cp-fav) svg{width:20px;height:20px}
+ .cats.big a.home svg{width:22px;height:22px}
+}
+@media (hover:hover) and (pointer:fine) and (min-width:1024px){
+ .hd-pc{height:64px;gap:20px}
+ .hd-pc .sbox input{padding:7px 10px;font-size:16px}
+ .cats.big{gap:6px;padding:6px 24px}
+ .cats.big a:not(.cp-fav){padding:5px 12px;gap:5px;font-size:13px}
+ .cats.big a:not(.cp-fav) svg{width:18px;height:18px}
+ .cats.big a.cp-fav{padding-top:5px;padding-bottom:5px}
+}
+
+/* v18：文字の背面で、三日月の輪郭を光の星がたどる共通ロゴ。 */
+.hd .logo{position:relative;isolation:isolate;display:block;min-width:0}
+.hd .logo .brand-orbit{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:124px;height:42px;max-width:none;pointer-events:none;z-index:-1}
+.hd .logo b,.hd .logo small{position:relative}
+@media (hover:hover) and (pointer:fine){
+ .hd .logo b{font-size:28px}
+ .hd .logo .brand-orbit{width:136px;height:46px}
+ .hd-search .sbox{max-width:480px;margin-inline:auto}
+}
+@media (hover:hover) and (pointer:fine) and (min-width:1024px){
+ .hd-pc{display:grid;grid-template-columns:minmax(180px,1fr) minmax(0,620px) minmax(180px,1fr);gap:20px}
+ .hd-pc .logo{justify-self:start;text-align:center}
+ .hd-pc .logo b{font-size:34px}
+ .hd-pc .logo .brand-orbit{width:150px;height:51px}
+ .hd-pc .sbox{width:100%;min-width:0;margin:0}
+ .hd-pc .icons{justify-self:end;margin-left:0}
+}
+/* v19：商品ページの購入と、以前の名入れカートをつなぐ。 */
+.sample-product-photo{border-radius:18px;overflow:hidden;background:#fff;display:grid;place-items:center;min-height:240px}
+.sample-product-photo img{display:block;width:100%;max-height:600px;object-fit:contain;aspect-ratio:1}
+.sample-noimage{background:var(--bg);color:var(--sub);padding:20px;text-align:center;font-size:14px;overflow-wrap:anywhere}
+#product-buy select{width:100%;font:inherit;font-size:16px;padding:10px;border:1px solid rgba(47,169,163,.38);border-radius:10px;min-width:0;margin-bottom:14px}
+#product-buy>p{font-size:14px;margin:10px 0}
+#product-buy .cart-feedback a,#sticky-feedback a{border:1px solid rgba(47,169,163,.38);border-radius:6px;padding:4px 8px;text-decoration:underline;display:inline-block}
+#sample-item .pinfo{min-width:0}#sample-item h1{overflow-wrap:anywhere}#sample-item .details h2{font-size:20px;margin:20px 0 8px}#sample-item .product-description{white-space:pre-line;font-size:15px;line-height:1.8;overflow-wrap:anywhere}
+.sample-trial-links{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.sample-trial-links a{border:1px solid rgba(47,169,163,.38);border-radius:10px;background:#fff;padding:10px 12px;font-size:14px;overflow-wrap:anywhere}
+.sample-trial-links a:hover{background:var(--teal-l)}
+#sticky-feedback{font-size:12px;margin:0;line-height:1.4}#sticky-feedback:empty{display:none}.sticky-buy:has(#sticky-feedback:not(:empty)){flex-wrap:wrap}#sticky-feedback:not(:empty){flex:0 0 100%}
+.feature-product h2 a{border:1px solid rgba(47,169,163,.38);border-radius:6px;display:inline-block;padding:3px 6px}.feature-product h2 a:hover{background:var(--teal-l)}
+/* PCの選択欄も、制作ルールの入力文字16px以上に揃える。 */
+input,select,textarea{font-size:16px!important}
+/* v20：名入れは希望者がチェックしてから開く。実カートの参照内容を表示。 */
+.campaign-name-check{display:flex!important;align-items:center;gap:12px;padding:15px;background:#fff5d5;border:2px solid #d6ad59;border-radius:12px;cursor:pointer;margin:10px 0;color:#65491d}
+.cpo .campaign-name-check input{width:23px;height:23px;flex:0 0 23px;accent-color:var(--teal);margin:0}
+.campaign-name-check span{min-width:0}.campaign-name-check b{display:block;font-size:16px;line-height:1.6}.campaign-name-check small{display:block;font-size:14px;line-height:1.6;margin-top:3px}
+.campaign-name-check:has(input:checked){background:var(--teal-l);border-color:var(--teal);color:var(--ink)}
+#o-name-fields{min-width:0;border:1px solid rgba(47,169,163,.38);border-radius:12px;padding:12px;margin:12px 0 0;background:#f3fbfa}#o-name-fields[hidden]{display:none!important}#o-name-fields legend{font-size:14px;font-weight:700;padding:0 6px}
+#o-cart .cl{gap:10px}#o-cart .cl span{min-width:0;overflow-wrap:anywhere}#o-cart .cl small{display:block;line-height:1.7}#o-cart .cl a{display:inline-block;padding:3px 5px;border:1px solid rgba(47,169,163,.38);border-radius:6px}#o-cart .cl b{flex-shrink:0}
+.campaign-cart-link{display:inline-block;margin:12px 8px 0 0;padding:8px 10px;border:1px solid rgba(47,169,163,.38);border-radius:8px;font-size:14px;background:#fff}
+.campaign-cart-item{background:#fff;border:2px solid var(--teal);border-radius:16px;padding:16px;margin:14px 0}.campaign-cart-item h2{font-size:18px}.campaign-cart-item p{font-size:14px;line-height:1.8;overflow-wrap:anywhere}.campaign-cart-item form{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:14px 0}.campaign-cart-item input{width:90px;font-size:16px;padding:8px;border:1px solid rgba(47,169,163,.38);border-radius:8px}.campaign-cart-item button,.campaign-cart-item>a{font:inherit;font-size:14px;border:1px solid rgba(47,169,163,.38);border-radius:8px;padding:8px 12px;background:#fff}.campaign-cart-item strong{display:block;font-size:22px;margin-bottom:14px}.campaign-cart-item>a{display:inline-block}.campaign-cart-item .bad{color:#b23c32}.campaign-cart-item button:hover,.campaign-cart-item>a:hover,.campaign-cart-link:hover{background:var(--teal-l)}
+
+.campaign-name-check .keep-word{white-space:nowrap}#o-name-fields .two label{font-size:14px;line-height:1.8;min-width:0}#o-name-fields .campaign-date-label{display:block;margin-top:10px;font-size:14px}
+
+/* v21：luna-qaで検出された下部「さがす」の小さい文字を調整。長い隣接ラベルの幅は保つ。 */
+.tabs-bottom button.tab:not(.cart){font-size:12px}
+
+/* v24：スマホの2段は保ち、アイコンと余白を詰める。全ボタンは44px以上。 */
+@media(max-width:1023px){
+ .cats.big{gap:4px;padding:4px 10px 6px;max-height:var(--category-height,240px);transition:max-height .22s ease,padding .22s ease,border-width .22s ease}
+ .cats.big a:not(.cp-fav){height:44px;min-height:44px;padding:3px 2px;gap:1px;font-size:12px;line-height:1.25}
+ .cats.big a:not(.cp-fav) svg{width:18px;height:18px}
+ .cats.big a.home{height:auto;min-height:92px}
+ .cats.big a.home svg{width:22px;height:22px}
+ .cats.big a.cp-fav{min-height:44px;height:44px;padding-top:4px;padding-bottom:4px;margin-top:0;font-size:12px;line-height:1.25}
+ header.hd.min .cats.big{max-height:0;padding-top:0;padding-bottom:0;border-top-width:0;overflow:hidden;pointer-events:none}
+ html.category-scroll-hold,html.category-scroll-hold body{overflow-anchor:none!important;scroll-behavior:auto!important;overscroll-behavior-y:none}
+ /* 帯自身は縦に動かさず、縦スワイプはページへ渡す。収納後の続きも妨げない。 */
+ .mtabs,.chips,.rankrow{touch-action:pan-x pan-y pinch-zoom}
+}
+@media(prefers-reduced-motion:reduce){.cats.big{transition:none!important}}
+
+/* 今回補った共通ヘッダーは、依頼どおりスマホ版だけに表示。 */
+@media(min-width:1024px){[data-mobile-header],[data-mobile-strip],[data-mobile-drawer]{display:none!important}}
+
+/* v26：メニューの直接リンクと特集にも、既存と同じカラーアイコン。 */
+.drawer .feature-menu>a.has-cico{display:flex;align-items:center}
+.drawer .acc>a.has-cico .cico{width:26px;height:26px;margin-right:8px}
+.drawer .feature-menu>a .cico{width:26px;height:26px;margin-right:10px}
+.drawer .dsec>h4>.cico{width:22px;height:22px;margin-right:0}
+#category-features .chip.has-cico,.feature-links .chip.has-cico{flex:0 0 auto;white-space:nowrap}
+
+/* v27：ご提供GIF。文字部分を従来の高さに合わせ、ヘッダーの領域内で表示する。原本は加工しない。 */
+.logo .brand-gif-frame{display:block;position:relative;width:178px;height:35px;overflow:hidden;margin-inline:auto}
+.logo .brand-gif{position:absolute;width:169.35px;height:169.35px;max-width:none;left:50%;top:50%;transform:translate(-50%,-50%)}
+.hd .logo .brand-gif-frame{height:35px}
+@media(hover:hover) and (pointer:fine){.hd .logo .brand-gif-frame{height:40px}.hd .logo .brand-gif{width:193.55px;height:193.55px}}
+@media(hover:hover) and (pointer:fine) and (min-width:1024px){.hd .logo .brand-gif-frame{height:46px}.hd .logo .brand-gif{width:222.58px;height:222.58px}}
+
+/* v29：フッターのロゴ文字を会社名の左端にそろえる。GIFの透明余白も補正。 */
+.ft .logo .brand-gif-frame{margin-inline:0}
+.ft .logo .brand-gif{left:0;transform:translate(-12.666667%,-50%)}
+
+/* v41：スマホは検索とメニューを残して商品を見る範囲を広げる。 */
+@media(max-width:1023px){
+ .hd-in{display:flex;justify-content:center;height:58px}
+ .hd-search{display:flex;align-items:center;gap:6px;padding:4px 10px 8px}
+ .hd-search>.icon-btn{flex:0 0 44px}
+ .hd-search .sbox{flex:1;min-width:0;max-width:none;margin:0;height:44px}
+ .hd-search .sbox input{font-size:16px;padding:7px 9px}
+ .hd-search .sbox button{padding-inline:12px}
+ .mobile-header-space{display:none}
+ header.hd.min{position:fixed;left:0;right:0;top:0;background:rgba(250,253,252,.93);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);box-shadow:0 2px 10px rgba(38,48,58,.07)}
+ header.hd.min .hd-in,header.hd.min .cats{display:none}
+ header.hd.min .hd-search{padding-top:calc(4px + env(safe-area-inset-top,0px))}
+ header.hd.min+.mobile-header-space{display:block}
+ .tabs-bottom{transition:transform .22s ease,opacity .22s ease}
+ .mobile-nav-away .tabs-bottom{transform:translateY(110%);opacity:0;pointer-events:none}
+ .mobile-nav-away .sticky-buy{bottom:env(safe-area-inset-bottom,0px)}
+ .menu-open .tabs-bottom{transform:none;opacity:1}
+}
+@media(min-width:1024px){.mobile-header-space{display:none!important}}
+@media(prefers-reduced-motion:reduce){.tabs-bottom{transition:none!important}}
+
+/* v42：切替ではなく、ページと同じ距離だけ上下して収納・復帰する。 */
+.mobile-logo-slot,.mobile-category-slot{display:contents}
+@media(max-width:1023px){
+ .mobile-logo-slot,.mobile-category-slot{display:block;overflow:hidden;overflow:clip}
+ .mobile-logo-slot{height:calc(var(--logo-full,58px) - var(--logo-offset,0px))}
+ .mobile-category-slot{height:calc(var(--cats-full,160px) - var(--cats-offset,0px))}
+ .mobile-logo-slot>.hd-in{transform:translateY(calc(-1 * var(--logo-offset,0px)))}
+ .mobile-category-slot>.cats{transform:translateY(calc(-1 * var(--cats-offset,0px)))}
+ header.hd.mobile-scroll-header{position:fixed;left:0;right:0;top:0;background:rgba(250,253,252,.93);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);box-shadow:0 2px 10px rgba(38,48,58,.07)}
+ header.hd.mobile-scroll-header+.mobile-header-space{display:block}
+}
+
+/* v43：検索中も使える会員入口。PCは従来のログインを維持。 */
+.mobile-login{display:none}
+@media(max-width:1023px){.hd-search{gap:5px}.mobile-login{display:flex;flex:0 0 54px;min-width:54px;min-height:44px;flex-direction:column;align-items:center;justify-content:center;gap:1px;border:1px solid #bee0dc;border-radius:12px;background:#f0f9f6;color:var(--teal-d);font-size:12px;font-weight:700;line-height:1.25}.mobile-login svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.mobile-login:hover,.mobile-login:focus-visible{background:#dff2ec;outline:2px solid var(--teal);outline-offset:1px}.hd-search .sbox button{padding-inline:10px}}
+
+/* v44：会員入口だけに、間隔を空けた一筋の光。 */
+@media(max-width:1023px){
+ .mobile-login{position:relative;isolation:isolate;overflow:hidden;flex-basis:60px;min-width:60px;margin-left:7px;border-radius:16px 7px 16px 7px;border-color:#e9c787;background:linear-gradient(145deg,#fff9e8,#fce6ce);color:#775326;box-shadow:0 2px 5px rgba(142,105,50,.12)}
+ .mobile-login::after{content:'';position:absolute;pointer-events:none;inset:-30% auto -30% -75%;width:45%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.95),transparent);transform:skewX(-22deg);animation:member-glint 6s ease-in-out infinite}
+ .mobile-login:hover,.mobile-login:focus-visible{background:#ffefd2;outline-color:#bd8a3e}
+}
+@keyframes member-glint{0%,12%{left:-75%;opacity:0}16%{opacity:1}30%{left:135%;opacity:1}31%,100%{left:135%;opacity:0}}
+@media(prefers-reduced-motion:reduce){.mobile-login::after{animation:none;display:none}}
+
+/* v48：連続タップによるページ拡大だけを抑制。縦横パンと2本指拡大は保持。 */
+html{touch-action:manipulation}
+:where(button,a,summary,[role="button"]){touch-action:manipulation}

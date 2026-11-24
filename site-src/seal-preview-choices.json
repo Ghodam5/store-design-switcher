@@ -1,0 +1,536 @@
+{
+  "source": "site-src/pages/sample-cart.html .pick[data-key=seal]",
+  "seals": [
+    {
+      "id": "01",
+      "label": "01.ティアラ-P",
+      "image": "images/opt-seal-01.jpg",
+      "previewImage": "images/opt-seal-z01.jpg",
+      "sourceWidth": 150,
+      "sourceHeight": 91,
+      "cartValue": "01.ティアラ-P"
+    },
+    {
+      "id": "02",
+      "label": "02.ティアラ-B",
+      "image": "images/opt-seal-02.jpg",
+      "previewImage": "images/opt-seal-02.jpg",
+      "sourceWidth": 151,
+      "sourceHeight": 92,
+      "cartValue": "02.ティアラ-B"
+    },
+    {
+      "id": "03",
+      "label": "03.ティアラ-V",
+      "image": "images/opt-seal-03.jpg",
+      "previewImage": "images/opt-seal-03.jpg",
+      "sourceWidth": 150,
+      "sourceHeight": 94,
+      "cartValue": "03.ティアラ-V"
+    },
+    {
+      "id": "04",
+      "label": "04.ティアラ-G",
+      "image": "images/opt-seal-04.jpg",
+      "previewImage": "images/opt-seal-04.jpg",
+      "sourceWidth": 155,
+      "sourceHeight": 91,
+      "cartValue": "04.ティアラ-G"
+    },
+    {
+      "id": "05",
+      "label": "05.チェック-B",
+      "image": "images/opt-seal-05.jpg",
+      "previewImage": "images/opt-seal-05.jpg",
+      "sourceWidth": 152,
+      "sourceHeight": 94,
+      "cartValue": "05.チェック-B"
+    },
+    {
+      "id": "06",
+      "label": "06.チェック-P",
+      "image": "images/opt-seal-06.jpg",
+      "previewImage": "images/opt-seal-06.jpg",
+      "sourceWidth": 152,
+      "sourceHeight": 94,
+      "cartValue": "06.チェック-P"
+    },
+    {
+      "id": "07",
+      "label": "07.ピンキー",
+      "image": "images/opt-seal-07.jpg",
+      "previewImage": "images/opt-seal-07.jpg",
+      "sourceWidth": 152,
+      "sourceHeight": 85,
+      "cartValue": "07.ピンキー"
+    },
+    {
+      "id": "08",
+      "label": "08.ハート",
+      "image": "images/opt-seal-08.jpg",
+      "previewImage": "images/opt-seal-08.jpg",
+      "sourceWidth": 151,
+      "sourceHeight": 90,
+      "cartValue": "08.ハート"
+    },
+    {
+      "id": "09",
+      "label": "09.ウサギ",
+      "image": "images/opt-seal-09.jpg",
+      "previewImage": "images/opt-seal-09.jpg",
+      "sourceWidth": 142,
+      "sourceHeight": 81,
+      "cartValue": "09.ウサギ"
+    },
+    {
+      "id": "10",
+      "label": "10.タグ",
+      "image": "images/opt-seal-10.jpg",
+      "previewImage": "images/opt-seal-10.jpg",
+      "sourceWidth": 153,
+      "sourceHeight": 90,
+      "cartValue": "10.タグ"
+    },
+    {
+      "id": "11",
+      "label": "11.ローズ",
+      "image": "images/opt-seal-11.jpg",
+      "previewImage": "images/opt-seal-11.jpg",
+      "sourceWidth": 166,
+      "sourceHeight": 106,
+      "cartValue": "11.ローズ"
+    },
+    {
+      "id": "15",
+      "label": "15.幸せカップル",
+      "image": "images/opt-seal-15.jpg",
+      "previewImage": "images/opt-seal-15.jpg",
+      "sourceWidth": 153,
+      "sourceHeight": 99,
+      "cartValue": "15.幸せカップル"
+    },
+    {
+      "id": "16",
+      "label": "16.秋ウェディング",
+      "image": "images/opt-seal-16.jpg",
+      "previewImage": "images/opt-seal-16.jpg",
+      "sourceWidth": 166,
+      "sourceHeight": 106,
+      "cartValue": "16.秋ウェディング"
+    },
+    {
+      "id": "20",
+      "label": "20.薔薇",
+      "image": "images/opt-seal-20.jpg",
+      "previewImage": "images/opt-seal-20.jpg",
+      "sourceWidth": 165,
+      "sourceHeight": 105,
+      "cartValue": "20.薔薇"
+    },
+    {
+      "id": "21",
+      "label": "21.angel",
+      "image": "images/opt-seal-21.jpg",
+      "previewImage": "images/opt-seal-21.jpg",
+      "sourceWidth": 165,
+      "sourceHeight": 110,
+      "cartValue": "21.angel"
+    },
+    {
+      "id": "12",
+      "label": "12.もみじ",
+      "image": "images/opt-seal-12.jpg",
+      "previewImage": "images/opt-seal-12.jpg",
+      "sourceWidth": 165,
+      "sourceHeight": 105,
+      "cartValue": "12.もみじ"
+    },
+    {
+      "id": "17",
+      "label": "17.桜咲く",
+      "image": "images/opt-seal-17.jpg",
+      "previewImage": "images/opt-seal-17.jpg",
+      "sourceWidth": 163,
+      "sourceHeight": 104,
+      "cartValue": "17.桜咲く"
+    },
+    {
+      "id": "18",
+      "label": "18.和紋鶴",
+      "image": "images/opt-seal-18.jpg",
+      "previewImage": "images/opt-seal-18.jpg",
+      "sourceWidth": 165,
+      "sourceHeight": 106,
+      "cartValue": "18.和紋鶴"
+    },
+    {
+      "id": "19",
+      "label": "19.うぐいす",
+      "image": "images/opt-seal-19.jpg",
+      "previewImage": "images/opt-seal-19.jpg",
+      "sourceWidth": 159,
+      "sourceHeight": 96,
+      "cartValue": "19.うぐいす"
+    },
+    {
+      "id": "23",
+      "label": "23.寿",
+      "image": "images/opt-seal-23.jpg",
+      "previewImage": "images/opt-seal-23.jpg",
+      "sourceWidth": 110,
+      "sourceHeight": 150,
+      "cartValue": "23.寿"
+    },
+    {
+      "id": "24",
+      "label": "24.鶴",
+      "image": "images/opt-seal-24.jpg",
+      "previewImage": "images/opt-seal-24.jpg",
+      "sourceWidth": 110,
+      "sourceHeight": 150,
+      "cartValue": "24.鶴"
+    },
+    {
+      "id": "13",
+      "label": "13.カラフル",
+      "image": "images/opt-seal-13.jpg",
+      "previewImage": "images/opt-seal-13.jpg",
+      "sourceWidth": 165,
+      "sourceHeight": 106,
+      "cartValue": "13.カラフル"
+    },
+    {
+      "id": "14",
+      "label": "14.pop",
+      "image": "images/opt-seal-14.jpg",
+      "previewImage": "images/opt-seal-14.jpg",
+      "sourceWidth": 166,
+      "sourceHeight": 106,
+      "cartValue": "14.pop"
+    },
+    {
+      "id": "22",
+      "label": "22.ありがとウサギ",
+      "image": "images/opt-seal-22.jpg",
+      "previewImage": "images/opt-seal-22.jpg",
+      "sourceWidth": 164,
+      "sourceHeight": 110,
+      "cartValue": "22.ありがとウサギ"
+    },
+    {
+      "id": "52",
+      "label": "52.バースデイ",
+      "image": "images/mini-seal/52.png",
+      "previewImage": "images/mini-seal/52.png",
+      "sourceWidth": 232,
+      "sourceHeight": 168,
+      "cartValue": "52.バースデイ"
+    },
+    {
+      "id": "55",
+      "label": "55.クマちゃん",
+      "image": "images/mini-seal/55.png",
+      "previewImage": "images/mini-seal/55.png",
+      "sourceWidth": 166,
+      "sourceHeight": 121,
+      "cartValue": "55.クマちゃん"
+    },
+    {
+      "id": "43",
+      "label": "43.リボン",
+      "image": "images/mini-seal/43.png",
+      "previewImage": "images/mini-seal/43.png",
+      "sourceWidth": 166,
+      "sourceHeight": 121,
+      "cartValue": "43.リボン"
+    },
+    {
+      "id": "45",
+      "label": "45.キスマーク",
+      "image": "images/mini-seal/45.png",
+      "previewImage": "images/mini-seal/45.png",
+      "sourceWidth": 166,
+      "sourceHeight": 94,
+      "cartValue": "45.キスマーク"
+    },
+    {
+      "id": "25",
+      "label": "25.ありがとパンダVt.（バレンタイン仕様　名前単独）",
+      "image": "images/opt-seal-25.jpg",
+      "previewImage": "images/opt-seal-25.jpg",
+      "sourceWidth": 166,
+      "sourceHeight": 110,
+      "cartValue": "25.ありがとパンダVt.（バレンタイン仕様　名前単独）"
+    },
+    {
+      "id": "26",
+      "label": "26.バレンタインハート（バレンタイン仕様　名前単独）",
+      "image": "images/opt-seal-26.jpg",
+      "previewImage": "images/opt-seal-26.jpg",
+      "sourceWidth": 165,
+      "sourceHeight": 120,
+      "cartValue": "26.バレンタインハート（バレンタイン仕様　名前単独）"
+    },
+    {
+      "id": "27",
+      "label": "27.くまサンタ（クリスマス仕様）",
+      "image": "images/opt-seal-27.jpg",
+      "previewImage": "images/opt-seal-27.jpg",
+      "sourceWidth": 227,
+      "sourceHeight": 162,
+      "cartValue": "27.くまサンタ（クリスマス仕様）"
+    },
+    {
+      "id": "28",
+      "label": "28.ホーリーナイト（クリスマス仕様）",
+      "image": "images/opt-seal-28.jpg",
+      "previewImage": "images/opt-seal-28.jpg",
+      "sourceWidth": 239,
+      "sourceHeight": 179,
+      "cartValue": "28.ホーリーナイト（クリスマス仕様）"
+    },
+    {
+      "id": "29",
+      "label": "29.クリスマスギフト（クリスマス仕様）",
+      "image": "images/opt-seal-29.jpg",
+      "previewImage": "images/opt-seal-29.jpg",
+      "sourceWidth": 234,
+      "sourceHeight": 169,
+      "cartValue": "29.クリスマスギフト（クリスマス仕様）"
+    },
+    {
+      "id": "30",
+      "label": "30.ほっこり雪だるま",
+      "image": "images/opt-seal-30.jpg",
+      "previewImage": "images/opt-seal-30.jpg",
+      "sourceWidth": 151,
+      "sourceHeight": 104,
+      "cartValue": "30.ほっこり雪だるま"
+    },
+    {
+      "id": "31",
+      "label": "31.スノウクリスタル",
+      "image": "images/opt-seal-31.jpg",
+      "previewImage": "images/opt-seal-31.jpg",
+      "sourceWidth": 166,
+      "sourceHeight": 110,
+      "cartValue": "31.スノウクリスタル"
+    },
+    {
+      "id": "32",
+      "label": "32.ラブツリー（クリスマス仕様）",
+      "image": "images/opt-seal-32.jpg",
+      "previewImage": "images/opt-seal-32.jpg",
+      "sourceWidth": 229,
+      "sourceHeight": 189,
+      "cartValue": "32.ラブツリー（クリスマス仕様）"
+    },
+    {
+      "id": "40",
+      "label": "40.ハロウィンA（ハロウィン仕様）",
+      "image": "images/mini-seal/40.png",
+      "previewImage": "images/mini-seal/40.png",
+      "sourceWidth": 245,
+      "sourceHeight": 180,
+      "cartValue": "40.ハロウィンA（ハロウィン仕様）"
+    },
+    {
+      "id": "53",
+      "label": "53.ハロウィンB（ハロウィン仕様）",
+      "image": "images/mini-seal/53.png",
+      "previewImage": "images/mini-seal/53.png",
+      "sourceWidth": 233,
+      "sourceHeight": 176,
+      "cartValue": "53.ハロウィンB（ハロウィン仕様）"
+    },
+    {
+      "id": "41",
+      "label": "41.オータム",
+      "image": "images/mini-seal/41.png",
+      "previewImage": "images/mini-seal/41.png",
+      "sourceWidth": 166,
+      "sourceHeight": 121,
+      "cartValue": "41.オータム"
+    },
+    {
+      "id": "39",
+      "label": "39.ブルースカイ",
+      "image": "images/mini-seal/39.png",
+      "previewImage": "images/mini-seal/39.png",
+      "sourceWidth": 165,
+      "sourceHeight": 120,
+      "cartValue": "39.ブルースカイ"
+    },
+    {
+      "id": "48",
+      "label": "48.チェリーブロッサム",
+      "image": "images/mini-seal/48.png",
+      "previewImage": "images/mini-seal/48.png",
+      "sourceWidth": 166,
+      "sourceHeight": 120,
+      "cartValue": "48.チェリーブロッサム"
+    },
+    {
+      "id": "33",
+      "label": "33.ドット（ピンク）",
+      "image": "images/mini-seal/33.png",
+      "previewImage": "images/mini-seal/33.png",
+      "sourceWidth": 166,
+      "sourceHeight": 108,
+      "cartValue": "33.ドット（ピンク）"
+    },
+    {
+      "id": "34",
+      "label": "34.ドット（ブルー）",
+      "image": "images/mini-seal/34.png",
+      "previewImage": "images/mini-seal/34.png",
+      "sourceWidth": 165,
+      "sourceHeight": 108,
+      "cartValue": "34.ドット（ブルー）"
+    },
+    {
+      "id": "35",
+      "label": "35.フラワー（ピンク）",
+      "image": "images/mini-seal/35.png",
+      "previewImage": "images/mini-seal/35.png",
+      "sourceWidth": 166,
+      "sourceHeight": 108,
+      "cartValue": "35.フラワー（ピンク）"
+    },
+    {
+      "id": "36",
+      "label": "36.フラワー（ブルー）",
+      "image": "images/mini-seal/36.png",
+      "previewImage": "images/mini-seal/36.png",
+      "sourceWidth": 166,
+      "sourceHeight": 108,
+      "cartValue": "36.フラワー（ブルー）"
+    },
+    {
+      "id": "37",
+      "label": "37.ベビー（ピンク）",
+      "image": "images/mini-seal/37.png",
+      "previewImage": "images/mini-seal/37.png",
+      "sourceWidth": 166,
+      "sourceHeight": 161,
+      "cartValue": "37.ベビー（ピンク）"
+    },
+    {
+      "id": "38",
+      "label": "38.ベビー（ブルー）",
+      "image": "images/mini-seal/38.png",
+      "previewImage": "images/mini-seal/38.png",
+      "sourceWidth": 166,
+      "sourceHeight": 126,
+      "cartValue": "38.ベビー（ブルー）"
+    },
+    {
+      "id": "42",
+      "label": "42.クローバー",
+      "image": "images/mini-seal/42.png",
+      "previewImage": "images/mini-seal/42.png",
+      "sourceWidth": 165,
+      "sourceHeight": 121,
+      "cartValue": "42.クローバー"
+    },
+    {
+      "id": "44",
+      "label": "44.エアメール",
+      "image": "images/mini-seal/44.png",
+      "previewImage": "images/mini-seal/44.png",
+      "sourceWidth": 166,
+      "sourceHeight": 121,
+      "cartValue": "44.エアメール"
+    },
+    {
+      "id": "46",
+      "label": "46.クラシッククラウン",
+      "image": "images/mini-seal/46.png",
+      "previewImage": "images/mini-seal/46.png",
+      "sourceWidth": 166,
+      "sourceHeight": 106,
+      "cartValue": "46.クラシッククラウン"
+    },
+    {
+      "id": "47",
+      "label": "47.クラシックバタフライ",
+      "image": "images/mini-seal/47.png",
+      "previewImage": "images/mini-seal/47.png",
+      "sourceWidth": 166,
+      "sourceHeight": 105,
+      "cartValue": "47.クラシックバタフライ"
+    },
+    {
+      "id": "49",
+      "label": "49.ホワイトローズ",
+      "image": "images/mini-seal/49.png",
+      "previewImage": "images/mini-seal/49.png",
+      "sourceWidth": 165,
+      "sourceHeight": 99,
+      "cartValue": "49.ホワイトローズ"
+    },
+    {
+      "id": "50",
+      "label": "50.ストライプ（オレンジ）",
+      "image": "images/mini-seal/50.png",
+      "previewImage": "images/mini-seal/50.png",
+      "sourceWidth": 166,
+      "sourceHeight": 121,
+      "cartValue": "50.ストライプ（オレンジ）"
+    },
+    {
+      "id": "51",
+      "label": "51.ストライプ（ブルー）",
+      "image": "images/mini-seal/51.png",
+      "previewImage": "images/mini-seal/51.png",
+      "sourceWidth": 165,
+      "sourceHeight": 121,
+      "cartValue": "51.ストライプ（ブルー）"
+    },
+    {
+      "id": "54",
+      "label": "54.ドライウッド",
+      "image": "images/mini-seal/54.png",
+      "previewImage": "images/mini-seal/54.png",
+      "sourceWidth": 166,
+      "sourceHeight": 112,
+      "cartValue": "54.ドライウッド"
+    },
+    {
+      "id": "56",
+      "label": "56.幼稚園・保育園",
+      "image": "images/mini-seal/56.png",
+      "previewImage": "images/mini-seal/56.png",
+      "sourceWidth": 165,
+      "sourceHeight": 120,
+      "cartValue": "56.幼稚園・保育園"
+    },
+    {
+      "id": "57",
+      "label": "57.小学校",
+      "image": "images/mini-seal/57.png",
+      "previewImage": "images/mini-seal/57.png",
+      "sourceWidth": 166,
+      "sourceHeight": 120,
+      "cartValue": "57.小学校"
+    },
+    {
+      "id": "58",
+      "label": "58.中学校",
+      "image": "images/mini-seal/58.png",
+      "previewImage": "images/mini-seal/58.png",
+      "sourceWidth": 166,
+      "sourceHeight": 120,
+      "cartValue": "58.中学校"
+    },
+    {
+      "id": "59",
+      "label": "59.高校",
+      "image": "images/mini-seal/59.png",
+      "previewImage": "images/mini-seal/59.png",
+      "sourceWidth": 166,
+      "sourceHeight": 120,
+      "cartValue": "59.高校"
+    }
+  ]
+}

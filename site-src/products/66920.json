@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "66920",
+    "code": "1807",
+    "title": "私たちをよろしクッキー",
+    "price": 233,
+    "image": "images/1807.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1807.html",
+    "description": "愛らしい表情のクッキーが、和の装いにおめかし。 感謝の言葉と、これからもよろしくとの想いを伝えます。 品のある、和の趣が心をほっと和ませます。 ネーミングまでユーモアたっぷりに。 可愛いだけじゃ物足りない!そんな、楽しいおふたりにぴったりのプチギフト。",
+    "size": "プチギフトサイズ:102×120×8mm",
+    "material": "",
+    "contents": "商品内容:人形クッキー2枚入",
+    "expiry": "",
+    "allergens": "アレルゲン:乳成分・小麦・卵",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "cookie"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1807",
+        "t": "私たちをよろしクッキー 1807",
+        "price": 233
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 2,
+      "max": 3,
+      "made": false,
+      "source": "db",
+      "label": "2～3日後"
+    },
+    "photos": [
+      {
+        "src": "images/1807.jpg",
+        "alt": "私たちをよろしクッキー 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/66920/1807_1.jpg",
+        "alt": "私たちをよろしクッキー 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1807": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "active": true,
+  "product": {
+    "id": "67087",
+    "code": "gk15pankomegift",
+    "title": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり 贈答用 御歳暮",
+    "price": 3480,
+    "image": "images/features/67087.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/選べるデザイン熨斗-長期保存食ギフトboxセット-７.html",
+    "description": "用意しておいたほうがいいと思うけど・・・ 専用品じゃなくてもいいかな・・・? と、思いがちな防災食をギフトセットにしました。 備蓄専用品だから長期保管が可能。 お世話になっているあの方に、安心を贈ります。",
+    "size": "",
+    "material": "",
+    "contents": "7年保存レトルトパン4種(ミルク・メープル・チョコ・ブルーベリー) または 5年保存おにぎり より いずれか6個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※無料サービス(のし・包装・シール・小袋・紙袋)対象外商品です。 ※賞味期限は製造より約4年となります。 ※ご注文から商品の到着までに通常1週間ほどお時間をいただきます。 ※注文が殺到した場合、商品到着までお時間がかかる場合がございます。お早めにご注文くださいますようお願い申し上げます。 ※降雪や台風などの天候の影響や交通事情により、ご指定いただいた日時にお届けできない場合がございます。予めご了承くださいますようお願い申し上げます。",
+    "category": "",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "bousai"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "gk15pankomegift",
+        "t": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり",
+        "price": 3480
+      }
+    ],
+    "spec": {
+      "code": "gk15pankomegift",
+      "pid": "67087",
+      "fields": [
+        {
+          "k": "お知らせ（長文の項目名）",
+          "part": "notice",
+          "role": "",
+          "label": "北海道・沖縄・一部離島への配送は追加送料がかかります。(該当地域宛でチェックがない場合はキャンセルします)",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "インパクトのし",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "セット内容をお選びください",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ミルクパンセット",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "パンミックスセット",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "パン＆おにぎりミックスセット",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "おにぎりセット",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "包装：名入れ非対応商品です",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": true,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/67087.jpg",
+        "alt": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり 贈答用 御歳暮 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/67087/gk15pankomegift-01.jpg",
+        "alt": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり 贈答用 御歳暮 商品写真2",
+        "width": 701,
+        "height": 701
+      },
+      {
+        "src": "images/product-details/67087/gk15pankomegift-02.jpg",
+        "alt": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり 贈答用 御歳暮 商品写真3",
+        "width": 701,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/67087/gk15pankomegift-03.jpg",
+        "alt": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり 贈答用 御歳暮 商品写真4",
+        "width": 701,
+        "height": 701
+      },
+      {
+        "src": "images/product-details/67087/gk15pankomegift-04n.jpg",
+        "alt": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり 贈答用 御歳暮 商品写真5",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "67087",
+    "name": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり 贈答用 御中元 御歳暮 御礼",
+    "title": "選べるデザイン熨斗 長期保存食ギフトBOXセット 7年保存パン 5年保存おにぎり 贈答用 御歳暮",
+    "url": "https://www.luna-luce.jp/item/選べるデザイン熨斗-長期保存食ギフトboxセット-７.html",
+    "groups": [
+      "sale"
+    ],
+    "image": "images/features/67087.jpg",
+    "description": "用意しておいたほうがいいと思うけど・・・ 専用品じゃなくてもいいかな・・・? と、思いがちな防災食をギフトセットにしました。 備蓄専用品だから長期保管が可能。 お世話になっているあの方に、安心を贈ります。",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2024-08-02"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "gk15pankomegift": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "active": true,
+  "product": {
+    "id": "21013",
+    "code": "w-bag-g00",
+    "title": "【ブライダルバッグ】ゴールド ML",
+    "price": 275,
+    "image": "images/features/21013.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/w-bag-g00.html",
+    "description": "シックさを感じさせる、ゴールドカラーにブラウンの紐。 袋の内側にはブラウンのストライプ模様がプリントされており、内側のオシャレにもこだわったバッグです。",
+    "size": "h300mm×w420mm×d220mm",
+    "material": "紙(光沢紙)、紐",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ブライダルバッグ",
+    "categories": [
+      "bag"
+    ],
+    "subs": [
+      "single"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "w-bag-g00",
+        "t": "【ブライダルバッグ】ゴールド サイズ:ML 1個",
+        "price": 275
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    }
+  },
+  "detail": {
+    "photos": [
+      {
+        "src": "images/product-details/21013/w-bag-g00.jpg",
+        "alt": "【ブライダルバッグ】ゴールド ML 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/21013/gold.jpg",
+        "alt": "【ブライダルバッグ】ゴールド ML 商品写真2",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "images/product-details/21013/bag_img01.jpg",
+        "alt": "【ブライダルバッグ】ゴールド ML 商品写真3",
+        "width": 630,
+        "height": 600
+      }
+    ],
+    "sections": [
+      {
+        "title": "商品について",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "ゴールドの袋にブラウンの紐を合わせた、落ち着いた印象のブライダルバッグです。内側にはブラウンのストライプ模様をあしらっています。"
+          },
+          {
+            "type": "p",
+            "text": "MLサイズは高さ300×幅420×マチ220mm。中に入れる引出物の箱の大きさと、下の仕様表を見比べてお選びください。"
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "label": "商品番号",
+        "value": "w-bag-g00"
+      },
+      {
+        "label": "サイズ",
+        "value": "h300mm×w420mm×d220mm"
+      },
+      {
+        "label": "材質・素材",
+        "value": "紙(光沢紙)、紐"
+      },
+      {
+        "label": "カラー",
+        "value": "ゴールド"
+      },
+      {
+        "label": "お届けの目安",
+        "value": "3～5日後"
+      }
+    ],
+    "crumbs": [
+      {
+        "title": "ペーパー・演出",
+        "url": "category.html?g=paper"
+      },
+      {
+        "title": "ブライダルバッグ",
+        "url": "category.html?g=paper&m=bag"
+      }
+    ],
+    "relatedIds": [
+      "38759",
+      "21034",
+      "21032",
+      "39713",
+      "38767",
+      "32437"
+    ],
+    "sourceUrl": "https://www.luna-luce.jp/item/w-bag-g00.html",
+    "sourceDate": "2026-11-18",
+    "photoPolicy": "本店ギャラリーに掲載された商品の原本。異なる商品の画像や共通バナーは含めない。"
+  },
+  "listing": {
+    "image": "images/features/w-bag-g00.jpg"
+  },
+  "feature": {
+    "id": "21013",
+    "name": "【ブライダルバッグ】ゴールド サイズ:ML",
+    "title": "ゴールド サイズ:ML",
+    "url": "https://www.luna-luce.jp/item/w-bag-g00.html",
+    "groups": [
+      "bag"
+    ],
+    "image": "images/features/21013.jpg",
+    "description": "シックさを感じさせる、ゴールドカラーにブラウンの紐。 袋の内側にはブラウンのストライプ模様がプリントされており、内側のオシャレにもこだわったバッグです。",
+    "size": "h300mm×w420mm×d220mm",
+    "material": "紙(光沢紙)、紐",
+    "pack": 1,
+    "canDemo": true,
+    "updated": "2022-09-07"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "w-bag-g00": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

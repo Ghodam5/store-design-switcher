@@ -1,0 +1,162 @@
+{
+  "active": true,
+  "product": {
+    "id": "47414",
+    "code": "sp-towelgift",
+    "title": "訳あり お試しタオル福袋 -プチギフト付き",
+    "price": 2726,
+    "image": "images/features/sp-towelgift.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/sp-towelgift.html",
+    "description": "種類は当店にお任せ!実用性の高いタオルギフトを最低2箱保証した、とってもお得なお試しタオルギフト福袋! 有名ブランドのタオルや、ホテル仕様のタオル、アメニティの付いたタオルなど、 様々な種類のタオルギフトが最低2箱入った送料無料の赤字商品。 引出物のサンプルや新生活用タオルをお得にお試しいただけます。",
+    "size": "",
+    "material": "",
+    "contents": "タオルギフト(最低2箱保証)、おまけのプチギフト",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb181towelfuku",
+        "t": "【送料無料】訳あり お試しタオル福袋 -プチギフト付き-",
+        "price": 2726
+      }
+    ],
+    "spec": {
+      "code": "sp-towelgift",
+      "pid": "47414",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "送料高騰中のため北海道：沖縄への配送不可（自動キャンセル）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "タオルの中身は",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "おまかせ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "大容量ハンドタオル中心で希望",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "便利なフェイスタオル中心で希望",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "2枚保障バスタオル中心で希望",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "訳あり商品（アウトレット：セット欠け等含む）のため包装熨斗、紙袋非対応です",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 2,
+      "max": 3,
+      "made": false,
+      "source": "db",
+      "label": "2～3日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/sp-towelgift.jpg",
+        "alt": "訳あり お試しタオル福袋 -プチギフト付き 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47414/sp-towelgiftimg.jpg",
+        "alt": "訳あり お試しタオル福袋 -プチギフト付き 商品写真2",
+        "width": 650,
+        "height": 1050
+      }
+    ]
+  },
+  "feature": {
+    "id": "47414",
+    "name": "【送料無料】訳あり お試しタオル福袋 -プチギフト付き-",
+    "title": "訳あり お試しタオル福袋 -プチギフト付き",
+    "url": "https://www.luna-luce.jp/item/sp-towelgift.html",
+    "groups": [
+      "sale"
+    ],
+    "image": "images/features/sp-towelgift.jpg",
+    "description": "種類は当店にお任せ!実用性の高いタオルギフトを最低2箱保証した、とってもお得なお試しタオルギフト福袋! 有名ブランドのタオルや、ホテル仕様のタオル、アメニティの付いたタオルなど、 様々な種類のタオルギフトが最低2箱入った送料無料の赤字商品。 引出物のサンプルや新生活用タオルをお得にお試しいただけます。",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-09-08"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb181towelfuku": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

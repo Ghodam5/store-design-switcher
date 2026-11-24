@@ -1,0 +1,97 @@
+{
+  "active": true,
+  "product": {
+    "id": "58094",
+    "code": "pb-lunacatgift2025",
+    "title": "ルナさん家の ネコパンギフト (タオル&パンの缶詰)/ 保存食・マスコットタオル・非常食・かわいい・卵不使用・ギフト",
+    "price": 2480,
+    "image": "images/features/pb-lunacatgift2025.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-lunacatgift.html",
+    "description": "長期保存可能なパンの缶詰とぬいぐるみ風にアレンジされた広げればタオルとしても使えるベーカリーの看板ネコを一緒にお届け。 こだわりの卵不使用のパンは長期保存食として嬉しい一品。 2種類いる看板ネコはどちらのデザインが届くか箱を開けるまでお楽しみ☆",
+    "size": "商品サイズ:約25×17×9cm",
+    "material": "",
+    "contents": "ハンドタオル×1枚(サイズ:約25×25cm)、パンの缶詰(100g)×3個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "直射日光を避け、常温で保管して下さい。",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "season"
+    ],
+    "subs": [
+      "bousai"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-lunacatgift",
+        "t": "ルナさん家の ネコパンギフト (タオル&パンの缶詰)",
+        "price": 2480
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "ingredients": "【原材料】 小麦粉（米国製造）、ファットスプレッド（加糖）、砂糖、マーガリン、イースト、脱脂粉乳、食塩、小麦グルテン、ブドウ糖 【添加物】 乳化剤（大豆由来）、香料（乳由来）、ビタミンＣ、酸化防止剤（Ｖ．Ｅ）、酵素、着色料（カロテン） 【栄養成分表示(100ｇあたり)】 ●エネルギー　361Kcal　●たんぱく質　6.5ｇ●脂質　16.6ｇ　●炭水化物　46.5ｇ●食塩相当量　1.02ｇ ※同一工場で「卵」入り製品も製造しております。",
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/pb-lunacatgift2025.jpg",
+        "alt": "ルナさん家の ネコパンギフト (タオル&パンの缶詰)/ 保存食・マスコットタオル・非常食・かわいい・卵不使用・ギフト 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/58094/pb-lunacatgift2025-01.jpg",
+        "alt": "ルナさん家の ネコパンギフト (タオル&パンの缶詰)/ 保存食・マスコットタオル・非常食・かわいい・卵不使用・ギフト 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "58094",
+    "name": "ルナさん家の ネコパンギフト (タオル&パンの缶詰)/ 保存食・マスコットタオル・非常食・かわいい・卵不使用・ギフト",
+    "title": "ルナさん家の ネコパンギフト (タオル&パンの缶詰)/ 保存食・マスコットタオル・非常食・かわいい・卵不使用・ギフト",
+    "url": "https://www.luna-luce.jp/item/pb-lunacatgift.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/pb-lunacatgift2025.jpg",
+    "description": "長期保存可能なパンの缶詰とぬいぐるみ風にアレンジされた広げればタオルとしても使えるベーカリーの看板ネコを一緒にお届け。 こだわりの卵不使用のパンは長期保存食として嬉しい一品。 2種類いる看板ネコはどちらのデザインが届くか箱を開けるまでお楽しみ☆",
+    "size": "商品サイズ:約25×17×9cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-03-16"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-lunacatgift": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "active": true,
+  "product": {
+    "id": "55044",
+    "code": "pb-kyoyuzenxkairo",
+    "title": "京友禅クリスマスカイロPB 10個セット",
+    "price": 2980,
+    "image": "images/pb-kyoyuzenxkairo.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-kyoyuzenxkairo.html",
+    "description": "レジャーや冬のレジャーやスポーツ観戦、寒い場所での作業時など様々なシーンで活躍する便利な使い捨てカイロは冬の必需! 野外会場でのイベントで配布したり、冬場のお客様への販促品などにおすすめ♪カイロで心も体もぽかぽか。 和紙でできたカバーは内側がカード入れにも使える仕様で、カイロを使ったあともカードケースとしてお使いいただけます。",
+    "size": "サイズ:約11.5×8.5cm",
+    "material": "",
+    "contents": "京友禅和紙製カバー付き・使い捨てカイロ×10個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※柄はクリスマスデザインのみです。 ※ご注文から商品の到着までに通常1週間ほどお時間をいただきます。お急ぎの場合はお早めにご注文ください。 ※ネコポス発送に限り送料無料になる商品です。お時間の指定などはできませんのでご了承ください。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "goods",
+      "set"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-kyoyuzenxkairo",
+        "t": "京友禅クリスマスカイロPB 10個セット",
+        "price": 2980
+      }
+    ],
+    "spec": {
+      "code": "pb-kyoyuzenxkairo",
+      "pid": "55044",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "ネコポス発送に限り送料無料",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "free-ship-no-date",
+      "season-delay",
+      "nekopos"
+    ],
+    "photos": [
+      {
+        "src": "images/pb-kyoyuzenxkairo.jpg",
+        "alt": "京友禅クリスマスカイロPB 10個セット 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/55044/pb-kyoyuzenxkairo.jpg",
+        "alt": "京友禅クリスマスカイロPB 10個セット 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/55044/pb-kyoyuzenxkairo01.jpg",
+        "alt": "京友禅クリスマスカイロPB 10個セット 商品写真3",
+        "width": 700,
+        "height": 550
+      },
+      {
+        "src": "images/product-details/55044/pb-kyoyuzenxkairo02.jpg",
+        "alt": "京友禅クリスマスカイロPB 10個セット 商品写真4",
+        "width": 700,
+        "height": 680
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-kyoyuzenxkairo": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "active": true,
+  "product": {
+    "id": "43324",
+    "code": "hf60302",
+    "title": "プリモモ 1個 花 フラワー",
+    "price": 196,
+    "image": "images/hf60302.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf60302.html",
+    "description": "",
+    "size": "サイズ:4×8×4cm",
+    "material": "",
+    "contents": "ドラジェ3個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "アソートでのお届けとなります、色の指定はできません。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "other"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf60302",
+        "t": "プリモモ 1個",
+        "price": 196
+      }
+    ],
+    "spec": {
+      "code": "hf60302",
+      "pid": "43324",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "20個以上でご注文ください。※19個迄は自動キャンセル（セット商品との同時購入時はのぞく）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 20,
+      "notes": []
+    },
+    "minq": 20,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/hf60302.jpg",
+        "alt": "プリモモ 1個 花 フラワー 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/43324/21item.jpg",
+        "alt": "プリモモ 1個 花 フラワー 商品写真2",
+        "width": 700,
+        "height": 100
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "min-qty",
+      "spec-change",
+      "season-delay",
+      "assort-color"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf60302": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

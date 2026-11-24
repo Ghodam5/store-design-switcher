@@ -1,0 +1,82 @@
+{
+  "active": true,
+  "product": {
+    "id": "71103",
+    "code": "a692",
+    "title": "【引き出物】TSUTSUMI 炊き込みご飯の素セットK",
+    "price": 6912,
+    "image": "images/products/71103.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a692.html",
+    "description": "風味豊かに仕上げたやさしい味わいを、特別なパッケージングで...",
+    "size": "商品サイズ:383×315×75mm",
+    "material": "",
+    "contents": "商品内容:炊き込みご飯の素(2合用) ×8、銀だら1切×1、はまぐり2個×1、 ずわい蟹13g ×1、金目鯛1切×1、帆立2〜4個×2、紀州南高梅1粒×1、 うなぎの蒲焼き13g ×1、三つ葉×8、白煎りごま×8、 風呂敷(360×360mm)×8(材質:ポリエステル)",
+    "expiry": "賞味期限:6ヶ月",
+    "allergens": "アレルゲン:小麦・かに",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "gohan"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a692",
+        "t": "TSUTSUMI 炊き込みご飯の素セットK(銀だら╱はまぐり╱ずわい蟹╱金目鯛╱帆立╱ 紀州南高梅╱うなぎの蒲焼き) A692",
+        "price": 6912
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71103.jpg",
+        "alt": "【引き出物】TSUTSUMI 炊き込みご飯の素セットK 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71103/a692_1.jpg",
+        "alt": "【引き出物】TSUTSUMI 炊き込みご飯の素セットK 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a692": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,1 @@
+(function(){var id=new URLSearchParams(location.search).get('id');if(['47484','58190','42902','21013','72349'].indexOf(id)>=0){var link=document.getElementById('guide-product-back');link.href='item.html?id='+id;link.textContent='‹ 見ていた商品に戻る'}})();

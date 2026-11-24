@@ -1,0 +1,308 @@
+{
+  "active": true,
+  "product": {
+    "id": "54932",
+    "code": "d24mocamoko",
+    "title": "刺繍内容が選べる MOCAもこベア 本店限定価格 お名前漢字料金込み",
+    "price": 11000,
+    "image": "images/d24mocamoko.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/premium-teddyange.html",
+    "description": "モカカラーのもこもこのベア、MOMOちゃんがついにデビュー♪ 愛嬌のあるお顔の愛されくまちゃん ウェイトドールを光触媒コーティングを施しているのはルナルーチェだけ ちょこんと座っているだけで消臭効果が得られます 刺繍内容につきまして ※左足に「イニシャル」「定型文」「自由文20文字」のいずれかを 右足に「生年月日」「お名前(ひらがなもしくは英字)」「体重(g)」「身長(cm)」を刺繍します。 ※「右足」の刺繍内容の変更は別途料金が必要です。 別途料金発生例 「身長の代わりに星座や血液型を入れたい」など当店が受付していない項目への追加・変更。 ※刺繍のバランスはお任せください。 ※旧字・国字・画数の多い文字は刺繍の仕上がりが低下するため変更を御願いする場合がございます。 ※英語以外の外国語での製作は受け付けておりません。",
+    "size": "座らせ時の高さ:約35cm 体重調整:3500gまで(以降は特注別料金)",
+    "material": "",
+    "contents": "ウェイトドール1体(保証書付き)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "両親贈呈",
+    "categories": [
+      "doll",
+      "parents"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "ag-d24mocamoko-ini",
+        "t": "ウェイトドール MOCAもこベア(左足イニシャルもしくはテンプレート文)",
+        "price": 11000
+      },
+      {
+        "code": "ag-d24mocamoko-jiyubun",
+        "t": "ウェイトドール MOCAもこベア(左足自由文20字)",
+        "price": 12800
+      }
+    ],
+    "spec": {
+      "code": "d24mocamoko",
+      "pid": "54932",
+      "fields": [
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "お名前（英字orひらがなor漢字）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "足裏・刺繍カラー",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "白×ブルー",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "白×ピンク",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ブラウン×黄色",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：生年月日",
+          "part": "text",
+          "role": "d",
+          "label": "生年月日（西暦○○○○.○○.○○）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：体重",
+          "part": "text",
+          "role": "w",
+          "label": "体重(g)",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：身長",
+          "part": "text",
+          "role": "h",
+          "label": "身長(cm)",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：イニシャル",
+          "part": "text",
+          "role": "i",
+          "label": "【左足イニシャル・テンプレートの方は必ずご選択ください】",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "お知らせ（長文の項目名）",
+          "part": "notice",
+          "role": "",
+          "label": "【左足自由文の方のみ】自由文(20文字まで)※21文字目からは１文字ごとに300円かかります",
+          "req": false,
+          "form": "テキスト複数行",
+          "lim": 20,
+          "ph": ""
+        },
+        {
+          "k": "体重の対応（料金）",
+          "part": "choice",
+          "role": "",
+          "label": "体重は･･･ ※有料対応の場合ご注文確認後に金額修正します。",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "3500g以内です",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "3501g以上で体重再現希望(有料+700円)",
+              "fee": {
+                "amt": 700,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            },
+            {
+              "t": "3501g以上ですが3500gで制作",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "4000g以上は要相談(有料+1500円より)",
+              "fee": {
+                "amt": 1500,
+                "per": "order",
+                "from": true
+              },
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "お届け先地域は",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "お急ぎサービス(納期短縮)を利用可能商品です(PBWD）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "希望しない(通常納期・約14～20日でお届け)",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "約7日お届けを希望1体5000円　※ご注文確定後料金加算に同意します",
+              "fee": {
+                "amt": 5000,
+                "per": "unit",
+                "from": false
+              },
+              "over": null
+            },
+            {
+              "t": "約8～13日お届けを希望1体2500円　※ご注文確定後料金加算に同意します",
+              "fee": {
+                "amt": 2500,
+                "per": "unit",
+                "from": false
+              },
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "t": "ウェイトドール　 MOCAもこベア(左足イニシャルもしくはテンプレート文)",
+          "price": 11000
+        },
+        {
+          "t": "ウェイトドール　MOCAもこベア(左足自由文20字)",
+          "price": 12800
+        }
+      ],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/d24mocamoko.jpg",
+        "alt": "刺繍内容が選べる MOCAもこベア 本店限定価格 お名前漢字料金込み 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/54932/d24mocamokonew.jpg",
+        "alt": "刺繍内容が選べる MOCAもこベア 本店限定価格 お名前漢字料金込み 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/54932/d24mocamoko-01.jpg",
+        "alt": "刺繍内容が選べる MOCAもこベア 本店限定価格 お名前漢字料金込み 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/54932/d24mocamoko-02.jpg",
+        "alt": "刺繍内容が選べる MOCAもこベア 本店限定価格 お名前漢字料金込み 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/54932/d24mocamoko-03.jpg",
+        "alt": "刺繍内容が選べる MOCAもこベア 本店限定価格 お名前漢字料金込み 商品写真5",
+        "width": 701,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/54932/d24mocamoko-04.jpg",
+        "alt": "刺繍内容が選べる MOCAもこベア 本店限定価格 お名前漢字料金込み 商品写真6",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/54932/d24mocamoko-05.jpg",
+        "alt": "刺繍内容が選べる MOCAもこベア 本店限定価格 お名前漢字料金込み 商品写真7",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "ag-d24mocamoko-ini": {
+        "code": "0",
+        "quantity": null
+      },
+      "ag-d24mocamoko-jiyubun": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

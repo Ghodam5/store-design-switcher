@@ -1,0 +1,31 @@
+/* 共通の円形矢印：ボタンの大きさ・位置とは独立した中央配置。 */
+.round-arrow{padding:0!important;line-height:0;align-items:center;justify-content:center;box-sizing:border-box}
+.round-arrow>svg{display:block;width:22px;height:22px;flex:none;margin:auto;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.home-promo-controls .round-arrow,.promo-side-arrow{display:grid;place-items:center}
+.home-promos{position:relative}.promo-side-arrow{display:none;position:absolute;top:calc((100% - 60px)/2);transform:translateY(-50%);z-index:8;width:46px;height:46px;border:1px solid #b9d8d3;border-radius:50%;color:var(--teal-d);background:rgba(255,255,255,.96);box-shadow:0 3px 15px rgba(38,48,58,.18);cursor:pointer;transition:background-color .2s,transform .2s,opacity .2s}
+.promo-side-arrow.prev{left:6px}.promo-side-arrow.next{right:6px}.promo-side-arrow:hover:not(:disabled){background:var(--teal);color:#fff;transform:translateY(-50%) scale(1.08)}.promo-side-arrow:focus-visible{outline:3px solid var(--teal);outline-offset:3px}.promo-side-arrow:disabled{opacity:.3;cursor:default}
+.home-promo-rail{cursor:grab}.home-promo-rail.is-mouse-dragging{cursor:grabbing;scroll-snap-type:none;user-select:none}.home-promo-rail img{user-select:none;-webkit-user-drag:none}
+@media(min-width:1024px){.promo-side-arrow{display:grid}}
+@media(prefers-reduced-motion:reduce){.promo-side-arrow{transition:none}}
+@media(min-width:1024px){.home-promos{padding-inline:30px}.promo-side-arrow.prev{left:0}.promo-side-arrow.next{right:0}}
+/* v46：角丸の四角い共通矢印。淡い緑のぼかしは保持する。 */
+.round-arrow{width:48px!important;height:60px!important;border-radius:10px!important;border:1px solid #a5c9c4;background:rgba(255,255,255,.94);box-shadow:0 0 0 3px rgba(127,179,172,.12),0 3px 12px rgba(58,111,103,.17)}
+.round-arrow:hover:not(:disabled){background:var(--teal);color:#fff}.round-arrow:disabled,.rail-wrap.at-start .rail-nav.prev,.rail-wrap.at-end .rail-nav.next{opacity:.3;pointer-events:none}
+@media(max-width:1023px){.promo-side-arrow{display:grid;top:112px}.promo-side-arrow.prev{left:2px}.promo-side-arrow.next{right:2px}.rail-nav{display:flex;position:absolute;top:calc(50% - 35px);z-index:7;align-items:center;justify-content:center;color:var(--teal-d);cursor:pointer}.rail-nav.prev{left:0}.rail-nav.next{right:0}}
+
+@media(max-width:1023px){.home-promo-controls{min-height:64px;padding-inline:54px}.promo-side-arrow{top:auto;bottom:4px;transform:none}.promo-side-arrow:hover:not(:disabled){transform:scale(1.04)}}
+
+/* 林さん追加指示：矢印専用の余白・下段をなくし、常に左右中央へ重ねる。 */
+.home-promos{padding-inline:0!important}.promo-side-arrow{display:grid;top:50%;bottom:auto;transform:translateY(-50%)}.promo-side-arrow.prev{left:2px}.promo-side-arrow.next{right:2px}.promo-side-arrow:hover:not(:disabled){transform:translateY(-50%) scale(1.06)}
+.promo-count{position:absolute;top:10px;right:10px;z-index:6;pointer-events:none;border-radius:10px;padding:2px 7px;background:rgba(38,48,58,.72);color:#fff;font-size:12px;font-variant-numeric:tabular-nums}
+
+/* v47 共通ルール：操作が止まれば背面を読める薄さへ。ホバー中も静止すれば薄くなる。 */
+.round-arrow{opacity:.18;transition:opacity .3s ease,background-color .2s,transform .2s}
+.rail-controls-active .round-arrow{opacity:1}
+.round-arrow:disabled,.rail-wrap.at-start .rail-nav.prev,.rail-wrap.at-end .rail-nav.next{opacity:.1}
+.rail-controls-active .round-arrow:disabled,.rail-controls-active.at-start .rail-nav.prev,.rail-controls-active.at-end .rail-nav.next{opacity:.3}
+.round-arrow:focus-visible{opacity:1;outline:3px solid var(--teal);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.round-arrow{transition:none}}
+
+/* 矢印を続けてタップしてもページ拡大に解釈させない。 */
+.round-arrow{touch-action:manipulation}

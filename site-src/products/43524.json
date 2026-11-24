@@ -1,0 +1,115 @@
+{
+  "active": true,
+  "product": {
+    "id": "43524",
+    "code": "hf61802",
+    "title": "パステルローズドラジェ1本 1457-1",
+    "price": 212,
+    "image": "images/hf61802.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf61802.html",
+    "description": "",
+    "size": "サイズ:4×18cm",
+    "material": "",
+    "contents": "ドラジェ1個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※アソートでのお届けとなります、色の指定はできません。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [
+      "売れ筋"
+    ],
+    "skus": [
+      {
+        "code": "hf61802",
+        "t": "パステルローズドラジェ1本 1457-1",
+        "price": 212
+      }
+    ],
+    "spec": {
+      "code": "hf61802",
+      "pid": "43524",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "20個以上でご注文ください。※19個迄は自動キャンセル（セット商品との同時購入時はのぞく）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 20,
+      "notes": []
+    },
+    "minq": 20,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/hf61802.jpg",
+        "alt": "パステルローズドラジェ1本 1457-1 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/43524/21item.jpg",
+        "alt": "パステルローズドラジェ1本 1457-1 商品写真2",
+        "width": 700,
+        "height": 100
+      }
+    ],
+    "notes": [
+      "order-mail",
+      "min-qty",
+      "spec-change",
+      "season-delay",
+      "assort-color"
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf61802": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

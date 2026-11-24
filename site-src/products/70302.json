@@ -1,0 +1,292 @@
+{
+  "active": true,
+  "product": {
+    "id": "70302",
+    "code": "pb290disfmamori",
+    "title": "disney friends の願掛けお守り PB 選べるお菓子…",
+    "price": 220,
+    "image": "images/pb290disfmamori.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/お名入れ対応-disney-friends-の願掛けお守り-pb-クッキー-※10個.html",
+    "description": "ルナルーチェ限定のディズニーPBに願掛け祈願のお守りが登場! 祈願内容の「四字熟語」と「20字までのお名入れ」でオリジナルのお守りをおつくりします。 ミッキー&フレンズの応援で いつも以上の実力を発揮できちゃうこと間違いなし!! ※ご注文の際に「B.四字熟語」を選択の上、「C.お名前など」に必要事項を こちらのページ内通信にてお知らせください。記入のない場合は白紙でお届けいたします。 ※印字内容は全て同一での作成とさせていただきます。 ※パッケージの色柄の指定はできません。 賞味期限 出荷より ゼリー約1ヶ月 塩あめ約1ヶ月 ハートクッキー約3ヶ月 こんぺいとう約6ヵ月 サイズ 約9.5×7×2.8cm ※紐はふくまず ※てづくりのため、個体差があり",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "other",
+      "disney"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb290disfmamori-cookies",
+        "t": "クッキー disney friends の願掛けお守り PB 選べるお菓子",
+        "price": 240
+      },
+      {
+        "code": "pb290disfmamori-ame3",
+        "t": "塩あめ3粒 お名入れ対応 disney friends の願掛けお守り PB",
+        "price": 220
+      },
+      {
+        "code": "pb290disfmamori-jelly1ame1",
+        "t": "ゼリー1+塩あめ1粒 disney friends の願掛けお守り PB",
+        "price": 260
+      },
+      {
+        "code": "pb290disfmamori-konpei",
+        "t": "こんぺいとう disney friends の願掛けお守り PB",
+        "price": 220
+      }
+    ],
+    "spec": {
+      "code": "pb290disfmamori",
+      "pid": "70302",
+      "fields": [
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "B.四字熟語",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "合格祈願",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "必勝祈願",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "優勝祈願",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "絶対全国",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "全国制覇",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "天下無双",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "一球入魂",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "大安吉日",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "福徳円満",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "感謝感激",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "交通安全",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "謹賀新年",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "C.お名前・短文など※20字迄※漢字・ひらがな・カタカナ、数字は漢数字推奨。※英字＆数字が混じる場合は印字向きが変わります",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": "",
+          "over": {
+            "base": 500,
+            "per": 20,
+            "perUnit": false,
+            "agreeField": 3,
+            "agreeHas": "確認した/文"
+          },
+          "overAllowed": true
+        },
+        {
+          "k": "お知らせ（長文の項目名）",
+          "part": "notice",
+          "role": "",
+          "label": "Aお菓子+B+C同一内容で10個以上でご注文ください。(9個までは原稿作成料1000円必要)",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "お名入れ入力欄はお客様にて文字数カウントが必要です。",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した/文字数超過の場合原稿作成手数料￥500+1文字ごとに20円追加に同意",
+              "fee": null,
+              "over": {
+                "base": 500,
+                "per": 20
+              }
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "t": "クッキー disney friends の願掛けお守り PB 選べるお菓子",
+          "price": 240
+        },
+        {
+          "t": "塩あめ3粒 お名入れ対応 disney friends の願掛けお守り PB",
+          "price": 220
+        },
+        {
+          "t": "ゼリー1+塩あめ1粒 disney friends の願掛けお守り PB",
+          "price": 260
+        },
+        {
+          "t": "こんぺいとう disney friends の願掛けお守り PB",
+          "price": 220
+        }
+      ],
+      "minq": 10,
+      "notes": []
+    },
+    "minq": 10,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "min-qty",
+      "bulk-100",
+      "spec-change",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb290disfmamori.jpg",
+        "alt": "disney friends の願掛けお守り PB 選べるお菓子… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/70302/pb290disfmamori-01.jpg",
+        "alt": "disney friends の願掛けお守り PB 選べるお菓子… 商品写真2",
+        "width": 686,
+        "height": 666
+      },
+      {
+        "src": "images/product-details/70302/pb290disfmamori-02.jpg",
+        "alt": "disney friends の願掛けお守り PB 選べるお菓子… 商品写真3",
+        "width": 702,
+        "height": 702
+      },
+      {
+        "src": "images/product-details/70302/pb290disfmamori-03.jpg",
+        "alt": "disney friends の願掛けお守り PB 選べるお菓子… 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70302/pb290disfmamori-04.jpg",
+        "alt": "disney friends の願掛けお守り PB 選べるお菓子… 商品写真5",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70302/pb290disfmamori-05.jpg",
+        "alt": "disney friends の願掛けお守り PB 選べるお菓子… 商品写真6",
+        "width": 702,
+        "height": 694
+      },
+      {
+        "src": "images/product-details/70302/senjyaseal-kyotu.jpg",
+        "alt": "disney friends の願掛けお守り PB 選べるお菓子… 商品写真7",
+        "width": 702,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb290disfmamori-cookies": {
+        "code": "0",
+        "quantity": null
+      },
+      "pb290disfmamori-ame3": {
+        "code": "0",
+        "quantity": null
+      },
+      "pb290disfmamori-jelly1ame1": {
+        "code": "0",
+        "quantity": null
+      },
+      "pb290disfmamori-konpei": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

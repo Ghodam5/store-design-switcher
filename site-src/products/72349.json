@@ -1,0 +1,215 @@
+{
+  "active": true,
+  "product": {
+    "id": "72349",
+    "code": "grace09_50900",
+    "title": "Grace 50900円コース ラディアント",
+    "price": 55990,
+    "image": "images/products/72349.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/grace09_50900.html",
+    "description": "グルメ・ファッション・インテリア・テーブルウェア・キッチンウェアなど魅力的な品揃えで選ぶ楽しさを贈ります。 ライフスタイルを彩るとっておきのアイテムを厳選して掲載しています。 結婚引出物や結婚内祝い、出産内祝い、快気祝いの他、各種記念品・景品等さまざまなギフトシーンにてお使い頂けるギフトカタログです。",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※システム料には宅配料金・郵送料金等の諸費用が含まれております。 ※掲載点数・掲載内容・ページ数は予告なく変更になる場合がございます。 ※不良品以外の返品は不可とさせていただきます。 ※納品目安7日~",
+    "category": "カタログギフト",
+    "categories": [
+      "catalog"
+    ],
+    "subs": [
+      "grace"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "grace09_50900",
+        "t": "カタログギフト Grace(グレース) 50900円コース ラディアント",
+        "price": 55990
+      }
+    ],
+    "spec": {
+      "code": "grace09_50900",
+      "pid": "72349",
+      "fields": [
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの下のお書入れ内容（例：大輔 花子）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：大輔　花子"
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの上のお書入れ内容（例：寿、内祝）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：寿、内祝"
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のしの掛け方（のし掛け選択の方のみ）",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "包装",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "のし",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "spec-change",
+      "season-delay",
+      "catalog-fee"
+    ]
+  },
+  "detail": {
+    "photos": [
+      {
+        "src": "images/product-details/72349/grace09_50900.jpg",
+        "alt": "Grace 50900円コース ラディアント 商品写真1",
+        "width": 700,
+        "height": 700
+      }
+    ],
+    "sections": [
+      {
+        "title": "商品について",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "グルメ・ファッション・インテリア・食器・キッチン用品などから、受け取った方が好きな品を選べるギフトカタログです。"
+          },
+          {
+            "type": "p",
+            "text": "結婚引出物、結婚・出産の内祝い、快気祝い、記念品や景品などに。こちらのラディアントコースは約60点・46ページを掲載しています。"
+          }
+        ]
+      },
+      {
+        "title": "ご注文の前に",
+        "blocks": [
+          {
+            "type": "ul",
+            "items": [
+              "コース内訳は商品50,000円＋システム料900円（いずれも税別）。システム料には宅配・郵送などの諸費用が含まれます。",
+              "このコースの有効期限は受け取り後6か月です。受け取る方にも期限をお伝えください。",
+              "掲載点数・掲載内容・ページ数は予告なく変更になる場合があります。",
+              "納品の目安は約7日〜。不良品以外の返品はできません。"
+            ]
+          }
+        ]
+      }
+    ],
+    "specs": [
+      {
+        "label": "商品番号",
+        "value": "grace09_50900"
+      },
+      {
+        "label": "掲載点数・ページ数",
+        "value": "商品点数：約60点、ページ数：46ページ"
+      },
+      {
+        "label": "コース内訳",
+        "value": "商品：50000円（税別）／システム料：900円（税別）"
+      },
+      {
+        "label": "カタログ有効期限",
+        "value": "カタログ有効期限：受け取り後６ヵ月"
+      },
+      {
+        "label": "熨斗・包装",
+        "value": "カートで種類を選択。対応条件は下のご注文前の注意をご確認ください。"
+      },
+      {
+        "label": "お届けの目安",
+        "value": "約1週間後"
+      }
+    ],
+    "crumbs": [
+      {
+        "title": "カタログギフト",
+        "url": "category.html?g=catalog"
+      },
+      {
+        "title": "Grace",
+        "url": "category.html?g=catalog&m=grace"
+      }
+    ],
+    "relatedIds": [
+      "72347",
+      "72345",
+      "72343",
+      "72341",
+      "72339",
+      "72337"
+    ],
+    "sourceUrl": "https://www.luna-luce.jp/item/grace09_50900.html",
+    "sourceDate": "2026-11-18",
+    "photoPolicy": "本店ギャラリーに掲載された商品の原本。異なる商品の画像や共通バナーは含めない。"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "grace09_50900": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

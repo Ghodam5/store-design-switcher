@@ -1,0 +1,82 @@
+{
+  "active": true,
+  "product": {
+    "id": "71135",
+    "code": "a678",
+    "title": "【引菓子】ジュース＆バームセットF",
+    "price": 3996,
+    "image": "images/products/71135.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a678.html",
+    "description": "味わい深いジュースはバームクーヘンのお供にぴったりです。",
+    "size": "商品サイズ:426×247×73mm",
+    "material": "",
+    "contents": "商品内容:アップルジュース180ml ×1、 ミカンジュース180ml ×1、 ラ・フランスジュース180ml ×1、 栃木県産 とちおとめ苺バーム×2、 山形県産 さくらんぼバーム×1、 山梨県産 白桃バーム×1、 北海道産 赤肉メロンバーム×2、 沖縄県産 マンゴーバーム×2、 山形県産 ラ・フランスバーム×1",
+    "expiry": "賞味期限:4ヶ月",
+    "allergens": "アレルゲン:小麦・卵・乳成分",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a678",
+        "t": "ジュース&バームセットF A678",
+        "price": 3996
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71135.jpg",
+        "alt": "【引菓子】ジュース＆バームセットF 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71135/a678_1.jpg",
+        "alt": "【引菓子】ジュース＆バームセットF 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a678": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

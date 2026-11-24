@@ -1,0 +1,88 @@
+{
+  "active": true,
+  "product": {
+    "id": "71099",
+    "code": "a660",
+    "title": "【引き出物】TSUTSUMI 瑞穂の恵みE",
+    "price": 9072,
+    "image": "images/products/71099.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a660.html",
+    "description": "日本人の体に深く染み渡る瑞穂の恵みの豊かで繊細な優しい風味を、おもてなしの心で包みました。",
+    "size": "商品サイズ:356×277×75mm",
+    "material": "",
+    "contents": "商品内容:新潟産 こしひかり30 0g ×1、北海道産 ゆめぴりか30 0g ×1、 京都丹後産 こしひかり30 0g ×1、秋田産 あきたこまち30 0g ×1、 宮城産 ひとめぼれ30 0g ×1、山形産 つや姫30 0g ×1、 風呂敷(360×360mm)×6(材質:ポリエステル)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "gohan"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a660",
+        "t": "TSUTSUMI 瑞穂の恵みE A660",
+        "price": 9072
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71099.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵みE 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71099/a660_1.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵みE 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71099/a660_2.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵みE 商品写真3",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a660": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

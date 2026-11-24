@@ -1,0 +1,166 @@
+{
+  "active": true,
+  "product": {
+    "id": "53122",
+    "code": "pb-starbox",
+    "title": "Star BOX PB(金平糖) おトク割対象商品",
+    "price": 286,
+    "image": "images/pb-starbox.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-starbox.html",
+    "description": "満天の星空をイメージしたパッケージの中にはきらきら星のこんぺいとう。 七夕イベント、ナイトウェディングなど、星をモチーフにしたイベントにオススメのプチギフトです。 感謝の気持ちを伝えるthank youの下には、お名前と記念日が入れられるのもうれしいポイント♪",
+    "size": "約5×5×5cm",
+    "material": "",
+    "contents": "金平糖10g入り",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※15個よりご注文受付いたします。(14個まではキャンセルいたします) ※30個以上購入の「おトク割」は同一内容(ご注文数と印字内容が全て同じ)の場合のみ適用されます。 対象外の場合は当店にて価格変更させていただきます。 ※ご注文の際は、印字を希望するお名前と記念日をお知らせください。 ※お届けまでに約1~2週間ほどお時間をいただく商品となります。お急ぎの場合はお早めにご注文ください。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb177starbox",
+        "t": "29個までの購入はコチラStar BOX PB(金平糖)",
+        "price": 360
+      },
+      {
+        "code": "pb177starbox30",
+        "t": "30個以上おトク割 Star BOX PB(金平糖)※おトク割適用外の場合価格修正します",
+        "price": 286
+      }
+    ],
+    "spec": {
+      "code": "pb-starbox",
+      "pid": "53122",
+      "fields": [
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "名入れ/記念日など(20字まで)",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": "",
+          "over": {
+            "base": 500,
+            "per": 20,
+            "perUnit": false,
+            "agreeField": 2,
+            "agreeHas": "確認した/文"
+          },
+          "overAllowed": true
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "14個までのご注文はキャンセルします",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "お名入れ入力欄はお客様にて文字数カウントが必要です。",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した/文字数超過の場合原稿作成手数料￥500+1文字ごとに20円追加に同意",
+              "fee": null,
+              "over": {
+                "base": 500,
+                "per": 20
+              }
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "t": "29個までの購入はコチラStar BOX PB（金平糖）",
+          "price": 360
+        },
+        {
+          "t": "30個以上おトク割　Star BOX PB（金平糖）※おトク割適用外の場合価格修正します",
+          "price": 286
+        }
+      ],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb-starbox.jpg",
+        "alt": "Star BOX PB(金平糖) おトク割対象商品 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/53122/pb-starbox2.jpg",
+        "alt": "Star BOX PB(金平糖) おトク割対象商品 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb177starbox": {
+        "code": "0",
+        "quantity": null
+      },
+      "pb177starbox30": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

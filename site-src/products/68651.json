@@ -1,0 +1,137 @@
+{
+  "active": true,
+  "product": {
+    "id": "68651",
+    "code": "pb-gk17disneypanvd",
+    "title": "バレンタインギフト Minny’s Forever Valentine PB 7年保存マーブルチョコパン disney ミニーマウス ミッキーマウス 保存食 非常食",
+    "price": 580,
+    "image": "images/features/pb-gk17disneypanvd.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/バレンタインギフト-minnys-forever-valentine-pb-7年保存マーブルチ.html",
+    "description": "バレンタインに美味しいチョコもいいけれど、美味しいお守りを贈ってみませんか? 災害備蓄にも使える7年間保存可能なパンだから、 すぐに食べてもヨシ、 デスクの引き出しや、車のダッシュボードにしまってもヨシ!! 貰った方に「食べる」以外の選択肢も一緒に贈れます。 内容:7年保存レトルトパン(チョコ) 賞味期限:製造より7年 パッケージサイズ:約12×17×4cm ※パンの個体差により仕上がりサイズが異なる場合がございます",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※賞味期限は製造より7年となります。 ※商品の仕様(ラッピング包装・リボンのお色、お菓子のメーカー、形状、お味、販売価格等)は変更になる場合がございます。 ※ご注文確定後(当店からの「ご注文確認メール」送信後)の即お手配を行うため減数・キャンセルはお受けできません。 ※ご注文後の増数は、納期を延長させていただく場合がございます。 ※100個以上での大口注文の場合は一度お問合せください。問い合せなしでの大口注文は、在庫の状況によりお受けすることができない場合がございます ※店舗でのご注文確認時、ご使用日までにお届けが不可能と判断した場合、キャンセルさせていただく場合がございます。 ご連絡は原則メールで行います。ご注文成立の可否をお客様にてかならずご確認ください。 ※食品の為、天候・交通状況などによる配達遅延でお届けが遅れた場合でも返品はお受けできません。",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "season"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-gk17disneypanvd",
+        "t": "Minny’s Forever Valentine PB 7年保存マーブルチョコパン",
+        "price": 580
+      }
+    ],
+    "spec": {
+      "code": "pb-gk17disneypanvd",
+      "pid": "68651",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "ラッピングのお色はアソートでのお届けです",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "bulk-100",
+      "spec-change",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/pb-gk17disneypanvd.jpg",
+        "alt": "バレンタインギフト Minny’s Forever Valentine PB 7年保存マーブルチョコパン disney ミニーマウス ミッキーマウス 保存食 非常食 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/68651/pb-gk17disneypanvd-01.jpg",
+        "alt": "バレンタインギフト Minny’s Forever Valentine PB 7年保存マーブルチョコパン disney ミニーマウス ミッキーマウス 保存食 非常食 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/68651/pb-gk17disneypanvd-02.jpg",
+        "alt": "バレンタインギフト Minny’s Forever Valentine PB 7年保存マーブルチョコパン disney ミニーマウス ミッキーマウス 保存食 非常食 商品写真3",
+        "width": 701,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "68651",
+    "name": "バレンタインギフト Minny’s Forever Valentine PB 7年保存マーブルチョコパン disney ミニーマウス ミッキーマウス 保存食 非常食",
+    "title": "バレンタインギフト Minny’s Forever Valentine PB 7年保存マーブルチョコパン disney ミニーマウス ミッキーマウス 保存食 非常食",
+    "url": "https://www.luna-luce.jp/item/バレンタインギフト-minnys-forever-valentine-pb-7年保存マーブルチ.html",
+    "groups": [
+      "preparedness",
+      "sale"
+    ],
+    "image": "images/features/pb-gk17disneypanvd.jpg",
+    "description": "バレンタインに美味しいチョコもいいけれど、美味しいお守りを贈ってみませんか? 災害備蓄にも使える7年間保存可能なパンだから、 すぐに食べてもヨシ、 デスクの引き出しや、車のダッシュボードにしまってもヨシ!! 貰った方に「食べる」以外の選択肢も一緒に贈れます。 内容:7年保存レトルトパン(チョコ) 賞味期限:製造より7年 パッケージサイズ:約12×17×4cm ※パンの個体差により仕上がりサイズが異なる場合がございます",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2025-01-30"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-gk17disneypanvd": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

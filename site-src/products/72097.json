@@ -1,0 +1,149 @@
+{
+  "active": true,
+  "product": {
+    "id": "72097",
+    "code": "fla607flower",
+    "title": "FLAVOR 選べる OHANA ラッピング メープルシフォン(…",
+    "price": 3150,
+    "image": "images/fla607flower.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-選べる-ohana-ラッピング-メープルシフォン（箱入）.html",
+    "description": "大人気のシフォンに彩りを添えて贈ります。 季節や、誕生日の贈り物に。 選べるLappingの種類は続々追加予定 ※紙製ラッピングでのお届けです。生花・造花ラッピングではございません。 常温で運べて、クリームがないからくずれる心配もありません。 離れて暮らす先様にはギフト配送も可能です。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。",
+    "size": "直径16cm 高さ16cm",
+    "material": "",
+    "contents": "メープルシフォンケーキミドルサイズ 1個",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "chiffon"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla607flower",
+        "t": "FLAVOR 選べる OHANA ラッピング メープルシフォン",
+        "price": 3150
+      }
+    ],
+    "spec": {
+      "code": "fla607flower",
+      "pid": "72097",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "賞味期限が短い為「代金引換」発送不可商品です",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した（代金引換は自動キャンセル）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "包装",
+          "part": "common",
+          "role": "",
+          "label": "ラッピング選択",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は別途送料加算※同意がない場合キャンセルします",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/fla607flower.jpg",
+        "alt": "FLAVOR 選べる OHANA ラッピング メープルシフォン(… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/72097/fla607flower-01.jpg",
+        "alt": "FLAVOR 選べる OHANA ラッピング メープルシフォン(… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/72097/fla607flower-02.jpg",
+        "alt": "FLAVOR 選べる OHANA ラッピング メープルシフォン(… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/72097/flavor-img.jpg",
+        "alt": "FLAVOR 選べる OHANA ラッピング メープルシフォン(… 商品写真4",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/72097/fla-hako202410.jpg",
+        "alt": "FLAVOR 選べる OHANA ラッピング メープルシフォン(… 商品写真5",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla607flower": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

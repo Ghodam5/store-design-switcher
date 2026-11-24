@@ -1,0 +1,42 @@
+<!doctype html><html lang="ja"><head>{{> navigation-head}}<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>マイページ・購入履歴｜ルナルーチェ（案4サンプル）</title><meta name="description" content="マイページ・購入履歴のページです。結婚式のプチギフト・名入れギフト・引菓子の通販「ルナルーチェ（Luna Luce）」。"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Cormorant+Garamond:wght@500;600&family=Great+Vibes&display=swap"></noscript><link rel="stylesheet" href="style.css?v={{version}}">
+<link rel="stylesheet" href="features.css?v={{version}}">{{> notes-head}}<link rel="stylesheet" href="purchase-history.css?v={{version}}">{{> share-head}}{{> services-head}}</head>
+<body><div class="sample-bar">サンプル（案4デザイン）｜<a href="campaign.html">キャンペーン一覧へ戻る</a></div>
+{{> shipping}}
+{{> header}}
+<div data-mobile-drawer class="drawer-bg" data-close-menu></div>
+{{> drawer}}<main class="mp">
+<h1>マイページ</h1>
+<p class="account-lead">ご購入の記録と、いまの商品状況をひとつの場所で。</p>
+<p class="history-demo"><strong>会員ページの見本です</strong>　購入履歴・ポイント・商品状態は表示用の架空データです。実際の注文や在庫には連動していません。</p>
+<div class="mp-hero"><div class="nm"><small>ようこそ</small>ルナ 太郎 様（会員）</div><div><small>使えるポイント</small><span class="pt">500<small>pt</small></span></div></div>
+
+<nav class="account-nav" aria-label="マイページ内のご案内"><a href="#purchase-history">購入履歴</a><a href="#member-coupons">クーポン</a></nav>
+<section id="purchase-history" class="purchase-history" aria-labelledby="history-title">
+<div class="history-heading"><div><h2 id="history-title">購入履歴</h2><p>ご購入時の内容と、現在の販売状況を分けて表示しています。</p></div><label for="history-year">購入年<select id="history-year"><option value="all">すべての年</option><option value="2026">2026年</option><option value="2025">2025年</option><option value="2024">2024年</option></select></label></div>
+<p id="history-count" class="history-count" role="status" aria-live="polite"></p>
+<div id="history-orders"></div>
+<div id="history-empty" class="history-empty" hidden><h3>この年の購入履歴はありません</h3><p>ほかの年を選ぶか、すべての年をご確認ください。</p><button type="button" id="history-reset">すべての年を表示</button></div>
+<p class="history-footnote">※売り切れ・販売終了でも、ご購入時の記録は残ります。再度ご購入の際は、商品ページで現在の価格・仕様をご確認ください。以前の名入れ内容は自動では引き継ぎません。</p>
+<noscript><p>購入履歴の見本を表示するにはJavaScriptを有効にしてください。</p></noscript>
+</section>
+<section id="member-coupons" aria-labelledby="coupon-title"><h2 id="coupon-title">クーポン一覧</h2>
+<p class="mp-note">コードは、お客様ごとに自動で発行されます。1回のご注文で使えるのは<b>1枚</b>です（下のカードを押して試せます）。</p>
+<div id="cps">
+<div class="cp-card" data-n="LINE友だち登録クーポン" tabindex="0"><span class="ic">LINE<br>登録</span><div class="bd"><h3>LINE友だち登録<wbr>クーポン</h3><span class="code">LUNA-LN7K-39QX</span><span class="ex">○○円OFF（金額は仮）｜有効期限 2026/12/31</span></div><span class="st">使えます</span></div>
+<div class="cp-card sns" data-n="感想コメントの次回クーポン" tabindex="0"><span class="ic">感想<br>コメント</span><div class="bd"><h3>感想コメントの<wbr>次回クーポン</h3><span class="code">LUNA-CM4P-82RD</span><span class="ex">○○円OFF（金額は仮）｜有効期限 2026/12/20｜ご注文 No.1234 の分</span></div><span class="st">使えます</span></div>
+<div class="cp-card auto off" tabindex="-1"><span class="ic">振込</span><div class="bd"><h3>銀行・郵便局の<wbr>振込割引</h3><span class="ex">お支払い方法で「振込」を選ぶと、自動で○％OFF（案・仮）。コードは不要です。</span></div><span class="st">自動</span></div>
+<div class="cp-card lock off" tabindex="-1"><span class="ic">次回</span><div class="bd"><h3>感想コメントの<wbr>次回クーポン</h3><span class="ex">次のご注文のあと、SNSに感想をコメントすると、ここに届きます。</span></div><span class="st">まだです</span></div>
+<div class="cp-card off" tabindex="-1"><span class="ic" style="background:#9aa6b0">使用<br>済</span><div class="bd"><h3>LINE友だち登録<wbr>クーポン（前回）</h3><span class="code">LUNA-LN2A-55ZB</span><span class="ex">2026/10/08 にご利用済み</span></div><span class="st">使用済み</span></div>
+</div>
+<div class="mp-pick" id="pick">次のご注文で使うクーポンを、1枚選んでください。</div>
+</section></main>
+{{> bottom}}
+<script>
+(function(){var cards=document.querySelectorAll('#cps .cp-card:not(.off)'),pick=document.getElementById('pick');
+function sel(c){var on=c.classList.contains('sel');cards.forEach(function(x){x.classList.remove('sel');x.querySelector('.st').textContent='使えます'});
+ if(on){pick.textContent='次のご注文で使うクーポンを、1枚選んでください。';return}
+ c.classList.add('sel');c.querySelector('.st').textContent='使う';
+ pick.textContent='「'+c.dataset.n+'」を次のご注文で使います。1回のご注文で使えるのは1枚なので、ほかのクーポンは次回以降にお使いいただけます。'}
+cards.forEach(function(c){c.addEventListener('click',function(){sel(c)});c.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();sel(c)}})})})();
+</script><script src="catico.js?v={{version}}"></script><script src="hscroll.js?v={{version}}"></script><script src="data.js?v={{version}}"></script><script src="feature-data.js?v={{version}}"></script><script src="product-data.js?v={{version}}"></script><script src="catalog.js?v={{version}}"></script><script src="campaign-data.js?v={{version}}"></script><script src="campaign-rules.js?v={{version}}"></script><script src="demo-cart.js?v={{version}}"></script><script src="header-scroll.js?v={{version}}"></script><script src="purchase-history-data.js?v={{version}}"></script><script src="purchase-history.js?v={{version}}"></script>{{> notes-script}}{{> share-script}}{{> services-script}}</body></html>

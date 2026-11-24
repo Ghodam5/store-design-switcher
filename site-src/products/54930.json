@@ -1,0 +1,116 @@
+{
+  "active": true,
+  "product": {
+    "id": "54930",
+    "code": "pb-colorfulsnow",
+    "title": "瞬間冷却!カラフルスノーボール(名入れ対応)",
+    "price": 298,
+    "image": "images/pb-colorfulsnow.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-colorfulsnow.html",
+    "description": "見た目にも涼しげな夏祭りのかき氷をイメージしたパッケージ、中には夏場に嬉しい冷却パック。 屋外でのイベントや冷房がないシーンでは必需品の熱中症対策アイテムです。 水分補給だけでは追い付かない夏のダメージを軽くするひんやりプチギフト。 スポーツ観戦やアウトドア、野外フェス、日中の暑さ対策の販促・イベント配布にもお使いいただけます♪",
+    "size": "サイズ:Φ7.5×8cm",
+    "material": "",
+    "contents": "瞬間冷却パック1個入り",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※お届けまでに1週間ほどお時間をいただく商品です、お急ぎの場合はお早めにご注文ください。 ※冷却パックのメーカー、デザインなどは変更となる場合がございます。 ※パッケージの紐色はアソートのためお色のご指定はできません。 ※名入れ対応商品です、ご注文の際に印字するお名前をお知らせください。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-colorfulsnow",
+        "t": "瞬間冷却!カラフルスノーボール(名入れ対応)",
+        "price": 298
+      }
+    ],
+    "spec": {
+      "code": "pb-colorfulsnow",
+      "pid": "54930",
+      "fields": [
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb-colorfulsnow.jpg",
+        "alt": "瞬間冷却!カラフルスノーボール(名入れ対応) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/54930/pb-colorfulsnow.jpg",
+        "alt": "瞬間冷却!カラフルスノーボール(名入れ対応) 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/54930/pb-colorfulsnowimg.jpg",
+        "alt": "瞬間冷却!カラフルスノーボール(名入れ対応) 商品写真3",
+        "width": 700,
+        "height": 850
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-colorfulsnow": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

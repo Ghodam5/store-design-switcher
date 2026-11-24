@@ -1,0 +1,32 @@
+/* お届け日数・注意事項の定型文・お急ぎ制作（v64）。目立たせすぎず、でも見落とさない */
+.lead-time{margin:12px 0 4px;padding:10px 12px;border-radius:12px;background:#f7f3ec;border:1px solid #eadfce;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;color:#4a3f35}
+.lead-time-label{font-size:13px}
+.lead-time b{font-size:18px;color:#8a4b2a;letter-spacing:.02em}
+.lead-time-tag{font-size:11px;padding:2px 8px;border-radius:999px;background:#fff;border:1px solid #e3c9b3;color:#8a4b2a}
+.lead-time p{flex-basis:100%;margin:2px 0 0;font-size:12px;color:#6b5f55;line-height:1.6}
+.order-notes{list-style:none;margin:8px 0 12px;padding:0;display:grid;gap:8px}
+.order-note{padding:10px 12px 10px 14px;border-radius:10px;background:#faf8f5;border-left:4px solid #d8cfc3;font-size:13px;line-height:1.7;color:#4a3f35;display:grid;gap:2px}
+.order-note b{font-size:13px}
+.order-note.tone-important{background:#fdf5f0;border-left-color:#c8794f}
+.order-note.tone-important b{color:#a0522d}
+.order-note.tone-caution{background:#f4f7fb;border-left-color:#7f9cc0}
+.order-note.tone-caution b{color:#3f5f86}
+.order-notes-src{margin:4px 0 12px;font-size:12px;color:#6b5f55}
+.order-notes-src h3{font-size:13px;font-weight:700;color:#6b5f55;margin:14px 0 4px}
+.order-notes-src .product-description{margin:0}
+.rush-field{margin:10px 0;padding:10px 12px;border-radius:12px;background:#fdf5f0;border:1px solid #efd6c4}
+.rush-field label{display:flex;gap:8px;align-items:flex-start;font-weight:700;min-height:44px}
+.rush-field input{width:20px;height:20px;margin-top:2px;flex:none}
+.rush-field p{margin:4px 0 0;font-size:12px;line-height:1.7;color:#6b4a36}
+/* v66 本店と文字の大きさをそろえる（本店の商品説明・注意書きは14px） */
+#sample-item .product-description{font-size:14px;line-height:1.75}
+#sample-item .details .spec th,#sample-item .details .spec td{font-size:14px}
+.order-note,.order-note b{font-size:14px}
+/* v66 商品ページの段組み（写真の下に横幅いっぱいで並ぶ部品） */
+#sample-item .pd-part+.pd-part{margin-top:4px}
+#sample-item .pd-below{margin-top:28px}
+#sample-item .pd-below>h2{font-size:20px;margin:0 0 10px}
+#sample-item .pd-below .order-notes{max-width:760px}
+#sample-item .reco-rail .prod{flex-basis:40%}
+@media(min-width:600px){#sample-item .reco-rail .prod{flex-basis:200px}}
+#sample-item .pd-share .page-share{margin:0 auto;justify-content:center}

@@ -1,0 +1,131 @@
+{
+  "active": true,
+  "product": {
+    "id": "69206",
+    "code": "1829",
+    "title": "フルーティーダイヤ(ゼリー)40個セット",
+    "price": 15752,
+    "image": "images/1829.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1829.html",
+    "description": "ダイヤモンドには「永遠の絆」という意味が! キラキラ輝くダイヤの中にフルーツゼリーをつめこんでふたりの気持ちを伝えよう!",
+    "size": "全体サイズ:210×310×360mm、プチギフトサイズ:77×90×28mm",
+    "material": "",
+    "contents": "商品内容:フルーツゼリー1個入(メロン・オレンジ・ピーチ・ストロベリー・グレープ)×40個",
+    "expiry": "",
+    "allergens": "アレルゲン:乳成分",
+    "storage": "保存方法:常温保存",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "other"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1829",
+        "t": "★フルーティーダイヤ(ゼリー)40個セット 1829",
+        "price": 15752
+      }
+    ],
+    "spec": {
+      "code": "1829",
+      "pid": "69206",
+      "fields": [
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Tomomi"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：Naoki"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/1829.jpg",
+        "alt": "フルーティーダイヤ(ゼリー)40個セット 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/69206/1829_1.jpg",
+        "alt": "フルーティーダイヤ(ゼリー)40個セット 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69206/1829_2.jpg",
+        "alt": "フルーティーダイヤ(ゼリー)40個セット 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69206/1829_3.jpg",
+        "alt": "フルーティーダイヤ(ゼリー)40個セット 商品写真4",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1829": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

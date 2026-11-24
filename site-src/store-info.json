@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "bar": [
+    {
+      "id": "bar-free",
+      "active": true,
+      "label": "送料",
+      "text": "税別{free}円以上で送料無料（本州・四国・九州）",
+      "href": "shipping.html"
+    },
+    {
+      "id": "bar-lead",
+      "active": true,
+      "label": "お届け",
+      "text": "最短6日後に出荷・名入れは2〜4週間",
+      "href": "shipping.html#lead-time"
+    },
+    {
+      "id": "bar-bulk",
+      "active": true,
+      "label": "大口",
+      "text": "大口注文のご相談",
+      "href": "bulk-order.html"
+    },
+    {
+      "id": "bar-overseas",
+      "active": true,
+      "label": "海外",
+      "text": "海外発送",
+      "href": "overseas-shipping.html"
+    }
+  ],
+  "footer": {
+    "title": "お届けと送料",
+    "lines": [
+      {
+        "id": "ft-free",
+        "active": true,
+        "text": "税別{free}円以上で送料無料（本州・四国・九州）"
+      },
+      {
+        "id": "ft-fee",
+        "active": true,
+        "text": "送料は本州・四国・九州{fee:honshu}、北海道・一部離島{fee:hokkaido}、沖縄{fee:okinawa}"
+      },
+      {
+        "id": "ft-lead",
+        "active": true,
+        "text": "ご注文から最短3〜16日でお届け。名入れ商品は校了後2〜4週間"
+      },
+      {
+        "id": "ft-neko",
+        "active": true,
+        "text": "ネコポス（ポスト投函）対応の商品もあります"
+      }
+    ]
+  },
+  "shipping": {
+    "freeThreshold": 20000,
+    "freeBasis": "excl",
+    "regions": [
+      {
+        "id": "honshu",
+        "name": "本州・四国・九州",
+        "fee": 800,
+        "feeBasis": "incl",
+        "freeApplies": true
+      },
+      {
+        "id": "hokkaido",
+        "name": "北海道・一部離島",
+        "fee": 2000,
+        "feeBasis": "excl",
+        "freeApplies": false
+      },
+      {
+        "id": "okinawa",
+        "name": "沖縄",
+        "fee": 2800,
+        "feeBasis": "excl",
+        "freeApplies": false
+      }
+    ],
+    "notes": [
+      "送料無料商品も、北海道・沖縄・一部離島・海外は送料がかかります。",
+      "送料は配送の形（宅配便・ネコポスなど）を問わず、配送先の地域で決まります。"
+    ],
+    "source": "本店 お買い物ガイド 送料料金（2026-11-22 確認）"
+  },
+  "tax": {
+    "priceBasisDate": "2026-11-22",
+    "classes": [
+      {
+        "id": "standard",
+        "name": "標準（雑貨など）"
+      },
+      {
+        "id": "food",
+        "name": "食品（軽減税率）"
+      }
+    ],
+    "rates": [
+      {
+        "id": "r2019",
+        "from": "2019-10-01",
+        "active": true,
+        "standard": 10,
+        "food": 8,
+        "note": "いまの税率"
+      },
+      {
+        "id": "r2027",
+        "from": "2027-04-01",
+        "active": false,
+        "standard": 10,
+        "food": 1,
+        "note": "食料品1%（2年間の予定）。法律の成立を確かめてからオンにする"
+      },
+      {
+        "id": "r2029",
+        "from": "2029-04-01",
+        "active": false,
+        "standard": 10,
+        "food": 8,
+        "note": "食料品が8%に戻る予定。決まったらオンにする"
+      }
+    ],
+    "rounding": "floor"
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "active": true,
+  "product": {
+    "id": "1851",
+    "code": "WB-Y951_Y956",
+    "title": "京友禅和紙ボード",
+    "price": 9856,
+    "image": "images/wb-y951_y956.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/wb-y951_y956.html",
+    "description": "見る人をほっと和ませる、ジャパニーズスタイルでふたりのメッセージを伝えます。。 ▼お急ぎ対応商品です▼",
+    "size": "27×36×0.9cm",
+    "material": "和紙",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "WB-Y951_Y956",
+        "t": "京友禅和紙ボード",
+        "price": 9856
+      }
+    ],
+    "spec": {
+      "code": "WB-Y951_Y956",
+      "pid": "1851",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "文字デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "感謝（P72）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "いつまでも（P73）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ひとりより（P74）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "いっぱい（P75）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "心から（P76）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "幸せ（P77）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "これからも（P78）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "大好き（P79）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "寿（P80）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "絵柄デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "桜うさぎ（WB-Y951）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "もみじ（WB-Y952）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "さくら吹雪（WB-Y953）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "夜桜うさぎ（WB-Y954）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "金魚（WB-Y955）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "青霞（WB-Y956）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/wb-y951_y956.jpg",
+        "alt": "京友禅和紙ボード 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/1851/imgWB-Y951_Y956.jpg",
+        "alt": "京友禅和紙ボード 商品写真2",
+        "width": 700,
+        "height": 1540
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "wb-y951_y956": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "active": true,
+  "product": {
+    "id": "66986",
+    "code": "en078",
+    "title": "【演出用品】ウッドチャームボード追加用タグ（10個入）",
+    "price": 1540,
+    "image": "images/products/66986.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/en078.html",
+    "description": "ふたりの門出に寄り添う木のぬくもりとゲストのあたたかな「心」を感じてゲストの名前が連なりふたりの愛を証明します。",
+    "size": "商品サイズ:ウッドチャームサイズ:50×35×3mm、リングサイズ:30×30mm",
+    "material": "材質:木製",
+    "contents": "商品内容:ウッドチャーム10枚、リング10個",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "other"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "en078",
+        "t": "ウッドチャームボード追加用タグ(10個入) EN078",
+        "price": 1540
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/66986.jpg",
+        "alt": "【演出用品】ウッドチャームボード追加用タグ（10個入） 商品写真1",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "en078": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

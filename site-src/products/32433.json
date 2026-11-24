@@ -1,0 +1,98 @@
+{
+  "active": true,
+  "product": {
+    "id": "32433",
+    "code": "w-bag-b-50st",
+    "title": "【ブライダルバッグ】エクセレント（厚手）ML 50個セット【送料無料】",
+    "price": 13200,
+    "image": "images/features/32433.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/w-bag-b-50st.html",
+    "description": "光沢のあるパール加工が施された高級感あふれるブライダルバッグ。 袋の内側にはブルーのストライプ模様がプリントされており、内側のオシャレにもこだわったバッグです。 お得な50個セットをご用意しました。",
+    "size": "h300mm×w420mm×d220mm",
+    "material": "紙(パール加工)、紐",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ブライダルバッグ",
+    "categories": [
+      "bag"
+    ],
+    "subs": [
+      "set"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "w-bag-b-50st",
+        "t": "エクセレント(厚手) サイズ:ML 50個セット",
+        "price": 13200
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 50,
+    "delivery": {
+      "min": 1,
+      "max": 2,
+      "made": false,
+      "source": "db",
+      "label": "1～2日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/32433.jpg",
+        "alt": "【ブライダルバッグ】エクセレント（厚手）ML 50個セット【送料無料】 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/32433/bag_img01.jpg",
+        "alt": "【ブライダルバッグ】エクセレント（厚手）ML 50個セット【送料無料】 商品写真2",
+        "width": 630,
+        "height": 600
+      }
+    ]
+  },
+  "listing": {
+    "image": "images/features/w-bag-b-50st.jpg"
+  },
+  "feature": {
+    "id": "32433",
+    "name": "【ブライダルバッグ】エクセレント(厚手) サイズ:ML 50個セット【送料無料】",
+    "title": "エクセレント(厚手) サイズ:ML 50個セット",
+    "url": "https://www.luna-luce.jp/item/w-bag-b-50st.html",
+    "groups": [
+      "bag"
+    ],
+    "image": "images/features/32433.jpg",
+    "description": "光沢のあるパール加工が施された高級感あふれるブライダルバッグ。 袋の内側にはブルーのストライプ模様がプリントされており、内側のオシャレにもこだわったバッグです。 お得な50個セットをご用意しました。",
+    "size": "h300mm×w420mm×d220mm",
+    "material": "紙(パール加工)、紐",
+    "pack": 50,
+    "canDemo": true,
+    "updated": "2022-09-12"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "w-bag-b-50st": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

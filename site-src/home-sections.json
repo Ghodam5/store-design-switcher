@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "timeZone": "Asia/Tokyo",
+  "note": "トップ本文の商品の段。上から順に表示。kind: fixed=いまある段（site-src/sections/top/<id>.html）、row=OMSで足した段（ids の商品を並べる）。active=false で出さない。startsAt/endsAt で期間。OMSのサイトビルダー「トップの商品の段」で作る。",
+  "sections": [
+    {
+      "id": "ranking",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "finder",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "popular-petit",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "flavor",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "parents",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "cookie",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "candy",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "dragee",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "japanese-gifts",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "hikigashi",
+      "kind": "fixed",
+      "active": true
+    },
+    {
+      "id": "welcome-board",
+      "kind": "fixed",
+      "active": true
+    }
+  ]
+}

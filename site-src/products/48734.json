@@ -1,0 +1,131 @@
+{
+  "active": true,
+  "product": {
+    "id": "48734",
+    "code": "kashi-xmas",
+    "title": "お菓子詰め合わせセット ～手書き名入れシール付き～",
+    "price": 270,
+    "image": "images/kashi-xmas.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/kashi-xmas.html",
+    "description": "クリスマス仕様の菓子まき袋で結婚式の菓子まきやクリスマスパーティー、子供会のイベントなどを盛り上げます! 袋の中には、ワクワクするようなお菓子の詰め合わせが入っています。 手書きの名入れシールもお付けするので、お名前や記念日を記入して菓子袋に貼ったり、 自分で用意した他のクリスマスギフトに貼ってもOK!!使い方はいろいろ♪ ※袋のデザインは複数でのアソートとなる場合がございます。",
+    "size": "",
+    "material": "",
+    "contents": "お菓子詰め合わせ1個、手書き名入れシール1枚",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※突然生産終了する商品もある為、写真の内容から菓子の中身が変更になる場合がございます。 ※予告なくパッケージや内容量が変更になる場合がございます。予めご了承ください。 ※新郎様・新婦様のお名前や企業名、イベント名など、共通のお名前の1つ場合のみ印字対応可能です。 ※お名前の印字を複数希望される場合はシールの印字は行いません。 (お客様にて1枚1枚手書きでご記入下さいますようお願い申し上げます。) ※こちらの商品はお届けまでに1週間ほどお時間をいただく商品ですので、お急ぎの場合はお早めにご注文ください。 ※お菓子の中身のリクエストはお受けすることができません、ご理解下さいますようお願いします。 ※こちらの商品をご注文の場合、1円シール・1円カードを一緒に注文することができません。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi"
+    ],
+    "subs": [
+      "other",
+      "set"
+    ],
+    "tags": [
+      "名入れ",
+      "売れ筋"
+    ],
+    "skus": [
+      {
+        "code": "kashi-xmas",
+        "t": "【クリスマス限定】お菓子詰め合わせセット ~手書き名入れシール付き~",
+        "price": 270
+      }
+    ],
+    "spec": {
+      "code": "kashi-xmas",
+      "pid": "48734",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "12月第1週までご注文受付商品です",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "印字するお名前（同一印字のみ対応）",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "made-to-order",
+      "cancel-if-late",
+      "no-cancel-after",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/kashi-xmas.jpg",
+        "alt": "お菓子詰め合わせセット ～手書き名入れシール付き～ 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/48734/kashi-xmas01.jpg",
+        "alt": "お菓子詰め合わせセット ～手書き名入れシール付き～ 商品写真2",
+        "width": 700,
+        "height": 1140
+      },
+      {
+        "src": "images/product-details/48734/kashi-xmas02nn.jpg",
+        "alt": "お菓子詰め合わせセット ～手書き名入れシール付き～ 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/48734/kashi-xmas03.jpg",
+        "alt": "お菓子詰め合わせセット ～手書き名入れシール付き～ 商品写真4",
+        "width": 700,
+        "height": 290
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "kashi-xmas": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

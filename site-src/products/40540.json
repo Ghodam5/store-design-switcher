@@ -1,0 +1,91 @@
+{
+  "active": true,
+  "product": {
+    "id": "40540",
+    "code": "wk-mm-01-s",
+    "title": "ディズニー招待状 フラワーガーデン 10名様分",
+    "price": 3608,
+    "image": "images/products/40540.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/wk-mm-01-s.html",
+    "description": "誰もが大好きなミッキー&ミニーのペーパーアイテムが登場です。 パールの光沢がある表紙に厚手のトレーシングペーパーのカバーをプラス。 トレーシングペーパーのあいた窓から、ミッキーとミニーが見える凝ったデザインです。 ディズニーキャラクターがおふたりの祝福の時を演出します。 テンプレートはサイトからダウンロードして頂けます。 ご自由にアレンジなさって、ご家庭のプリンターで印刷してご使用ください。",
+    "size": "表紙:219×153 中紙:210×148(A5) 返信ハガキ:148×100 封筒:167×119",
+    "material": "",
+    "contents": "招待状本体(表紙 10枚、カバー(トレーシングペーパー)10枚、中紙 10枚、金ゴム 10本)、返信用はがき 10枚、封筒 10枚、封かん用シール 10枚、印刷テスト用紙1枚、ディズニー付箋カード10枚、テンプレートダウンロードパスポート",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※ディズニーの正規ライセンス商品です。 ※インクジェットプリンター対応",
+    "category": "ペーパーアイテム",
+    "categories": [
+      "paper"
+    ],
+    "subs": [
+      "invite"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "wk-mm-01-s",
+        "t": "ディズニー招待状 フラワーガーデン 10名様分",
+        "price": 3608
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 4,
+      "max": 6,
+      "made": false,
+      "source": "db",
+      "label": "4～6日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/40540.jpg",
+        "alt": "ディズニー招待状 フラワーガーデン 10名様分 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/40540/wk-mm-01-s.jpg",
+        "alt": "ディズニー招待状 フラワーガーデン 10名様分 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/40540/wk-mms.jpg",
+        "alt": "ディズニー招待状 フラワーガーデン 10名様分 商品写真3",
+        "width": 650,
+        "height": 1735
+      },
+      {
+        "src": "images/product-details/40540/distance.jpg",
+        "alt": "ディズニー招待状 フラワーガーデン 10名様分 商品写真4",
+        "width": 650,
+        "height": 310
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "wk-mm-01-s": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "66864",
+    "code": "1788",
+    "title": "リーフレッシュ(歯ブラシ)",
+    "price": 202,
+    "image": "images/1788.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1788.html",
+    "description": "朝起きた時や夜寝る前など、歯磨きは誰もが毎日の習慣となっている必要不可欠なもの。 形はオーソドックスで透明な歯ブラシはどんな方にも喜ばれます。",
+    "size": "プチギフトサイズ:50×200×20mm",
+    "material": "",
+    "contents": "商品内容:歯ブラシ1本",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※種類の指定はできません。 ※単品でのご購入は5個単位のご注文でお願い致します。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1788",
+        "t": "リーフレッシュ(歯ブラシ) 1788",
+        "price": 202
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/1788.jpg",
+        "alt": "リーフレッシュ(歯ブラシ) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/66864/1788_1.jpg",
+        "alt": "リーフレッシュ(歯ブラシ) 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1788": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

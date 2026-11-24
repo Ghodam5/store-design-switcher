@@ -1,0 +1,369 @@
+{
+  "active": true,
+  "product": {
+    "id": "39600",
+    "code": "flower-cb3",
+    "title": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組",
+    "price": 63360,
+    "image": "images/products/39600.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flower-cb3.html",
+    "description": "めでたい日に、華やかさを添えて演出します。 ウェルカム用1枚と両親贈呈用2枚のデザインが選べるクロックプレートに、美しいフラワーパーツ、光り輝くゴールドorシルバーのフレームをセットにした豪華なフラワークロックボードです。 フラワーパーツはオプションでフラワーポプリ、光触媒の選択ができます。 会場で使用するなら、フラワーポプリを選んでフローラルな香りで素敵な演出に。 日常使いを意識するなら、光触媒の消臭・防汚・抗菌の効果を選択! アクセントに使えるホワイトリボンは、両親贈呈用にはご両親のお名前を刺繍したものを。 ウェルカム用には、無地のリボンをお届けいたします。 リボンはボードの好きな箇所に接着剤などでつけて、お好みのアレンジができます。 ※Welcome用のフレームのみ、数量限定でSサイズフレームをMサイズに無料で変更できます。フレームの数に限りがございますのでお早目にご注文ください。",
+    "size": "Sサイズ:約33.5×42.5cm Mサイズ:約38×49cm",
+    "material": "",
+    "contents": "フラワークロックボード3枚(ウェルカム用1枚、両親贈呈用2枚)、紙イーゼル1枚(ウェルカム用)、メーカー保証書(1年)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※フレーム、フラワーパーツ、クロックプレートデザイン、光触媒orフラワーポプリのオプションをお選びください。 ※ご注文の際は、お名前と記念日とご両親のお名前を英字にてお知らせください。 ※ご両親のお名前はおひとり分でも刺繍可能です。 ※ウェルカム用のリボンは、ご希望があればお子様のお名前を刺繍できます。 ※Welcome(ウェルカム用)のフレームのみ、数量限定でSサイズフレームをMサイズに無料で変更できます。 ※木製イーゼルは付属しておりませんので、お客様にてご用意ください。 ※花が時計の針に当たらないよう、調整してからご使用ください。 ※壁掛け用の紐は付属しておりません。 ※紙製イーゼルはウェルカム用の1枚のみお付けいたします。",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board",
+      "parents"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "flower-cb3",
+        "t": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組",
+        "price": 63360
+      }
+    ],
+    "spec": {
+      "code": "flower-cb3",
+      "pid": "39600",
+      "fields": [
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "リボンのアレンジを固定仕様にする場合",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "希望しない（ストレート）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "希望する（ゆるふわカール）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "両親贈呈用2枚目:フレーム",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "両親贈呈用2枚目:プレートデザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "両親贈呈用2枚目:フラワーパーツ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "ウェルカム用：フラワーパーツ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "オールホワイト",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "両親贈呈用1枚目:フレーム",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "両親贈呈用1枚目:フラワーパーツ",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "両親贈呈用1枚目:プレートデザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "ウェルカム用：プレートデザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "バタフライ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "レース",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ブラウン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ローズ",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "ウェルカム用：フレーム",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ゴールド",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "シルバー",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "オプション",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "フラワーポプリ",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "光触媒",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "新郎様ご両親のお名前(例:kazuya & ayako )",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：kazuya & ayako"
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "新婦様ご両親のお名前(例:kazuya & ayako )",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：kazuya & ayako"
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "Mサイズへ無料変更（ウェルカム用のみ）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "不要",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "変更希望",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/39600.jpg",
+        "alt": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/39600/flower-cb3.jpg",
+        "alt": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/39600/20off.jpg",
+        "alt": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組 商品写真3",
+        "width": 650,
+        "height": 220
+      },
+      {
+        "src": "images/product-details/39600/flower-cb3-01.jpg",
+        "alt": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組 商品写真4",
+        "width": 650,
+        "height": 1110
+      },
+      {
+        "src": "images/product-details/39600/flower-cb3-02.jpg",
+        "alt": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組 商品写真5",
+        "width": 650,
+        "height": 1160
+      },
+      {
+        "src": "images/product-details/39600/flower-cb3-03.jpg",
+        "alt": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組 商品写真6",
+        "width": 650,
+        "height": 1060
+      },
+      {
+        "src": "images/product-details/39600/flower-cb3-04.jpg",
+        "alt": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組 商品写真7",
+        "width": 650,
+        "height": 725
+      },
+      {
+        "src": "images/product-details/39600/flower-cb3-05.jpg",
+        "alt": "フラワークロックボード ウェルカム用1枚+両親贈呈用2枚組 商品写真8",
+        "width": 650,
+        "height": 690
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "flower-cb3": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "active": true,
+  "product": {
+    "id": "43667",
+    "code": "hf63004",
+    "title": "リボンワンズ・パステル 10本セット",
+    "price": 1750,
+    "image": "images/products/43667.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf63004.html",
+    "description": "",
+    "size": "スティック30cm、リボン58cm",
+    "material": "",
+    "contents": "鈴付きリボンワンズ10本",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "shower"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf63004",
+        "t": "リボンワンズ・パステル 10本セット",
+        "price": 1750
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf63004": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

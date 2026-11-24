@@ -1,0 +1,77 @@
+{
+  "active": true,
+  "product": {
+    "id": "66906",
+    "code": "1803",
+    "title": "メオトヅル（こんぺいとう）1個 1803",
+    "price": 241,
+    "image": "images/1803.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1803.html",
+    "description": "夫婦円満と延命長寿、ゲストに贈る吉祥モチーフ。 鶴は夫婦の絆がとても強く、つがいになると障害同じ相手と添い遂げるといわれており、さらに、長寿の象徴ともされていることから婚礼シーンにぴったりのモチーフとして好まれています。",
+    "size": "プチギフトサイズ:67×65×90mm",
+    "material": "",
+    "contents": "商品内容:こんぺいとう約20g入り",
+    "expiry": "",
+    "allergens": "アレルゲン:なし",
+    "storage": "",
+    "notice": "※色の指定はできません ※単品でのご購入は5個単位のご注文でお願い致します。",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "candy"
+    ],
+    "tags": [
+      "売れ筋"
+    ],
+    "skus": [
+      {
+        "code": "1803",
+        "t": "メオトヅル(こんぺいとう)1個 1803",
+        "price": 241
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/1803.jpg",
+        "alt": "メオトヅル（こんぺいとう）1個 1803 商品写真1",
+        "width": 520,
+        "height": 520
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1803": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

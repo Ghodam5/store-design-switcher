@@ -1,0 +1,79 @@
+{
+  "active": true,
+  "product": {
+    "id": "55241",
+    "code": "conf168",
+    "title": "京・宇治抹茶ばうむ",
+    "price": 800,
+    "image": "images/conf168.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/conf168.html",
+    "description": "しっとりとしたバウム生地に、京都・宇治の抹茶を練りこんだ、上品で大人な「和」スイーツ。 抹茶本来の自然な色と甘みをお楽しみください。",
+    "size": "BOXサイズ:158×152×60mm",
+    "material": "",
+    "contents": "内容:抹茶バウムクーヘン(約φ130×35mm)1個",
+    "expiry": "賞味期限:約20日",
+    "allergens": "アレルゲン:小麦・卵・乳",
+    "storage": "",
+    "notice": "ギフトパッケージで仕上げておりますので、のし紙・包装は省かせていただきます。 ご注文は納品日の2週間前までにお願い致します。",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "conf168",
+        "t": "京・宇治抹茶ばうむ//conf168",
+        "price": 800
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/conf168.jpg",
+        "alt": "京・宇治抹茶ばうむ 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/55241/conf168_1.jpg",
+        "alt": "京・宇治抹茶ばうむ 商品写真2",
+        "width": 600,
+        "height": 600
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "conf168": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

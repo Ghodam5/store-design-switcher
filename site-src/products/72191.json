@@ -1,0 +1,151 @@
+{
+  "active": true,
+  "product": {
+    "id": "72191",
+    "code": "fla807kingyo",
+    "title": "FLAVOR 涼やか金魚ラッピング メープルシフォン(箱入) ふ…",
+    "price": 3150,
+    "image": "images/fla807kingyo.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/御中元-flavor-涼やか金魚ラッピング-メープルシフォン.html",
+    "description": "「金運上昇」「魔除け」「商売繁盛」の 象徴として縁起の良いといわれる金魚はギフトにピッタリ。 水面を泳ぐその姿で涼やかさをお届けします。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更は有料対応) ※北海道沖縄一部離島宛ては配送日数分、消費期限が短くなります。あらかじめご了承ください。 ※賞味期限都合上、配送に5日以上必要な地域への配送ご注文はキャンセル手配させていただきます。 内容:メープルシフォンケーキ1個 サイズ:直径16cm 高さ16cm 賞味期限:出荷日より約10日",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla807kingyo",
+        "t": "FLAVOR 涼やか金魚ラッピング メープルシフォン",
+        "price": 3150
+      }
+    ],
+    "spec": {
+      "code": "fla807kingyo",
+      "pid": "72191",
+      "fields": [
+        {
+          "k": "お知らせ（長文の項目名）",
+          "part": "notice",
+          "role": "",
+          "label": "オリジナルラッピングの為、「のし・包装」対象外商品/フードロス削減の為、ご注文後の配送日・配送先変更は有料",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "配送日指定にご協力ください※6日以内での配送は「お急ぎ料金」が発生",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "通常出荷※約7営業日後発送",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "配送日指定(10日後より有効",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "お急ぎ発送（3～6日発送）※お急ぎ料金(1000～2000円、日数により変動）追加に同意し注文※",
+              "fee": {
+                "amt": 2000,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は別途送料加算※同意がない場合キャンセルします",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/fla807kingyo.jpg",
+        "alt": "FLAVOR 涼やか金魚ラッピング メープルシフォン(箱入) ふ… 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/72191/fla807kingyo-01.jpg",
+        "alt": "FLAVOR 涼やか金魚ラッピング メープルシフォン(箱入) ふ… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/72191/flavor-img.jpg",
+        "alt": "FLAVOR 涼やか金魚ラッピング メープルシフォン(箱入) ふ… 商品写真3",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/72191/fla-hako202410.jpg",
+        "alt": "FLAVOR 涼やか金魚ラッピング メープルシフォン(箱入) ふ… 商品写真4",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla807kingyo": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

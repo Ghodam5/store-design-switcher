@@ -1,0 +1,101 @@
+{
+  "active": true,
+  "product": {
+    "id": "71173",
+    "code": "a686",
+    "title": "【引菓子】缶入りデニッシュパンセットA A686",
+    "price": 1512,
+    "image": "images/products/71173.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a686.html",
+    "description": "長期保存可能なデニッシュパンです。 常備食としても魅力的!! ほっとする優しい甘さで、しっとり、ふっくらとした2種類の美味しいデニッシュパンをお召し上がりください。",
+    "size": "商品サイズ:155×116×79mm",
+    "material": "",
+    "contents": "商品内容:缶入りデニッシュパン リッチミルク×1、 缶入りデニッシュパン チョコレート×1",
+    "expiry": "賞味期限:2年(長期保存可能)",
+    "allergens": "アレルゲン:小麦・卵・乳成分",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "sweets"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a686",
+        "t": "缶入りデニッシュパンセットA A686",
+        "price": 1512
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71173.jpg",
+        "alt": "【引菓子】缶入りデニッシュパンセットA A686 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71173/a686_1.jpg",
+        "alt": "【引菓子】缶入りデニッシュパンセットA A686 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "listing": {
+    "image": "images/products/71173.jpg"
+  },
+  "feature": {
+    "id": "71173",
+    "name": "【引菓子】缶入りデニッシュパンセットA A686【防災・非常食・備蓄】【包装・のし対応】",
+    "title": "缶入りデニッシュパンセットA",
+    "url": "https://www.luna-luce.jp/item/a686.html",
+    "groups": [
+      "preparedness"
+    ],
+    "image": "images/features/a686.jpg",
+    "description": "長期保存可能なデニッシュパンです。 常備食としても魅力的!! ほっとする優しい甘さで、しっとり、ふっくらとした2種類の美味しいデニッシュパンをお召し上がりください。",
+    "size": "商品サイズ:155×116×79mm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2025-11-19"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a686": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "active": true,
+  "product": {
+    "id": "53484",
+    "code": "sale3740",
+    "title": "寿々 日本製(大阪 泉州)木箱入 紅白タオルギフト",
+    "price": 1380,
+    "image": "images/features/sale3740.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/sale3740.html",
+    "description": "バスタオル・フェイスタオル・ハンドタオル各1本を高級感のある木箱で紅白のめでたい彩りの国産タオルを数量限定でご案内! 定価4320円(税込)を半額以下の価格にてご用意! 今治と対をなすタオルの生産地・泉州の匠が織りなす肌に優しい吸水性のよいタオルです。 引出物・ご挨拶ご自宅用などにお使いください♪",
+    "size": "箱サイズ:23.5×31.5×6.5cm",
+    "material": "",
+    "contents": "フェイスタオル(約34×80cm)1枚、 大判バスタオル(約60×120cm)1枚、ハンドタオル(約34×35cm)1枚",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※数量限定販売です、売り切れの際はご容赦くださいますようお願い申し上げます。",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "sale3740",
+        "t": "寿々 日本製(大阪 泉州)木箱入 紅白タオルセット 3740",
+        "price": 1380
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": true,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/sale3740.jpg",
+        "alt": "寿々 日本製(大阪 泉州)木箱入 紅白タオルギフト 商品写真1",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "53484",
+    "name": "【本店限定 在庫限り特価 半額以下】3740 寿々 日本製(大阪 泉州)木箱入 紅白タオルギフト【ご挨拶 引出物 敬老 還暦祝 慶事 縁起物】",
+    "title": "寿々 日本製(大阪 泉州)木箱入 紅白タオルギフト",
+    "url": "https://www.luna-luce.jp/item/sale3740.html",
+    "groups": [
+      "sale"
+    ],
+    "image": "images/features/sale3740.jpg",
+    "description": "バスタオル・フェイスタオル・ハンドタオル各1本を高級感のある木箱で紅白のめでたい彩りの国産タオルを数量限定でご案内! 定価4320円(税込)を半額以下の価格にてご用意! 今治と対をなすタオルの生産地・泉州の匠が織りなす肌に優しい吸水性のよいタオルです。 引出物・ご挨拶ご自宅用などにお使いください♪",
+    "size": "箱サイズ:23.5×31.5×6.5cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-04-20"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "sale3740": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "active": true,
+  "product": {
+    "id": "71097",
+    "code": "a659",
+    "title": "【引き出物】TSUTSUMI 瑞穂の恵みD",
+    "price": 6048,
+    "image": "images/products/71097.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/a659.html",
+    "description": "日本人の体に深く染み渡る瑞穂の恵みの豊かで繊細な優しい風味を、おもてなしの心で包みました。",
+    "size": "商品サイズ:300×190×71mm",
+    "material": "",
+    "contents": "商品内容:秋田産 あきたこまち30 0g ×1、千葉産 ふさおとめ30 0g ×1、 宮城産 ひとめぼれ30 0g ×1、山形産 つや姫30 0g ×1、 風呂敷(360×360mm)×4(材質:ポリエステル)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono",
+      "hikigashi"
+    ],
+    "subs": [
+      "gohan"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "a659",
+        "t": "TSUTSUMI 瑞穂の恵みD A659",
+        "price": 6048
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/71097.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵みD 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71097/a659_1.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵みD 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71097/a659_2.jpg",
+        "alt": "【引き出物】TSUTSUMI 瑞穂の恵みD 商品写真3",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "OCEAN & TERRE"
+    ],
+    "speed": false,
+    "skus": {
+      "a659": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

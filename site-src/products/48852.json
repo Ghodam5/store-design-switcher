@@ -1,0 +1,204 @@
+{
+  "active": true,
+  "product": {
+    "id": "48852",
+    "code": "pb302oiwaikairo",
+    "title": "名入れ対応プチギフト 御祝カイロPB(かいろ1枚入り) 1個 お年賀",
+    "price": 258,
+    "image": "images/pb302oiwaikairo.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pochi-kairo.html",
+    "description": "ちょっとしたお祝いや御礼には心まであたたまるカイロのプチギフトを。 6種から選べる和柄デザインに 表書きとお名入れ(メッセージもOK)がお入れできます♪ ※1柄10個以上、表書き&お名入れ同一内容でのご注文受付商品です。 ※「貼らないカイロ」「貼るカイロ」いずれか(または混在)でのお届けとなります。ご指定はご容赦ください。販売時期により、カイロの仕様(サイズ、持続時間)が異なる場合がございます。",
+    "size": "",
+    "material": "",
+    "contents": "内容:カイロ1枚 ラッピングサイズ:約10×10×2×cm",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※商品購入に最低購入数がございます。ご確認の上ご購入ください。 ※商品の仕様(ラッピング・リボン色、お菓子のメーカー、形状、味、販売価格は変更になる場合がございます。 ※ご注文後の減数、キャンセルはお受け出来ません。増数は納期を延長させていただく場合がございます。 ※100個以上での大口注文の場合は一度お問合せください。在庫の状況によりお受けできない場合がございます",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "nairi",
+      "season"
+    ],
+    "subs": [
+      "goods"
+    ],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "pb302oiwaikairo",
+        "t": "御祝カイロPB(名入れ対応)",
+        "price": 258
+      }
+    ],
+    "spec": {
+      "code": "pb302oiwaikairo",
+      "pid": "48852",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "お名入れ入力欄はお客様にて文字数カウントが必要です。",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した/文字数超過は原稿作成手数料￥500+1文字ごとに20円追加に同意",
+              "fee": null,
+              "over": {
+                "base": 500,
+                "per": 20
+              }
+            }
+          ]
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "text",
+          "role": "m",
+          "label": "C/お名入れ・メッセージなど20字迄",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": "",
+          "over": {
+            "base": 500,
+            "per": 20,
+            "perUnit": false,
+            "agreeField": 0,
+            "agreeHas": "確認した/文"
+          },
+          "overAllowed": true
+        },
+        {
+          "k": "熨斗",
+          "part": "common",
+          "role": "",
+          "label": "B/表書き",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "A/デザイン※1種10個より受付",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "A富士",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "B祝い鯛",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "C大入",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "D玉手箱",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "E助六",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "F福助",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "12月第２週までご注文受付商品です",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": 10,
+      "notes": []
+    },
+    "minq": 10,
+    "minnote": "",
+    "hasName": true,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "notes": [
+      "order-mail",
+      "min-qty",
+      "bulk-100",
+      "spec-change",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/pb302oiwaikairo.jpg",
+        "alt": "名入れ対応プチギフト 御祝カイロPB(かいろ1枚入り) 1個 お年賀 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/48852/pb302oiwaikairo-01.jpg",
+        "alt": "名入れ対応プチギフト 御祝カイロPB(かいろ1枚入り) 1個 お年賀 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/48852/pb302oiwaikairo-02.jpg",
+        "alt": "名入れ対応プチギフト 御祝カイロPB(かいろ1枚入り) 1個 お年賀 商品写真3",
+        "width": 702,
+        "height": 705
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb302oiwaikairo": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

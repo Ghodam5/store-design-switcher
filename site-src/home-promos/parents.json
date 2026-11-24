@@ -1,0 +1,16 @@
+{
+  "id": "parents",
+  "active": true,
+  "title": "ご両親へ、ありがとうを形に",
+  "text": "生まれた日の重さと、大切な思い出を贈る。",
+  "image": "images/2024ag-d5as.jpg",
+  "href": "category.html?g=parents&m=doll",
+  "cta": "ご両親への贈り物を見る",
+  "ids": [
+    "42902",
+    "1521",
+    "1524",
+    "1510"
+  ],
+  "theme": "lavender"
+}

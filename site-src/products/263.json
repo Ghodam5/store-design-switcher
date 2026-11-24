@@ -1,0 +1,254 @@
+{
+  "active": true,
+  "product": {
+    "id": "263",
+    "code": "WB-C165N_C165B",
+    "title": "スタイリッシュ ペンダントクロック",
+    "price": 14980,
+    "image": "images/wb-c165n_c165b.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/wb-c165n_c165b.html",
+    "description": "「スタイリッシュペンダントクロック」はスタイリッシュなデザインに、輝くスクロフスキーが施されたお洒落な時計です。 文字盤下部には、おふたりのお名前、記念日が入り、使用シーンに合わせてPreciousDays・Welcome・Thank you・Happy Weddingの4パターンの英文からおひとつお選びいただけます。 (PreciousDaysはあなたが生まれてから結婚までの日数を計算し、印字いたします) デザインは全5種類、背板のカラーは8色よりお選びいただけるので、お部屋にぴったりのものがお選びいただけます。 ナチュラルシンプルなお部屋には「クレセントローズ」、明るくカジュアルなお部屋には「ハッピィクローバー」、シックなモノトーンのお部屋には「ロイヤルアイビー」、女性らしい可愛いお部屋には「アイシングシュガー」「ティアラ」がオススメです。",
+    "size": "サイズ:約W130×H445×D60mm 重量:約1110g メーカー保証:1年間",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※特注も+別料金にて承っております。詳細はお電話にてご案内致しますのでお気軽にお問い合わせください。 ※ディスプレイの性質上、実際の商品の色合いと異なって見える場合がございます。ご理解下さいますようお願いします。 ※ご注文時にお名前と記念日を必ずご記入ください。(PreciousDaysをお選びの場合は誕生日もお願いいたします) ※ご入力内容はすべて半角英数字と記号のみ対応となります。 ※漢字・ひらがな等の日本語や全角記号を使用しての製作を希望の場合は、一度ご相談ください。 ※専用ギフトボックスに入れてのお届けとなりますので、包装・のし掛け・ラッピングには対応いたしかねます。 ※商品が届きましたら、一度商品を開封し、印字内容の確認と商品に破損がないかお確かめください。",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board",
+      "parents"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "WB-C165N_C165B",
+        "t": "スタイリッシュ ペンダントクロック",
+        "price": 14980
+      }
+    ],
+    "spec": {
+      "code": "WB-C165N_C165B",
+      "pid": "263",
+      "fields": [
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "英文",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "Welcome（WD-66）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Thank you（WD-67）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Happy　Wedding（WD-69）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Precious Days（WD-65）※日数計算をお店に依頼+500円加算",
+              "fee": {
+                "amt": 500,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            },
+            {
+              "t": "Precious Days（WD-65）※日数をお客様にて計算、日数連絡",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "カラー",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ナチュラル（N）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ブラウン（B）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "※選択のない柄は販売終了",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "記念日（例：○○○○ .○○ . ○○ ）英数字 ※入力されたとおりに製作します",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：○○○○ .○○ . ○○"
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "お名前（例：○○＆○○）英字 ※単独・連名OK",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：○○＆○○"
+        },
+        {
+          "k": "名入れ：生年月日",
+          "part": "text",
+          "role": "d",
+          "label": "誕生日or日数を入力 ※英文Precious Daysをご選択の方のみ",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "デザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "ロイヤルアイビー（AG-C11D）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "クレセントローズ（AG-C17R）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ティアラ（AG-C19T）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ハッピィクローバー（AG-C09C）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/wb-c165n_c165b.jpg",
+        "alt": "スタイリッシュ ペンダントクロック 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/263/WB-C165N_C165B.jpg",
+        "alt": "スタイリッシュ ペンダントクロック 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/263/spc01.jpg",
+        "alt": "スタイリッシュ ペンダントクロック 商品写真3",
+        "width": 650,
+        "height": 930
+      },
+      {
+        "src": "images/product-details/263/spc02.jpg",
+        "alt": "スタイリッシュ ペンダントクロック 商品写真4",
+        "width": 650,
+        "height": 890
+      },
+      {
+        "src": "images/product-details/263/spc03.jpg",
+        "alt": "スタイリッシュ ペンダントクロック 商品写真5",
+        "width": 650,
+        "height": 1230
+      },
+      {
+        "src": "images/product-details/263/scene.jpg",
+        "alt": "スタイリッシュ ペンダントクロック 商品写真6",
+        "width": 650,
+        "height": 390
+      },
+      {
+        "src": "images/product-details/263/WB-C165N_C165B-01.jpg",
+        "alt": "スタイリッシュ ペンダントクロック 商品写真7",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/263/WB-C165N_C165B-02.jpg",
+        "alt": "スタイリッシュ ペンダントクロック 商品写真8",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "wb-c165n_c165b": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

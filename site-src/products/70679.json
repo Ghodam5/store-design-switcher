@@ -1,0 +1,223 @@
+{
+  "active": true,
+  "product": {
+    "id": "70679",
+    "code": "fla801nnnmaple",
+    "title": "世界猫の日発売 FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル(箱入り) 夏デザイン スイーツ フレイバー 猫 ミニTをシャツイメージ",
+    "price": 3122,
+    "image": "images/features/fla801nnnmaple.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/世界猫の日発売-flavor-nnn-（ネコヌコニャン）チャリテ.html",
+    "description": "猫好きのための、猫好きによる、猫ラッピングシフォン。 中身はうみゃーいメープルシフォンにゃ。 ふれいみゃーさんのシフォンは大人気にゃのだ。 よーくみたらチャトラにみえてくるにゃも? チャリティーグッズ付! 売上金の一部がチャリティーとして寄付されるギフトアイテム付です。 可愛いネコがデザインされたシフォンで、無理のない範囲でチャリティー活動を始めてみませんか? 売上の一部を、全国の動物保護支援を行う「公益社団法人アニマル・ドネーション」様に寄付いたします。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。",
+    "size": "直径16cm 高さ16cm",
+    "material": "",
+    "contents": "メープルシフォンケーキミドルサイズ 1個 チャリティーネコアイテム 1点付",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi",
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla801nnnmaple-honsyu",
+        "t": "送料無料(本州九州四国宛て) FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル",
+        "price": 3122
+      },
+      {
+        "code": "fla801nnnmaple-rito",
+        "t": "北海道沖縄離島送料込みはコチラ FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル",
+        "price": 4422
+      }
+    ],
+    "spec": {
+      "code": "fla801nnnmaple",
+      "pid": "70679",
+      "fields": [
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "メッセージ選択",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "愛は猫を救う",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "猫は地球を救う",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "猫は人類を救う",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "猫は人を愛でる",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ラッピング不要",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ラッピング＆チャリティグッズ不要",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "配送日指定にご協力ください※お急ぎ配送不可商品",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "通常出荷※約7営業日後発送",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "配送日指定(10日後より有効",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "お知らせ（長文の項目名）",
+          "part": "notice",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は別途送料加算※５日以上配送にかかる地域、同意がない場合キャンセルします",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [
+        {
+          "t": "送料無料（本州九州四国宛て)　FLAVOR NNN （ネコヌコニャン）チャリティ シフォンケーキ メープル ミドル",
+          "price": 3122
+        },
+        {
+          "t": "北海道沖縄離島送料込みはコチラ　FLAVOR NNN （ネコヌコニャン）チャリティ シフォンケーキ メープル ミドル",
+          "price": 4422
+        }
+      ],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/fla801nnnmaple.jpg",
+        "alt": "世界猫の日発売 FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル(箱入り) 夏デザイン スイーツ フレイバー 猫 ミニTをシャツイメージ 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70679/fla801nnnmaple-01.jpg",
+        "alt": "世界猫の日発売 FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル(箱入り) 夏デザイン スイーツ フレイバー 猫 ミニTをシャツイメージ 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70679/ecoflavor-104-101-01.jpg",
+        "alt": "世界猫の日発売 FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル(箱入り) 夏デザイン スイーツ フレイバー 猫 ミニTをシャツイメージ 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/70679/flavor-img.jpg",
+        "alt": "世界猫の日発売 FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル(箱入り) 夏デザイン スイーツ フレイバー 猫 ミニTをシャツイメージ 商品写真4",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/70679/fla-hako202410.jpg",
+        "alt": "世界猫の日発売 FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル(箱入り) 夏デザイン スイーツ フレイバー 猫 ミニTをシャツイメージ 商品写真5",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "feature": {
+    "id": "70679",
+    "name": "世界猫の日発売 FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル(箱入り)送料無料 夏デザイン 人気 定番 おもたせ 手土産 誕生日 スイーツ フレイバー 猫 ミニTをシャツイメージ",
+    "title": "世界猫の日発売 FLAVOR NNN (ネコヌコニャン)チャリティ シフォンケーキ メープル ミドル(箱入り) 夏デザイン スイーツ フレイバー 猫 ミニTをシャツイメージ",
+    "url": "https://www.luna-luce.jp/item/世界猫の日発売-flavor-nnn-（ネコヌコニャン）チャリテ.html",
+    "groups": [
+      "neko",
+      "new"
+    ],
+    "image": "images/features/fla801nnnmaple.jpg",
+    "description": "猫好きのための、猫好きによる、猫ラッピングシフォン。 中身はうみゃーいメープルシフォンにゃ。 ふれいみゃーさんのシフォンは大人気にゃのだ。 よーくみたらチャトラにみえてくるにゃも? チャリティーグッズ付! 売上金の一部がチャリティーとして寄付されるギフトアイテム付です。 可愛いネコがデザインされたシフォンで、無理のない範囲でチャリティー活動を始めてみませんか? 売上の一部を、全国の動物保護支援を行う「公益社団法人アニマル・ドネーション」様に寄付いたします。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。",
+    "size": "直径16cm 高さ16cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-08-17"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla801nnnmaple-honsyu": {
+        "code": "0",
+        "quantity": null
+      },
+      "fla801nnnmaple-rito": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

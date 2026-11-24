@@ -1,0 +1,86 @@
+{
+  "active": true,
+  "product": {
+    "id": "53684",
+    "code": "pb-santagift",
+    "title": "サンタのギフトバッグ(中身お任せのお菓子入り)",
+    "price": 250,
+    "image": "images/pb-santagift.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-santagift.html",
+    "description": "聖なる夜にささやかなプレゼントを贈るならこんなプチギフトはいかが? サンタが背負った白い袋の中にはいろんなお菓子の詰め合わせた心躍るクリスマスプレゼント! ※中に入るお菓子の組み合わせはお任せになります",
+    "size": "サイズ:約15×16×5cm",
+    "material": "",
+    "contents": "ミニチョコブラウニー、またはミニロールケーキ(ミルク・チョコ・ストロベリー)1個、ハートチョコ1個、こんぺいとう5gなど中身はお任せ",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "other"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-santagift",
+        "t": "サンタのギフトバッグ(中身お任せのお菓子入り)",
+        "price": 250
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/pb-santagift.jpg",
+        "alt": "サンタのギフトバッグ(中身お任せのお菓子入り) 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/53684/pb-santagift.jpg",
+        "alt": "サンタのギフトバッグ(中身お任せのお菓子入り) 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/53684/pb-santagiftimg.jpg",
+        "alt": "サンタのギフトバッグ(中身お任せのお菓子入り) 商品写真3",
+        "width": 700,
+        "height": 630
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-santagift": {
+        "code": "2",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "active": true,
+  "product": {
+    "id": "47667",
+    "code": "kosodate-sepiabox",
+    "title": "【子育て卒業証書】Sepia Gift Box（セピアギフトボックス）",
+    "price": 13704,
+    "image": "images/products/47667.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/kosodate-sepiabox.html",
+    "description": "幼少期と現在の写真2枚をセピア加工して、全面に大きく印刷した写真が目を惹く感謝状。 奥行き感のある前後印刷で世界に一つの感謝状をお作りします。 結婚式での贈呈セレモニーでも映えるよう、専用のラッピングBOXでお届けいたします。 白とセピアを基調とした落ち着いたトーンの子育て卒業証書です。 お部屋のインテリアとしてさりげなく飾っていただけます。 【期間限定特典】2枚同時購入すると、写真撮影で活躍するフォトプロップスボードをプレゼント♪",
+    "size": "商品サイズ/約315×230×35mm(ガラス入りBOXフレーム)",
+    "material": "",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※お名前は原則単独での製作です。連名をご希望の際はお知らせください。 ※ご注文後、使用する写真を別途メールにて、 info@luna-luce.jp までお送りください。 ※メールで画像を送る際、ご注文者様のお名前を本文にご記入下さい。 ※画像ファイル名をそれぞれ、ご新郎様・ご新婦様のお名前にして頂きます様お願いします。 (例:taro.jpg hanako.jpg など) ※添付写真データは、商品作成後に消去させて頂きます。 ※メールでの送信が難しい場合は、弊社まで使用したい写真をお送りください。 ※お送りいただきました写真は返品不可となりますので、ご了承下さい。 ※お客様から当社へ写真を郵送中の紛失に関しましては、一切責任を負いかねます。 ※顔のはっきり分かる写真をご用意下さい。 ※画像のファイルサイズが1MB以上のものが好ましいです。 ※添付写真は返品不可となりますので、ご了承下さい。 ※納品目安は約14日となっておりますが、受注状況により多少前後する場合がございます。 プレゼント・結婚式等にお使いになる場合は日数に余裕をもってお申し込み下さい。 ※こちらの商品は完全受注生産のため、ご注文後のキャンセルはご遠慮頂いております。",
+    "category": "両親贈呈",
+    "categories": [
+      "kosodate",
+      "parents"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "kosodate-sepiabox",
+        "t": "子育て卒業証書 セピアギフトボックス 1個",
+        "price": 13704
+      }
+    ],
+    "spec": {
+      "code": "kosodate-sepiabox",
+      "pid": "47667",
+      "fields": [
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "お名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：生年月日",
+          "part": "text",
+          "role": "d",
+          "label": "生年月日（例：1988年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：1988年12月24日"
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "定型文",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "01.結婚式/感謝",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "02.結婚式/世界一",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "03.結婚式/宝物",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "04.旅立ち",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "05.卒業",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "06.成人",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "07.巣立ち",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "08.自由文",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "お父様のお名前(例:誠 ﾏｺﾄ)",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：誠 ﾏｺﾄ"
+        },
+        {
+          "k": "名入れ：両親の名前",
+          "part": "text",
+          "role": "n",
+          "label": "お母様のお名前(例:唯 ﾕｲ)",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：唯 ﾕｲ"
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "area",
+          "role": "m",
+          "label": "自由文・備考をお書きください",
+          "req": false,
+          "form": "テキスト複数行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "特典",
+          "part": "notice",
+          "role": "",
+          "label": "2枚同時注文でスペシャル特典",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/products/47667.jpg",
+        "alt": "【子育て卒業証書】Sepia Gift Box（セピアギフトボックス） 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47667/kosodate-sepiabox.jpg",
+        "alt": "【子育て卒業証書】Sepia Gift Box（セピアギフトボックス） 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/47667/kosodate-sepiabox01.jpg",
+        "alt": "【子育て卒業証書】Sepia Gift Box（セピアギフトボックス） 商品写真3",
+        "width": 650,
+        "height": 1290
+      },
+      {
+        "src": "images/product-details/47667/kosodate-sepiabox02.jpg",
+        "alt": "【子育て卒業証書】Sepia Gift Box（セピアギフトボックス） 商品写真4",
+        "width": 650,
+        "height": 1190
+      },
+      {
+        "src": "images/product-details/47667/kosodate-sepiabox03.jpg",
+        "alt": "【子育て卒業証書】Sepia Gift Box（セピアギフトボックス） 商品写真5",
+        "width": 650,
+        "height": 750
+      },
+      {
+        "src": "images/product-details/47667/kosodate-sepiabox04.jpg",
+        "alt": "【子育て卒業証書】Sepia Gift Box（セピアギフトボックス） 商品写真6",
+        "width": 650,
+        "height": 340
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "kosodate-sepiabox": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

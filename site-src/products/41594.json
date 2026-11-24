@@ -1,0 +1,85 @@
+{
+  "active": true,
+  "product": {
+    "id": "41594",
+    "code": "pb-rabbitbear",
+    "title": "PB-ラビットベア 単品",
+    "price": 388,
+    "image": "images/pb-rabbitbear.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/pb-rabbitbear.html",
+    "description": "タキシードとウェディングドレスに身を包んだ、クマとウサギのちょっとリッチな可愛いプチギフト! 一つのパッケージの中に、こんぺいとうとクッキーが入った小箱がそれぞれ1つずつ入っており、2種類のお菓子が楽しめます。 結婚式・二次会・発表会などでお配りするのにオススメです。",
+    "size": "5×5×10cm",
+    "material": "",
+    "contents": "ハートクッキー5枚(ストロベリー×3、バニラ×2)、こんぺいとう10g",
+    "expiry": "賞味期限:三か月",
+    "allergens": "",
+    "storage": "常温保存",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit"
+    ],
+    "subs": [
+      "other"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "pb-rabbitbear",
+        "t": "PB-ラビットベア",
+        "price": 388
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/pb-rabbitbear.jpg",
+        "alt": "PB-ラビットベア 単品 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/41594/pb-rabbitbear.jpg",
+        "alt": "PB-ラビットベア 単品 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/41594/pb-rabbitbear01.jpg",
+        "alt": "PB-ラビットベア 単品 商品写真3",
+        "width": 650,
+        "height": 1060
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "pb-rabbitbear": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

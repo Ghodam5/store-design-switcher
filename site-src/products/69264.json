@@ -1,0 +1,81 @@
+{
+  "active": true,
+  "product": {
+    "id": "69264",
+    "code": "1839",
+    "title": "【演出用品】結婚証明書 シャイニー ホワイト チャペル式用",
+    "price": 3256,
+    "image": "images/products/69264.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1839.html",
+    "description": "誓いの言葉と結婚指輪、そしてこの結婚証明書に永遠の愛を誓って、ふたりの想いを託す愛の証。 愛を誓い、お二人で署名をします。",
+    "size": "商品サイズ:270×200×10mm",
+    "material": "材質:合皮・スワロフスキー",
+    "contents": "商品内容:証明書2枚入(本人記入用1枚、司会者記入用1枚) 用紙取り外し可",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "cert"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1839",
+        "t": "結婚証明書 シャイニー ホワイト チャペル式用 1839",
+        "price": 3256
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/69264.jpg",
+        "alt": "【演出用品】結婚証明書 シャイニー ホワイト チャペル式用 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69264/1839_1.jpg",
+        "alt": "【演出用品】結婚証明書 シャイニー ホワイト チャペル式用 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1839": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

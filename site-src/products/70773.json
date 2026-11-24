@@ -1,0 +1,129 @@
+{
+  "active": true,
+  "product": {
+    "id": "70773",
+    "code": "hf-1342",
+    "title": "Nekoテトラ",
+    "price": 172,
+    "image": "images/features/hf-1342.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf-1342.html",
+    "description": "人気の黒猫のかわいい仕草が癒されます。 金平糖は優しい色合いでおひなさま、敬老などのお祝いごとにもピッタリです。",
+    "size": "商品サイズ:7×6.5×7.5cm",
+    "material": "",
+    "contents": "商品内容:こんぺいとう",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "other"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf-1342",
+        "t": "Nekoテトラ 1342",
+        "price": 172
+      }
+    ],
+    "spec": {
+      "code": "hf-1342",
+      "pid": "70773",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "20個以上でご注文ください。※19個迄は自動キャンセル",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 20,
+      "notes": []
+    },
+    "minq": 20,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/hf-1342.jpg",
+        "alt": "Nekoテトラ 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/70773/21item.jpg",
+        "alt": "Nekoテトラ 商品写真2",
+        "width": 700,
+        "height": 100
+      },
+      {
+        "src": "images/product-details/70773/hf-1342_1.jpg",
+        "alt": "Nekoテトラ 商品写真3",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "feature": {
+    "id": "70773",
+    "name": "【プチギフト】Nekoテトラ 1342【Halloween・こんぺいとう・ねこ】※20個よりご注文受付",
+    "title": "Nekoテトラ",
+    "url": "https://www.luna-luce.jp/item/hf-1342.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/hf-1342.jpg",
+    "description": "人気の黒猫のかわいい仕草が癒されます。 金平糖は優しい色合いでおひなさま、敬老などのお祝いごとにもピッタリです。",
+    "size": "商品サイズ:7×6.5×7.5cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-09-04"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf-1342": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

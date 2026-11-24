@@ -1,0 +1,200 @@
+{
+  "active": true,
+  "product": {
+    "id": "71369",
+    "code": "fla111fufu",
+    "title": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル(箱入り) いい夫婦の日 誕生 スイーツ フレイバー 11/22 11月22日",
+    "price": 3380,
+    "image": "images/features/fla111fufu.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/flavor-しあわせ感字-いいふうふ-シフォンケーキ-メープ.html",
+    "description": "絶大なファンが多いFLAVORのメープルシフォンを ルナオリジナルのしあわせ感字ラッピングでおとどけ 「愛」の文字に「いいふうふ」の文字がかくれんぼ。 贈る方、贈られる方、「しあわせを感じてもらえたら・・・」の想いでおつくりしました。 いつまでもいい夫婦でいたい、お二人からゲスト様への引き出物に ずっと素敵なご夫婦への記念日のお祝いに・・・ ・名披露目もかなう、お名入れ対応(20字迄) 離れて暮らす先様にはギフト配送も可能です。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます)",
+    "size": "直径約16cm 高さ16cm",
+    "material": "",
+    "contents": "メープルシフォンケーキ 1個",
+    "expiry": "約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "hikigashi",
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla111ari",
+        "t": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル",
+        "price": 3380
+      }
+    ],
+    "spec": {
+      "code": "fla111fufu",
+      "pid": "71369",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "北海道・沖縄・離島への配送は別途送料加算※同意がない場合キャンセルします",
+          "req": false,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "配送日指定にご協力ください※お急ぎ配送不可商品※",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "通常出荷※約7営業日後発送",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "配送日指定(10日後より有効",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "お名入れ+記念日 20字迄",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": "",
+          "over": {
+            "base": 500,
+            "per": 20,
+            "perUnit": false,
+            "agreeField": 3,
+            "agreeHas": "確認した/文"
+          },
+          "overAllowed": true
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "お名入れ入力欄はお客様にて文字数カウントが必要です。",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した/文字数超過の場合原稿作成手数料￥500+1文字ごとに20円追加に同意",
+              "fee": null,
+              "over": {
+                "base": 500,
+                "per": 20
+              }
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": false,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/fla111fufu.jpg",
+        "alt": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル(箱入り) いい夫婦の日 誕生 スイーツ フレイバー 11/22 11月22日 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71369/fla111fufu-01.jpg",
+        "alt": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル(箱入り) いい夫婦の日 誕生 スイーツ フレイバー 11/22 11月22日 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71369/fla111fufu-02.jpg",
+        "alt": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル(箱入り) いい夫婦の日 誕生 スイーツ フレイバー 11/22 11月22日 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/71369/flavor-img.jpg",
+        "alt": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル(箱入り) いい夫婦の日 誕生 スイーツ フレイバー 11/22 11月22日 商品写真4",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/71369/fla-hako202410.jpg",
+        "alt": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル(箱入り) いい夫婦の日 誕生 スイーツ フレイバー 11/22 11月22日 商品写真5",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "feature": {
+    "id": "71369",
+    "name": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル(箱入り)送料無料 いい夫婦の日 人気 定番 おもたせ 手土産 誕生 スイーツ フレイバー 11/22 11月22日",
+    "title": "FLAVOR しあわせ感字 いいふうふ シフォンケーキ メープル ミドル(箱入り) いい夫婦の日 誕生 スイーツ フレイバー 11/22 11月22日",
+    "url": "https://www.luna-luce.jp/item/flavor-しあわせ感字-いいふうふ-シフォンケーキ-メープ.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/fla111fufu.jpg",
+    "description": "絶大なファンが多いFLAVORのメープルシフォンを ルナオリジナルのしあわせ感字ラッピングでおとどけ 「愛」の文字に「いいふうふ」の文字がかくれんぼ。 贈る方、贈られる方、「しあわせを感じてもらえたら・・・」の想いでおつくりしました。 いつまでもいい夫婦でいたい、お二人からゲスト様への引き出物に ずっと素敵なご夫婦への記念日のお祝いに・・・ ・名披露目もかなう、お名入れ対応(20字迄) 離れて暮らす先様にはギフト配送も可能です。 ◆◆先様への直接配送もOK◆◆ ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます)",
+    "size": "直径約16cm 高さ16cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-08-17"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla111ari": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

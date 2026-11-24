@@ -1,0 +1,73 @@
+{
+  "active": true,
+  "product": {
+    "id": "50451",
+    "code": "con1125",
+    "title": "【20％OFF】立会人署名欄追加用箔押し仕様1枚（30名様分）",
+    "price": 240,
+    "image": "images/products/50451.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/con1125.html",
+    "description": "式を優雅に演出する必須アイテム。 シックなデザインで様々なシーンで幅広く活躍します。",
+    "size": "サイズ:257×182mm",
+    "material": "",
+    "contents": "1枚(30名様分)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "cert"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "con1125",
+        "t": "立会人署名欄追加用箔押し仕様1枚(30名様分)",
+        "price": 240
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 4,
+      "max": 6,
+      "made": false,
+      "source": "db",
+      "label": "4～6日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/50451.jpg",
+        "alt": "【20％OFF】立会人署名欄追加用箔押し仕様1枚（30名様分） 商品写真1",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "con1125": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

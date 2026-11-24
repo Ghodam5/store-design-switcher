@@ -1,0 +1,104 @@
+{
+  "active": true,
+  "product": {
+    "id": "21034",
+    "code": "w-bag-r00",
+    "title": "【ブライダルバッグ】レギュラー ML",
+    "price": 220,
+    "image": "images/features/21034.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/w-bag-r00.html",
+    "description": "マット加工を施した、どんなシーンにもマッチするブライダルバッグ。 袋の内側にはおめでたい紅白カラーで市松模様がプリントされており、内側のオシャレにもこだわったバッグです。 ※レギュラータイプのみ薄手の仕様です。 内容量が1kgを超える場合はエクセレント・ゴールドからお選び下さい。",
+    "size": "",
+    "material": "紙(マット加工)、紐",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "ブライダルバッグ",
+    "categories": [
+      "bag"
+    ],
+    "subs": [
+      "single"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "w-bag-r00",
+        "t": "【ブライダルバッグ】レギュラー サイズ:ML 1個",
+        "price": 220
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/features/21034.jpg",
+        "alt": "【ブライダルバッグ】レギュラー ML 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/21034/red.jpg",
+        "alt": "【ブライダルバッグ】レギュラー ML 商品写真2",
+        "width": 1000,
+        "height": 750
+      },
+      {
+        "src": "images/product-details/21034/bag_img01.jpg",
+        "alt": "【ブライダルバッグ】レギュラー ML 商品写真3",
+        "width": 630,
+        "height": 600
+      }
+    ]
+  },
+  "listing": {
+    "image": "images/features/w-bag-r00.jpg"
+  },
+  "feature": {
+    "id": "21034",
+    "name": "【ブライダルバッグ】レギュラー サイズ:ML",
+    "title": "レギュラー サイズ:ML",
+    "url": "https://www.luna-luce.jp/item/w-bag-r00.html",
+    "groups": [
+      "bag"
+    ],
+    "image": "images/features/21034.jpg",
+    "description": "マット加工を施した、どんなシーンにもマッチするブライダルバッグ。 袋の内側にはおめでたい紅白カラーで市松模様がプリントされており、内側のオシャレにもこだわったバッグです。 ※レギュラータイプのみ薄手の仕様です。 内容量が1kgを超える場合はエクセレント・ゴールドからお選び下さい。",
+    "size": "",
+    "material": "紙(マット加工)、紐",
+    "pack": 1,
+    "canDemo": true,
+    "updated": "2022-09-07"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "w-bag-r00": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

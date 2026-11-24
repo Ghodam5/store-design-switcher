@@ -1,0 +1,202 @@
+{
+  "active": true,
+  "product": {
+    "id": "1854",
+    "code": "WB-G911_G914",
+    "title": "ガラスボード",
+    "price": 12672,
+    "image": "images/wb-g911_g914.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/wb-g911_g914.html",
+    "description": "クリアな輝きのガラスボードに愛らしいデザインをし、インテリアとしてもお使い頂けるアイテムです。 ガラスボードにアートタッチで描かれた文字やデザインがおしゃれ。二人らしさの伝わるこだわりのアイテムです。。 ▼お急ぎ対応商品です▼",
+    "size": "21×29.7×0.5cm アクリルスタンド 光触媒ベースフラワー付き(花の色はお任せ下さい)",
+    "material": "ガラス スワロフスキー装飾",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※感謝の場合は彫刻する英文は選択できません。デザインを選択されても無効となりますのでご注意下さい)",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "WB-G911_G914",
+        "t": "【ブライダル】【ウェルカムボード】ガラスボード♪",
+        "price": 12672
+      }
+    ],
+    "spec": {
+      "code": "WB-G911_G914",
+      "pid": "1854",
+      "fields": [
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "彫刻する英文",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "Precious Days（WD-65）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Welcome（WD-66）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "Thank you（WD-67）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "ミラーデザイン",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "さくら（G911）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "ハート（G912）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "クローバー（G913）",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "感謝（G914）",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦の誕生日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "挙式年月日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎の誕生日（例：2008年12月24日）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：2008年12月24日"
+        },
+        {
+          "k": "名入れ：新郎",
+          "part": "text",
+          "role": "n",
+          "label": "ご新郎のお名前（例：直樹、Naoki）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：直樹、Naoki"
+        },
+        {
+          "k": "名入れ：新婦",
+          "part": "text",
+          "role": "n",
+          "label": "ご新婦のお名前（例：智美、Tomomi）",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：智美、Tomomi"
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": false,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/wb-g911_g914.jpg",
+        "alt": "ガラスボード 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/1854/WB-G911_G914-2.jpg",
+        "alt": "ガラスボード 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/1854/imgWB-G911_G914.jpg",
+        "alt": "ガラスボード 商品写真3",
+        "width": 700,
+        "height": 1170
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "wb-g911_g914": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

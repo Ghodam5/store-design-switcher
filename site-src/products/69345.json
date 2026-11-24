@@ -1,0 +1,170 @@
+{
+  "active": true,
+  "product": {
+    "id": "69345",
+    "code": "fla505hanayaka2026",
+    "title": "メープル シフォンケーキ ミドル HANAYAKA ハーバリウム…",
+    "price": 3300,
+    "image": "images/features/fla505hanayaka2026.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/数量限定-母の日-メープル-シフォンケーキ-ミドル-hanaya.html",
+    "description": "リピーター続出、大人気のFLAVORのメープルシフォン。 2026はハーバリウムとセットでお届けします。 あまーいシフォンと、きれいなハーバリウムでお母さんに癒しを届けます。 ・離れて暮らすお母さんにはギフト配送も可能です。 ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。 メープルシフォンケーキ1個'(直径16cm 高さ16cm) ハーバリウム1個( 約15.5×直径4.5cm)",
+    "size": "",
+    "material": "",
+    "contents": "",
+    "expiry": "消費期限:出荷日より約10日",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "引き菓子",
+    "categories": [
+      "chiffon",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "fla505hanayaka2026",
+        "t": "メープル シフォンケーキ ミドル HANAYAKA 2026 ハーバリウムつき ※北海道沖縄離島配送の場合は価格修正します",
+        "price": 3300
+      },
+      {
+        "code": "fla505hanayaka2026-rito",
+        "t": "北海道沖縄配送はコチラ メープル シフォンケーキ ミドル HANAYAKA 2026 ハーバリウムつき",
+        "price": 4600
+      }
+    ],
+    "spec": {
+      "code": "fla505hanayaka2026",
+      "pid": "69345",
+      "fields": [
+        {
+          "k": "配送・お届け日",
+          "part": "common",
+          "role": "",
+          "label": "母の日配送は4/28-AM12時締切りです※時間指定は午前中不可のエリアがございます",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "ハーバリウムのお色はおまかせです。（選べません）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "t": "メープル シフォンケーキ ミドル HANAYAKA 2026 ハーバリウムつき ※北海道沖縄離島配送の場合は価格修正します",
+          "price": 3300
+        },
+        {
+          "t": "北海道沖縄配送はコチラ メープル シフォンケーキ ミドル HANAYAKA 2026 ハーバリウムつき",
+          "price": 4600
+        }
+      ],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "notes": [
+      "order-mail",
+      "food-no-return",
+      "spec-change",
+      "no-noshi",
+      "season-delay"
+    ],
+    "photos": [
+      {
+        "src": "images/features/fla505hanayaka2026.jpg",
+        "alt": "メープル シフォンケーキ ミドル HANAYAKA ハーバリウム… 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69345/fla505hanayaka2026-01.jpg",
+        "alt": "メープル シフォンケーキ ミドル HANAYAKA ハーバリウム… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69345/fla505hanayaka2026-02.jpg",
+        "alt": "メープル シフォンケーキ ミドル HANAYAKA ハーバリウム… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/69345/flavor-img.jpg",
+        "alt": "メープル シフォンケーキ ミドル HANAYAKA ハーバリウム… 商品写真4",
+        "width": 700,
+        "height": 470
+      },
+      {
+        "src": "images/product-details/69345/fla-hako202410.jpg",
+        "alt": "メープル シフォンケーキ ミドル HANAYAKA ハーバリウム… 商品写真5",
+        "width": 700,
+        "height": 350
+      }
+    ]
+  },
+  "listing": {
+    "image": "images/fla505hanayaka2026.jpg"
+  },
+  "feature": {
+    "id": "69345",
+    "name": "数量限定 母の日 メープル シフォンケーキ ミドル HANAYAKA 2026 ハーバリウムつき ギフト フレイバー FLAVOR ふわふわシフォン 人気 定番 花",
+    "title": "メープル シフォンケーキ ミドル HANAYAKA ハーバリウムつき フレイバー FLAVOR ふわふわシフォン 花",
+    "url": "https://www.luna-luce.jp/item/数量限定-母の日-メープル-シフォンケーキ-ミドル-hanaya.html",
+    "groups": [
+      "new"
+    ],
+    "image": "images/features/fla505hanayaka2026.jpg",
+    "description": "リピーター続出、大人気のFLAVORのメープルシフォン。 2026はハーバリウムとセットでお届けします。 あまーいシフォンと、きれいなハーバリウムでお母さんに癒しを届けます。 ・離れて暮らすお母さんにはギフト配送も可能です。 ※ご注文時に配送先のご住所をお知らせください。(配送先の後日変更はお受けできない場合がございます) ※配送先に合った商品をカートにお入れください。 北海道沖縄離島配送あてで異なる商品を購入手続きされた場合、価格修正します。 メープルシフォンケーキ1個'(直径16cm 高さ16cm) ハーバリウム1個( 約15.5×直径4.5cm)",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-05-07"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "FLAVOR"
+    ],
+    "speed": false,
+    "skus": {
+      "fla505hanayaka2026": {
+        "code": "2",
+        "quantity": null
+      },
+      "fla505hanayaka2026-rito": {
+        "code": "2",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:1:{i:0;s:1:\"0\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

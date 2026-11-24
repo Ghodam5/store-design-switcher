@@ -1,0 +1,83 @@
+{
+  "active": true,
+  "product": {
+    "id": "66935",
+    "code": "1810",
+    "title": "福招きだるま(だるまキャンディ)1個",
+    "price": 224,
+    "image": "images/1810.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/1810.html",
+    "description": "愛嬌のある表情におもわず笑顔がこぼれる縁起の良いだるまさん。",
+    "size": "プチギフトサイズ:53×60×68mm",
+    "material": "",
+    "contents": "商品内容:だるまキャンディ3粒入り(アップル味)",
+    "expiry": "",
+    "allergens": "アレルゲン:なし",
+    "storage": "",
+    "notice": "※色の指定はできません ※単品でのご購入は5個単位のご注文でお願い致します。",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "candy",
+      "wafu"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "1810",
+        "t": "福招きだるま(だるまキャンディ)1個 1810",
+        "price": 224
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 3,
+      "max": 5,
+      "made": false,
+      "source": "db",
+      "label": "3～5日後"
+    },
+    "photos": [
+      {
+        "src": "images/1810.jpg",
+        "alt": "福招きだるま(だるまキャンディ)1個 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/66935/1810_1.jpg",
+        "alt": "福招きだるま(だるまキャンディ)1個 商品写真2",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "KIRATTO"
+    ],
+    "speed": false,
+    "skus": {
+      "1810": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

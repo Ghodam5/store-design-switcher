@@ -1,0 +1,113 @@
+{
+  "active": true,
+  "product": {
+    "id": "70767",
+    "code": "hf-1244",
+    "title": "ハロウィンクッキー",
+    "price": 224,
+    "image": "images/hf-1244.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/hf-1244.html",
+    "description": "オレンジ・黒・紫のハロウィンカラーがかわいいハロウィンパーティにぴったりのギフトです",
+    "size": "商品サイズ:10×13cm",
+    "material": "",
+    "contents": "商品内容:クッキー6枚",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "プチギフト",
+    "categories": [
+      "petit",
+      "season"
+    ],
+    "subs": [
+      "cookie"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "hf-1244",
+        "t": "ハロウィンクッキー 1244",
+        "price": 224
+      }
+    ],
+    "spec": {
+      "code": "hf-1244",
+      "pid": "70767",
+      "fields": [
+        {
+          "k": "同意・確認",
+          "part": "agree",
+          "role": "",
+          "label": "20個以上でご注文ください。※19個迄は自動キャンセル",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "確認した",
+              "fee": null,
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [],
+      "minq": 20,
+      "notes": []
+    },
+    "minq": 20,
+    "minnote": "",
+    "hasName": false,
+    "petit": true,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 10,
+      "max": 10,
+      "made": false,
+      "source": "db",
+      "label": "10日後"
+    },
+    "photos": [
+      {
+        "src": "images/hf-1244.jpg",
+        "alt": "ハロウィンクッキー 商品写真1",
+        "width": 520,
+        "height": 520
+      },
+      {
+        "src": "images/product-details/70767/21item.jpg",
+        "alt": "ハロウィンクッキー 商品写真2",
+        "width": 700,
+        "height": 100
+      },
+      {
+        "src": "images/product-details/70767/hf-1244_1.jpg",
+        "alt": "ハロウィンクッキー 商品写真3",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [
+      "HEARTY FACTORY"
+    ],
+    "speed": false,
+    "skus": {
+      "hf-1244": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "active": true,
+  "product": {
+    "id": "34570",
+    "code": "AGC23cat",
+    "title": "MeowMeow ペンダントクロック 猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 ペット 時計 メモリアルグッズ 位牌 ぬこ",
+    "price": 14980,
+    "image": "images/features/AGC23cat.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/000wb-c06p.html",
+    "description": "うちの子柄のクロック、かわいいにゃ?ほしいにゃね? ネコ推しさんへのギフトにぴったりにゃー 最大40文字でメッセージやお名前をいれられるにゃよ。 にゃんをたたえる名言(英文)も忘れずにえらんでにゃ 周年祝、開店祝、結婚式の両親ギフトにも、つかっていただけるにゃーーー サイズ:約44.5×12.5×6cm",
+    "size": "",
+    "material": "",
+    "contents": "時計本体 振り子 メーカー保証書",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "A&Bスペース の刻印(お名入れ・記念日)につきまして 「company limited」「Thank you」「祝 金婚式」「祝〇周年 おめでとうにゃ」などを印字したい場合は A&Bの専用入力欄にご入力ください。 入力例:「company limited ○○○○」、「since○○○○.○○.○○」、「祝 金婚式〇〇&〇〇」 ご指示のない場合、印字は致しません。 ※ご入力いただいたとおりでの製作となります ※文字サイズ、改行位置などは当店におまかせください ※ご注文時に、印字内容をこちらのページ内通信欄にてお知らせください。 即制作に入りますので、後日連絡は変更料金が発生します。 ※間違いの原因となりますため、備考欄、ご注文後のメール返信・お問い合わせでの印字内容のご連絡はお控えください。ページ内通信欄以外での印字内容連絡を起因とした印字漏れは免責とさせていただきます。 ※原稿確認(完成後の写真撮影含む)は行っておりません。ご希望の場合追加料金にて対応となります。",
+    "category": "ウェルカムボード",
+    "categories": [
+      "board",
+      "season"
+    ],
+    "subs": [],
+    "tags": [],
+    "skus": [
+      {
+        "code": "AG-C23cat",
+        "t": "お名入れ対応 MeowMeow クロック",
+        "price": 14980
+      }
+    ],
+    "spec": {
+      "code": "AGC23cat",
+      "pid": "34570",
+      "fields": [
+        {
+          "k": "名入れ：メッセージ",
+          "part": "msgsel",
+          "role": "m",
+          "label": "C.にゃん文(英文)",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "C4smallest(ネコ科の傑作",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "C5-Timespent(猫と過ごした",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "C6-Catsrule(猫は世界を",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "C7-sittingcat(座っている猫",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "C8-Ameow(ニャーという",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "CXカスタム",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "C0英文なし",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "商品の仕様を選ぶ",
+          "part": "choice",
+          "role": "s",
+          "label": "うちのこ柄×クロックカラー",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "MKN)ミケ×ナチュラル",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "MKB)ミケ×ブラウン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "SBN)サビ×ナチュラル",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "SBB)サビ×ブラウン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "CTN)チャトラ×ナチュラル",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "CTB)チャトラ×ブラウン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "STN)サバトラ×ナチュラル",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "STB)サバトラ×ブラウン",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "KTN)キジトラ×ナチュラル",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "KTB)キジトラ×ブラウン",
+              "fee": null,
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "名入れ：メッセージ",
+          "part": "text",
+          "role": "m",
+          "label": "A.お名前メッセージなど20字迄",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：日付・記念日",
+          "part": "text",
+          "role": "d",
+          "label": "B.記念日メッセージなど20字迄",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": 20,
+          "ph": ""
+        },
+        {
+          "k": "お知らせ（長文の項目名）",
+          "part": "notice",
+          "role": "",
+          "label": "A.Bテキスト入力欄はお客様にて文字数カウントが必要です。超過の場合は1文字ごとに100円追加計上します。",
+          "req": true,
+          "form": "ラジオボタン",
+          "lim": null,
+          "ph": ""
+        }
+      ],
+      "skus": [],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/AGC23cat.jpg",
+        "alt": "MeowMeow ペンダントクロック 猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 ペット 時計 メモリアルグッズ 位牌 ぬこ 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/34570/agc23cat-01.jpg",
+        "alt": "MeowMeow ペンダントクロック 猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 ペット 時計 メモリアルグッズ 位牌 ぬこ 商品写真2",
+        "width": 702,
+        "height": 702
+      },
+      {
+        "src": "images/product-details/34570/agc23cat-02.jpg",
+        "alt": "MeowMeow ペンダントクロック 猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 ペット 時計 メモリアルグッズ 位牌 ぬこ 商品写真3",
+        "width": 701,
+        "height": 701
+      },
+      {
+        "src": "images/product-details/34570/agc23cat-03.jpg",
+        "alt": "MeowMeow ペンダントクロック 猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 ペット 時計 メモリアルグッズ 位牌 ぬこ 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/34570/agc23cat-04.jpg",
+        "alt": "MeowMeow ペンダントクロック 猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 ペット 時計 メモリアルグッズ 位牌 ぬこ 商品写真5",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/34570/agc23cat-05n.jpg",
+        "alt": "MeowMeow ペンダントクロック 猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 ペット 時計 メモリアルグッズ 位牌 ぬこ 商品写真6",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "feature": {
+    "id": "34570",
+    "name": "お名入れ対応 MeowMeow ペンダントクロック 【ギフト ウェルカムボード】猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 周年祝 開店祝 誕生日 ペット 時計 メモリアルグッズ 位牌 ぬこ",
+    "title": "MeowMeow ペンダントクロック 猫 ミケ サバ サビ キジ トラ から選べるうちの子時計 ペット 時計 メモリアルグッズ 位牌 ぬこ",
+    "url": "https://www.luna-luce.jp/item/000wb-c06p.html",
+    "groups": [
+      "neko"
+    ],
+    "image": "images/features/AGC23cat.jpg",
+    "description": "うちの子柄のクロック、かわいいにゃ?ほしいにゃね? ネコ推しさんへのギフトにぴったりにゃー 最大40文字でメッセージやお名前をいれられるにゃよ。 にゃんをたたえる名言(英文)も忘れずにえらんでにゃ 周年祝、開店祝、結婚式の両親ギフトにも、つかっていただけるにゃーーー サイズ:約44.5×12.5×6cm",
+    "size": "",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-04-03"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "ag-c23cat": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

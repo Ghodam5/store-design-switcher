@@ -1,0 +1,249 @@
+{
+  "active": true,
+  "product": {
+    "id": "270",
+    "code": "2024agq-d5",
+    "title": "くまのプーさん ウェイトドール ベビープー(ブルースタイ)イニシ…",
+    "price": 15268,
+    "image": "images/2024agq-d5.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/0000000d-5.html",
+    "description": "生まれた時の重みを、もう一度両親に抱いて欲しい...。 こんなに大きくなったよって感謝の言葉と届けたい! 刺繍内容につきまして ※左足に「イニシャル」、 右足に「生年月日」「お名前」「体重(g)」「身長(cm)」を刺繍します。 ※「お名前」は「ひらがな・かたかな・アルファベット」での刺繍となります。「漢字」をご希望の場合は専用商品をご購入ください。 ※刺繍のバランスはお任せください。 ※「右足」の当店指定項目以外の刺繍(身長欄に血液型を刺繍など)は別途料金での対応となります。 入力されていた場合追加料金を加算、もしくはキャンセルします。 ※旧字・国字・画数の多い文字は刺繍の仕上がりが低下するため変更を御願いする場合がございます。 ※英語以外の外国語での製作は受け付けておりません。 体重調整につきまして ※体重の調整は、約3500gまで制作可能となっております。3501g以上は別途料金での対応となります。体重調整なしでの制作も可能です。",
+    "size": "高さ:約45cm 体重調整:3500gまで",
+    "material": "表地100%ソフトボア・中綿ポリエステル・光触媒コーティング 足裏:フェルト 中国製 保証書付き",
+    "contents": "",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "両親贈呈",
+    "categories": [
+      "doll",
+      "parents"
+    ],
+    "subs": [],
+    "tags": [
+      "名入れ"
+    ],
+    "skus": [
+      {
+        "code": "00000AGQD-5",
+        "t": "A.お名入れ英字orひらがな+イニシャル ベビープー (ブルースタイ) イニシャル",
+        "price": 15268
+      },
+      {
+        "code": "000AGQD-5kanji",
+        "t": "B.お名入れ漢字 +イニシャル ベビープー (ブルースタイ) イニシャル",
+        "price": 16268
+      }
+    ],
+    "spec": {
+      "code": "2024agq-d5",
+      "pid": "270",
+      "fields": [
+        {
+          "k": "名入れ：イニシャル",
+          "part": "text",
+          "role": "i",
+          "label": "イニシャル(1文字)",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": ""
+        },
+        {
+          "k": "名入れ：生年月日",
+          "part": "text",
+          "role": "d",
+          "label": "生年月日(西暦) 例）○○○○.○○.○○",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：○○○○.○○.○○"
+        },
+        {
+          "k": "名入れ：体重",
+          "part": "text",
+          "role": "w",
+          "label": "体重(グラム) 例○○○○ｇ",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：○○○○ｇ"
+        },
+        {
+          "k": "名入れ：身長",
+          "part": "text",
+          "role": "h",
+          "label": "身長(cm）例)○○ｃｍ",
+          "req": false,
+          "form": "テキスト1行",
+          "lim": null,
+          "ph": "例：○○ｃｍ"
+        },
+        {
+          "k": "名入れ：お名前",
+          "part": "text",
+          "role": "n",
+          "label": "お名前(A.ひらがなor英字、B.漢字)※8文字まで",
+          "req": true,
+          "form": "テキスト1行",
+          "lim": 8,
+          "ph": ""
+        },
+        {
+          "k": "お急ぎ・納期",
+          "part": "choice",
+          "role": "",
+          "label": "お急ぎサービス(納期短縮)を利用可能商品です(PBWD）",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "希望しない(通常納期・約14～20日でお届け)",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "約7日お届けを希望1体5000円　※ご注文確定後料金加算に同意します",
+              "fee": {
+                "amt": 5000,
+                "per": "unit",
+                "from": false
+              },
+              "over": null
+            },
+            {
+              "t": "約8～13日お届けを希望1体2500円　※ご注文確定後料金加算に同意します",
+              "fee": {
+                "amt": 2500,
+                "per": "unit",
+                "from": false
+              },
+              "over": null
+            }
+          ]
+        },
+        {
+          "k": "体重の対応（料金）",
+          "part": "choice",
+          "role": "",
+          "label": "体重は･･･ ※有料対応の場合ご注文確認後に金額修正します。",
+          "req": true,
+          "form": "選択（1つ）",
+          "lim": null,
+          "ph": "",
+          "opts": [
+            {
+              "t": "3500g以内です",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "3501g以上で体重再現希望(有料+700円)",
+              "fee": {
+                "amt": 700,
+                "per": "order",
+                "from": false
+              },
+              "over": null
+            },
+            {
+              "t": "3501g以上ですが3500gで制作",
+              "fee": null,
+              "over": null
+            },
+            {
+              "t": "4000g以上は要相談(有料+1500円より)",
+              "fee": {
+                "amt": 1500,
+                "per": "order",
+                "from": true
+              },
+              "over": null
+            }
+          ]
+        }
+      ],
+      "skus": [
+        {
+          "t": "A.お名入れ英字orひらがな＋イニシャル  ベビープー (ブルースタイ) イニシャル",
+          "price": 15268
+        },
+        {
+          "t": "B.お名入れ漢字 ＋イニシャル  ベビープー (ブルースタイ) イニシャル",
+          "price": 16268
+        }
+      ],
+      "minq": null,
+      "notes": []
+    },
+    "minq": 1,
+    "minnote": "最低数量は未確認。サンプルでは1個から入力を試せます。",
+    "hasName": true,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 14,
+      "max": 14,
+      "made": true,
+      "source": "db",
+      "label": "約2週間後"
+    },
+    "photos": [
+      {
+        "src": "images/2024agq-d5.jpg",
+        "alt": "くまのプーさん ウェイトドール ベビープー(ブルースタイ)イニシ… 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/270/2024agq-d5-01.jpg",
+        "alt": "くまのプーさん ウェイトドール ベビープー(ブルースタイ)イニシ… 商品写真2",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/270/2024dwdkyotu-03.jpg",
+        "alt": "くまのプーさん ウェイトドール ベビープー(ブルースタイ)イニシ… 商品写真3",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/270/2024dwdkyotu-02.jpg",
+        "alt": "くまのプーさん ウェイトドール ベビープー(ブルースタイ)イニシ… 商品写真4",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/270/2024dwdkyotu-04.jpg",
+        "alt": "くまのプーさん ウェイトドール ベビープー(ブルースタイ)イニシ… 商品写真5",
+        "width": 700,
+        "height": 700
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": true,
+    "skus": {
+      "00000agqd-5": {
+        "code": "0",
+        "quantity": null
+      },
+      "000agqd-5kanji": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

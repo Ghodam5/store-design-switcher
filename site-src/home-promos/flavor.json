@@ -1,0 +1,16 @@
+{
+  "id": "flavor",
+  "active": true,
+  "title": "ふんわり、FLAVORの贈り物",
+  "text": "お祝いにも手土産にも。選ぶ時間まで楽しく。",
+  "image": "images/main-flavor.jpg",
+  "href": "category.html?g=food&m=chiffon",
+  "cta": "FLAVORをすべて見る",
+  "ids": [
+    "47484",
+    "64012",
+    "69376",
+    "72194"
+  ],
+  "theme": "mint"
+}

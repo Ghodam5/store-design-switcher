@@ -1,0 +1,20 @@
+/* v58：お知らせ帯の白猫（林さんご提供イラスト23コマ）。動きはsite-announcements.jsが判断する。
+   猫は文字のすき間だけを歩き、タップでじゃれる・水を飲む。左向きに反転。 */
+.cat-banner-wrap{position:absolute;left:0;bottom:-21px;width:56px;height:42px;z-index:2;border:0;padding:0;margin:0;
+  background:none;cursor:pointer;will-change:transform;transition:none;-webkit-tap-highlight-color:transparent}
+.cat-banner-wrap:focus-visible{outline:2px solid #fff;outline-offset:1px;border-radius:8px}
+.cat-banner-wrap .cat-sprite{display:block;width:56px;height:42px;pointer-events:none;
+  background:url("images/walking-cat-sheet.webp") 0 0/1288px 42px no-repeat;transform:scaleX(-1)}
+.cat-banner-wrap .cat-zz{position:absolute;right:-6px;top:-3px;font-size:11px;font-weight:700;color:#fff;opacity:0;transition:opacity .3s;pointer-events:none}
+.cat-banner-wrap.is-sleeping .cat-zz{opacity:1}
+.announcement-window{position:relative;z-index:2}
+.announcement-track a{text-shadow:0 1px 2px #1f8781,0 0 3px #1f8781}
+.announcement-track .cat-gap{flex:none;width:200px;height:1px}
+.strip [data-notice-pause]{position:relative;z-index:3;background:var(--teal)}
+/* v69：すき間ごとの猫の毛色（同じ白猫のイラストに色を重ねる） */
+.cat-banner-wrap.coat-tabby .cat-sprite{filter:brightness(.74) sepia(1) saturate(3.4) hue-rotate(-28deg)}
+.cat-banner-wrap.coat-black .cat-sprite{filter:brightness(.32) contrast(1.4)}
+.cat-banner-wrap.coat-gray .cat-sprite{filter:brightness(.7) saturate(0)}
+.cat-banner-wrap.coat-cream .cat-sprite{filter:brightness(.97) sepia(.55) saturate(1.6)}
+.cat-banner-wrap.coat-mackerel .cat-sprite{filter:brightness(.72) sepia(.6) saturate(.8) hue-rotate(160deg)}
+.announcement-track .cat-gap{position:relative}

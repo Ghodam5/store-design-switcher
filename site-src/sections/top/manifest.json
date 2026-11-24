@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ranking",
+    "title": "売れ筋 TOP10 自社サイト・直近90日の売上順（毎日更新）",
+    "file": "site-src/sections/top/ranking.html"
+  },
+  {
+    "id": "finder",
+    "title": "3つの方法でさがす シーン・アイテム・予算",
+    "file": "site-src/sections/top/finder.html"
+  },
+  {
+    "id": "popular-petit",
+    "title": "いま人気のプチギフト 今日のおすすめ・売れている30点から毎日入れ替え",
+    "file": "site-src/sections/top/popular-petit.html"
+  },
+  {
+    "id": "flavor",
+    "title": "FLAVOR シフォンケーキ 41件",
+    "file": "site-src/sections/top/flavor.html"
+  },
+  {
+    "id": "parents",
+    "title": "ご両親への贈呈品 13件",
+    "file": "site-src/sections/top/parents.html"
+  },
+  {
+    "id": "christmas",
+    "title": "クリスマスのプチギフト 22件",
+    "file": "site-src/sections/top/christmas.html"
+  },
+  {
+    "id": "cookie",
+    "title": "クッキーのプチギフト 116件",
+    "file": "site-src/sections/top/cookie.html"
+  },
+  {
+    "id": "candy",
+    "title": "金平糖・キャンディ 88件",
+    "file": "site-src/sections/top/candy.html"
+  },
+  {
+    "id": "dragee",
+    "title": "ドラジェ 33件",
+    "file": "site-src/sections/top/dragee.html"
+  },
+  {
+    "id": "japanese-gifts",
+    "title": "和風プチギフト 70件",
+    "file": "site-src/sections/top/japanese-gifts.html"
+  },
+  {
+    "id": "hikigashi",
+    "title": "バームクーヘン・引き菓子 55件",
+    "file": "site-src/sections/top/hikigashi.html"
+  },
+  {
+    "id": "welcome-board",
+    "title": "ウェルカムボード 14件",
+    "file": "site-src/sections/top/welcome-board.html"
+  }
+]

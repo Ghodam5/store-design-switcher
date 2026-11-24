@@ -1,0 +1,85 @@
+{
+  "active": true,
+  "product": {
+    "id": "50463",
+    "code": "con1131",
+    "title": "【20％OFF】ゲストブック 喝采",
+    "price": 2640,
+    "image": "images/products/50463.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/con1131.html",
+    "description": "1枚に1名様記入していただく芳名帳。 和婚のアイテムとして大活躍です。",
+    "size": "サイズ:133×175×43mm、箱サイズ15×18.5×4.5cm",
+    "material": "",
+    "contents": "ゲストカード60名様分、用紙取り外し可、2穴式(1枚で1名)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "",
+    "category": "演出用品",
+    "categories": [
+      "enshutsu"
+    ],
+    "subs": [
+      "guest"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "con1131",
+        "t": "ゲストブック 喝采",
+        "price": 2640
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 4,
+      "max": 6,
+      "made": false,
+      "source": "db",
+      "label": "4～6日後"
+    },
+    "photos": [
+      {
+        "src": "images/products/50463.jpg",
+        "alt": "【20％OFF】ゲストブック 喝采 商品写真1",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/50463/con1131-02.jpg",
+        "alt": "【20％OFF】ゲストブック 喝采 商品写真2",
+        "width": 650,
+        "height": 650
+      },
+      {
+        "src": "images/product-details/50463/con1131-03.jpg",
+        "alt": "【20％OFF】ゲストブック 喝采 商品写真3",
+        "width": 650,
+        "height": 650
+      }
+    ]
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "con1131": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "0",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}

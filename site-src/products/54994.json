@@ -1,0 +1,101 @@
+{
+  "active": true,
+  "product": {
+    "id": "54994",
+    "code": "emergencytrunk",
+    "title": "保存食2日分 トランクギフト(バスタオル付き)",
+    "price": 4612,
+    "image": "images/features/emergencytrunk.jpg",
+    "sourceUrl": "https://www.luna-luce.jp/item/emergencytrunk.html",
+    "description": "大切な人のいざというときに役に立てるように...。そんな優しさから生まれた防災ギフトセットです。 ルナ・ルーチェの防災ギフトセットは、取っ手のついたかわいいトランクタイプなので持ち運びにも便利。 有事の際にトランクの取っ手をつかめばそのままパッと持ち運べます。 もらった方が実際に食べて非常食を身近に感じていただくことで、大事な人を守る備蓄食を手にするきっかけ作りにも◎ 災害時用の備蓄として、今でも、いざという時でもうれしい贈り物です。",
+    "size": "トランクサイズ:42×29×14cm",
+    "material": "",
+    "contents": "7年保存クッキー×2袋 (チーズ味・ホワイトチョコココナッツ味・パンプキン味より2袋)、7年保存レトルトパン×2袋 (ミルク・チョコレート・ブルーベリーより2袋)、7年保存レトルト食品×2袋 (カレーピラフ・五目ご飯・コーンピラフより2袋)、7年保存水500ml×2本、高級タオルセット(バスタオル入り)",
+    "expiry": "",
+    "allergens": "",
+    "storage": "",
+    "notice": "※賞味期限は製造より7年となります。 ※ご注文から商品の到着までに通常1週間ほどお時間をいただきます。 ※アレルギー対応版への変更はご相談ください。 ※非常食の味・タオルの種類はお任せとなります。予めご了承ください。 ※注文が殺到した場合、商品到着までお時間がかかる場合がございます。お早めにご注文くださいますようお願い申し上げます。 ※降雪や台風などの天候の影響や交通事情により、ご指定いただいた日時にお届けできない場合がございます。 予めご了承くださいますようお願い申し上げます。",
+    "category": "引出物・ギフト",
+    "categories": [
+      "hikidemono"
+    ],
+    "subs": [
+      "bousai"
+    ],
+    "tags": [],
+    "skus": [
+      {
+        "code": "emergencytrunk",
+        "t": "保存食2日分 トランクギフト(バスタオル付き)",
+        "price": 4612
+      }
+    ],
+    "spec": null,
+    "minq": 1,
+    "minnote": "",
+    "hasName": false,
+    "petit": false,
+    "seal": false,
+    "pack": 1,
+    "delivery": {
+      "min": 7,
+      "max": 7,
+      "made": true,
+      "source": "db",
+      "label": "約1週間後"
+    },
+    "photos": [
+      {
+        "src": "images/features/emergencytrunk.jpg",
+        "alt": "保存食2日分 トランクギフト(バスタオル付き) 商品写真1",
+        "width": 700,
+        "height": 700
+      },
+      {
+        "src": "images/product-details/54994/emergencytrunkimg01.jpg",
+        "alt": "保存食2日分 トランクギフト(バスタオル付き) 商品写真2",
+        "width": 700,
+        "height": 840
+      },
+      {
+        "src": "images/product-details/54994/emergencytrunkimg02.jpg",
+        "alt": "保存食2日分 トランクギフト(バスタオル付き) 商品写真3",
+        "width": 700,
+        "height": 850
+      }
+    ]
+  },
+  "feature": {
+    "id": "54994",
+    "name": "【送料無料】保存食2日分 トランクギフト(バスタオル付き)//非常食・災害・緊急・防災・備蓄",
+    "title": "保存食2日分 トランクギフト(バスタオル付き)",
+    "url": "https://www.luna-luce.jp/item/emergencytrunk.html",
+    "groups": [
+      "preparedness"
+    ],
+    "image": "images/features/emergencytrunk.jpg",
+    "description": "大切な人のいざというときに役に立てるように...。そんな優しさから生まれた防災ギフトセットです。 ルナ・ルーチェの防災ギフトセットは、取っ手のついたかわいいトランクタイプなので持ち運びにも便利。 有事の際にトランクの取っ手をつかめばそのままパッと持ち運べます。 もらった方が実際に食べて非常食を身近に感じていただくことで、大事な人を守る備蓄食を手にするきっかけ作りにも◎ 災害時用の備蓄として、今でも、いざという時でもうれしい贈り物です。",
+    "size": "トランクサイズ:42×29×14cm",
+    "material": "",
+    "pack": 1,
+    "canDemo": false,
+    "updated": "2026-08-20"
+  },
+  "commerce": {
+    "sourceDate": "2026-11-12",
+    "source": "バックアップ商品CSV",
+    "brands": [],
+    "speed": false,
+    "skus": {
+      "emergencytrunk": {
+        "code": "0",
+        "quantity": null
+      }
+    },
+    "tiers": [],
+    "tiersVerified": false,
+    "shippingClass": "2",
+    "deliveryMethodsRaw": "a:2:{i:0;s:1:\"0\";i:1;s:1:\"1\";}",
+    "tierNote": "数量別価格は本番設定の確認後に登録。未登録時は通常単価。"
+  }
+}
