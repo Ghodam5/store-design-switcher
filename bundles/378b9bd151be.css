@@ -1214,25 +1214,18 @@ input,select,textarea{font-size:16px!important}
 html{touch-action:manipulation}
 :where(button,a,summary,[role="button"]){touch-action:manipulation}
 
-/* naire-1.css */
-
-.wlist .wst,.wlist .wrow .wdel,.wtop .wno{display:none}
-.wlist .wrow{cursor:default}
-.wlbl{font-weight:700;font-size:13px;margin-right:4px}
-.orow{transition:background-color .35s ease,box-shadow .35s ease}
-.orow>button{transition:background-color .35s ease}
-.orow:hover>button,.orow:focus-within>button{background:var(--teal-l)}
-.orow:focus-within{box-shadow:inset 4px 0 0 var(--teal)}
-.orow .ob{transition:background-color .35s ease}
-.orow:focus-within .ob{background:#f3fbfa}
-input,select,textarea{transition:border-color .3s ease,box-shadow .3s ease,background-color .3s ease}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--teal)!important;box-shadow:0 0 0 3px rgba(47,169,163,.22);background-color:#f3fbfa}
-.biko{transition:background-color .35s ease,box-shadow .35s ease}
-.biko:focus-within{background:#f3fbfa;box-shadow:0 0 0 3px rgba(47,169,163,.18)}
-.biko{margin-top:12px;background:var(--surface);border:2px solid var(--teal);border-radius:12px;padding:10px 12px}
-.biko label{display:block;font-weight:900;font-size:14px;color:var(--teal-d)}
-.biko p{font-size:14px;color:var(--ink);line-height:1.7;margin:4px 0 8px}
-.biko textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font:inherit;font-size:13.5px;background:var(--surface);color:var(--ink);resize:vertical}
+/* 2026-11-24（試作リポジトリのみ）：ロゴを林さん決定版の動き（横長バナー 5:2）に入れ替え。
+   文字の大きさは今までと同じに保ち、上下を詰めた横長の枠に、ロゴ全体と動きが収まるようにする。
+   最初は静止画（今までの1コマ目）を横長に切り出して見せ、読み終えてから brand-logo-motion.js が上に重ねて1回動かす。 */
+.logo .brand-gif-frame.brand-banner{width:170px;height:68px}
+.logo .brand-gif-frame.brand-banner .brand-gif{width:170px;height:170px;left:0;top:-51px;transform:none}
+.logo .brand-gif-frame.brand-banner .brand-motion{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:0}
+.logo .brand-gif-frame.brand-banner.is-playing .brand-motion{opacity:1}
+.logo .brand-gif-frame.brand-banner.is-playing .brand-gif{visibility:hidden}
+@media(max-width:1023px){.hd .hd-in{height:72px}}
+@media(hover:hover) and (pointer:fine){.hd .logo .brand-gif-frame.brand-banner{width:195px;height:78px}.hd .logo .brand-gif-frame.brand-banner .brand-gif{width:195px;height:195px;top:-58.5px}}
+@media(hover:hover) and (pointer:fine) and (min-width:1024px){.hd .hd-pc{height:98px}.hd .logo .brand-gif-frame.brand-banner{width:225px;height:90px}.hd .logo .brand-gif-frame.brand-banner .brand-gif{width:225px;height:225px;top:-67.5px}}
+.ft .logo .brand-gif-frame.brand-banner{margin-left:-21.5px}
 
 /* features.css */
 /* v16：既存の大分類・配色を引き継ぐ特集とダミーカート */
@@ -1264,6 +1257,15 @@ input:focus,select:focus,textarea:focus{outline:none;border-color:var(--teal)!im
 textarea[data-example-placeholder]::placeholder{color:#b52632;opacity:1}
 .notes-print-value{display:none}
 @media print{.notes-resize-box{width:100%!important;max-width:none!important;height:auto!important}.notes-resize-box>.notes-resize-handle{display:none!important}.notes-print-value{display:block;white-space:pre-wrap;overflow-wrap:anywhere}.notes-print-value+textarea{display:none!important}.notes-resize-box>textarea::placeholder{color:transparent!important;-webkit-text-fill-color:transparent!important}}
+
+/* home-guides.css */
+#home-guides{scroll-margin-top:160px}#home-guides .banner-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}#home-guides .support-banner{display:flex;align-items:center;gap:10px;position:relative;min-height:88px;padding:13px 24px 13px 12px;border:1px solid #d5e4e3;border-radius:12px;background:var(--surface);color:var(--ink);text-decoration:none;transition:background .2s,border-color .2s,box-shadow .2s}#home-guides .support-banner:hover{background:var(--teal-l,#edf8f6);border-color:var(--teal);box-shadow:0 0 0 1px var(--teal)}#home-guides .support-banner:focus-visible{outline:3px solid var(--teal);outline-offset:3px}#home-guides .support-banner img{width:30px;height:30px;flex-shrink:0;object-fit:contain}#home-guides .banner-copy{min-width:0}#home-guides h3{font-size:15px;font-weight:700;line-height:1.5;margin:0 0 4px;overflow-wrap:anywhere}#home-guides p{font-size:12px;line-height:1.6;margin:0;color:var(--sub)}#home-guides .banner-arrow{position:absolute;right:10px;top:50%;transform:translateY(-50%);font-size:18px;color:var(--teal-d)}@media(max-width:767px){#home-guides .banner-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}#home-guides .support-banner{gap:7px;min-height:88px;padding:12px 17px 12px 10px}#home-guides .support-banner img{width:25px;height:25px}#home-guides h3{font-size:14px}#home-guides p{font-size:12px}#home-guides .banner-arrow{right:6px;font-size:16px}}@media(max-width:359px){#home-guides .support-banner{gap:5px;padding-left:8px}#home-guides .support-banner img{width:22px;height:22px}#home-guides h3{font-size:13px}}
+@media(max-width:767px){#home-guides .support-banner:last-child{grid-column:1/-1}}
+
+/* Q&Aもほかと同じ白地・文字色・細枠。 */
+#home-guides .support-banner[href="faq.html"]{background:var(--surface);color:var(--ink);border-color:#d5e4e3}
+#home-guides .support-banner[href="faq.html"] p{color:var(--sub)}
+#home-guides .support-banner[href="faq.html"]:hover{background:var(--teal-l,#edf8f6);border-color:var(--teal)}
 
 /* page-share.css */
 /* 全ページ共通の独立した共有枠。特別な指示がある場合だけ変更する。 */
@@ -1395,3 +1397,49 @@ textarea[data-example-placeholder]::placeholder{color:#b52632;opacity:1}
 .picker-keyboard{margin-top:12px;border:1px solid #b6d5ce;border-radius:10px;padding:10px}.picker-keyboard summary{min-height:30px;font-size:14px;color:#126c69;cursor:pointer}
 @media(max-width:1023px){.quantity-picker-slot .pilot-quantity-button{border-radius:8px;min-width:90px;min-height:46px;cursor:pointer}}
 @media print{.pilot-qty .pilot-quantity-button,.pilot-date-button{display:none!important}.pilot-qty input[data-pilot-input=quantity]{display:inline-block!important}.quantity-picker-slot{display:contents}}
+
+/* home-promos.css */
+/* トップの縦長カード。商品画像は各商品の原本を独立して参照する。 */
+.home-promos{min-width:0}.home-promo-rail{margin:0;position:relative;display:grid;grid-auto-flow:column;grid-auto-columns:calc(100% - 58px);gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:0;scrollbar-width:none;touch-action:pan-x pan-y pinch-zoom;padding:2px 0 6px}.home-promo-rail::-webkit-scrollbar{display:none}.home-promo-rail>*{scroll-snap-align:start;min-width:0}.home-promo-rail>.main-bn,.home-promo-card{border:1px solid #d9e8e3;border-radius:18px;overflow:hidden;min-height:560px;display:flex;flex-direction:column;align-items:stretch;background:var(--surface);position:relative}.home-promo-rail>.main-bn{background:var(--cream)}.home-promo-rail>.main-bn::after{display:none}.home-promo-rail>.main-bn .ph{position:relative;inset:auto;height:220px;flex:none}.home-promo-rail>.main-bn .tx{max-width:none;padding:18px 16px;display:flex;flex:1;flex-direction:column;align-items:stretch}.home-promo-rail>.main-bn .pill{align-self:flex-start}.home-promo-rail>.main-bn h1{font-size:26px;line-height:1.45;margin:14px 0 10px}.home-promo-rail>.main-bn p{font-size:14px;line-height:1.8;margin-bottom:18px}.home-promo-rail>.main-bn .btns{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding-top:10px}.home-promo-rail>.main-bn .btns .btn{padding:8px 5px;font-size:12px;height:auto;min-height:44px;white-space:normal;text-align:center}.home-promo-banner{display:block;background:linear-gradient(135deg,#fffaf0,#edf7f3);padding:14px 14px 10px}.home-promo-banner>img{width:100%;height:130px;object-fit:contain;border-radius:10px;background:var(--surface)}.home-promo-banner h2{font-size:20px;line-height:1.5;margin:12px 0 6px;color:var(--ink)}.home-promo-banner p{font-size:13px;line-height:1.8;color:var(--sub)}.home-promo-products{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px 10px;padding:14px}.home-promo-products>a{grid-column:span 3}.home-promo-products>a:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc((100% - 10px)/2)}.home-promo-products a{min-width:0;display:block;border-radius:10px}.home-promo-products img{width:100%;height:78px;object-fit:contain;background:#f8faf9;border-radius:9px}.home-promo-products span{font-size:12px;line-height:1.6;margin-top:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.home-promo-all{margin:auto 14px 14px;padding:10px 8px;border:1px solid #a8d7d3;border-radius:10px;text-align:center;min-height:44px;font-size:13px;font-weight:700;color:var(--teal-d)}.home-promo-controls{display:flex;align-items:center;justify-content:center;gap:10px;margin:8px 0 4px;font-size:13px;color:var(--sub)}.home-promo-controls button{width:44px;height:44px;border:1px solid #c6dfdb;border-radius:50%;background:var(--surface);font-size:24px;color:var(--teal-d);cursor:pointer}.home-promo-controls button:disabled{opacity:.35;cursor:default}.home-promo-controls [data-promo-count]{min-width:36px;text-align:center;font-variant-numeric:tabular-nums}.home-promo-products a:hover,.home-promo-all:hover{background:var(--teal-l)}.home-promo-products a:focus-visible,.home-promo-all:focus-visible,.home-promo-banner:focus-visible{outline:3px solid var(--teal);outline-offset:-3px}.home-promo-rail:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+@media(min-width:600px){.home-promo-rail{grid-auto-columns:340px}}@media(min-width:1024px){.home-promo-rail{grid-auto-columns:calc((100% - 32px)/2)}.home-promo-controls>span:first-child{font-size:0}.home-promo-controls>span:first-child::after{content:'特集を切り替える';font-size:13px}}
+@media(prefers-reduced-motion:reduce){.home-promo-rail{scroll-behavior:auto}}
+
+/* すべて淡色のまま、カードのテーマを見分けられる色分け。 */
+.home-promo-rail>.main-bn{background:#fff5e8;border-color:#ead7ba}
+.home-promo-card[data-theme="rose"]{background:#fce8ec;border-color:#edcdd3;--promo-accent:#96515e}
+.home-promo-card[data-theme="mint"]{background:#e4f3e8;border-color:#c7dfce;--promo-accent:#3e7259}
+.home-promo-card[data-theme="lavender"]{background:#ece7f7;border-color:#d7cfea;--promo-accent:#71608d}
+.home-promo-card .home-promo-banner{background:transparent}
+.home-promo-card .home-promo-banner h2{color:var(--promo-accent,var(--ink))}
+.home-promo-card .home-promo-all{background:rgba(255,255,255,.85);border-color:currentColor;color:var(--promo-accent,var(--teal-d))}
+.home-promo-products img{background:rgba(255,255,255,.8)}
+@media(min-width:600px) and (max-width:1023px){.home-promo-rail{grid-auto-columns:320px}}
+@media(min-width:1024px){.home-promo-rail{grid-auto-columns:calc((100% - 64px)/2)}}
+
+.home-promo-rail>.main-bn{border-top:4px solid #e5c58c}.home-promo-card[data-theme="rose"]{border-top:4px solid #e6adb9}.home-promo-card[data-theme="mint"]{border-top:4px solid #9bc9ac}.home-promo-card[data-theme="lavender"]{border-top:4px solid #bfafd9}
+
+.home-promo-card[data-theme="cream"]{background:#fff5e8;border-color:#ead7ba;--promo-accent:#85622f;border-top:4px solid #e5c58c}.home-promo-card:hover,.home-promo-rail>.main-bn:hover{box-shadow:inset 0 0 0 1px rgba(47,169,163,.2)}
+@media(min-width:1024px){.home-promo-controls>span:first-child::after{content:"ドラッグ・矢印で切り替え"}}
+.home-promo-rail>[hidden],[data-placement-id][hidden]{display:none!important}
+.home-promo-card[data-theme="sky"]{background:#edf3fa;border-color:#c4d4e4;border-top:4px solid #9cbfdf;--promo-accent:#456b89}.home-promo-card[data-theme="seasonal"]{background:#f1f5e9;border-color:#c9d4b7;border-top:4px solid #c4b277;--promo-accent:#5b7047}
+.home-features-heading{padding:20px 16px 2px}.home-features-heading h2{font-size:22px;line-height:1.5;color:var(--promo-accent)}.home-features-heading p{font-size:13px;color:var(--sub);margin-top:8px;line-height:1.8}.home-feature-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 10px;padding:18px 14px}.home-feature-links a{min-width:0;text-align:center;border:0}.home-feature-links img{width:100%;aspect-ratio:16/9;object-fit:contain;background:rgba(255,255,255,.85);border:0;border-radius:8px}.home-feature-links span{display:block;text-align:center;font-size:12px;line-height:1.6;margin-top:7px}.home-feature-links a:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:calc((100% - 10px)/2)}.home-feature-links a:hover{color:var(--teal-d)}
+.feature-directory{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:22px;background:var(--surface);border:1px solid #d5e5e2;border-radius:18px}.feature-directory a{text-align:center}.feature-directory img{width:100%;aspect-ratio:16/9;object-fit:contain;border:0}.feature-directory strong{display:block;margin-top:10px;font-size:15px}
+.ranking-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.ranking-card{display:block;position:relative;background:var(--surface);border:1px solid #d7e7e3;border-radius:14px;padding:14px;min-width:0}.ranking-card .ph img{width:100%;height:180px;object-fit:contain}.ranking-card h4{font-size:14px;line-height:1.7;margin:10px 0}.ranking-card .price{font-weight:700}.ranking-card .price small{font-size:12px;font-weight:400}.ranking-place{display:inline-flex;width:32px;height:32px;align-items:center;justify-content:center;background:var(--teal);border-radius:50%;color:var(--on-accent);font-weight:700}
+@media(max-width:834px){.ranking-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.feature-directory{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:440px){.ranking-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.ranking-card{padding:10px}.ranking-card .ph img{height:120px}.feature-directory{padding:14px;gap:15px}}
+.row-h h2 small[hidden]{display:none!important}
+
+/* メッセージのカード（kind: message）。2枚目からの見出しは h2 なので h1 と同じ見た目にする。色のテーマは淡い背景と上の線だけ変える */
+.home-promo-rail>.main-bn h2{font-size:26px;font-weight:900;line-height:1.45;margin:14px 0 10px;color:var(--ink)}.main-bn h2 span{color:var(--coral-d)}
+.home-promo-rail>.main-bn[data-theme="rose"]{background:#fce8ec;border-color:#edcdd3;border-top-color:#e6adb9}.home-promo-rail>.main-bn[data-theme="mint"]{background:#e4f3e8;border-color:#c7dfce;border-top-color:#9bc9ac}.home-promo-rail>.main-bn[data-theme="lavender"]{background:#ece7f7;border-color:#d7cfea;border-top-color:#bfafd9}.home-promo-rail>.main-bn[data-theme="sky"]{background:#edf3fa;border-color:#c4d4e4;border-top-color:#9cbfdf}.home-promo-rail>.main-bn[data-theme="seasonal"]{background:#f1f5e9;border-color:#c9d4b7;border-top-color:#c4b277}
+/* 看板の写真の上の演出（data-fx。無ければ花びら・none は粒を出さない）。動きを減らす設定では全部止まる（50-campaign-patterns.css） */
+.main-bn[data-fx="snow"] .ph .pt{width:7px;height:7px;border-radius:50%;background:var(--surface);box-shadow:0 0 5px rgba(255,255,255,.95);animation-name:heroSnow}.main-bn[data-fx="snow"] .ph .pt.l2,.main-bn[data-fx="snow"] .ph .pt.r2{width:5px;height:5px}
+@keyframes heroSnow{0%{transform:translate(0,0);opacity:0}10%{opacity:.95}50%{transform:translate(-8px,120px)}90%{opacity:.9}100%{transform:translate(6px,240px);opacity:0}}
+.main-bn[data-fx="confetti"] .ph .pt{width:6px;height:10px;border-radius:1px;box-shadow:none;animation-duration:7s}.main-bn[data-fx="confetti"] .ph .pt.l1{background:#f07b6a}.main-bn[data-fx="confetti"] .ph .pt.l2{background:#e5c58c}.main-bn[data-fx="confetti"] .ph .pt.l3{background:#2fa9a3}.main-bn[data-fx="confetti"] .ph .pt.r1{background:#e6adb9}.main-bn[data-fx="confetti"] .ph .pt.r2{background:#bfafd9}.main-bn[data-fx="confetti"] .ph .pt.r3{background:#f2b84b}
+.main-bn[data-fx="sparkle"] .ph .pt{width:8px;height:8px;border-radius:50%;background:radial-gradient(circle,var(--surface) 0 30%,rgba(255,244,214,.6) 55%,transparent 72%);box-shadow:0 0 8px 2px rgba(255,248,225,.9);animation:heroTwinkle 3.2s ease-in-out infinite}
+.main-bn[data-fx="sparkle"] .ph .pt.l1{top:18%;animation-delay:0s}.main-bn[data-fx="sparkle"] .ph .pt.l2{top:62%;animation-delay:1.1s}.main-bn[data-fx="sparkle"] .ph .pt.l3{top:35%;animation-delay:2s}.main-bn[data-fx="sparkle"] .ph .pt.r1{top:22%;animation-delay:.6s}.main-bn[data-fx="sparkle"] .ph .pt.r2{top:55%;animation-delay:1.7s}.main-bn[data-fx="sparkle"] .ph .pt.r3{top:40%;animation-delay:2.5s}
+@keyframes heroTwinkle{0%,100%{transform:scale(.3);opacity:0}45%{transform:scale(1.15);opacity:1}60%{transform:scale(.9);opacity:.85}}
+/* v75 スマホの表示速度対策：画面の外にある商品の段は、見える位置に来るまで描画を後回しにする（見た目は同じ。仮の高さは画面幅ごとの実測値で、余白を除いた中身の高さ） */
+.rowsec{content-visibility:auto;contain-intrinsic-size:auto 307px;overflow-clip-margin:48px}
+@media(min-width:768px){.rowsec{contain-intrinsic-size:auto 485px}}
+@media(min-width:1024px){.rowsec{contain-intrinsic-size:auto 330px}}
+.hero~.sec{content-visibility:auto;contain-intrinsic-size:auto 400px;overflow-clip-margin:48px}
