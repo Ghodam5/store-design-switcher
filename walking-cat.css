@@ -2,10 +2,10 @@
    猫は文字のすき間だけを歩き、タップでじゃれる・水を飲む。左向きに反転。 */
 .cat-banner-wrap{position:absolute;left:0;bottom:-21px;width:56px;height:42px;z-index:2;border:0;padding:0;margin:0;
   background:none;cursor:pointer;will-change:transform;transition:none;-webkit-tap-highlight-color:transparent}
-.cat-banner-wrap:focus-visible{outline:2px solid #fff;outline-offset:1px;border-radius:8px}
+.cat-banner-wrap:focus-visible{outline:2px solid var(--surface);outline-offset:1px;border-radius:8px}
 .cat-banner-wrap .cat-sprite{display:block;width:56px;height:42px;pointer-events:none;
   background:url("images/walking-cat-sheet.webp") 0 0/1288px 42px no-repeat;transform:scaleX(-1)}
-.cat-banner-wrap .cat-zz{position:absolute;right:-6px;top:-3px;font-size:11px;font-weight:700;color:#fff;opacity:0;transition:opacity .3s;pointer-events:none}
+.cat-banner-wrap .cat-zz{position:absolute;right:-6px;top:-3px;font-size:11px;font-weight:700;color:var(--on-accent);opacity:0;transition:opacity .3s;pointer-events:none}
 .cat-banner-wrap.is-sleeping .cat-zz{opacity:1}
 .announcement-window{position:relative;z-index:2}
 .announcement-track a{text-shadow:0 1px 2px #1f8781,0 0 3px #1f8781}

@@ -35,17 +35,17 @@
  .hd-pc .icons{justify-self:end;margin-left:0}
 }
 /* v19：商品ページの購入と、以前の名入れカートをつなぐ。 */
-.sample-product-photo{border-radius:18px;overflow:hidden;background:#fff;display:grid;place-items:center;min-height:240px}
+.sample-product-photo{border-radius:18px;overflow:hidden;background:var(--surface);display:grid;place-items:center;min-height:240px}
 .sample-product-photo img{display:block;width:100%;max-height:600px;object-fit:contain;aspect-ratio:1}
 .sample-noimage{background:var(--bg);color:var(--sub);padding:20px;text-align:center;font-size:14px;overflow-wrap:anywhere}
-#product-buy select{width:100%;font:inherit;font-size:16px;padding:10px;border:1px solid rgba(47,169,163,.38);border-radius:10px;min-width:0;margin-bottom:14px}
+#product-buy select{width:100%;font:inherit;font-size:16px;padding:10px;border:1px solid var(--tap-ring);border-radius:10px;min-width:0;margin-bottom:14px}
 #product-buy>p{font-size:14px;margin:10px 0}
-#product-buy .cart-feedback a,#sticky-feedback a{border:1px solid rgba(47,169,163,.38);border-radius:6px;padding:4px 8px;text-decoration:underline;display:inline-block}
+#product-buy .cart-feedback a,#sticky-feedback a{border:1px solid var(--tap-ring);border-radius:6px;padding:4px 8px;text-decoration:underline;display:inline-block}
 #sample-item .pinfo{min-width:0}#sample-item h1{overflow-wrap:anywhere}#sample-item .details h2{font-size:20px;margin:20px 0 8px}#sample-item .product-description{white-space:pre-line;font-size:15px;line-height:1.8;overflow-wrap:anywhere}
-.sample-trial-links{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.sample-trial-links a{border:1px solid rgba(47,169,163,.38);border-radius:10px;background:#fff;padding:10px 12px;font-size:14px;overflow-wrap:anywhere}
+.sample-trial-links{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}.sample-trial-links a{border:1px solid var(--tap-ring);border-radius:10px;background:var(--surface);padding:10px 12px;font-size:14px;overflow-wrap:anywhere}
 .sample-trial-links a:hover{background:var(--teal-l)}
 #sticky-feedback{font-size:12px;margin:0;line-height:1.4}#sticky-feedback:empty{display:none}.sticky-buy:has(#sticky-feedback:not(:empty)){flex-wrap:wrap}#sticky-feedback:not(:empty){flex:0 0 100%}
-.feature-product h2 a{border:1px solid rgba(47,169,163,.38);border-radius:6px;display:inline-block;padding:3px 6px}.feature-product h2 a:hover{background:var(--teal-l)}
+.feature-product h2 a{border:1px solid var(--tap-ring);border-radius:6px;display:inline-block;padding:3px 6px}.feature-product h2 a:hover{background:var(--teal-l)}
 /* PCの選択欄も、制作ルールの入力文字16px以上に揃える。 */
 input,select,textarea{font-size:16px!important}
 /* v20：名入れは希望者がチェックしてから開く。実カートの参照内容を表示。 */
@@ -53,10 +53,10 @@ input,select,textarea{font-size:16px!important}
 .cpo .campaign-name-check input{width:23px;height:23px;flex:0 0 23px;accent-color:var(--teal);margin:0}
 .campaign-name-check span{min-width:0}.campaign-name-check b{display:block;font-size:16px;line-height:1.6}.campaign-name-check small{display:block;font-size:14px;line-height:1.6;margin-top:3px}
 .campaign-name-check:has(input:checked){background:var(--teal-l);border-color:var(--teal);color:var(--ink)}
-#o-name-fields{min-width:0;border:1px solid rgba(47,169,163,.38);border-radius:12px;padding:12px;margin:12px 0 0;background:#f3fbfa}#o-name-fields[hidden]{display:none!important}#o-name-fields legend{font-size:14px;font-weight:700;padding:0 6px}
-#o-cart .cl{gap:10px}#o-cart .cl span{min-width:0;overflow-wrap:anywhere}#o-cart .cl small{display:block;line-height:1.7}#o-cart .cl a{display:inline-block;padding:3px 5px;border:1px solid rgba(47,169,163,.38);border-radius:6px}#o-cart .cl b{flex-shrink:0}
-.campaign-cart-link{display:inline-block;margin:12px 8px 0 0;padding:8px 10px;border:1px solid rgba(47,169,163,.38);border-radius:8px;font-size:14px;background:#fff}
-.campaign-cart-item{background:#fff;border:2px solid var(--teal);border-radius:16px;padding:16px;margin:14px 0}.campaign-cart-item h2{font-size:18px}.campaign-cart-item p{font-size:14px;line-height:1.8;overflow-wrap:anywhere}.campaign-cart-item form{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:14px 0}.campaign-cart-item input{width:90px;font-size:16px;padding:8px;border:1px solid rgba(47,169,163,.38);border-radius:8px}.campaign-cart-item button,.campaign-cart-item>a{font:inherit;font-size:14px;border:1px solid rgba(47,169,163,.38);border-radius:8px;padding:8px 12px;background:#fff}.campaign-cart-item strong{display:block;font-size:22px;margin-bottom:14px}.campaign-cart-item>a{display:inline-block}.campaign-cart-item .bad{color:#b23c32}.campaign-cart-item button:hover,.campaign-cart-item>a:hover,.campaign-cart-link:hover{background:var(--teal-l)}
+#o-name-fields{min-width:0;border:1px solid var(--tap-ring);border-radius:12px;padding:12px;margin:12px 0 0;background:#f3fbfa}#o-name-fields[hidden]{display:none!important}#o-name-fields legend{font-size:14px;font-weight:700;padding:0 6px}
+#o-cart .cl{gap:10px}#o-cart .cl span{min-width:0;overflow-wrap:anywhere}#o-cart .cl small{display:block;line-height:1.7}#o-cart .cl a{display:inline-block;padding:3px 5px;border:1px solid var(--tap-ring);border-radius:6px}#o-cart .cl b{flex-shrink:0}
+.campaign-cart-link{display:inline-block;margin:12px 8px 0 0;padding:8px 10px;border:1px solid var(--tap-ring);border-radius:8px;font-size:14px;background:var(--surface)}
+.campaign-cart-item{background:var(--surface);border:2px solid var(--teal);border-radius:16px;padding:16px;margin:14px 0}.campaign-cart-item h2{font-size:18px}.campaign-cart-item p{font-size:14px;line-height:1.8;overflow-wrap:anywhere}.campaign-cart-item form{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:14px 0}.campaign-cart-item input{width:90px;font-size:16px;padding:8px;border:1px solid var(--tap-ring);border-radius:8px}.campaign-cart-item button,.campaign-cart-item>a{font:inherit;font-size:14px;border:1px solid var(--tap-ring);border-radius:8px;padding:8px 12px;background:var(--surface)}.campaign-cart-item strong{display:block;font-size:22px;margin-bottom:14px}.campaign-cart-item>a{display:inline-block}.campaign-cart-item .bad{color:#b23c32}.campaign-cart-item button:hover,.campaign-cart-item>a:hover,.campaign-cart-link:hover{background:var(--teal-l)}
 
 .campaign-name-check .keep-word{white-space:nowrap}#o-name-fields .two label{font-size:14px;line-height:1.8;min-width:0}#o-name-fields .campaign-date-label{display:block;margin-top:10px;font-size:14px}
 

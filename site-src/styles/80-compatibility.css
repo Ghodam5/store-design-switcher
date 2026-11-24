@@ -1,7 +1,7 @@
 /* ===== マウスを乗せたとき：薄い囲み＋少し浮く（マウスのある端末だけ） ===== */
 @media (hover:hover) and (pointer:fine){
  a,button,select,summary,label,.chip,.mt,.prod,.rkc,.tab,.pick button,.cpo,.cp-card,.pg{cursor:pointer}
- a:hover,button:hover,select:hover,summary:hover,label:hover,.tagx:hover,.rkc:hover{outline:2px solid rgba(47,169,163,.38);outline-offset:2px}
+ a:hover,button:hover,select:hover,summary:hover,label:hover,.tagx:hover,.rkc:hover{outline:2px solid var(--tap-ring);outline-offset:2px}
  a,button,select,summary,label,.prod,.rkc{transition:outline-color .15s,box-shadow .2s,transform .2s,background-color .15s}
  .prod:hover,.rkc:hover,.mini-feat:hover{box-shadow:0 8px 22px rgba(38,48,58,.12);transform:translateY(-2px)}
  .prod:hover{outline-offset:0}
@@ -32,10 +32,10 @@
 
 /* ===== 中分類タブ：薄い囲み + 横スクロール専用 ===== */
 .mtabs{gap:8px;border-bottom:0;padding:4px 2px 6px;margin:12px 0 0}
-.mt{border:1.5px solid rgba(47,169,163,.38);background:#fff;border-radius:10px;margin-bottom:0;padding:9px 14px}
+.mt{border:1.5px solid var(--tap-ring);background:var(--surface);border-radius:10px;margin-bottom:0;padding:9px 14px}
 .mt.on{background:var(--teal-l);border-color:var(--teal);color:var(--teal-d)}
 @media (hover:hover) and (pointer:fine){.mt:hover{border-radius:10px;background:var(--teal-l)}}
-.chip{border:1.5px solid rgba(47,169,163,.38)}
+.chip{border:1.5px solid var(--tap-ring)}
 /* 横にだけ動く（上下に動かない） */
 .mtabs,.chips,.season,.crumb,.gal-track,.rail,.rankrow{overflow-y:hidden;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
 .mtabs,.chips,.rankrow{touch-action:pan-x pinch-zoom}
@@ -55,8 +55,8 @@ h1,h2,h3,h4,p,li,a,button,label,.chip,.mt{overflow-wrap:anywhere}
  .cats.big a.home svg{width:26px;height:26px}
 }
 .cats.big a.home{border-color:rgba(47,169,163,.45)}
-.cats.big a.home.on{background:var(--teal);border-color:var(--teal);color:#fff}
-.cats.big a.home.on svg{stroke:#fff}
+.cats.big a.home.on{background:var(--teal);border-color:var(--teal);color:var(--on-accent)}
+.cats.big a.home.on svg{stroke:var(--surface)}
 
 /* ===== iPhoneで入力欄に触れたとき画面が拡大しないように（16px未満だと自動で拡大される） ===== */
 @media (max-width:1023px){
