@@ -1,0 +1,31 @@
+/* トップの「大口注文」「提携商品」入口（見本） */
+.tep{--t-teal-d:var(--teal-d,#1a726d);--t-coral:var(--coral-d,#bf3c29);--t-line:#e8e1d6;--t-sub:var(--sub,#606a73)}
+.tep *{box-sizing:border-box}
+.tep-grid{display:grid;grid-template-columns:1fr;gap:12px}
+.tep-big,.tep-small{display:grid;border-radius:20px;overflow:hidden;border:1px solid var(--t-line);color:var(--ink,#26303a)!important;text-decoration:none;transition:box-shadow .2s,transform .2s}
+.tep-big:hover,.tep-small:hover{box-shadow:0 10px 24px rgba(0,0,0,.08);transform:translateY(-2px)}
+.tep-big{background:#fffaf1}
+.tep-small{background:#f4faf9;grid-template-columns:112px 1fr}
+.tep-ph{display:block;aspect-ratio:16/9;overflow:hidden}
+.tep-ph img,.tep-ph2 img{display:block;width:100%;height:100%;object-fit:cover}
+.tep-ph2{display:grid;grid-template-rows:1fr 1fr;gap:2px;background:#fff;min-height:100%}
+.tep-ph2 img{min-height:0}
+.tep-tx{display:grid;gap:5px;padding:14px 16px 16px;align-content:start}
+.tep-tx small{font-family:var(--latin,serif);letter-spacing:.16em;font-size:11px;color:var(--t-teal-d)}
+.tep-tx strong{font-size:19px;line-height:1.4}
+.tep-tx>span{font-size:13.5px;line-height:1.7;color:var(--t-sub)}
+.tep-small .tep-tx strong{font-size:17px}
+.tep-tags{display:flex;flex-wrap:wrap;gap:6px}
+.tep-tags i{font-style:normal;font-size:12px;font-weight:700;padding:3px 10px;border-radius:999px;background:#fff;border:1px solid #f0c9bf;color:var(--t-coral)}
+.tep-tx em{font-style:normal;justify-self:start;margin-top:4px;padding:9px 18px;border-radius:999px;background:var(--t-coral);color:#fff;font-weight:700;font-size:14px}
+.tep-small .tep-tx em{background:#fff;color:var(--t-teal-d);border:2px solid var(--teal,#217c77);padding:6px 14px;font-size:13px}
+.tep-about{display:flex;flex-wrap:wrap;gap:8px 16px;margin:12px 0 0}
+.tep-about a{font-weight:700;color:var(--teal-d,#1a726d)}
+@media (min-width:760px){
+  .tep-grid{grid-template-columns:1.55fr 1fr}
+  .tep-big{grid-template-columns:1.1fr 1fr;align-items:stretch}
+  .tep-ph{aspect-ratio:auto;height:100%}
+  .tep-tx{padding:20px 22px;align-content:center}
+  .tep-small{grid-template-columns:1fr;grid-template-rows:auto 1fr}
+  .tep-ph2{grid-template-rows:none;grid-template-columns:1fr 1fr;aspect-ratio:2/1}
+}

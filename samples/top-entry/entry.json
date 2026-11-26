@@ -1,0 +1,73 @@
+{
+  "_説明": "トップページに置く「大口注文」と「提携商品」の入口（見本）。本番ではサイトビルダーで、部品ごとに置く場所と文章・写真を選ぶ。",
+  "railCard": {
+    "_説明": "① 看板（いちばん上の横スクロールのカード）に足す1枚。季節の特集と同じ並びに常設で置く。",
+    "position": 2,
+    "id": "business",
+    "active": true,
+    "kind": "features",
+    "theme": "mint",
+    "title": "まとめて贈る・一緒につくる",
+    "text": "法人・式場さまの大口注文と、つくり手さまとの提携商品。",
+    "href": "bulk-order.html",
+    "cta": "大口注文のご相談へ",
+    "tiles": [
+      {
+        "label": "大口注文・法人ギフト",
+        "href": "bulk-order.html",
+        "image": "samples/top-entry/img/zurari.jpg"
+      },
+      {
+        "label": "カタログから選ぶ",
+        "href": "bulk-order.html",
+        "image": "samples/top-entry/img/catalog.jpg"
+      },
+      {
+        "label": "提携商品",
+        "href": "samples/partner-lp/preview.html",
+        "image": "samples/partner-lp/honten/pbmm-tmg01.jpg"
+      }
+    ]
+  },
+  "band": {
+    "_説明": "② 売れ筋TOP10のすぐ下に置く2枚並びの帯。大口を大きく、提携を小さく。",
+    "title": "まとめて贈りたい方・つくり手さまへ",
+    "big": {
+      "photo": "samples/top-entry/img/zurari.jpg",
+      "kicker": "FOR LARGE ORDERS",
+      "title": "大口注文・法人ギフト",
+      "text": "同じ商品300個以上、または1つの商品で10万円以上は特別価格でお見積もり。予算と個数を伝えるだけで、商品選びから名入れ・お届けまでおまかせいただけます。",
+      "tags": [
+        "お見積もり無料",
+        "送料無料",
+        "企業さまは後払いOK"
+      ],
+      "label": "大口注文のご相談へ",
+      "href": "bulk-order.html"
+    },
+    "small": {
+      "photos": [
+        "samples/partner-lp/honten/pbmm-tmg01.jpg",
+        "samples/partner-lp/honten/foodset-01.jpg"
+      ],
+      "kicker": "COLLABORATION",
+      "title": "提携商品",
+      "text": "つくり手さまと生まれたオリジナルギフトのご紹介と、提携のご相談。",
+      "label": "提携商品を見る",
+      "href": "samples/partner-lp/preview.html"
+    }
+  },
+  "aboutLinks": {
+    "_説明": "③ 「企画から発送まで、弊社で一貫して。」の文の下に足す2つのリンク。",
+    "items": [
+      {
+        "label": "大口注文・法人ギフトのご相談",
+        "href": "bulk-order.html"
+      },
+      {
+        "label": "提携商品・業務提携のご案内",
+        "href": "samples/partner-lp/preview.html"
+      }
+    ]
+  }
+}
