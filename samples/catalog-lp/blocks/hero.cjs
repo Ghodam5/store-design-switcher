@@ -1,0 +1,3 @@
+// 部品：いちばん上（組み合わせ写真＋見出し＋目印＋ボタン）
+const { esc, br, img } = require('./_util.cjs');
+module.exports = b => `<section class="cg-hero" data-block="hero"><div class="cg-hero-photo">${img(b.photo, b.photoAlt, 1400, 900, false)}</div><div class="cg-hero-copy"><p class="cg-kick">${esc(b.kicker)}</p><h1>${br(b.title)}</h1><p>${br(b.lead)}</p><ul class="cg-badges">${b.badges.map(x => `<li>${esc(x)}</li>`).join('')}</ul><div class="cg-ctas"><a class="cg-btn" href="${esc(b.cta.href)}">${esc(b.cta.label)}</a><a class="cg-btn ghost" href="${esc(b.subCta.href)}">${esc(b.subCta.label)}</a></div>${b.photoNote ? `<p class="cg-photo-note">${esc(b.photoNote)}</p>` : ''}</div></section>`;
