@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // 大口注文の特別ページ（見本）を作る。
 // page.json の blocks を順に部品（blocks/*.cjs）で HTML にし、
-// サイトの外枠（ヘッダー・フッター）は今の bulk-order.html から借りて、別ファイル bulk-lp-sample.html に書き出す。
+// サイトの外枠（ヘッダー・フッター）は今の bulk-order.html から借りて、別ファイル samples/bulk-lp/preview.html に書き出す（サイト直下に置くと build-site の --check が止まるため）。
 // 今のページ（bulk-order.html など）は読むだけで変更しない。
 const fs = require('fs'), path = require('path');
 const ROOT = path.resolve(__dirname, '../..');
@@ -28,9 +28,9 @@ let html = fs.readFileSync(path.join(ROOT, 'bulk-order.html'), 'utf8');
 const s = html.indexOf('<main'), e = html.indexOf('</main>') + 7;
 if (s < 0 || e < 7) throw new Error('bulk-order.html に <main> が見つかりません');
 html = html.slice(0, s) + main + html.slice(e);
-html = html.replace(/<title>[^<]*<\/title>/, `<title>${esc(p.title)}｜ルナルーチェ（見本）</title>`)
+html = html.replace('<head>', '<head><base href="../../">').replace(/<title>[^<]*<\/title>/, `<title>${esc(p.title)}｜ルナルーチェ（見本）</title>`)
   .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${esc(p.description)}">`)
   .replace('</head>', `<link rel="stylesheet" href="samples/bulk-lp/bulk-lp.css?v=1"></head>`)
   .replace(/<div class="sample-bar">[\s\S]*?<\/div>/, '<div class="sample-bar">見本：大口注文の特別ページ（サイトビルダーの「特別ページ」で作る想定）｜今のページは変えていません</div>');
-fs.writeFileSync(path.join(ROOT, 'bulk-lp-sample.html'), html);
-console.log(`bulk-lp-sample.html を書き出しました（部品 ${data.blocks.length} 個）`);
+fs.writeFileSync(path.join(__dirname, 'preview.html'), html);
+console.log(`samples/bulk-lp/preview.html を書き出しました（部品 ${data.blocks.length} 個）`);
