@@ -1,0 +1,165 @@
+{
+  "_説明": "大口注文の特別ページ（見本）。サイトビルダーで「特別ページ」として登録したときに保存される中身の例。blocks の並び順がそのままページの並び順になる。担当者はこのJSONを直接触らず、ビルダーの画面で部品を足す・並べ替える・文章と写真を入れる。",
+  "page": {
+    "id": "bulk-order-special",
+    "kind": "special",
+    "slug": "bulk-lp-sample.html",
+    "title": "大口注文・法人ギフトのご相談",
+    "description": "300個以上の大口注文、企業・式場さまのギフトのご相談。予算と個数と使う日を伝えるだけで、ギフトコンシェルジュが商品選びから名入れ・包装・お届けまでまとめてご提案します。",
+    "showInMenu": false,
+    "breadcrumbParent": { "label": "ご利用ガイド", "href": "shopping-guide.html" },
+    "status": "draft"
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "kicker": "FOR LARGE ORDERS",
+      "title": "予算と個数を伝えるだけ。\nあとは、まるごとおまかせ。",
+      "lead": "300個からの大口注文・法人ギフトは、ギフトコンシェルジュが商品選び・名入れ・包装・お届けまでまとめてご提案します。お見積もりは無料です。",
+      "photos": ["images/features/pb-goen.jpg", "images/features/fla111fufu.jpg", "images/features/pb313rhythmbox.jpg", "images/features/58966.jpg", "images/features/1911.jpg"],
+      "badges": ["お見積もり無料", "送料無料", "手数料無料", "割引あり", "おまけあり"],
+      "cta": { "label": "無料でお見積もりを頼む", "href": "#bulk-form" },
+      "subCta": { "label": "お電話で相談する", "href": "#bulk-contact" }
+    },
+    {
+      "type": "conditions",
+      "id": "bulk-target",
+      "title": "大口注文になる条件",
+      "items": [
+        { "big": "300個〜", "label": "同じ商品を300個以上", "note": "A250個＋B50個のように別々の商品を合わせた300個は対象外です。" },
+        { "big": "10万円〜", "label": "1つの商品を10万円以上", "note": "プチギフトのほか、引出物・引菓子・カタログギフトも対象です。" }
+      ],
+      "aside": {
+        "title": "300個まではいかないけれど、まとめて買いたい方へ",
+        "text": "見積もりなしでそのまま買える「大口セット商品」をご用意しています。",
+        "link": { "label": "大口セット商品を見る", "href": "category.html" }
+      }
+    },
+    {
+      "type": "omakase",
+      "id": "bulk-omakase",
+      "title": "伝えていただくのは、この3つだけ",
+      "lead": "決まっていないことがあっても大丈夫です。わかる範囲でお知らせください。",
+      "steps": [
+        { "icon": "yen", "label": "ご予算", "text": "総額でも、1個あたりでも" },
+        { "icon": "box", "label": "個数", "text": "おおよその数でかまいません" },
+        { "icon": "cal", "label": "使う日", "text": "イベント・式・配る日" }
+      ],
+      "result": "→ 予算と日程に合う商品を、コンシェルジュが2〜3案にしてお見積もりと一緒にお送りします。"
+    },
+    {
+      "type": "scenes",
+      "id": "bulk-scenes",
+      "title": "こんな場面で選ばれています",
+      "note": "写真は仮です。本番では実際の納品事例・会場の写真に差し替えます。",
+      "groups": [
+        { "label": "感謝を込めたプチギフト", "items": [
+          { "photo": "images/features/pb-goen.jpg", "label": "結婚式・披露宴" },
+          { "photo": "images/features/pb318violinbox.jpg", "label": "二次会・パーティー" },
+          { "photo": "images/features/pb312kobomobox.jpg", "label": "入学式・卒業式" }
+        ]},
+        { "label": "大勢の方へ配るまとめ買い", "items": [
+          { "photo": "images/features/pb289smilebox.jpg", "label": "イベント景品・ノベルティ" },
+          { "photo": "images/features/fla505hanayaka2026.jpg", "label": "開店・周年の挨拶品" },
+          { "photo": "images/features/pb305catthxgift.jpg", "label": "ハロウィン・クリスマス・バレンタイン" }
+        ]},
+        { "label": "さまざまなイベントに", "items": [
+          { "photo": "images/features/pb283ranbowbox.jpg", "label": "子供会・地域・学校行事" },
+          { "photo": "images/features/pb277pirotowel.jpg", "label": "退職・異動のギフト" },
+          { "photo": "images/features/pb242pianobox.jpg", "label": "発表会・コンサート" }
+        ]}
+      ]
+    },
+    {
+      "type": "benefits",
+      "id": "bulk-benefits",
+      "title": "大口注文の特典",
+      "items": [
+        { "label": "特別価格", "text": "表示価格から割引した価格でお見積もりします。" },
+        { "label": "送料無料", "text": "大口注文は送料をいただきません。" },
+        { "label": "手数料無料", "text": "銀行振込・代金引換の手数料が無料です。" },
+        { "label": "おまけ", "text": "購入金額に応じた特典をお付けします。" },
+        { "label": "見積もり無料", "text": "何度でも無料でお見積もりします。" }
+      ]
+    },
+    {
+      "type": "services",
+      "id": "bulk-services",
+      "title": "企業さま・式場さま向けのサービス",
+      "lead": "企業さま・式場さまからのご注文に限り、次のサービスを選べます。御社オリジナルの名入れ商品もご相談ください。",
+      "items": [
+        { "photo": "images/features/58966.jpg", "title": "後払い（出荷した月の月末払い）", "text": "商品と一緒に請求書をお送りし、請求日にお支払いいただけます。", "notes": ["個人宅あてのご注文はできません", "ご注文者さまと同じお届け先に限ります", "銀行振込を選び、備考欄に「後払い希望」とお書きください"] },
+        { "photo": "images/features/pb313rhythmbox.jpg", "title": "サンプル請求チケット", "text": "次に商品を選ぶとき、プチギフトを2点までサンプルとしてお取り寄せできます。", "notes": ["ご担当者さまの名刺1枚と専用の申込用紙を郵送してください"] },
+        { "photo": "images/features/pb-kmamoriset.jpg", "title": "商品カタログを同梱", "text": "当店で扱っている商品のカタログを、ご注文品と一緒にお送りします。", "notes": [] },
+        { "photo": "images/features/w-bag-b00.jpg", "title": "小袋・紙袋を個数分サービス", "text": "お持ち帰りに便利なプチギフト用の小袋、引出物用の紙袋をご注文個数分お付けします。", "notes": ["ご希望の方のみ"] }
+      ]
+    },
+    {
+      "type": "plans",
+      "id": "bulk-plans",
+      "title": "ご予算別・おまかせプランの例",
+      "note": "金額と中身は見本用の仮のものです（本番では実際のプランに差し替えます）。",
+      "items": [
+        { "photo": "images/features/japonesque-konpei2024.jpg", "price": "1個 200円前後〜", "label": "気軽に配る", "text": "金平糖やお菓子のプチギフト。景品・ノベルティに。", "tag": "仮" },
+        { "photo": "images/features/pb291nekogamibox.jpg", "price": "1個 400円前後〜", "label": "名入れで記念に", "text": "お名前・社名・日付を入れたボックス。式や周年に。", "tag": "仮" },
+        { "photo": "images/features/fla111fufu.jpg", "price": "1個 800円前後〜", "label": "きちんと贈る", "text": "シフォンケーキやタオルの詰め合わせ。挨拶品・退職ギフトに。", "tag": "仮" }
+      ]
+    },
+    {
+      "type": "flow",
+      "id": "bulk-flow",
+      "title": "ご相談からお届けまで",
+      "lead": "ご注文内容や数量によりますが、およそ1週間〜1か月でご用意します。数が多いときは早めにご相談ください。",
+      "steps": [
+        { "label": "ご相談", "text": "お電話・メール・下のフォームで受け付けます。", "who": "お客さま" },
+        { "label": "お見積もり", "text": "使い道・納期に合わせて、おすすめ商品のご提案とお見積もりをお送りします。", "who": "ルナルーチェ" },
+        { "label": "ご注文", "text": "お見積もりの内容にご納得いただけたら、ご注文を承ります。", "who": "お客さま" },
+        { "label": "お支払い", "text": "銀行振込・代金引換・クレジットカード。企業さまは後払いも選べます。", "who": "お客さま" },
+        { "label": "発送", "text": "ご指定の日に間に合うよう、名入れ・包装をして発送します。", "who": "ルナルーチェ" }
+      ]
+    },
+    {
+      "type": "form",
+      "id": "bulk-form",
+      "title": "まるごとおまかせ見積もりフォーム",
+      "lead": "わからない所は空けたままで大丈夫です。土日祝日はお休みのため、お返事は翌営業日以降になります。",
+      "fields": [
+        { "name": "mode", "label": "どこまでおまかせにしますか", "kind": "choice", "options": ["商品選びからまるごとおまかせ", "候補をいくつか見て選びたい", "商品は決まっている（見積もりだけほしい）"] },
+        { "name": "use", "label": "使い道", "kind": "select", "options": ["結婚式・二次会", "イベント景品・ノベルティ", "開店・周年の挨拶品", "季節のイベント", "学校・地域の行事", "退職・異動", "その他"] },
+        { "name": "budget", "label": "ご予算", "kind": "budget", "placeholder": "例）1個300円くらい／総額10万円まで" },
+        { "name": "qty", "label": "個数", "kind": "number", "placeholder": "例）350" },
+        { "name": "date", "label": "使う日", "kind": "date" },
+        { "name": "options", "label": "あれば希望すること", "kind": "checks", "options": ["名入れ", "メッセージカード・シール", "小袋・紙袋", "納品書", "後払い（企業・式場さま）"] },
+        { "name": "item", "label": "気になっている商品（あれば）", "kind": "text", "placeholder": "商品名や商品番号" },
+        { "name": "name", "label": "お名前・会社名", "kind": "text", "required": true },
+        { "name": "email", "label": "メールアドレス", "kind": "email", "required": true },
+        { "name": "tel", "label": "電話番号", "kind": "tel" },
+        { "name": "memo", "label": "そのほか伝えたいこと", "kind": "textarea" }
+      ],
+      "submitLabel": "この内容で見積もりを頼む（無料）",
+      "notice": "携帯電話のメールアドレスの場合、パソコンからのメールを受け取れる設定にしてください。"
+    },
+    {
+      "type": "contact",
+      "id": "bulk-contact",
+      "title": "お電話でもご相談いただけます",
+      "tel": "0586-86-1150",
+      "hours": "営業日の10:00〜17:00（土・日・祝日はお休み）"
+    },
+    {
+      "type": "faq",
+      "id": "bulk-faq",
+      "title": "よくあるご質問",
+      "items": [
+        { "q": "いくつから大口注文になりますか？", "a": "同じ商品を300個以上、または1つの商品を10万円以上ご購入の場合です。" },
+        { "q": "違う商品を合わせて300個でも対象ですか？", "a": "対象になりません。たとえばA250個＋B50個は対象外ですが、A350個＋B350個なら、どちらも300個以上なので対象です。" },
+        { "q": "割引はありますか？", "a": "表示価格から割引した特別価格でお見積もりします。送料と、銀行振込・代金引換の手数料も無料です。" },
+        { "q": "何日前までに頼めばいいですか？", "a": "内容と数量によりますが、およそ1週間〜1か月です。日にちが迫っているときもご相談ください。間に合う商品をご提案します。" },
+        { "q": "予算はいくらから相談できますか？", "a": "ご予算とおおよその個数をお知らせいただければ、その範囲で用意できる商品をご提案します。" },
+        { "q": "支払い方法は？", "a": "銀行振込（前払い）・代金引換・クレジットカードです。企業さま・式場さまは出荷した月の月末払いも選べます。" },
+        { "q": "メッセージカードやシールは付けられますか？", "a": "商品と同じ数をお付けできます。ご希望のカードやシールはご注文のときにお知らせください。" },
+        { "q": "納品書や領収書は出せますか？", "a": "ご希望の場合は備考欄にお書きください。商品に同梱するか、別にお送りします。" }
+      ]
+    }
+  ]
+}
