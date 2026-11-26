@@ -1,0 +1,24 @@
+﻿# 提携商品関連ページ 取得記録（2026-11-26）
+
+## ページ
+https://www.luna-luce.jp/news/partner.html	提携商品募集  |ギフトのルナ・ルーチェ	partner.html
+
+## 本文の画像（URL → 保存名 / バイト数）
+http://www.luna-luce.jp/wordpress/wp-content/uploads/partner01.jpg	img\partner01.jpg	57839
+http://www.luna-luce.jp/wordpress/wp-content/uploads/partner02.jpg	img\partner02.jpg	3904
+http://www.luna-luce.jp/img/pbmm/pbmm-tmg01.jpg	img\pbmm-tmg01.jpg	112815
+http://www.luna-luce.jp/img/pbmm/pbmm-tmg02.jpg	img\pbmm-tmg02.jpg	129549
+http://www.luna-luce.jp/img/pb-series/foodset-01.jpg	img\foodset-01.jpg	96479
+http://www.luna-luce.jp/img/pb-series/foodset-02.jpg	img\foodset-02.jpg	108238
+http://www.luna-luce.jp/img/pb-series/foodset-03.jpg	img\foodset-03.jpg	103795
+
+## 参考：本文からのリンク先（取得はしていない）
+https://form.os7.biz/f/6a93f52c/	業務提携の問い合わせフォーム（外部）
+http://www.luna-luce.jp/item/pbmm-tmg01.html	提携商品例の商品ページ
+http://www.luna-luce.jp/item/pbmm-tmg02.html	提携商品例の商品ページ
+http://www.luna-luce.jp/item/foodset-01.html	提携商品例の商品ページ
+http://www.luna-luce.jp/item/foodset-02.html	提携商品例の商品ページ
+http://www.luna-luce.jp/item/foodset-03.html	提携商品例の商品ページ
+
+## 探した範囲
+トップページ（フッターバナー「提携商品募集」→ news/partner.html）、sitemap.xml とその下の addl/post1/post2/page/category サイトマップ。partner を含むURLは news/partner.html の1件のみ。
