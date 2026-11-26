@@ -1,0 +1,222 @@
+{
+  "_説明": "大口セット商品のページ（見本）。",
+  "page": {
+    "id": "bulk-set",
+    "kind": "special",
+    "slug": "bulk-set.html",
+    "title": "大口セット商品（まとめ買い）",
+    "description": "300個未満のまとめ買いに。見積もりなしで買える大口セット商品。",
+    "showInMenu": false,
+    "breadcrumbParent": {
+      "label": "ご利用ガイド",
+      "href": "shopping-guide.html"
+    },
+    "status": "draft"
+  },
+  "blocks": [
+    {
+      "type": "hero",
+      "kicker": "BULK SET",
+      "title": "まとめ買いに、\nちょうどいい大口セット。",
+      "lead": "300個まではいかないけれど、それなりの数が必要な方へ。見積もりなしでそのままカートに入れられる、お得なセットです。",
+      "photos": [
+        "samples/bulk-lp/img/zurari.jpg",
+        "images/features/pb289smilebox.jpg",
+        "images/features/japonesque-konpei2024.jpg",
+        "images/features/pb312kobomobox.jpg",
+        "images/features/pb318violinbox.jpg"
+      ],
+      "badges": [
+        "見積もり不要",
+        "セットでお得",
+        "名入れできる商品も"
+      ],
+      "cta": {
+        "label": "セット商品を見る",
+        "href": "#bulk-sets"
+      },
+      "subCta": {
+        "label": "300個以上・10万円以上の方はこちら",
+        "href": "samples/bulk-lp/preview.html"
+      },
+      "photoNote": "たくさん並んだ箱の絵は、商品写真から作ったイメージです"
+    },
+    {
+      "type": "switch",
+      "id": "bulk-switch",
+      "question": "ご注文の数・金額に合わせて、ページを選んでください",
+      "items": [
+        {
+          "if": "1つの商品で10万円以上 または 同じ商品300個以上",
+          "label": "お見積もりのご相談",
+          "text": "特別価格・送料無料。商品選びからおまかせ",
+          "href": "samples/bulk-lp/preview.html"
+        },
+        {
+          "if": "それより少ないまとめ買い",
+          "label": "大口セット商品",
+          "text": "見積もりなしで、そのままカートへ",
+          "href": "samples/bulk-lp/preview-set.html",
+          "current": true
+        }
+      ]
+    },
+    {
+      "type": "sets",
+      "id": "bulk-sets",
+      "title": "大口セット商品",
+      "lead": "OMSの「企画」で作った大口セットがここに並びます。",
+      "buttonLabel": "カートに入れる",
+      "note": "商品・個数・価格はすべて見本の仮です（大口セットはこれから企画を立てて作ります）。",
+      "items": [
+        {
+          "photo": "images/features/pb289smilebox.jpg",
+          "name": "レインボースマイルBOX",
+          "qty": "50個セット",
+          "price": "1個 ○○円",
+          "unit": "（税込・仮）",
+          "save": "単品より約○%お得",
+          "tag": "企画中"
+        },
+        {
+          "photo": "images/features/japonesque-konpei2024.jpg",
+          "name": "ジャポネスク こんぺいとう",
+          "qty": "100個セット",
+          "price": "1個 ○○円",
+          "unit": "（税込・仮）",
+          "save": "単品より約○%お得",
+          "tag": "企画中"
+        },
+        {
+          "photo": "images/features/pb-goen.jpg",
+          "name": "GOEN プチギフト（名入れ）",
+          "qty": "80個セット",
+          "price": "1個 ○○円",
+          "unit": "（税込・仮）",
+          "save": "名入れ代込み",
+          "tag": "企画中"
+        },
+        {
+          "photo": "images/features/pb312kobomobox.jpg",
+          "name": "HAPPY★こどもの日BOX",
+          "qty": "30個セット",
+          "price": "1個 ○○円",
+          "unit": "（税込・仮）",
+          "save": "学校・子供会に",
+          "tag": "企画中"
+        }
+      ]
+    },
+    {
+      "type": "benefits",
+      "id": "bulk-set-benefits",
+      "title": "大口セットのいいところ",
+      "items": [
+        {
+          "icon": "sale",
+          "label": "セットでお得",
+          "text": "単品で買うより1個あたりが安くなります。"
+        },
+        {
+          "icon": "truck",
+          "label": "すぐ注文できる",
+          "text": "見積もりを待たずにカートへ。"
+        },
+        {
+          "icon": "gift",
+          "label": "名入れもOK",
+          "text": "名入れできる商品はセットでも名入れできます。"
+        },
+        {
+          "icon": "doc",
+          "label": "領収書も",
+          "text": "ご希望の方は備考欄にお書きください。"
+        }
+      ]
+    },
+    {
+      "type": "router",
+      "id": "bulk-calc",
+      "title": "どちらか迷ったら",
+      "lead": "大事なのは個数より合計の金額です。1つの商品で10万円をこえるなら、個数が少なくてもお見積もりでお受けします。",
+      "calc": {
+        "title": "合計の目安を計算してみる",
+        "limit": 100000,
+        "qty": 300,
+        "price0": 2000,
+        "qty0": 60
+      },
+      "examples": [
+        {
+          "calc": "1個 350円 × 300個 ＝ 105,000円",
+          "result": "お見積もり",
+          "tone": "a"
+        },
+        {
+          "calc": "1個 2,000円 × 50個 ＝ 100,000円",
+          "result": "お見積もり（個数が少なくてもOK）",
+          "tone": "a"
+        },
+        {
+          "calc": "1個 300円 × 100個 ＝ 30,000円",
+          "result": "大口セット商品",
+          "tone": "b"
+        }
+      ]
+    },
+    {
+      "type": "flow",
+      "id": "bulk-set-flow",
+      "title": "ご注文からお届けまで",
+      "lead": "ふつうのお買い物と同じ流れです。",
+      "steps": [
+        {
+          "label": "セットを選ぶ",
+          "text": "数に合うセットをカートへ。",
+          "who": "お客さま"
+        },
+        {
+          "label": "お支払い",
+          "text": "カード・銀行振込・代金引換。",
+          "who": "お客さま"
+        },
+        {
+          "label": "準備・名入れ",
+          "text": "名入れがある場合は内容を確認して作ります。",
+          "who": "ルナルーチェ"
+        },
+        {
+          "label": "発送",
+          "text": "ご指定の日に間に合うようお届けします。",
+          "who": "ルナルーチェ"
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "id": "bulk-set-faq",
+      "title": "よくあるご質問",
+      "items": [
+        {
+          "q": "セットの数より少し多く必要です",
+          "a": "セットを組み合わせるか、単品を追加してください。合計が10万円以上になる場合は、お見積もりの方がお得になることがあります。"
+        },
+        {
+          "q": "セットに無い商品をまとめて買いたい",
+          "a": "ふつうの商品ページで数量を選んでご注文いただけます。10万円以上ならお見積もりのページからご相談ください。"
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "id": "bulk-contact",
+      "title": "お電話でもご相談いただけます",
+      "tel": "0586-86-1150",
+      "hours": "営業日の10:00〜17:00（土・日・祝日はお休み）"
+    }
+  ],
+  "sticky": {
+    "label": "大口セットを見る",
+    "href": "#bulk-sets"
+  }
+}

@@ -1,0 +1,147 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>デジタルカタログ（見本）</title>
+<style>
+:root{--teal:#217c77;--teal-d:#1a726d;--coral:#bf3c29;--ink:#26303a;--sub:#606a73;--line:#e3ddd2;--cream:#fffaf1;--bg:#efe9df}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic UI",sans-serif;font-size:15px;line-height:1.7}
+.bar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:10px;padding:10px 16px;background:#fff;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.bar h1{font-size:15px;margin:0;flex:1 1 200px;min-width:0}
+.bar h1 small{display:block;font-size:11px;font-weight:400;color:var(--sub)}
+.bar button,.bar a{font:inherit;font-size:13px;font-weight:700;min-height:40px;padding:6px 14px;border-radius:999px;border:1px solid var(--teal);background:#fff;color:var(--teal-d);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.bar .list{background:var(--coral);border-color:var(--coral);color:#fff}
+.bar .list b{background:#fff;color:var(--coral);border-radius:999px;padding:0 7px;font-size:12px}
+.sample{background:#26303a;color:#fff;text-align:center;font-size:12px;padding:4px 10px}
+.stage{max-width:1180px;margin:0 auto;padding:18px 12px 30px}
+.book{display:grid;grid-template-columns:1fr;gap:0;perspective:1800px;filter:drop-shadow(0 14px 22px rgba(60,40,20,.18))}
+.page{background:#fffdf9;min-height:560px;padding:20px 18px;position:relative;border-radius:10px;animation:turn .5s ease}
+.page.left{border-radius:10px 0 0 10px;box-shadow:inset -18px 0 22px -18px rgba(0,0,0,.18)}
+.page.right{border-radius:0 10px 10px 0;box-shadow:inset 18px 0 22px -18px rgba(0,0,0,.18)}
+@keyframes turn{from{transform:rotateY(-14deg);opacity:.35}to{transform:none;opacity:1}}
+.page h2{font-size:18px;margin:0 0 4px;color:var(--teal-d)}
+.page .pno{position:absolute;bottom:10px;left:0;right:0;text-align:center;font-size:12px;color:var(--sub)}
+.page .lead{margin:0 0 12px;font-size:12px;color:var(--sub)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.item{all:unset;cursor:pointer;display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.item:hover,.item:focus-visible{transform:translateY(-2px);box-shadow:0 6px 14px rgba(0,0,0,.1);outline:2px solid var(--teal)}
+.item img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.item div{padding:8px 10px 10px}
+.item b{display:block;font-size:13px;line-height:1.45}
+.item .pr{font-size:13px;color:var(--coral);font-weight:700}
+.item .pr small{font-size:10px;color:var(--sub);font-weight:400}
+.item .tg{display:flex;gap:4px;flex-wrap:wrap;margin-top:3px}
+.item .tg span{font-size:10px;padding:0 6px;border-radius:4px;background:#eef7f6;color:var(--teal-d)}
+.item .pr{display:block}.item .tap{display:block;margin-top:2px;font-size:11px;color:var(--teal-d);font-weight:700}
+.cover{background:var(--c,#217c77);color:#fff;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;padding:0}
+.cover img{position:absolute;inset:0;width:100%;height:62%;object-fit:cover}
+.cover .ct{position:relative;padding:22px;background:linear-gradient(to top,var(--c,#217c77) 70%,transparent)}
+.cover p{margin:0;font-size:12px;letter-spacing:.2em;opacity:.85}
+.cover h2{color:#fff;font-size:26px;line-height:1.4;margin:6px 0}
+.cover small{font-size:13px;opacity:.9}
+.info{display:flex;flex-direction:column;gap:10px;justify-content:center}
+.info h2{font-size:20px}
+.info ol{margin:0;padding-left:1.3em}
+.info .rule{background:#fff8f5;border:2px solid #f3c3b8;border-radius:12px;padding:12px}
+.nav{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:16px}
+.nav button{font:inherit;font-weight:700;min-height:46px;min-width:46px;padding:0 18px;border-radius:999px;border:1px solid var(--teal);background:#fff;color:var(--teal-d);cursor:pointer}
+.nav button:disabled{opacity:.35;cursor:default}
+.nav span{font-size:13px;color:var(--sub);min-width:90px;text-align:center}
+.dots{display:flex;justify-content:center;gap:6px;margin-top:10px}
+.dots i{width:8px;height:8px;border-radius:50%;background:#cfc6b8}.dots i.on{background:var(--teal)}
+/* 商品を押したときの欄 */
+.sheet-bg{position:fixed;inset:0;background:rgba(20,25,30,.45);z-index:20;display:none}
+.sheet{position:fixed;z-index:21;left:0;right:0;bottom:0;background:#fff;border-radius:20px 20px 0 0;padding:18px 18px 22px;max-height:88vh;overflow:auto;transform:translateY(105%);transition:transform .25s,visibility .25s;visibility:hidden}
+.open .sheet-bg{display:block}.open .sheet{transform:none;visibility:visible}
+.sheet .hd{display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:center}
+.sheet img{width:100%;border-radius:12px;aspect-ratio:1;object-fit:cover}
+.sheet h3{margin:0;font-size:17px}
+.sheet .x{position:absolute;right:12px;top:10px;font:inherit;font-size:22px;border:0;background:none;cursor:pointer;color:var(--sub)}
+.sheet label{display:block;font-weight:700;margin:14px 0 4px}
+.qty{display:flex;gap:6px;flex-wrap:wrap}
+.qty input{font:inherit;font-size:18px;width:120px;min-height:46px;border:1px solid #c9c2b5;border-radius:10px;padding:6px 10px}
+.qty button{font:inherit;font-size:13px;min-height:46px;padding:0 12px;border-radius:10px;border:1px solid var(--line);background:#faf7f1;cursor:pointer}
+.res{margin:12px 0;padding:12px;border-radius:12px;font-size:14px}
+.res.a{background:#fff1ec;color:#7d2a1d}.res.b{background:#e9f6f4;color:#14524e}
+.res b{font-size:18px}
+.acts{display:grid;gap:8px}
+.acts button{font:inherit;font-weight:700;min-height:50px;border-radius:999px;border:1px solid var(--teal);background:#fff;color:var(--teal-d);cursor:pointer}
+.acts .main{background:var(--coral);border-color:var(--coral);color:#fff}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#26303a;color:#fff;padding:10px 16px;border-radius:999px;font-size:13px;z-index:30;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+.print-only{display:none}
+@media(min-width:900px){
+ .book{grid-template-columns:1fr 1fr}
+ .book.single{grid-template-columns:minmax(0,560px);justify-content:center}
+ .page{min-height:640px;padding:28px 26px 36px}
+ .sheet{left:auto;right:24px;bottom:24px;width:420px;border-radius:20px;transform:translateX(120%)}
+ .open .sheet{transform:none}
+}
+/* 印刷：全ページを1枚ずつ */
+@media print{
+ @page{size:A4;margin:10mm}
+ body{background:#fff}
+ .bar,.sample,.nav,.dots,.sheet,.sheet-bg,.toast,.stage{display:none!important}
+ .print-only{display:block}
+ .print-only .page{break-after:page;box-shadow:none;border:0;min-height:auto;animation:none}
+ .print-only .grid{grid-template-columns:1fr 1fr}
+ .print-only .item{break-inside:avoid}
+ .print-only .tap{display:none}
+}
+</style></head><body>
+<div class="sample">見本：デジタルカタログ（OMSで作ったカタログをHPで見る画面）｜商品・価格は仮です</div>
+<header class="bar"><h1 id="t"></h1><button type="button" id="print">印刷・PDFにする</button><a class="list" href="../preview.html#bulk-form">相談リスト <b id="cnt">0</b></a></header>
+<main class="stage"><div class="book" id="book"></div>
+<div class="nav"><button type="button" id="prev" aria-label="前のページ">‹ 前へ</button><span id="pg"></span><button type="button" id="next" aria-label="次のページ">次へ ›</button></div>
+<div class="dots" id="dots"></div></main>
+<div class="print-only" id="printAll"></div>
+<div class="sheet-bg" id="bg"></div>
+<section class="sheet" id="sheet" aria-modal="true" role="dialog" aria-label="商品"><button class="x" type="button" id="x" aria-label="閉じる">×</button><div id="sheetBody"></div></section>
+<div class="toast" id="toast"></div>
+<script id="catalog-data" type="application/json">/*CATALOG*/</script>
+<script>
+(function(){
+const C=JSON.parse(document.getElementById('catalog-data').textContent);
+const yen=n=>n.toLocaleString('ja-JP');
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+document.getElementById('t').innerHTML=esc(C.title)+'<small>'+esc(C.subtitle)+'</small>';
+// ページの並び：表紙・使い方・商品ページ
+const pages=[{kind:'cover'},{kind:'info'}].concat(C.pages.map(p=>Object.assign({kind:'items'},p)));
+const pageHtml=(p,i)=>{
+ if(p.kind==='cover')return `<section class="page cover" style="--c:${esc(C.cover.color)}"><img src="${esc(C.cover.photo)}" alt=""><div class="ct"><p>LUNA LUCE</p><h2>${esc(C.title)}</h2><small>${esc(C.subtitle)}</small></div></section>`;
+ if(p.kind==='info')return `<section class="page info"><h2>このカタログの使い方</h2><ol><li>気になる商品の写真を押す</li><li>個数を入れると合計の目安が出ます</li><li>「相談リストに入れる」で、まとめてご相談</li></ol><div class="rule"><b>大口の特別価格</b><br>同じ商品300個以上、または1つの商品で10万円以上は特別価格でお見積もり。送料・手数料も無料です。</div><p class="lead">印刷して社内で回覧することもできます（右上の「印刷・PDFにする」）。</p><span class="pno">${i}</span></section>`;
+ return `<section class="page"><h2>${esc(p.title)}</h2><p class="lead">写真を押すと、個数と合計の目安を確かめられます</p><div class="grid">${p.items.map(it=>`<button type="button" class="item" data-id="${esc(it.id)}"><img src="${esc(it.photo)}" alt=""><div><b>${esc(it.name)}</b><span class="pr">1個 ${yen(it.price)}円<small>（税込・仮）</small></span>${it.tags.length?`<span class="tg">${it.tags.map(t=>`<span>${esc(t)}</span>`).join('')}</span>`:''}<span class="tap">押して個数を入れる ›</span></div></button>`).join('')}</div><span class="pno">${i}</span></section>`;
+};
+const items={};C.pages.forEach(p=>p.items.forEach(it=>items[it.id]=it));
+let at=0;const wide=()=>matchMedia('(min-width:900px)').matches;
+const book=document.getElementById('book'),pg=document.getElementById('pg'),dots=document.getElementById('dots');
+function spreads(){ if(!wide())return pages.map((_,i)=>[i]); const s=[[0]];for(let i=1;i<pages.length;i+=2)s.push(pages[i+1]?[i,i+1]:[i]);return s;}
+function draw(){const s=spreads();if(at>=s.length)at=s.length-1;const cur=s[at];
+ book.className='book'+(cur.length===1?' single':'');
+ book.innerHTML=cur.map((n,k)=>pageHtml(pages[n],n).replace('class="page','class="page'+(cur.length===2?(k?' right':' left'):''))).join('');
+ pg.textContent=(at+1)+' / '+s.length;
+ document.getElementById('prev').disabled=at===0;document.getElementById('next').disabled=at===s.length-1;
+ dots.innerHTML=s.map((_,i)=>`<i class="${i===at?'on':''}"></i>`).join('');}
+document.getElementById('prev').onclick=()=>{at--;draw();};document.getElementById('next').onclick=()=>{at++;draw();};
+let sx=0;book.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});
+book.addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>50){at+=d<0?1:-1;at=Math.max(0,at);draw();}});
+let lastWide=wide();addEventListener('resize',()=>{if(wide()!==lastWide){lastWide=wide();draw();}});draw();
+// 商品を押したとき
+const list=[];const toast=m=>{const t=document.getElementById('toast');t.textContent=m;t.classList.add('on');setTimeout(()=>t.classList.remove('on'),1800);};
+function openItem(id){const it=items[id];if(!it)return;
+ document.getElementById('sheetBody').innerHTML=`<div class="hd"><img src="${esc(it.photo)}" alt=""><div><h3>${esc(it.name)}</h3><span>1個 ${yen(it.price)}円（税込・仮）</span></div></div><label for="q">個数</label><div class="qty"><input id="q" type="number" min="1" inputmode="numeric" value="300"><button type="button" data-q="50">50個</button><button type="button" data-q="100">100個</button><button type="button" data-q="300">300個</button></div><div class="res" id="res"></div><div class="acts"><button type="button" class="main" id="add">相談リストに入れる</button><button type="button" id="cart">ふつうに注文する（カートへ）</button></div>`;
+ const q=document.getElementById('q'),res=document.getElementById('res');
+ const calc=()=>{const n=+q.value||0,t=n*it.price,ok=t>=C.bulk.limit||n>=C.bulk.qty;res.className='res '+(ok?'a':'b');res.innerHTML=`合計 <b>${yen(t)}円</b>（目安）<br>`+(ok?'大口の<strong>特別価格</strong>でお見積もりします。送料・手数料も無料。':'大口の条件（10万円以上・300個以上）まであと少し。ふつうのご注文か、大口セットがおすすめです。');document.getElementById('cart').style.display=ok?'none':'';};
+ q.oninput=calc;document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{q.value=b.dataset.q;calc();});calc();
+ document.getElementById('add').onclick=()=>{list.push({id,qty:+q.value});document.getElementById('cnt').textContent=list.length;close();toast('相談リストに入れました（見本）');};
+ document.getElementById('cart').onclick=()=>{close();toast('カートに入れました（見本）');};
+ document.body.classList.add('open');}
+function close(){document.body.classList.remove('open');}
+book.addEventListener('click',e=>{const b=e.target.closest('.item');if(b)openItem(b.dataset.id);});
+document.getElementById('bg').onclick=close;document.getElementById('x').onclick=close;
+addEventListener('keydown',e=>{if(e.key==='Escape')close();if(e.key==='ArrowRight'&&!document.body.classList.contains('open')){document.getElementById('next').click();}if(e.key==='ArrowLeft'&&!document.body.classList.contains('open')){document.getElementById('prev').click();}});
+// 印刷用：全ページを並べる
+document.getElementById('printAll').innerHTML=pages.map(pageHtml).join('');
+document.getElementById('print').onclick=()=>print();
+// 撮影用：?open=商品ID で欄を開く、?at=番号 でページを開く
+const u=new URLSearchParams(location.search);if(u.get('at')){at=+u.get('at');draw();}if(u.get('open'))openItem(u.get('open'));
+})();
+</script></body></html>
