@@ -1,0 +1,82 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OMS 大口セットとカタログ 見本</title><style>
+:root{--teal:#217c77;--teal-d:#1a726d;--coral:#bf3c29;--ink:#26303a;--sub:#606a73;--line:#dfe5e6;--bg:#f3f5f6}
+*{box-sizing:border-box}body{margin:0;font-family:"Noto Sans JP","Hiragino Sans",sans-serif;background:var(--bg);color:var(--ink);font-size:14px;line-height:1.7}
+.top{display:flex;align-items:center;gap:14px;padding:10px 18px;background:#1f2a33;color:#fff;flex-wrap:wrap}.top b{font-size:15px}.top span{opacity:.75;font-size:12px}
+.tabs{display:flex;gap:4px;padding:8px 18px 0;background:#fff;border-bottom:1px solid var(--line);overflow-x:auto}.tabs a{padding:8px 14px;border-radius:8px 8px 0 0;color:var(--sub);text-decoration:none;white-space:nowrap}.tabs a.on{background:var(--bg);color:var(--teal-d);font-weight:700;border:1px solid var(--line);border-bottom:0}
+.cols{display:grid;grid-template-columns:270px 1fr 400px;gap:14px;padding:14px 18px}
+.box{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px}.box h2{font-size:14px;margin:0 0 10px}.box h3{font-size:13px;margin:14px 0 6px;color:var(--sub)}
+.pages a{display:block;padding:8px 10px;border-radius:8px;color:var(--ink);text-decoration:none;margin-bottom:4px;border:1px solid transparent}.pages a.on{background:#eef7f6;border-color:#b8dcd8;font-weight:700}
+.pages small{display:block;font-weight:400;color:var(--sub);font-size:11px}
+.tag{display:inline-block;font-size:11px;padding:0 6px;border-radius:4px;margin-left:4px;vertical-align:1px}.tag.sp{background:#fdeae6;color:var(--coral)}.tag.dr{background:#fff3cd;color:#7a5a00}.tag.nm{background:#e8eef0;color:var(--sub)}
+.blocks{list-style:none;margin:0;padding:0;display:grid;gap:6px}.blocks li{display:flex;align-items:center;gap:8px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:#fafbfb}.blocks li.on{border-color:var(--teal);background:#eef7f6;font-weight:700}.blocks i{font-style:normal;color:#9aa5ab;cursor:grab}.blocks em{margin-left:auto;font-style:normal;font-size:11px;color:var(--sub)}
+.add{margin-top:10px;width:100%;padding:9px;border:1px dashed var(--teal);border-radius:8px;background:#fff;color:var(--teal-d);font:inherit;font-weight:700}
+.f{display:grid;gap:4px;margin-bottom:12px}.f label{font-weight:700;font-size:13px}.f input,.f textarea,.f select{font:inherit;border:1px solid #c9d3d5;border-radius:8px;padding:8px 10px;width:100%}.f small{color:var(--sub);font-size:12px}
+.photos{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}.photos img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px;border:1px solid var(--line)}.photos .plus{display:grid;place-items:center;border:1px dashed #b5c3c6;border-radius:6px;color:var(--sub);aspect-ratio:1}
+.chips{display:flex;flex-wrap:wrap;gap:6px}.chips span{padding:3px 10px;border-radius:999px;border:1px solid #f0c9bf;color:var(--coral);font-size:12px}
+.set{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sw{display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid var(--line);border-radius:8px}.sw b{margin-left:auto;width:34px;height:20px;border-radius:999px;background:#c9d3d5;position:relative}.sw b.on{background:var(--teal)}.sw b::after{content:"";position:absolute;top:2px;left:2px;width:16px;height:16px;border-radius:50%;background:#fff}.sw b.on::after{left:16px}
+.prev{padding:10px}.prev .bar{display:flex;gap:6px;margin-bottom:8px}.prev .bar button{font:inherit;font-size:12px;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:#fff}.prev .bar button.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+.phone{width:100%;height:760px;border:8px solid #1f2a33;border-radius:26px;overflow:hidden;background:#fff}.phone iframe{width:390px;height:1000px;border:0;transform:scale(.88);transform-origin:0 0}
+.act{display:flex;gap:8px;margin-top:12px}.act button{flex:1;font:inherit;font-weight:700;padding:10px;border-radius:10px;border:1px solid var(--teal);background:#fff;color:var(--teal-d)}.act button.main{background:var(--coral);border-color:var(--coral);color:#fff}
+.note{margin:0 18px 18px;padding:12px 14px;background:#fff8e8;border-left:4px solid #dfbb64;border-radius:8px;font-size:13px}
+@media(max-width:1100px){.cols{grid-template-columns:1fr}.phone{max-width:360px;margin:auto}}
+
+.two{display:grid;grid-template-columns:1fr;gap:14px;padding:14px 18px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pick{display:flex;gap:10px;align-items:center;padding:8px;border:1px solid var(--line);border-radius:10px;background:#fafbfb}
+.pick img{width:56px;height:56px;border-radius:8px;object-fit:cover}
+.pick b{display:block}.pick small{color:var(--sub)}
+.calc{background:#eef7f6;border-radius:10px;padding:10px 12px;font-size:13px}
+.calc b{color:var(--coral);font-size:16px}
+.card{border:1px solid var(--line);border-radius:14px;overflow:hidden;max-width:230px}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+.card div{padding:10px}.card h4{margin:0;font-size:14px}.card p{margin:0;font-size:12px;color:var(--sub)}.card .pr{color:var(--coral);font-weight:700;font-size:16px}
+.where{display:grid;gap:6px}
+.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.th{border:1px solid var(--line);border-radius:8px;padding:6px;background:#fffdf9;font-size:11px}
+.th.on{outline:2px solid var(--teal)}
+.th .g{display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:4px}
+.th .g img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:3px}
+.th.cv{background:#217c77;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;min-height:110px;position:relative;overflow:hidden}
+.th.cv img{position:absolute;inset:0;width:100%;height:60%;object-fit:cover}
+.th.cv span{position:relative}
+.th.add{display:grid;place-items:center;border-style:dashed;color:var(--teal-d);font-weight:700;min-height:110px}
+.lib{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.lib figure{margin:0;border:1px solid var(--line);border-radius:8px;padding:4px;font-size:10.5px;line-height:1.3;background:#fff}
+.lib img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:5px}
+.lib figure.in{outline:2px solid var(--coral)}
+.out{display:flex;gap:8px;flex-wrap:wrap}.out span{font-size:12px;padding:4px 10px;border-radius:999px;background:#eef7f6;color:var(--teal-d);font-weight:700}
+@media(min-width:1100px){.two{grid-template-columns:1fr 1fr}}
+</style></head><body>
+<div class="top"><b>OMS ｜ 企画・カタログ</b><span>見本（画面の形だけ。ボタンは動きません）</span></div>
+<nav class="tabs"><a>受注</a><a>商品</a><a class="on">企画</a><a class="on">カタログ</a><a>サイトビルダー</a></nav>
+<div class="two">
+<section class="box"><h2>企画：大口セットを作る</h2>
+<div class="f"><label>企画の種類</label><select><option>大口セット（まとめ買い）</option><option>季節</option><option>セール</option></select><small>「大口セット」を選ぶと、HPの「大口セット商品」ページに並びます。</small></div>
+<div class="f"><label>もとの商品</label><div class="pick"><img src="../../images/features/pb289smilebox.jpg" alt=""><div><b>レインボースマイルBOX</b><small>単品 1個 ○○円・在庫 1,200個</small></div></div></div>
+<div class="row"><div class="f"><label>セットの個数</label><select><option>30個</option><option selected>50個</option><option>100個</option><option>200個</option></select></div><div class="f"><label>1個あたりの値引き</label><select><option>5%</option><option selected>10%</option><option>15%</option></select></div></div>
+<div class="calc">セットの価格 <b>○○,○○○円</b>（1個 ○○円）／単品より ○,○○○円お得<br>※300個・10万円をこえるセットは作れません（お見積もりの対象になるため）</div>
+<div class="row" style="margin-top:12px"><div class="f"><label>販売期間</label><input value="2026-12-01 〜 2027-03-31"></div><div class="f"><label>名入れ</label><select><option>できる（名入れ代込み）</option><option>できない</option></select></div></div>
+<div class="f where"><label>載せる場所</label><div class="sw">HPの大口セット商品ページ<b class="on"></b></div><div class="sw">デジタルカタログ<b class="on"></b></div><div class="sw">楽天・Yahoo（CSVで書き出す）<b></b></div></div>
+<h3>HPでの見え方</h3>
+<div class="card"><img src="../../images/features/pb289smilebox.jpg" alt=""><div><h4>レインボースマイルBOX</h4><p>50個セット</p><p class="pr">1個 ○○円</p><p>単品より約10%お得</p></div></div>
+<div class="act"><button>下書き保存</button><button class="main">企画を公開する</button></div></section>
+<section class="box"><h2>カタログ：デジタルカタログを作る</h2>
+<div class="f"><label>カタログの名前</label><input value="プチギフト 大口カタログ 2026"></div>
+<div class="f"><label>ページ（ドラッグで並べ替え・1ページ4商品）</label><div class="thumbs">
+<div class="th cv"><img src="img/zurari.jpg" alt=""><span>表紙</span></div>
+<div class="th">使い方（自動）<div style="font-size:10px;color:var(--sub);margin-top:6px">大口の条件・注文の仕方が自動で入ります</div></div>
+<div class="th on">感謝を込めたプチギフト<div class="g"><img src="../../images/features/pb-goen.jpg" alt=""><img src="../../images/features/pb318violinbox.jpg" alt=""><img src="../../images/features/pb313rhythmbox.jpg" alt=""><img src="../../images/features/pb242pianobox.jpg" alt=""></div></div>
+<div class="th">大勢に配るまとめ買い<div class="g"><img src="../../images/features/pb289smilebox.jpg" alt=""><img src="../../images/features/japonesque-konpei2024.jpg" alt=""><img src="../../images/features/pb283ranbowbox.jpg" alt=""><img src="../../images/features/pb312kobomobox.jpg" alt=""></div></div>
+<div class="th">きちんと贈るギフト<div class="g"><img src="../../images/features/fla111fufu.jpg" alt=""><img src="../../images/features/58966.jpg" alt=""><img src="../../images/features/pb277pirotowel.jpg" alt=""><img src="../../images/features/fla505hanayaka2026.jpg" alt=""></div></div>
+<div class="th add">＋ ページを足す</div></div></div>
+<div class="f"><label>商品を入れる（在庫の商品から選ぶ。赤い枠＝選んだページに入っている）</label><div class="lib">
+<figure class="in"><img src="../../images/features/pb-goen.jpg" alt="">GOEN プチギフト</figure><figure class="in"><img src="../../images/features/pb318violinbox.jpg" alt="">violin BOX</figure><figure class="in"><img src="../../images/features/pb313rhythmbox.jpg" alt="">リズムボックス</figure><figure class="in"><img src="../../images/features/pb242pianobox.jpg" alt="">piano box</figure>
+<figure><img src="../../images/features/pb305catthxgift.jpg" alt="">くろにゃんギフト</figure><figure><img src="../../images/features/pb291nekogamibox.jpg" alt="">猫神様ボックス</figure><figure><img src="../../images/features/pb-kmamoriset.jpg" alt="">お守りセット</figure><figure><img src="../../images/features/1911.jpg" alt="">焼き菓子</figure></div></div>
+<div class="row"><div class="f"><label>価格の出し方</label><select><option>通常価格＋「大口は特別価格」の案内</option><option>大口価格を表示する</option></select></div><div class="f"><label>押したときの動き</label><select><option>相談リストに入れる＋カートへ</option><option>相談リストだけ</option></select></div></div>
+<div class="f"><label>できあがり</label><div class="out"><span>HPで見る（めくれる）</span><span>印刷用PDFを書き出す</span><span>大口ページの「カタログから選ぶ」につなぐ</span></div></div>
+<div class="act"><button>下書き保存</button><button class="main">カタログを公開する</button></div></section>
+</div>
+<p class="note">商品・価格・在庫はOMSの商品データから自動で入ります。担当者はJSONやCSSを触らず、商品を選んで並べるだけで「大口セット」や「デジタルカタログ」を作れる想定です。</p>
+</body></html>

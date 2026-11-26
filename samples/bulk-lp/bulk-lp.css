@@ -228,3 +228,52 @@
  .blp-examples{grid-template-columns:repeat(3,1fr)}
  .blp-examples li{display:grid}
 }
+
+/* 第3版：アイコン入りの特典・サービス */
+.blp-ic{width:28px;height:28px;flex-shrink:0}
+.blp-ic.sm{width:22px;height:22px;vertical-align:-4px;margin-right:6px;color:var(--blp-coral)}
+.blp-badge{display:grid!important;place-items:center;width:58px;height:58px;margin:0 auto 6px;border-radius:50%;background:currentColor}
+.blp-badge .blp-ic{width:32px;height:32px;color:#fff}
+.blp-benefits .c0{color:var(--blp-coral)}.blp-benefits .c1{color:var(--blp-teal-d)}.blp-benefits .c2{color:#a87c12}.blp-benefits .c3{color:#7a58a8}.blp-benefits .c4{color:#4d8135}
+.blp-benefits li>span:last-child{color:var(--blp-sub)}
+.blp-services article{display:flex!important;flex-direction:column;padding:0!important;overflow:hidden;gap:0!important}
+.blp-svc-vis{background:var(--blp-cream);border-bottom:1px solid var(--blp-line);min-height:150px;display:grid;align-items:center}
+.blp-svc-body{padding:14px 16px 16px}
+.blp-svc-photos{display:grid;grid-template-columns:repeat(2,1fr);gap:4px;position:relative;height:100%}
+.blp-svc-photos.n1{grid-template-columns:1fr}
+.blp-svc-photos img{aspect-ratio:auto!important;height:170px!important;width:100%;object-fit:cover;border-radius:0!important}
+.blp-svc-photos.n1 img{object-fit:cover}
+.blp-svc-ic{position:absolute;right:10px;bottom:10px;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--blp-coral);color:#fff;box-shadow:0 4px 10px rgba(0,0,0,.15)}
+.blp-svc-ic .blp-ic{width:26px;height:26px}
+.blp-mini-flow{list-style:none;margin:0;padding:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px;counter-reset:f}
+.blp-mini-flow li{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:12px;font-size:12.5px;line-height:1.45;font-weight:700;background:#fff;border:2px solid}
+.blp-mini-flow li.you{border-color:#b8dcd8;color:var(--blp-teal-d)}.blp-mini-flow li.shop{border-color:#f3c3b8;color:var(--blp-coral)}
+.blp-mini-flow .blp-ic{width:26px;height:26px}
+.blp-mini-flow li span{color:var(--blp-ink)}
+
+/* switch：2つの大口ページの入口 */
+.blp-s-switch{margin:28px 0}
+.blp-switch-q{text-align:center;font-weight:700;margin:0 0 10px}
+.blp-switch{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.blp-switch a{display:grid;gap:2px;padding:12px 12px 30px;border-radius:16px;border:2px solid var(--blp-line);background:#fff;color:var(--blp-ink);text-decoration:none;position:relative}
+.blp-switch a small{font-size:12px;color:var(--blp-sub);font-weight:700}
+.blp-switch a b{font-size:17px;color:var(--blp-teal-d)}
+.blp-switch a span{font-size:12.5px;line-height:1.5;color:var(--blp-sub)}
+.blp-switch a.on{border-color:var(--blp-coral);background:#fff8f5}
+.blp-switch a.on b{color:var(--blp-coral)}
+.blp-switch a.on::after{content:"いま見ているページ";position:absolute;top:-10px;right:10px;font-size:11px;font-weight:700;background:var(--blp-coral);color:#fff;padding:1px 8px;border-radius:999px}
+.blp-switch a:not(.on)::after{content:"こちら ›";position:absolute;bottom:10px;right:12px;font-size:12px;font-weight:700;color:var(--blp-teal-d)}
+
+/* sets：大口セット商品 */
+.blp-sets{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.blp-sets article{background:#fff;border:1px solid var(--blp-line);border-radius:16px;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.blp-sets article>div{padding:10px 12px 14px;display:flex;flex-direction:column;flex:1}
+.blp-sets img{aspect-ratio:1;object-fit:cover}
+.blp-set-tag{position:absolute;left:8px;top:8px;font-style:normal;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;background:#fff3cd;color:#7a5a00}
+.blp-sets h3{font-size:14px;line-height:1.5;margin:0 0 2px}
+.blp-set-qty{margin:0;font-size:12px;color:var(--blp-sub)}
+.blp-set-price{margin:6px 0 0}.blp-set-price b{font-size:19px;color:var(--blp-coral)}.blp-set-price small{font-size:11px;margin-left:4px;color:var(--blp-sub)}
+.blp-set-save{margin:0 0 10px;font-size:12px;font-weight:700;color:var(--blp-teal-d)}
+.blp-sets .blp-btn{margin-top:auto;min-height:42px;font-size:14px;padding:8px 10px}
+@media(min-width:760px){.blp-sets{grid-template-columns:repeat(4,1fr)}.blp-switch a{padding:16px 18px}}
+.blp-ways-link{display:inline-block;margin-top:8px;font-weight:700;color:var(--blp-teal-d)}

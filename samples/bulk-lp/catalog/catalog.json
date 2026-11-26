@@ -1,0 +1,34 @@
+{
+  "_説明": "デジタルカタログの中身（OMSのカタログ画面で作ると保存される形の例）。pages の順にめくる。商品の価格・条件は見本の仮。",
+  "id": "petit-gift-2026",
+  "title": "プチギフト 大口カタログ 2026",
+  "subtitle": "300個以上・10万円以上は特別価格でお見積もり",
+  "cover": { "photo": "../img/zurari.jpg", "color": "#217c77" },
+  "bulk": { "limit": 100000, "qty": 300 },
+  "pages": [
+    { "title": "感謝を込めたプチギフト", "items": [
+      { "id": "pb-goen", "name": "GOEN プチギフト（名入れ）", "price": 380, "photo": "../../../images/features/pb-goen.jpg", "min": 10, "tags": ["名入れ"] },
+      { "id": "pb318violinbox", "name": "love is like a violin BOX", "price": 300, "photo": "../../../images/features/pb318violinbox.jpg", "min": 10, "tags": ["名入れ"] },
+      { "id": "pb313rhythmbox", "name": "マーチングリズムボックス", "price": 300, "photo": "../../../images/features/pb313rhythmbox.jpg", "min": 10, "tags": ["名入れ"] },
+      { "id": "pb242pianobox", "name": "melody piano box", "price": 300, "photo": "../../../images/features/pb242pianobox.jpg", "min": 10, "tags": [] }
+    ]},
+    { "title": "大勢に配るまとめ買い", "items": [
+      { "id": "pb289smilebox", "name": "レインボースマイルBOX", "price": 250, "photo": "../../../images/features/pb289smilebox.jpg", "min": 10, "tags": [] },
+      { "id": "japonesque-konpei2024", "name": "ジャポネスク こんぺいとう", "price": 200, "photo": "../../../images/features/japonesque-konpei2024.jpg", "min": 10, "tags": [] },
+      { "id": "pb283ranbowbox", "name": "Rainbow Stripe box", "price": 280, "photo": "../../../images/features/pb283ranbowbox.jpg", "min": 10, "tags": [] },
+      { "id": "pb312kobomobox", "name": "HAPPY★こどもの日BOX", "price": 280, "photo": "../../../images/features/pb312kobomobox.jpg", "min": 10, "tags": ["季節"] }
+    ]},
+    { "title": "きちんと贈るギフト", "items": [
+      { "id": "fla111fufu", "name": "FLAVOR メープルシフォン", "price": 1080, "photo": "../../../images/features/fla111fufu.jpg", "min": 1, "tags": ["名入れ"] },
+      { "id": "58966", "name": "あわいろキューブ 10個セット", "price": 2800, "photo": "../../../images/features/58966.jpg", "min": 1, "tags": [] },
+      { "id": "pb277pirotowel", "name": "粗品タオル ハンドタオル", "price": 450, "photo": "../../../images/features/pb277pirotowel.jpg", "min": 10, "tags": ["のし"] },
+      { "id": "fla505hanayaka2026", "name": "FLAVOR はなやか", "price": 1280, "photo": "../../../images/features/fla505hanayaka2026.jpg", "min": 1, "tags": [] }
+    ]},
+    { "title": "季節・イベントに", "items": [
+      { "id": "pb305catthxgift", "name": "くろにゃんのThank youギフト", "price": 480, "photo": "../../../images/features/pb305catthxgift.jpg", "min": 10, "tags": ["季節"] },
+      { "id": "pb291nekogamibox", "name": "猫神様からのおことばボックス", "price": 350, "photo": "../../../images/features/pb291nekogamibox.jpg", "min": 10, "tags": [] },
+      { "id": "pb-kmamoriset", "name": "合格お守りセット", "price": 420, "photo": "../../../images/features/pb-kmamoriset.jpg", "min": 10, "tags": ["季節"] },
+      { "id": "1911", "name": "焼き菓子アソート", "price": 650, "photo": "../../../images/features/1911.jpg", "min": 10, "tags": [] }
+    ]}
+  ]
+}

@@ -1,0 +1,3 @@
+// 部品：大口セット商品の一覧（OMSの「企画」で作ったセットが入る想定）
+const { esc, img, head, sec } = require('./_util.cjs');
+module.exports = b => sec(b, `${head(b)}<div class="blp-sets">${b.items.map(x => `<article>${x.tag ? `<em class="blp-set-tag">${esc(x.tag)}</em>` : ''}${img(x.photo, x.name)}<div><h3>${esc(x.name)}</h3><p class="blp-set-qty">${esc(x.qty)}</p><p class="blp-set-price"><b>${esc(x.price)}</b><small>${esc(x.unit)}</small></p><p class="blp-set-save">${esc(x.save)}</p><a class="blp-btn" href="#">${esc(b.buttonLabel)}</a></div></article>`).join('')}</div>${b.note ? `<p class="blp-note">${esc(b.note)}</p>` : ''}`);
