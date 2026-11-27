@@ -9,7 +9,7 @@ module.exports = b => {
   b.steps.forEach((s, i) => {
     const col = i * 2 + 2; // 1列目は段の名前
     cells.push(`<li class="rlp-fl-step ${s.who}" style="--c:${col}"><span class="rlp-fl-no">${i + 1}</span><span class="rlp-fl-when">${esc(s.when)}</span><b>${esc(s.label)}</b><small class="rlp-fl-who">${esc(b.lanes[s.who])}</small><p>${esc(s.text)}</p></li>`);
-    if (i === b.branch?.after - 1) cells.push(`<li class="rlp-fl-branch" style="--c:${col}"><b>${esc(b.branch.title)}</b><p>${esc(b.branch.text)}</p></li>`);
+    if (i === b.branch?.after - 1) cells.push(`<li class="rlp-fl-branch" style="--c:${col}"><small class="rlp-fl-btag">${esc(b.branch.tag || '分かれ道')}</small><b>${esc(b.branch.title)}</b><p>${esc(b.branch.text)}</p></li>`);
     if (i < n - 1) {
       const next = b.steps[i + 1].who;
       const kind = s.who === next ? 'same ' + s.who : (s.who === 'you' ? 'down' : 'up');

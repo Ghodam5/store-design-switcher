@@ -97,7 +97,8 @@
 .rlp-fl-ok{position:absolute;left:calc(50% + 12px);top:50%;transform:translateY(-50%);font-size:12px;font-weight:700;color:var(--r-teal-d);white-space:nowrap}
 .rlp-fl-arrow:has(.rlp-fl-ok){height:40px}
 .rlp-fl-branch{margin:8px 0 0 auto;width:78%;border:2px dashed var(--r-coral);border-radius:14px;padding:8px 12px;background:#fff;position:relative}
-.rlp-fl-branch::before{content:"↳ 間に合わないとき";display:block;font-size:12px;font-weight:700;color:var(--r-coral)}
+.rlp-fl-btag{display:block;font-size:12px;font-weight:700;color:var(--r-coral)}
+.rlp-fl-btag::before{content:"↳ "}
 .rlp-fl-branch b{font-size:15px}
 .rlp-fl-branch p{margin:2px 0 0;font-size:13px;line-height:1.6}
 
@@ -182,7 +183,7 @@
   .rlp-fl-step b{font-size:16px}
   .rlp-fl-step p{font-size:13px}
   .rlp-fl-branch{grid-column:var(--c);grid-row:3;width:auto;margin:0 0 0 8px}
-  .rlp-fl-branch::before{content:"↑ 間に合わないとき"}
+  .rlp-fl-btag::before{content:"↑ "}
   .rlp-fl-ok{display:none}
   .rlp-fl-arrow:has(.rlp-fl-ok){height:auto}
   .rlp-fl-arrow{grid-column:var(--c);grid-row:1/3;height:auto;margin-left:4px}
