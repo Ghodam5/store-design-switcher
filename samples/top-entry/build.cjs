@@ -10,7 +10,7 @@ const must = (h, k) => { if (!h.includes(k)) throw new Error('top.html に見つ
 
 let h = fs.readFileSync(path.join(ROOT, 'top.html'), 'utf8');
 h = h.replace('<head>', '<head><base href="../../">').replace('</head>', '<link rel="stylesheet" href="samples/top-entry/top-entry.css?v=1"></head>')
-  .replace(/<div class="sample-bar">[\s\S]*?<\/div>/, '<div class="sample-bar">見本：トップに「大口注文」「提携商品」の入口を置いた形（①看板 ②売れ筋の下の帯 ③企画から発送までの下）｜今のトップは変えていません</div>');
+  .replace(/<div class="sample-bar">[\s\S]*?<\/div>/, '<div class="sample-bar">見本：トップに「大口注文」の入口を置いた形（①看板 ②売れ筋の下の帯 ③企画から発送までの下）。提携（募集）は②の小さい方と④｜今のトップは変えていません</div>');
 
 // ① 看板カード
 const card = Object.assign({}, d.railCard); const pos = card.position; delete card.position; delete card._説明;
@@ -19,9 +19,9 @@ h = h.replace(k1, `<script>window.HOME_PROMOS.splice(${pos - 1},0,${JSON.stringi
 
 // ② 帯
 const b = d.band;
-const band = `<section class="sec tep" data-block="business-band" aria-labelledby="tep-h"><div class="sh"><h2 id="tep-h">${esc(b.title)}</h2></div><div class="tep-grid">
+const band = `<section class="sec tep" data-block="business-band" aria-labelledby="tep-h"><div class="sh"><h2 id="tep-h">${esc(b.title)}</h2></div><div class="tep-grid${b.small ? '' : ' one'}">
 <a class="tep-big" href="${esc(b.big.href)}"><span class="tep-ph">${img(b.big.photo, 1400, 1000)}</span><span class="tep-tx"><small>${esc(b.big.kicker)}</small><strong>${esc(b.big.title)}</strong><span>${esc(b.big.text)}</span><span class="tep-tags">${b.big.tags.map(t => `<i>${esc(t)}</i>`).join('')}</span><em>${esc(b.big.label)} ›</em></span></a>
-<a class="tep-small" href="${esc(b.small.href)}"><span class="tep-ph2">${b.small.photos.map(p => img(p, 650, 650)).join('')}</span><span class="tep-tx"><small>${esc(b.small.kicker)}</small><strong>${esc(b.small.title)}</strong><span>${esc(b.small.text)}</span><em>${esc(b.small.label)} ›</em></span></a>
+${b.small ? `<a class="tep-small" href="${esc(b.small.href)}"><span class="tep-ph2">${b.small.photos.map(p => img(p, 650, 650)).join('')}</span><span class="tep-tx"><small>${esc(b.small.kicker)}</small><strong>${esc(b.small.title)}</strong><span>${esc(b.small.text)}</span><em>${esc(b.small.label)} ›</em></span></a>` : ''}
 </div></section>`;
 const k2 = '<section class="sec" style="padding-top:30px">'; must(h, k2);
 h = h.replace(k2, band + k2);

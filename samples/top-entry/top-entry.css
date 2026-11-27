@@ -29,3 +29,6 @@
   .tep-small{grid-template-columns:1fr;grid-template-rows:auto 1fr}
   .tep-ph2{grid-template-rows:none;grid-template-columns:1fr 1fr;aspect-ratio:2/1}
 }
+
+/* 大口だけのとき：横長の1枚 */
+@media (min-width:760px){.tep-grid.one{grid-template-columns:1fr}.tep-grid.one .tep-big{grid-template-columns:1.2fr 1fr}}

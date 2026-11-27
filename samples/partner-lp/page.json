@@ -4,8 +4,8 @@
     "id": "partner-special",
     "kind": "special",
     "slug": "partner-special.html",
-    "title": "提携商品・業務提携のご案内",
-    "description": "メーカーさま・作り手さまと一緒に作った、ルナルーチェのオリジナル提携商品のご紹介と、提携商品の募集のご案内です。商品ページの制作からPRまでルナルーチェが行います。",
+    "title": "提携商品募集",
+    "description": "ルナルーチェと一緒にオリジナルギフトを作る、つくり手さま・メーカーさまを募集しています。商品ページの制作からPRまでルナルーチェが行います。",
     "breadcrumbParent": {
       "label": "ご利用ガイド",
       "href": "shopping-guide.html"
@@ -15,9 +15,9 @@
   "banner": {
     "_説明": "トップページなどに置く入口のバナー（部品 banner）。置く場所はビルダーで選ぶ。",
     "kicker": "COLLABORATION",
-    "title": "つくり手さまと生まれた\nオリジナルギフト",
-    "text": "たまごせんべいのプチギフトや、お米の引出物。つくり手さまと作った商品と、提携のご相談はこちら。",
-    "label": "提携商品を見る",
+    "title": "提携商品を\n募集しています",
+    "text": "あなたの商品や特技を、ルナルーチェの新しい贈り物に。",
+    "label": "提携のご案内",
     "href": "samples/partner-lp/preview.html",
     "photos": [
       "samples/partner-lp/honten/pbmm-tmg01.jpg",
@@ -28,72 +28,26 @@
   "blocks": [
     {
       "type": "hero",
-      "kicker": "LUNA LUCE · COLLABORATION",
-      "title": "つくり手さまと一緒に、\nオンリーワンの贈り物を。",
-      "lead": "各種メーカーさまのご協力で生まれた、ルナルーチェオリジナルの提携商品をご紹介します。あなたの商品も、ルナルーチェの新しいギフトとしてお客さまに届けてみませんか。",
+      "kicker": "LUNA LUCE · PARTNERS WANTED",
+      "title": "あなたの商品を、\nルナルーチェの贈り物に。",
+      "lead": "提携商品を募集しています。あなたの商品や特技を、プチギフトや引出物、サービスとして一緒に販売してみませんか。商品ページの制作からPRまで、ルナルーチェが行います。",
       "photos": [
-        "samples/partner-lp/honten/pbmm-tmg01.jpg",
-        "samples/partner-lp/honten/foodset-01.jpg",
-        "samples/partner-lp/honten/pbmm-tmg02.jpg",
-        "samples/partner-lp/honten/foodset-02.jpg"
+        "images/features/fla111fufu.jpg",
+        "images/features/pb-goen.jpg",
+        "images/features/pb313rhythmbox.jpg",
+        "images/features/58966.jpg"
       ],
       "ctas": [
         {
-          "label": "提携商品を見る",
-          "href": "#partner-items"
+          "label": "提携のご相談",
+          "href": "#partner-contact"
         },
         {
-          "label": "提携のご相談",
-          "href": "#partner-contact",
+          "label": "これまでの提携商品",
+          "href": "#partner-items",
           "ghost": true
         }
       ]
-    },
-    {
-      "type": "showcase",
-      "id": "partner-items",
-      "title": "これまでに生まれた提携商品",
-      "lead": "各種メーカーさまのご協力で実現した、ルナルーチェオリジナルの提携商品です。プチギフト・贈答用ギフトなど、さまざまな商品の提携販売を行ってきました。",
-      "groups": [
-        {
-          "label": "エシカルプチギフト（たまごせんべい）",
-          "partner": "中身のたまごせんべいと包装にご協力いただきました",
-          "items": [
-            {
-              "photo": "samples/partner-lp/honten/pbmm-tmg01.jpg",
-              "name": "プラムブロッサム",
-              "sub": "たまごせんべい（プレーン・白ごま）"
-            },
-            {
-              "photo": "samples/partner-lp/honten/pbmm-tmg02.jpg",
-              "name": "イエローリボン",
-              "sub": "たまごせんべい（プレーン・白ごま）・募金あり商品"
-            }
-          ]
-        },
-        {
-          "label": "米蔵士 mai fu do のお米の引出物",
-          "partner": "中身のお米にご協力いただきました（5種類から選べる・包装・熨斗対応）",
-          "items": [
-            {
-              "photo": "samples/partner-lp/honten/foodset-01.jpg",
-              "name": "ダイヤモンド褒賞米2個 スリーブセット",
-              "sub": "お米の引出物セット"
-            },
-            {
-              "photo": "samples/partner-lp/honten/foodset-02.jpg",
-              "name": "ダイヤモンド褒賞米2個・こだわり鰹節3P 箱入りセット",
-              "sub": "お米の引出物セット"
-            },
-            {
-              "photo": "samples/partner-lp/honten/foodset-03.jpg",
-              "name": "ダイヤモンド褒賞米3個 箱入りセット",
-              "sub": "お米の引出物セット"
-            }
-          ]
-        }
-      ],
-      "note": "ここに載せた5点は、本店では今は販売していません（商品ページが無くなっています）。いま販売中の提携商品があれば差し替えます。本番では商品データ（OMS）で「提携商品」の印を付けた商品が自動で並ぶ想定です。"
     },
     {
       "type": "offer",
@@ -177,6 +131,53 @@
           "text": "こんなパフォーマンスができるから、ショービジネスとして二次会などを盛り上げたい！"
         }
       ]
+    },
+    {
+      "type": "showcase",
+      "id": "partner-items",
+      "title": "これまでの提携商品（完売）",
+      "lead": "各種メーカーさまのご協力で生まれた、ルナルーチェオリジナルの提携商品です。おかげさまで完売しました。",
+      "groups": [
+        {
+          "label": "エシカルプチギフト（たまごせんべい）",
+          "partner": "中身のたまごせんべいと包装にご協力いただきました",
+          "items": [
+            {
+              "photo": "samples/partner-lp/honten/pbmm-tmg01.jpg",
+              "name": "プラムブロッサム",
+              "sub": "たまごせんべい（プレーン・白ごま）"
+            },
+            {
+              "photo": "samples/partner-lp/honten/pbmm-tmg02.jpg",
+              "name": "イエローリボン",
+              "sub": "たまごせんべい（プレーン・白ごま）・募金あり商品"
+            }
+          ]
+        },
+        {
+          "label": "米蔵士 mai fu do のお米の引出物",
+          "partner": "中身のお米にご協力いただきました（5種類から選べる・包装・熨斗対応）",
+          "items": [
+            {
+              "photo": "samples/partner-lp/honten/foodset-01.jpg",
+              "name": "ダイヤモンド褒賞米2個 スリーブセット",
+              "sub": "お米の引出物セット"
+            },
+            {
+              "photo": "samples/partner-lp/honten/foodset-02.jpg",
+              "name": "ダイヤモンド褒賞米2個・こだわり鰹節3P 箱入りセット",
+              "sub": "お米の引出物セット"
+            },
+            {
+              "photo": "samples/partner-lp/honten/foodset-03.jpg",
+              "name": "ダイヤモンド褒賞米3個 箱入りセット",
+              "sub": "お米の引出物セット"
+            }
+          ]
+        }
+      ],
+      "note": "完売した商品を、提携の例としてご紹介しています。新しい提携商品ができたら、ここに並びます。",
+      "badge": "完売"
     },
     {
       "type": "flow",

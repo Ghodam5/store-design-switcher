@@ -155,3 +155,4 @@
   .plp-how-arrow::after{top:50%;bottom:auto;left:auto;right:2px;margin:-9px 0 0;border:9px solid transparent;border-left:11px solid #d8cfc2;border-right:0}
   .plp-how-arrow small{transform:translateY(-16px)}
 }
+.plp-s-showcase .plp-card-ph em{background:#8b8f94}.plp-s-showcase .plp-card-ph img{filter:saturate(.85)}
